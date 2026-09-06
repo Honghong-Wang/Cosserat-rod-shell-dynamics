@@ -1,0 +1,419 @@
+{
+  "Version": "1.0",
+  "Inventory": [
+    {
+      "Id": "wing-m1-h20-nm",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h20-ga",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h20-rdg",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h10-nm",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h10-ga",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h10-rdg",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h05-nm",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h05-ga",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m1-h05-rdg",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m2-h10-rdg",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m2-h05-rdg",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m3-h10-rdg",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "wing-m3-h05-rdg",
+      "Kind": "wing",
+      "Status": "not-run"
+    },
+    {
+      "Id": "q2-18x3x3x2x2",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "q2-24x3x3x2x2",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "q2-36x4x4x2x2",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "q2-48x6x6x2x2",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "q2-48x6x6x4x4",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "section-deformable",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "section-rigid-rib-sections",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "legacy-support-control",
+      "Kind": "q2",
+      "Status": "completed"
+    },
+    {
+      "Id": "production-r8-s9-w6",
+      "Kind": "production",
+      "Status": "completed"
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Kind": "production",
+      "Status": "completed"
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Kind": "production",
+      "Status": "completed"
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Kind": "production",
+      "Status": "completed"
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Kind": "production",
+      "Status": "completed"
+    }
+  ],
+  "CurrentWorktreeSourceMatches": true,
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "Temporal": {
+    "newmark": {
+      "ThreeLevelsComplete": false,
+      "EventSequenceConverged": false
+    },
+    "generalized-alpha": {
+      "ThreeLevelsComplete": false,
+      "EventSequenceConverged": false
+    },
+    "rattle-discrete-gradient": {
+      "ThreeLevelsComplete": false,
+      "EventSequenceConverged": false
+    }
+  },
+  "Spatial": [],
+  "WingRows": [],
+  "ReferenceRows": [
+    {
+      "Id": "q2-18x3x3x2x2",
+      "DoF": 13653,
+      "Runtime": 9.063407699999516,
+      "SupportExtent": 0.0,
+      "ForceBalance": 1.957468520434321e-09,
+      "MomentBalance": 1.939422821716767e-09,
+      "TractionCoefficientNorm": 1.2797549438840479,
+      "MomentCoefficientNorm": 0.0363342779328346
+    },
+    {
+      "Id": "q2-24x3x3x2x2",
+      "DoF": 18081,
+      "Runtime": 10.325670000001992,
+      "SupportExtent": 0.0,
+      "ForceBalance": 2.1795645059598794e-09,
+      "MomentBalance": 1.7307773034919472e-09,
+      "TractionCoefficientNorm": 1.2895016931126062,
+      "MomentCoefficientNorm": 0.03606786504182679
+    },
+    {
+      "Id": "q2-36x4x4x2x2",
+      "DoF": 35259,
+      "Runtime": 48.34251039999799,
+      "SupportExtent": 0.0,
+      "ForceBalance": 1.322869981504448e-09,
+      "MomentBalance": 1.3698400626914095e-09,
+      "TractionCoefficientNorm": 1.2866231860977408,
+      "MomentCoefficientNorm": 0.03490578378611933
+    },
+    {
+      "Id": "q2-48x6x6x2x2",
+      "DoF": 68967,
+      "Runtime": 128.2164668000005,
+      "SupportExtent": 0.0,
+      "ForceBalance": 3.4114437929126077e-09,
+      "MomentBalance": 3.035661174906083e-09,
+      "TractionCoefficientNorm": 1.2743716273218253,
+      "MomentCoefficientNorm": 0.03384956766225427
+    },
+    {
+      "Id": "q2-48x6x6x4x4",
+      "DoF": 127167,
+      "Runtime": 281.8344999999972,
+      "SupportExtent": 0.0,
+      "ForceBalance": 2.8540834807466433e-09,
+      "MomentBalance": 2.3790059480764783e-09,
+      "TractionCoefficientNorm": 1.2662825070980934,
+      "MomentCoefficientNorm": 0.03353278730123613
+    }
+  ],
+  "ReferenceChanges": [
+    {
+      "Coarse": "q2-18x3x3x2x2",
+      "Fine": "q2-24x3x3x2x2",
+      "TractionChange": 0.05336283474166637,
+      "MomentChange": 0.051745561843338374,
+      "FullAveragedProfileChange": 0.05066391887313323,
+      "SupportUnchanged": true
+    },
+    {
+      "Coarse": "q2-24x3x3x2x2",
+      "Fine": "q2-36x4x4x2x2",
+      "TractionChange": 0.06036055789158827,
+      "MomentChange": 0.0701418863032248,
+      "FullAveragedProfileChange": 0.34494978583063357,
+      "SupportUnchanged": true
+    },
+    {
+      "Coarse": "q2-36x4x4x2x2",
+      "Fine": "q2-48x6x6x2x2",
+      "TractionChange": 0.032701651327966846,
+      "MomentChange": 0.04449433563062564,
+      "FullAveragedProfileChange": 0.42621165006055656,
+      "SupportUnchanged": true
+    },
+    {
+      "Coarse": "q2-48x6x6x2x2",
+      "Fine": "q2-48x6x6x4x4",
+      "TractionChange": 0.0075093080876948255,
+      "MomentChange": 0.01052129634169079,
+      "FullAveragedProfileChange": 0.05416289800100502,
+      "SupportUnchanged": true
+    }
+  ],
+  "ReferenceLowOrderQualified": true,
+  "ReferenceProfileQualified": false,
+  "ProfileNorm": "common-refinement-exact-Q2-longitudinal-average-width-L2; not pointwise 3D stress",
+  "TractionAblations": [
+    {
+      "Id": "production-r8-s9-w6",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 3.5577732049409985,
+      "ResolvedErrorFraction": 0.9520021516480581,
+      "TransverseErrorFraction": 0.9326455084030129,
+      "ReconstructionClippedError": 2.859139057827587,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w6",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9810168248995577,
+      "ResolvedErrorFraction": 0.36871513461935684,
+      "TransverseErrorFraction": 0.16428205561044368,
+      "ReconstructionClippedError": 0.9786801615847593,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w6",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9756093544564161,
+      "ResolvedErrorFraction": 0.3616977467751963,
+      "TransverseErrorFraction": 0.166108221519489,
+      "ReconstructionClippedError": 0.9756093544564161,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 2.092874112748497,
+      "ResolvedErrorFraction": 0.8612950127133615,
+      "TransverseErrorFraction": 0.8173662852022977,
+      "ReconstructionClippedError": 1.7548461922613694,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9920661566570067,
+      "ResolvedErrorFraction": 0.3826989432826464,
+      "TransverseErrorFraction": 0.16064298716693962,
+      "ReconstructionClippedError": 0.9855739638695082,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9757961224103872,
+      "ResolvedErrorFraction": 0.36194206624779607,
+      "TransverseErrorFraction": 0.16604464118137946,
+      "ReconstructionClippedError": 0.9757961224103872,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 1.8226942311427063,
+      "ResolvedErrorFraction": 0.8171265529795886,
+      "TransverseErrorFraction": 0.7612897285088577,
+      "ReconstructionClippedError": 1.5577646196055215,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9754597546094401,
+      "ResolvedErrorFraction": 0.3615019473251704,
+      "TransverseErrorFraction": 0.16615917527729565,
+      "ReconstructionClippedError": 0.9754827338135064,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9758769622520219,
+      "ResolvedErrorFraction": 0.3620477729462768,
+      "TransverseErrorFraction": 0.16601713265920418,
+      "ReconstructionClippedError": 0.9758769622520219,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 2.090352540047529,
+      "ResolvedErrorFraction": 0.8609601738231348,
+      "TransverseErrorFraction": 0.8165933131346209,
+      "ReconstructionClippedError": 1.7530189476232285,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9810332864167439,
+      "ResolvedErrorFraction": 0.368736320076808,
+      "TransverseErrorFraction": 0.1642765424250498,
+      "ReconstructionClippedError": 0.9789646921184093,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9753234572614262,
+      "ResolvedErrorFraction": 0.3613234800251715,
+      "TransverseErrorFraction": 0.16620561861296063,
+      "ReconstructionClippedError": 0.9753234572614262,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 2.087317085181988,
+      "ResolvedErrorFraction": 0.8605554859108808,
+      "TransverseErrorFraction": 0.8161213152074528,
+      "ReconstructionClippedError": 1.7509883578402974,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9918463363338917,
+      "ResolvedErrorFraction": 0.3824252913071833,
+      "TransverseErrorFraction": 0.1607142008321427,
+      "ReconstructionClippedError": 0.9858350704700022,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.976656307399232,
+      "ResolvedErrorFraction": 0.3630655037457489,
+      "TransverseErrorFraction": 0.16575228406712764,
+      "ReconstructionClippedError": 0.976656307399232,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    }
+  ],
+  "SectionRestriction": {
+    "Completed": true,
+    "SameSolidMeshDof": 35259,
+    "RestrictedDof": 25489,
+    "TractionCoefficientChange": 0.15612110708449634,
+    "MomentCoefficientChange": 0.827884823498999,
+    "SectionConstraintVirtualWorkDefect": 5.755327177293587e-13,
+    "FittedCoefficient": false,
+    "RigidSectionCauseUniquelyIdentified": false,
+    "Reason": "rigid restriction changes Poisson/transverse/warping modes together; not an additive attribution percentage",
+    "ReferenceQualified": true
+  },
+  "BoundaryControl": {
+    "Completed": true,
+    "SameMeshDof": 18081,
+    "TractionCoefficientChange": 0.8320642904615713,
+    "MomentCoefficientChange": 0.8937678849180497,
+    "HistoricalRefinementChangedSupport": true
+  },
+  "PointwiseTractionQualified": false,
+  "TractionCauseCompletelyClosed": false,
+  "SpaceTimeSequenceConverged": false,
+  "MechanismNecessityEstablished": false,
+  "CurrentCommitEvidenceEligible": false,
+  "AllFourScientificIssuesClosed": false
+}

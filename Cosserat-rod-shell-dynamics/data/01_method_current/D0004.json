@@ -1,0 +1,207 @@
+{
+  "ResultKind": "cmame-failure-conditioning-energy-applicability-artifact",
+  "StiffnessContrastRows": [
+    {
+      "RodToShellStiffnessRatio": 1e-08,
+      "RawKktCondition": 166181707.34746227,
+      "EquilibratedKktCondition": 315492.6120334446,
+      "UnscaledFailure": false,
+      "ScalingRequired": false,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 1e-06,
+      "RawKktCondition": 1661822.7920652444,
+      "EquilibratedKktCondition": 3154.9262280026087,
+      "UnscaledFailure": false,
+      "ScalingRequired": false,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 0.0001,
+      "RawKktCondition": 16626.817983314013,
+      "EquilibratedKktCondition": 728.9741475805286,
+      "UnscaledFailure": false,
+      "ScalingRequired": false,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 0.01,
+      "RawKktCondition": 23198.621772998536,
+      "EquilibratedKktCondition": 751.424011241771,
+      "UnscaledFailure": false,
+      "ScalingRequired": false,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 1.0,
+      "RawKktCondition": 323639.85367361706,
+      "EquilibratedKktCondition": 448.04399965749735,
+      "UnscaledFailure": false,
+      "ScalingRequired": false,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 100.0,
+      "RawKktCondition": 24442863.723780733,
+      "EquilibratedKktCondition": 425.8028253658942,
+      "UnscaledFailure": false,
+      "ScalingRequired": true,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 10000.0,
+      "RawKktCondition": 2447963556.0949473,
+      "EquilibratedKktCondition": 429.9083445389531,
+      "UnscaledFailure": false,
+      "ScalingRequired": true,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 1000000.0,
+      "RawKktCondition": 244800038382.75244,
+      "EquilibratedKktCondition": 429.95052297563194,
+      "UnscaledFailure": false,
+      "ScalingRequired": true,
+      "EquilibratedFailure": false,
+      "Finite": true
+    },
+    {
+      "RodToShellStiffnessRatio": 100000000.0,
+      "RawKktCondition": 24480007521105.46,
+      "EquilibratedKktCondition": 429.9509448734076,
+      "UnscaledFailure": true,
+      "ScalingRequired": true,
+      "EquilibratedFailure": false,
+      "Finite": true
+    }
+  ],
+  "OverRichMultiplierFailure": {
+    "Case": "over-rich-p0-multiplier-32-vs-p1-traces-4-4",
+    "MultiplierModes": 32,
+    "ConstraintRank": 5,
+    "RankDeficiency": 27,
+    "ExpectedFailureDetected": true,
+    "Reason": "multiplier space is richer than both trace spaces"
+  },
+  "MaximumReferenceNewtonCondition": 313812766667.50055,
+  "MinimumAndMaximumEquilibratedContrastCondition": [
+    425.8028253658942,
+    315492.6120334446
+  ],
+  "EnergyDriftByIntegrator": {
+    "implicit-midpoint-hermite-event": 6.877057157648887e-15,
+    "average-acceleration-newmark": 9.082905679913624e-16,
+    "generalized-alpha": 0.0004289177015611271
+  },
+  "ApplicabilityTable": [
+    {
+      "Domain": "nonmatching-trace-mesh-ratio",
+      "QualifiedRange": "shell/rod = 1/8 through 8",
+      "OutsideStatus": "not-qualified"
+    },
+    {
+      "Domain": "interface-kinematics",
+      "QualifiedRange": "finite-width, eccentric, full rotation; canonical geometry",
+      "OutsideStatus": "arbitrary topology not-qualified"
+    },
+    {
+      "Domain": "time-integration",
+      "QualifiedRange": "smooth canonical plus an independent curved-plate/eccentric-beam release with isolated, near-simultaneous, repeated and grazing events",
+      "OutsideStatus": "frictional impact, full six-DoF shell and complete-wing independent reproduction not-qualified"
+    },
+    {
+      "Domain": "nonlinear-Newton",
+      "QualifiedRange": "loaded r2-s3 finite-width reference case",
+      "OutsideStatus": "global load-path convergence not-qualified"
+    },
+    {
+      "Domain": "large-scale",
+      "QualifiedRange": "complete production nonlinear KKT at 301817 DoF",
+      "OutsideStatus": "distributed-memory MPI and arbitrary production geometries not-qualified"
+    },
+    {
+      "Domain": "large-scale-nonlinear",
+      "QualifiedRange": "analytic hyperelastic native-connectivity canonical at 102384 DoF",
+      "OutsideStatus": "full production Cosserat constitutive tangent not-qualified"
+    },
+    {
+      "Domain": "production-cosserat-nonlinear",
+      "QualifiedRange": "complete rod/shell/finite-width Mortar/mechanism KKT at 301817 DoF",
+      "OutsideStatus": "fixed active-set scaling canonical; event transitions and third-party large-scale replication remain separate"
+    },
+    {
+      "Domain": "public-benchmark",
+      "QualifiedRange": "Simo-Vu Quoc 45-degree rod, 300/600 N",
+      "OutsideStatus": "shell, Mortar, UVLM and complete wing not independently validated"
+    },
+    {
+      "Domain": "independent-mixed-dimensional-reference",
+      "QualifiedRange": "flat six-field manufactured P1/P1-P0 Mortar problem",
+      "OutsideStatus": "complete-wing external validation open"
+    },
+    {
+      "Domain": "independent-curved-mortar-reference",
+      "QualifiedRange": "curved eccentric finite-width constraint, tangent, reaction and power",
+      "OutsideStatus": "independent nonlinear surface is qualified separately; full-wing external equilibrium remains open"
+    },
+    {
+      "Domain": "third-party-curved-equilibrium",
+      "QualifiedRange": "linearized in-plane curved composite strip against scikit-fem Q2 solid",
+      "OutsideStatus": "nonlinear range, impact and full-wing external validation are qualified separately"
+    },
+    {
+      "Domain": "linear-curved-model-form-discrepancy",
+      "QualifiedRange": "unfitted signed decomposition of the 21.37 percent finest-grid response difference",
+      "OutsideStatus": "the ordered budget is auditable but is not a unique causal split or experimental calibration"
+    },
+    {
+      "Domain": "independent-nonlinear-curved-surface",
+      "QualifiedRange": "displacement-controlled finite-rotation response shape for 0 < u/L <= 0.035 with three staged Q2 reference meshes",
+      "OutsideStatus": "one Q2 element is retained through thickness; u/L=0.05 exceeds the incremental-stiffness threshold; impact, full-wing and physical validation remain open"
+    },
+    {
+      "Domain": "complete-wing-mesh-time-convergence",
+      "QualifiedRange": "three nonlinear equilibrium meshes and constrained linearized time steps",
+      "OutsideStatus": "nonlinear release/impact matrix qualified separately"
+    },
+    {
+      "Domain": "nonlinear-full-wing-space-time-event",
+      "QualifiedRange": "three meshes by three time steps with event-localized first impact",
+      "OutsideStatus": "finite-width Mortar wing, frictional multi-impact and flight loads open"
+    },
+    {
+      "Domain": "independent-nonlinear-event-dynamics",
+      "QualifiedRange": "25-DoF curved-plate/eccentric-beam semidiscretization with four event classes and DOP853 reference",
+      "OutsideStatus": "not Abaqus, CalculiX or Code_Aster evidence; no full six-DoF shell, friction or complete production-wing reproduction"
+    },
+    {
+      "Domain": "shell-canonical-qualification",
+      "QualifiedRange": "affine membrane, objectivity, curved reference/tangent and finite DSG sweep",
+      "OutsideStatus": "arbitrary mesh locking freedom and nonlinear materials open"
+    },
+    {
+      "Domain": "finite-width-constant-mode-ablation",
+      "QualifiedRange": "shared curved tangent/load with internal transverse-mode restriction",
+      "OutsideStatus": "BTS-POS-CONS, BTS-ROT and the original Steinbrecher software were not implemented or run"
+    },
+    {
+      "Domain": "aerodynamics-and-flight",
+      "QualifiedRange": "not part of the core hardening gate",
+      "OutsideStatus": "external CFD, wind tunnel and physical flight required"
+    }
+  ],
+  "FailureRegionsDisclosed": true,
+  "ConditioningDisclosed": true,
+  "EnergyDriftDisclosed": true,
+  "ApplicabilityDisclosed": true,
+  "Passed": true,
+  "ClaimBoundary": "Passing means failure and validity regions are explicitly reported. It does not mean that every swept condition is numerically acceptable."
+}

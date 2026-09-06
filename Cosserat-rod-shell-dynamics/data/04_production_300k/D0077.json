@@ -1,0 +1,51 @@
+{
+  "ResultKind": "independent-curved-rod-shell-mortar-comparison",
+  "ContractVersion": "1.0",
+  "Geometry": {
+    "Radius": 1.2,
+    "ArcAngle": 0.9,
+    "ArcLength": 1.08,
+    "ShellWidth": 0.18,
+    "Eccentricity": 0.035,
+    "RodNodeCount": 6,
+    "ShellNodeCount": 27,
+    "MortarCellCount": 12,
+    "QuadraturePointCount": 24
+  },
+  "ReferenceGapInfinityNorm": 5.269222558279552e-21,
+  "ProductionIndependentJacobianRelativeError": 1.2041263587921241e-11,
+  "MaximumJacobianEntryError": 3.903027206986209e-12,
+  "ProductionIndependentReactionRelativeError": 1.6551841120054403e-11,
+  "ProductionPowerDefect": 1.734723475976807e-18,
+  "IndependentPowerDefect": 8.673617379884035e-19,
+  "NonlinearComparisonRows": [
+    {
+      "Amplitude": 0.01,
+      "ProductionIndependentGapError": 2.106168871052187e-18,
+      "LinearizationRemainder": 6.799715598808441e-09
+    },
+    {
+      "Amplitude": 0.005,
+      "ProductionIndependentGapError": 1.4912957012909707e-18,
+      "LinearizationRemainder": 1.6999984056462354e-09
+    },
+    {
+      "Amplitude": 0.0025,
+      "ProductionIndependentGapError": 1.1412799129745347e-18,
+      "LinearizationRemainder": 4.250084018784929e-10
+    },
+    {
+      "Amplitude": 0.00125,
+      "ProductionIndependentGapError": 9.477852088341358e-19,
+      "LinearizationRemainder": 1.0625325287400736e-10
+    }
+  ],
+  "MaximumNonlinearGapCrossError": 2.106168871052187e-18,
+  "ObservedLinearizationRemainderOrder": 1.9999656602552842,
+  "IndependentImplementation": "numpy-only-curved-so3-common-refinement",
+  "ProductionImplementation": "torch-ad-full-dof-rod-shell-mortar",
+  "SharesProductionMortarAssembly": false,
+  "SourceClosureHash": "893a954aa88bf82a0c05b49c76a9f7104d6c9f6a0559de80ce7f4360a78cf2d9",
+  "Passed": true,
+  "ClaimBoundary": "This independently checks a curved, eccentric, finite-width Mortar constraint, its tangent, reactions and power transfer. It does not constitute a third-party full-wing structural or experimental validation."
+}

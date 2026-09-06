@@ -1,0 +1,2556 @@
+{
+  "CacheKey": "9f376d235c92fd2bc5fe128cbfb16b093cd6b05ab69b8d22b9548647fa3e8210",
+  "Configuration": {
+    "Case": "single-event",
+    "Method": "discrete-gradient",
+    "Dt": 0.08,
+    "Duration": 2.0,
+    "Double": false,
+    "NumericalClosureHash": "55c687671797d7e4595debfb4cf1c024521101c033c49bda378a5bf863c66be8",
+    "SolverSpec": {
+      "version": "1.0",
+      "newton_tolerance": 2e-10,
+      "maximum_iterations": 18,
+      "maximum_line_search": 12,
+      "constraint_tolerance": 2e-09,
+      "event_gap_tolerance": 2e-10,
+      "event_time_tolerance": 2e-10,
+      "grazing_speed": 1e-07,
+      "maximum_events_per_step": 8,
+      "rho_infinity": 0.7
+    },
+    "MechanismSpec": {
+      "release_time": 0.05,
+      "initial_angle": -0.5,
+      "spring_target": 0.7,
+      "spring_stiffness": 1.4,
+      "cable_stiffness": 8.4,
+      "cable_rest": -0.7,
+      "secondary_rotation": 0.45,
+      "damping": 0.015,
+      "stop_angle": 0.2,
+      "restitution": 0.65
+    },
+    "Environment": {
+      "Python": "3.12.4",
+      "Numpy": "1.26.4",
+      "Scipy": "1.13.1",
+      "Torch": "2.4.1+cu118",
+      "Machine": "HHW",
+      "Threads": 1,
+      "MklThreadingLayer": "SEQUENTIAL"
+    }
+  },
+  "ExecutedAtUtc": "2026-09-05T06:50:10.198918+00:00",
+  "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "ExecutedInDirtyWorktree": true,
+  "Result": {
+    "Model": "physical-finite-rotation-constrained-mechanism-canonical",
+    "Method": "discrete-gradient",
+    "TimeStep": 0.08,
+    "Duration": 2.0,
+    "History": [
+      {
+        "Time": 0.0,
+        "Q": [
+          -0.5
+        ],
+        "P": [
+          0.0
+        ],
+        "Attached": true,
+        "Energy": 1.176,
+        "ExternalWork": 0.0,
+        "ReleaseWork": 0.0,
+        "DampingDissipation": 0.0,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.0,
+        "RelativeEnergyBalanceResidual": 0.0,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.7
+      },
+      {
+        "Time": 0.05,
+        "Q": [
+          -0.5
+        ],
+        "P": [
+          0.0
+        ],
+        "Attached": true,
+        "Energy": 1.176,
+        "ExternalWork": 0.0,
+        "ReleaseWork": 0.0,
+        "DampingDissipation": 0.0,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.0,
+        "RelativeEnergyBalanceResidual": 0.0,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.7
+      },
+      {
+        "Time": 0.05,
+        "Q": [
+          -0.5
+        ],
+        "P": [
+          0.0
+        ],
+        "Attached": false,
+        "Energy": 1.008,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.0,
+        "RelativeEnergyBalanceResidual": 0.0,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.7
+      },
+      {
+        "Time": 0.08,
+        "Q": [
+          -0.4995963797052341
+        ],
+        "P": [
+          0.05038683454556561
+        ],
+        "Attached": false,
+        "Energy": 1.0079999185453288,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 8.145467117346416e-08,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -5.675471471183535e-17,
+        "RelativeEnergyBalanceResidual": 4.826081182979197e-17,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.699596379705234
+      },
+      {
+        "Time": 0.16,
+        "Q": [
+          -0.49458207211099153
+        ],
+        "P": [
+          0.18443780731459364
+        ],
+        "Attached": false,
+        "Energy": 1.007995204180148,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 4.795819792988061e-06,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -5.892240447863623e-14,
+        "RelativeEnergyBalanceResidual": 5.0104085441017207e-14,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6945820721109915
+      },
+      {
+        "Time": 0.24,
+        "Q": [
+          -0.4838717317972257
+        ],
+        "P": [
+          0.3176609047112198
+        ],
+        "Attached": false,
+        "Energy": 1.0079736957944738,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 2.6304205349864416e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.7631976065822508e-13,
+        "RelativeEnergyBalanceResidual": 1.499317692671982e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6838717317972257
+      },
+      {
+        "Time": 0.32,
+        "Q": [
+          -0.4675359286979338
+        ],
+        "P": [
+          0.44951300446512593
+        ],
+        "Attached": false,
+        "Energy": 1.0079236598325205,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 7.63401671433942e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -3.360886059473184e-13,
+        "RelativeEnergyBalanceResidual": 2.8578963090758365e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6675359286979339
+      },
+      {
+        "Time": 0.4,
+        "Q": [
+          -0.4456791232297009
+        ],
+        "P": [
+          0.579444255302331
+        ],
+        "Attached": false,
+        "Energy": 1.0078340873426004,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.00016591265688267412,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -5.169509026577146e-13,
+        "RelativeEnergyBalanceResidual": 4.3958410089941717e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6456791232297009
+      },
+      {
+        "Time": 0.48000000000000004,
+        "Q": [
+          -0.41843749464185503
+        ],
+        "P": [
+          0.7068944282498006
+        ],
+        "Attached": false,
+        "Energy": 1.0076949424058979,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.00030505759340482085,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -6.973329791208627e-13,
+        "RelativeEnergyBalanceResidual": 5.929702203408696e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.618437494641855
+      },
+      {
+        "Time": 0.56,
+        "Q": [
+          -0.3859761139388982
+        ],
+        "P": [
+          0.8312890953394412
+        ],
+        "Attached": false,
+        "Energy": 1.0074973659237736,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0005026340753689967,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -8.574191703858425e-13,
+        "RelativeEnergyBalanceResidual": 7.290979340015667e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.5859761139388981
+      },
+      {
+        "Time": 0.64,
+        "Q": [
+          -0.3484855482168038
+        ],
+        "P": [
+          0.9520360298065293
+        ],
+        "Attached": false,
+        "Energy": 1.007233826701491,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0007661732975244937,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -9.84427166519919e-13,
+        "RelativeEnergyBalanceResidual": 8.370979307142168e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.5484855482168038
+      },
+      {
+        "Time": 0.72,
+        "Q": [
+          -0.30617802216504675
+        ],
+        "P": [
+          1.068522447157828
+        ],
+        "Attached": false,
+        "Energy": 1.0068982154337858,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0011017845651407575,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.0734791961591883e-12,
+        "RelativeEnergyBalanceResidual": 9.128224457135954e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.5061780221650467
+      },
+      {
+        "Time": 0.7999999999999999,
+        "Q": [
+          -0.2592833039339903
+        ],
+        "P": [
+          1.1801138673311589
+        ],
+        "Attached": false,
+        "Energy": 1.0064858814466129,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0015141185522601628,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1269598535618153e-12,
+        "RelativeEnergyBalanceResidual": 9.582991952056252e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.4592833039339903
+      },
+      {
+        "Time": 0.8799999999999999,
+        "Q": [
+          -0.20804452061509204
+        ],
+        "P": [
+          1.2861554336849361
+        ],
+        "Attached": false,
+        "Energy": 1.0059936165248369,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0020063834740103497,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1527818630230335e-12,
+        "RelativeEnergyBalanceResidual": 9.80256686244076e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.40804452061509205
+      },
+      {
+        "Time": 0.9599999999999999,
+        "Q": [
+          -0.15271413690289296
+        ],
+        "P": [
+          1.3859764500479328
+        ],
+        "Attached": false,
+        "Energy": 1.0054195943945012,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0025804056043364464,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.162323709502644e-12,
+        "RelativeEnergyBalanceResidual": 9.883705012777586e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.352714136902893
+      },
+      {
+        "Time": 1.0399999999999998,
+        "Q": [
+          -0.0935503438374053
+        ],
+        "P": [
+          1.4788986890996998
+        ],
+        "Attached": false,
+        "Energy": 1.004763277942644,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0032367220561919175,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1640055239126035e-12,
+        "RelativeEnergyBalanceResidual": 9.898006155719418e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.2935503438374053
+      },
+      {
+        "Time": 1.1199999999999999,
+        "Q": [
+          -0.030814099773890536
+        ],
+        "P": [
+          1.5642487019247189
+        ],
+        "Attached": false,
+        "Energy": 1.0040253086327946,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.003974691366041333,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1640740454899046e-12,
+        "RelativeEnergyBalanceResidual": 9.898588822193066e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.23081409977389056
+      },
+      {
+        "Time": 1.2,
+        "Q": [
+          0.03523295759966029
+        ],
+        "P": [
+          1.641373954175734
+        ],
+        "Attached": false,
+        "Energy": 1.0032073935475996,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.004792606451236041,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1643862957155804e-12,
+        "RelativeEnergyBalanceResidual": 9.901244011186908e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.16476704240033974
+      },
+      {
+        "Time": 1.28,
+        "Q": [
+          0.10432954958673778
+        ],
+        "P": [
+          1.7096621716866929
+        ],
+        "Attached": false,
+        "Energy": 1.0023122049805573,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.005687795018278914,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1638068980746041e-12,
+        "RelativeEnergyBalanceResidual": 9.896317160498336e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.09567045041326223
+      },
+      {
+        "Time": 1.36,
+        "Q": [
+          0.176214620839379
+        ],
+        "P": [
+          1.768562840238602
+        ],
+        "Attached": false,
+        "Energy": 1.001343305580122,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.006656694418715907,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1621328899202865e-12,
+        "RelativeEnergyBalanceResidual": 9.882082397281349e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.023785379160621012
+      },
+      {
+        "Time": 1.3858475003289124,
+        "Q": [
+          0.1999999999999957
+        ],
+        "P": [
+          1.7855115130756374
+        ],
+        "Attached": false,
+        "Energy": 1.0010149889607494,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.006985011038088267,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": -1.1623766185686613e-12,
+        "RelativeEnergyBalanceResidual": 9.884154919801541e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 4.3021142204224816e-15
+      },
+      {
+        "Time": 1.3858475003289124,
+        "Q": [
+          0.1999999999999957
+        ],
+        "P": [
+          -1.1605824834991636
+        ],
+        "Attached": false,
+        "Energy": 0.5239913328359179,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.006985011038088267,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.1627920848411577e-12,
+        "RelativeEnergyBalanceResidual": 9.887687796268349e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 4.3021142204224816e-15
+      },
+      {
+        "Time": 1.4400000000000002,
+        "Q": [
+          0.16800233580831495
+        ],
+        "P": [
+          -1.1220134725143476
+        ],
+        "Attached": false,
+        "Energy": 0.523707730826793,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.007268613047213122,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.162847595992389e-12,
+        "RelativeEnergyBalanceResidual": 9.888159829867254e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.031997664191685066
+      },
+      {
+        "Time": 1.5200000000000002,
+        "Q": [
+          0.12289445527940607
+        ],
+        "P": [
+          -1.060333761259571
+        ],
+        "Attached": false,
+        "Energy": 0.5233262206607031,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.007650123213302555,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.163291685202239e-12,
+        "RelativeEnergyBalanceResidual": 9.891936098658496e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.07710554472059394
+      },
+      {
+        "Time": 1.6000000000000003,
+        "Q": [
+          0.08051681117531422
+        ],
+        "P": [
+          -0.9933778448352626
+        ],
+        "Attached": false,
+        "Energy": 0.522989496025738,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.007986847848267507,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.1634582186559328e-12,
+        "RelativeEnergyBalanceResidual": 9.893352199455211e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.1194831888246858
+      },
+      {
+        "Time": 1.6800000000000004,
+        "Q": [
+          0.041044131598748375
+        ],
+        "P": [
+          -0.9215521585665913
+        ],
+        "Attached": false,
+        "Energy": 0.522697353694559,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.008278990179446426,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.1634582186559328e-12,
+        "RelativeEnergyBalanceResidual": 9.893352199455211e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.15895586840125164
+      },
+      {
+        "Time": 1.7600000000000005,
+        "Q": [
+          0.004642586213485215
+        ],
+        "P": [
+          -0.8452796612391484
+        ],
+        "Attached": false,
+        "Energy": 0.5224489025996024,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.00852744127440306,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.1634582186559328e-12,
+        "RelativeEnergyBalanceResidual": 9.893352199455211e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.1953574137865148
+      },
+      {
+        "Time": 1.8400000000000005,
+        "Q": [
+          -0.02853118300729102
+        ],
+        "P": [
+          -0.7649942759162225
+        ],
+        "Attached": false,
+        "Energy": 0.5222425590437936,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.008733784830211807,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.1635692409583953e-12,
+        "RelativeEnergyBalanceResidual": 9.894296266653021e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.22853118300729103
+      },
+      {
+        "Time": 1.9200000000000006,
+        "Q": [
+          -0.05833125386222268
+        ],
+        "P": [
+          -0.6811362735680376
+        ],
+        "Attached": false,
+        "Energy": 0.522076050751989,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.008900293122016609,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.163291685202239e-12,
+        "RelativeEnergyBalanceResidual": 9.891936098658496e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.25833125386222267
+      },
+      {
+        "Time": 2.0,
+        "Q": [
+          -0.08462376921092588
+        ],
+        "P": [
+          -0.5941486541757033
+        ],
+        "Attached": false,
+        "Energy": 0.521946432683859,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.009029911190146947,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.47702365612483105,
+        "EnergyBalanceResidual": -1.1630141294460827e-12,
+        "RelativeEnergyBalanceResidual": 9.88957593066397e-13,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.2846237692109259
+      }
+    ],
+    "Steps": [
+      {
+        "NewtonIterations": 0,
+        "ResidualNorm": 1.1102230246251566e-17,
+        "ResidualHistory": [
+          1.1102230246251566e-17
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.00435269999979937,
+        "Method": "discrete-gradient",
+        "StartTime": 0.0,
+        "EndTime": 0.05,
+        "EnergyBefore": 1.176,
+        "EnergyAfter": 1.176,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 0.0,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 0.0,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 0.0,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 3.7216391535373206e-15,
+        "ResidualHistory": [
+          0.05039999999999999,
+          1.3649662300608536e-06,
+          3.7216391535373206e-15
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04264150000017253,
+        "Method": "discrete-gradient",
+        "StartTime": 0.05,
+        "EndTime": 0.08,
+        "EnergyBefore": 1.008,
+        "EnergyAfter": 1.0079999185453288,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 8.145467117346416e-08,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -5.675471471183535e-17,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 3.814209236621177e-17,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -9.489680707804711e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 9.403816701031298e-13,
+        "ResidualHistory": [
+          0.13420923119432,
+          2.5613459810090407e-05,
+          9.403816701031298e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04448339999999007,
+        "Method": "discrete-gradient",
+        "StartTime": 0.08,
+        "EndTime": 0.16,
+        "EnergyBefore": 1.0079999185453288,
+        "EnergyAfter": 1.007995204180148,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 4.714365121814597e-06,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -5.88656498830384e-14,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -5.903510561195616e-14,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 1.694557289177548e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 8.736249028883092e-13,
+        "ResidualHistory": [
+          0.1333303794017514,
+          2.4883068734603796e-05,
+          8.736249028883092e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.042962900000020454,
+        "Method": "discrete-gradient",
+        "StartTime": 0.16,
+        "EndTime": 0.24,
+        "EnergyBefore": 1.007995204180148,
+        "EnergyAfter": 1.0079736957944738,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 2.1508385556876354e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.173973570266218e-13,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.1724948011490268e-13,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -1.478769117191205e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 7.806783106252546e-13,
+        "ResidualHistory": [
+          0.13191157363088699,
+          2.3737310435865077e-05,
+          7.806783106252546e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04655229999934818,
+        "Method": "discrete-gradient",
+        "StartTime": 0.24,
+        "EndTime": 0.32,
+        "EnergyBefore": 1.0079736957944738,
+        "EnergyAfter": 1.0079236598325205,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 5.003596179352977e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.5976885206535688e-13,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.598708935869088e-13,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 1.020415215519159e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 6.595286925099864e-13,
+        "ResidualHistory": [
+          0.12994823113498422,
+          2.2195470568326357e-05,
+          6.595286925099864e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.045527299999776005,
+        "Method": "discrete-gradient",
+        "StartTime": 0.32,
+        "EndTime": 0.4,
+        "EnergyBefore": 1.0079236598325205,
+        "EnergyAfter": 1.0078340873426004,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 8.957248973927991e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.8086231026292338e-13,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.8083952429226658e-13,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -2.2785970656797363e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 5.277078145120295e-13,
+        "ResidualHistory": [
+          0.1274320358055582,
+          2.028835118709414e-05,
+          5.277078145120295e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04582190000019182,
+        "Method": "discrete-gradient",
+        "StartTime": 0.4,
+        "EndTime": 0.48000000000000004,
+        "EnergyBefore": 1.0078340873426004,
+        "EnergyAfter": 1.0076949424058979,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00013914493652214673,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.8038207646314808e-13,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.8039392249387614e-13,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 1.1846030728063701e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 3.9300610292156146e-13,
+        "ResidualHistory": [
+          0.12435066840370236,
+          1.8061215054406238e-05,
+          3.9300610292156146e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04431690000001254,
+        "Method": "discrete-gradient",
+        "StartTime": 0.48000000000000004,
+        "EndTime": 0.56,
+        "EnergyBefore": 1.0076949424058979,
+        "EnergyAfter": 1.0074973659237736,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0001975764819641759,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.6008613705487118e-13,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.6011891413525078e-13,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 3.277708037959932e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.697619688393771e-13,
+        "ResidualHistory": [
+          0.12068789241144554,
+          1.557630265069487e-05,
+          2.697619688393771e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04376769999998942,
+        "Method": "discrete-gradient",
+        "StartTime": 0.56,
+        "EndTime": 0.64,
+        "EnergyBefore": 1.0074973659237736,
+        "EnergyAfter": 1.007233826701491,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00026353922215549704,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.2700799613407643e-13,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.2702938070336297e-13,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 2.1384569286545845e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.676134274777863e-13,
+        "ResidualHistory": [
+          0.11642422780480213,
+          1.2914210072797203e-05,
+          1.676134274777863e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.0475192000003517,
+        "Method": "discrete-gradient",
+        "StartTime": 0.64,
+        "EndTime": 0.72,
+        "EnergyBefore": 1.007233826701491,
+        "EnergyAfter": 1.0068982154337858,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0003356112676162638,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -8.905197542916077e-14,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -8.910866510209967e-14,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 5.668967293890426e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 9.048241756542952e-14,
+        "ResidualHistory": [
+          0.11153838915334181,
+          1.0173381538134351e-05,
+          9.048241756542952e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04756069999984902,
+        "Method": "discrete-gradient",
+        "StartTime": 0.72,
+        "EndTime": 0.7999999999999999,
+        "EnergyBefore": 1.0068982154337858,
+        "EnergyAfter": 1.0064858814466129,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00041233398711940523,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -5.34807116127356e-14,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -5.3312064152995246e-14,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -1.686474597403525e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 4.0582012576784177e-14,
+        "ResidualHistory": [
+          0.10600956716251422,
+          7.467029361662883e-06,
+          4.0582012576784177e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.045098000000507454,
+        "Method": "discrete-gradient",
+        "StartTime": 0.7999999999999999,
+        "EndTime": 0.8799999999999999,
+        "EnergyBefore": 1.0064858814466129,
+        "EnergyAfter": 1.0059936165248369,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.000492264921750187,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -2.5821901041001016e-14,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -2.612186211330458e-14,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 2.999610723035638e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.3457551045759075e-14,
+        "ResidualHistory": [
+          0.09982050899978906,
+          4.9169948216716466e-06,
+          1.3457551045759075e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04775580000023183,
+        "Method": "discrete-gradient",
+        "StartTime": 0.8799999999999999,
+        "EndTime": 0.9599999999999999,
+        "EnergyBefore": 1.0059936165248369,
+        "EnergyAfter": 1.0054195943945012,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0005740221303260966,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -9.541954899827676e-15,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -9.368753851329406e-15,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -1.732010484982695e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.2861487009029346e-15,
+        "ResidualHistory": [
+          0.09296122229072436,
+          2.644445163969269e-06,
+          2.2861487009029346e-15
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.047185000000354194,
+        "Method": "discrete-gradient",
+        "StartTime": 0.9599999999999999,
+        "EndTime": 1.0399999999999998,
+        "EnergyBefore": 1.0054195943945012,
+        "EnergyAfter": 1.004763277942644,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0006563164518554709,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.6820312503940116e-15,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.6988520523061743e-15,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 1.6820801912162743e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 6.494371013188172e-17,
+        "ResidualHistory": [
+          0.08543301056997062,
+          7.57870287826823e-07,
+          6.494371013188172e-17
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.047589099999640894,
+        "Method": "discrete-gradient",
+        "StartTime": 1.0399999999999998,
+        "EndTime": 1.1199999999999999,
+        "EnergyBefore": 1.004763277942644,
+        "EnergyAfter": 1.0040253086327946,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0007379693098494162,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -6.819631664933823e-17,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 2.0990831324687392e-17,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -8.918714797402563e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.651958513899544e-16,
+        "ResidualHistory": [
+          0.0772524597741569,
+          6.604542793654106e-07,
+          2.651958513899544e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.0473136999999042,
+        "Method": "discrete-gradient",
+        "StartTime": 1.1199999999999999,
+        "EndTime": 1.2,
+        "EnergyBefore": 1.0040253086327946,
+        "EnergyAfter": 1.0032073935475996,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0008179150851947081,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -3.120333852413282e-16,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -2.1894257014974946e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -9.309081509157872e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 7.021293269016127e-16,
+        "ResidualHistory": [
+          0.06845494416160038,
+          1.5676531844146038e-06,
+          7.021293269016127e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.046474400000079186,
+        "Method": "discrete-gradient",
+        "StartTime": 1.2,
+        "EndTime": 1.28,
+        "EnergyBefore": 1.0032073935475996,
+        "EnergyAfter": 1.0023122049805573,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0008951885670428729,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 5.797229016279992e-16,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 6.064342952885255e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -2.6711393660526252e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.7160751986100564e-15,
+        "ResidualHistory": [
+          0.059097206392460744,
+          1.9706430074704125e-06,
+          1.7160751986100564e-15
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.046706999999514665,
+        "Method": "discrete-gradient",
+        "StartTime": 1.28,
+        "EndTime": 1.36,
+        "EnergyBefore": 1.0023122049805573,
+        "EnergyAfter": 1.001343305580122,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0009688994004369934,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.6743334149693645e-15,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 1.531597660757394e-15,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 1.4273575421197056e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 4.6891743959998067e-17,
+        "ResidualHistory": [
+          0.016964741649053715,
+          5.9256027463777065e-08,
+          4.6891743959998067e-17
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04822830000011891,
+        "Method": "discrete-gradient",
+        "StartTime": 1.36,
+        "EndTime": 1.3858475003289124,
+        "EnergyBefore": 1.001343305580122,
+        "EnergyAfter": 1.0010149889607494,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00032831661937236047,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -2.4345759783162e-16,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 2.9213493842231445e-17,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -2.7267109167385147e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.5108357273585504e-16,
+        "ResidualHistory": [
+          0.0385655089367201,
+          5.349454422742253e-07,
+          1.5108357273585504e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04293320000033418,
+        "Method": "discrete-gradient",
+        "StartTime": 1.3858475003289124,
+        "EndTime": 1.4400000000000002,
+        "EnergyBefore": 0.5239913328359179,
+        "EnergyAfter": 0.523707730826793,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00028360200912485434,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -6.261267546103788e-17,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -7.463060619706051e-17,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 1.2017930736022631e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 9.432558900623889e-16,
+        "ResidualHistory": [
+          0.06171556797804658,
+          1.4786753334005993e-06,
+          9.432558900623889e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04435300000022835,
+        "Method": "discrete-gradient",
+        "StartTime": 1.4400000000000002,
+        "EndTime": 1.5200000000000002,
+        "EnergyBefore": 0.523707730826793,
+        "EnergyAfter": 0.5233262206607031,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0003815101660894338,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -4.595933009166053e-16,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -5.212710752024919e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 6.167777428588658e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.273571955702103e-16,
+        "ResidualHistory": [
+          0.06701583441331939,
+          1.1432037554634554e-06,
+          2.273571955702103e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.044560700000147335,
+        "Method": "discrete-gradient",
+        "StartTime": 1.5200000000000002,
+        "EndTime": 1.6000000000000003,
+        "EnergyBefore": 0.5233262206607031,
+        "EnergyAfter": 0.522989496025738,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00033672463496495046,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -1.960237527853792e-16,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.2043577897973465e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -7.558797380564455e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 9.90960785651751e-17,
+        "ResidualHistory": [
+          0.0719095046084785,
+          6.658678636767106e-07,
+          9.90960785651751e-17
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.043712499999855936,
+        "Method": "discrete-gradient",
+        "StartTime": 1.6000000000000003,
+        "EndTime": 1.6800000000000004,
+        "EnergyBefore": 0.522989496025738,
+        "EnergyAfter": 0.522697353694559,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0002921423311789194,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 6.559423143537302e-18,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -4.889484695621685e-17,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 5.545427009975415e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 3.53558328447523e-16,
+        "ResidualHistory": [
+          0.07637873989480076,
+          7.102109696329427e-08,
+          3.53558328447523e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04512280000017199,
+        "Method": "discrete-gradient",
+        "StartTime": 1.6800000000000004,
+        "EndTime": 1.7600000000000005,
+        "EnergyBefore": 0.522697353694559,
+        "EnergyAfter": 0.5224489025996024,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0002484510949566323,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -4.228388472693467e-18,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": -1.6087586924150345e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 1.5664748076880999e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 7.003946034256359e-17,
+        "ResidualHistory": [
+          0.08041147789930488,
+          6.092920650365916e-07,
+          7.003946034256359e-17
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04477410000072268,
+        "Method": "discrete-gradient",
+        "StartTime": 1.7600000000000005,
+        "EndTime": 1.8400000000000005,
+        "EnergyBefore": 0.5224489025996024,
+        "EnergyAfter": 0.5222425590437936,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0002063435558087475,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -9.362085759412331e-17,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 2.9043411171898896e-17,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -1.226642687660222e-16,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 5.452994826515845e-16,
+        "ResidualHistory": [
+          0.08400053763827653,
+          1.3383454817771719e-06,
+          5.452994826515845e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.04503460000069026,
+        "Method": "discrete-gradient",
+        "StartTime": 1.8400000000000005,
+        "EndTime": 1.9200000000000006,
+        "EnergyBefore": 0.5222425590437936,
+        "EnergyAfter": 0.522076050751989,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00016650829180480238,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 2.677437264952953e-16,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 2.139766669085183e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": 5.376705958677703e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.0083080204115191e-15,
+        "ResidualHistory": [
+          0.08714264465075801,
+          2.07760024008031e-06,
+          1.0083080204115191e-15
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.042735500000162574,
+        "Method": "discrete-gradient",
+        "StartTime": 1.9200000000000006,
+        "EndTime": 2.0,
+        "EnergyBefore": 0.522076050751989,
+        "EnergyAfter": 0.521946432683859,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00012961806813033714,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 2.8197388000916757e-16,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": 3.351423090817563e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AlgebraicWorkIdentityDefect": -5.3168429072588714e-17,
+        "InterfaceEntityWork": {},
+        "CollocationImpulseDiagnostic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ExternalImpulseQuadrature": "trapezoidal continuous reactions at accepted endpoints plus explicit projection impulse",
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      }
+    ],
+    "Events": [
+      {
+        "Kind": "passive-cable-removal",
+        "Time": 0.05,
+        "StoredCableEnergyBefore": 0.16799999999999993,
+        "StoredCableEnergyAfter": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "ImpactLoss": 0.0,
+        "ProjectionLoss": 0.0,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "EnergyBalanceResidual": 0.0,
+        "Convention": "removed cable energy leaves the modeled domain; no velocity kick"
+      },
+      {
+        "Kind": "frictionless-impact",
+        "Time": 1.3858475003289124,
+        "NormalImpulse": [
+          2.946093996574801
+        ],
+        "IncomingNormalVelocity": [
+          -0.9252418513257216
+        ],
+        "OutgoingNormalVelocity": [
+          0.6014072033617187
+        ],
+        "ImpactLoss": 0.47702365612483105,
+        "ProjectionLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -4.996003610813204e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "RestitutionDefect": 3.3306690738754696e-16,
+        "SelectionRule": "independent active normals, common restitution; negative impulses rejected",
+        "ActiveStops": [
+          0
+        ],
+        "EventLocalized": true,
+        "GapAtImpact": [
+          4.3021142204224816e-15
+        ],
+        "Transversality": [
+          {
+            "Classification": "transversal",
+            "SecondOrderEligible": true,
+            "Qualified": true,
+            "Reason": "nonzero normal speed; order still requires a refinement study"
+          }
+        ]
+      }
+    ],
+    "InitialEnergy": 1.176,
+    "InitialCableStoredEnergy": 0.16799999999999993,
+    "InitialElasticStoredEnergy": 1.008,
+    "MaxRelativeEnergyBalanceResidual": 9.901244011186908e-13,
+    "MaxPhysicalMomentumBalanceResidual": null,
+    "MaxLinearImpulseResidual": null,
+    "MaxAngularImpulseResidual": null,
+    "MaxAlgebraicWorkIdentityDefect": 2.999610723035638e-16,
+    "MomentumAuditUnits": {
+      "Linear": "kg m/s",
+      "Angular": "kg m^2/s",
+      "CombinedNormReferenceUnits": "1 kg m/s and 1 kg m^2/s"
+    },
+    "MaxConstraintNorm": 0.0,
+    "MaxConstraintChainRuleDefect": 0.0,
+    "MaxConstraintWork": 0.0,
+    "MaxPenetration": 0.0,
+    "ImpactCount": 1,
+    "ReleaseCount": 1,
+    "ImpactTimes": [
+      1.3858475003289124
+    ],
+    "ActualAcceptedStepCount": 27,
+    "NewtonIterations": 66,
+    "LineSearchCount": 0,
+    "SmoothSolveCount": 34,
+    "EventLocalizationSolves": 7,
+    "RuntimeSeconds": 2.196628800000326,
+    "Ledger": {
+      "ExternalWork": 0.0,
+      "ReleaseWork": -0.16799999999999993,
+      "DampingDissipation": 0.009029911190146947,
+      "ProjectionLoss": 0.0,
+      "ImpactLoss": 0.47702365612483105
+    },
+    "PhysicalMomentumAudited": false,
+    "GrazingQualified": false,
+    "FullIntervalAudited": true,
+    "GeneralSimultaneousImpactQualified": false,
+    "Provenance": {
+      "EvidenceClass": "nonlinear-kinematic-canonical",
+      "FullDofRodShell": false,
+      "RotationMap": "Rz(q) Rx(0.45 sin(q))",
+      "BodyInertia": [
+        0.7,
+        1.0,
+        1.8
+      ],
+      "PhysicalAngularMomentumQualified": false
+    }
+  },
+  "ResultHash": "2cb4b1015a69929bd1c448c7705772fb1dbf9bdcb0eedb4d84c810100b5dcb7a"
+}

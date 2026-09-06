@@ -1,0 +1,410 @@
+{
+  "SchemaVersion": "1.0",
+  "Profile": "research",
+  "PhysicalSpec": {
+    "width": 0.12,
+    "eccentricity": 0.025,
+    "shell_width": 0.4,
+    "stiffness_scale": 0.025,
+    "rod_total_mass": 0.07,
+    "shell_total_mass": 0.054,
+    "rod_total_body_inertia": 0.0005,
+    "shell_total_body_inertia": 0.00036,
+    "cable_stiffness": 0.8,
+    "cable_reference_length": 0.25,
+    "shortening": 0.01,
+    "release_time": 0.004,
+    "duration": 0.8,
+    "stop_displacement": 5e-05,
+    "restitution": 0.65,
+    "damping_rate": 0.02,
+    "initial_rotation": [
+      0.55,
+      -0.35,
+      0.2
+    ]
+  },
+  "SolverSpec": {
+    "version": "1.0",
+    "newton_tolerance": 2e-10,
+    "maximum_iterations": 18,
+    "maximum_line_search": 12,
+    "constraint_tolerance": 2e-09,
+    "event_gap_tolerance": 2e-10,
+    "event_time_tolerance": 2e-10,
+    "grazing_speed": 1e-07,
+    "maximum_events_per_step": 8,
+    "rho_infinity": 0.7
+  },
+  "Cases": [
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "line",
+      "newmark",
+      0.08
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "line",
+      "newmark",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "line",
+      "newmark",
+      0.02
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "line",
+      "discrete-gradient",
+      0.08
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "line",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "line",
+      "discrete-gradient",
+      0.02
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "newmark",
+      0.08
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "newmark",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "newmark",
+      0.02
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.08
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.02
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "line",
+      "newmark",
+      0.08
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "line",
+      "newmark",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "line",
+      "newmark",
+      0.02
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "line",
+      "discrete-gradient",
+      0.08
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "line",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "line",
+      "discrete-gradient",
+      0.02
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "newmark",
+      0.08
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "newmark",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "newmark",
+      0.02
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.08
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        1,
+        2
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.02
+    ],
+    [
+      0.005,
+      [
+        2,
+        3
+      ],
+      "line",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        2,
+        3
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        3,
+        4
+      ],
+      "line",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        3,
+        4
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        2,
+        3
+      ],
+      "line",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        2,
+        3
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        3,
+        4
+      ],
+      "line",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.015,
+      [
+        3,
+        4
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.04
+    ],
+    [
+      0.005,
+      [
+        3,
+        4
+      ],
+      "line",
+      "discrete-gradient",
+      0.02
+    ],
+    [
+      0.005,
+      [
+        3,
+        4
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.02
+    ],
+    [
+      0.015,
+      [
+        3,
+        4
+      ],
+      "line",
+      "discrete-gradient",
+      0.02
+    ],
+    [
+      0.015,
+      [
+        3,
+        4
+      ],
+      "finite-width",
+      "discrete-gradient",
+      0.02
+    ]
+  ],
+  "TimeBudgetFraction": 0.01,
+  "MomentAndDisplacementBudgetFraction": 0.05,
+  "EmpiricalEnvelopeSafetyFactor": 2.0,
+  "RefinementContractionMaximum": 0.9,
+  "NoOutcomeDependentSelection": true,
+  "CurrentCommitEvidenceEligible": false,
+  "CriticalHypothesis": "unverified",
+  "NumericalSourceHash": "1a0502067a2082d3f9f4a735bb32d16700636d076d123082ad46beff99e37aea",
+  "MassAndPassiveCableHeldFixed": true
+}

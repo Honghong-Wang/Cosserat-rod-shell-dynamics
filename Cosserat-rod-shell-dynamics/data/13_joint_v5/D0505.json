@@ -1,0 +1,21 @@
+{
+  "Configuration": {
+    "Id": "wing-m1-h05-nm",
+    "Kind": "wing",
+    "Mesh": [
+      1,
+      1
+    ],
+    "TimeStep": 0.005,
+    "Method": "newmark",
+    "Duration": 0.36,
+    "Restitution": 0.05,
+    "EventPolicy": "localized"
+  },
+  "ConfigurationHash": "9ec073602bde7a07dd5b0e32f1ee069fe105f5181199464e0dc9da4944c73b29",
+  "SourceClosureHash": "54db4e556c2d9dbfbacdd012966344dce6d7bce5c6f2e2cee9a3720c87c44ec1",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 1200.0,
+  "HistoricalEvidenceRelabelled": false
+}

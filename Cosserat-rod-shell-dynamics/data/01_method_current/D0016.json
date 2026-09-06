@@ -1,0 +1,32 @@
+{
+  "ResultKind": "native-large-mixed-dimensional-assembly",
+  "Backend": "numpy-scipy-native-connectivity-csr",
+  "StructuredExpansionUsed": false,
+  "ShellGrid": [
+    160,
+    104
+  ],
+  "ShellNodeCount": 16905,
+  "ShellTriangleCount": 33280,
+  "RodNodeCount": 80,
+  "RodElementCount": 79,
+  "MortarMultiplierDof": 474,
+  "PrimalDof": 101910,
+  "TotalDof": 102384,
+  "Nnz": 510888,
+  "JacobianDensity": 4.873730563415067e-05,
+  "AssemblySeconds": 0.06234789999871282,
+  "TwoMatvecSeconds": 0.0015333000046666712,
+  "LinearSolver": "SuperLU-sparse-direct-reference",
+  "LinearSolveIterations": 1,
+  "LinearSolveInfo": 0,
+  "LinearSolveSeconds": 0.22298210000008112,
+  "LinearRelativeResidual": 3.722152645842743e-14,
+  "ManufacturedSolutionRelativeError": 1.813210627932565e-11,
+  "CsrStorageMB": 6.237216949462891,
+  "SymmetryError": 0.0,
+  "ManufacturedResidualNorm": 0.0,
+  "ConnectivityHash": "b81f5cf57cc9a2da0b87ab94dfa88da87b9428979ee46798eda2cb2abed240a0",
+  "Passed": true,
+  "ClaimBoundary": "This is a native-connectivity linearized Cosserat rod-shell-mortar sparse assembly and a sparse-direct reference KKT solve. It is not a repeated small matrix and does not qualify the full nonlinear 100k-DOF Newton path."
+}

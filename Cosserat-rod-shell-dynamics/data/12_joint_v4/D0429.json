@@ -1,0 +1,21 @@
+{
+  "Configuration": {
+    "Id": "section-deformable",
+    "Kind": "q2",
+    "Mesh": [
+      36,
+      4,
+      4,
+      2,
+      2
+    ],
+    "Support": "shell-root-face",
+    "Section": "deformable"
+  },
+  "ConfigurationHash": "a061f3c0d14947902058bf79dfe376618e6b275c41d9516e1361ca646e7dd07f",
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 600.0,
+  "HistoricalEvidenceRelabelled": false
+}

@@ -1,0 +1,163 @@
+{
+  "ResultKind": "cmame-finite-width-strengthening-development-evidence",
+  "GeneratedOn": "2026-09-04",
+  "EvidenceStatus": "development-current-worktree",
+  "GitHeadAtRun": "2d10a94",
+  "CurrentCommitEvidenceEligible": false,
+  "Passed": true,
+  "IndependentNonlinearCurvedSurface": {
+    "IndependentReferenceThicknessConvergence": {
+      "ResultKind": "independent-nonlinear-q2-thickness-convergence",
+      "Protocol": "fixed-terminal-state-1-2-4-layers",
+      "TargetTipDisplacementToLength": 0.035,
+      "PreviousTipDisplacementToLength": 0.025,
+      "ThicknessRefinementIncluded": true,
+      "Passed": true,
+      "Thresholds": {
+        "TipReactionForce": 0.02,
+        "IncrementalStiffness": 0.03,
+        "TipCenterlineCurvature": 0.05,
+        "P95CauchyVonMisesStress": 0.05
+      },
+      "FinestChanges": {
+        "TipReactionForce": 0.0002650335036736233,
+        "IncrementalStiffness": 0.0006024857172927449,
+        "TipCenterlineCurvature": 4.934500319074099e-05,
+        "P95CauchyVonMisesStress": 0.025118903610357818
+      },
+      "Rows": [
+        {
+          "ThicknessElements": 1,
+          "Dof": 1521,
+          "Hexahedra": 36,
+          "TipDisplacementToLength": 0.035,
+          "TipReactionForce": 1.1742808699328757,
+          "IncrementalStiffness": 27.477870814702584,
+          "TipCenterlineCurvature": 0.2380867374229487,
+          "P95CauchyVonMisesStress": 10178.942683352063,
+          "RelativeResidual": 1.1908878199882303e-09,
+          "MinimumDeformationJacobian": 0.9933586334184146,
+          "NewtonIterations": 61,
+          "WallSeconds": 392.34413450000284,
+          "Converged": true
+        },
+        {
+          "ThicknessElements": 2,
+          "Dof": 2535,
+          "Hexahedra": 72,
+          "TipDisplacementToLength": 0.035,
+          "TipReactionForce": 1.1700858468474504,
+          "IncrementalStiffness": 27.25495436837266,
+          "TipCenterlineCurvature": 0.2382455180294778,
+          "P95CauchyVonMisesStress": 9488.438687255331,
+          "RelativeResidual": 2.018662659809923e-09,
+          "MinimumDeformationJacobian": 0.9931715310003192,
+          "NewtonIterations": 61,
+          "WallSeconds": 670.8429414000057,
+          "Converged": true
+        },
+        {
+          "ThicknessElements": 4,
+          "Dof": 4563,
+          "Hexahedra": 144,
+          "TipDisplacementToLength": 0.035,
+          "TipReactionForce": 1.1697758170641412,
+          "IncrementalStiffness": 27.238543534933005,
+          "TipCenterlineCurvature": 0.23825727483546477,
+          "P95CauchyVonMisesStress": 9255.939631820345,
+          "RelativeResidual": 3.809067104289747e-09,
+          "MinimumDeformationJacobian": 0.9930724029961336,
+          "NewtonIterations": 61,
+          "WallSeconds": 1422.1493547000064,
+          "Converged": true
+        }
+      ]
+    }
+  },
+  "SteinbrecherDirectComparison": {
+    "SharedCurvedEquilibrium": {
+      "CostProtocol": {
+        "WarmupCount": 1,
+        "RepeatCount": 5,
+        "TimingStatistics": [
+          "median",
+          "p90"
+        ],
+        "CommonMachineAndProcess": true,
+        "CommonStructuralTangent": true,
+        "CommonLoadBoundaryAndStoppingRule": true,
+        "PeakMemoryMetric": "explicit-live-numeric-array-bytes",
+        "KrylovNotApplicableToDirectSolve": true,
+        "RuntimeSuperiorityRequiredForPassing": false,
+        "Complete": true
+      },
+      "FiniteWidthExactMultiplier": {
+        "MultiplierDof": 96,
+        "KktUnknowns": 414,
+        "JacobianNnz": 10962,
+        "TotalAssemblySeconds": 4.785295399997267,
+        "LinearSolveMedianSeconds": 0.004651499999454245,
+        "LinearSolveP90Seconds": 0.0048487200008821675,
+        "PeakNumericStorageBytes": 2431008,
+        "NewtonIterations": 1,
+        "KrylovIterations": 0
+      },
+      "BtsFullConsCenterlineExactMultiplier": {
+        "MultiplierDof": 48,
+        "KktUnknowns": 366,
+        "JacobianNnz": 9684,
+        "TotalAssemblySeconds": 4.55750860000262,
+        "LinearSolveMedianSeconds": 0.0028668999948422424,
+        "LinearSolveP90Seconds": 0.0030206599985831417,
+        "PeakNumericStorageBytes": 2008608,
+        "NewtonIterations": 1,
+        "KrylovIterations": 0
+      }
+    }
+  },
+  "FiniteWidthReduction": {
+    "IndependentQ2AnchorMatrix": {
+      "ResultKind": "independent-layered-q2-additional-anchor-matrix",
+      "EvidenceClass": "independent-scikit-fem-local-field-reference",
+      "AnchorCount": 2,
+      "FiniteWidthAdvantageReplicatedCaseCount": 2,
+      "AllCasesShowAtLeastOneQualifiedAdvantage": true,
+      "TransferClaimPassed": true,
+      "Passed": true,
+      "Rows": [
+        {
+          "Case": "high-curvature-low-eccentricity",
+          "GeometryClass": "single-curvature",
+          "ConnectionWidthToLength": 0.04,
+          "CurvatureWidthProduct": 0.04,
+          "EccentricityToWidth": 0.25,
+          "ReferenceDof": 18081,
+          "ImprovementFractions": {
+            "InterfaceTraction": -1.4191919702328466,
+            "TipWarping": 0.41299684982600604,
+            "TipCurvature": 0.3529114100859997,
+            "ShellStressResultant": -0.2182751976547237
+          },
+          "FiniteWidthAdvantageMetricCount": 2,
+          "NumericalQualificationPassed": true
+        },
+        {
+          "Case": "double-curvature-high-eccentricity",
+          "GeometryClass": "double-curvature",
+          "ConnectionWidthToLength": 0.04,
+          "CurvatureWidthProduct": 0.04,
+          "EccentricityToWidth": 0.4,
+          "ReferenceDof": 18081,
+          "ImprovementFractions": {
+            "InterfaceTraction": -1.5330248945253553,
+            "TipWarping": 0.5742574367639791,
+            "TipCurvature": 0.40169633640002567,
+            "ShellStressResultant": 0.04219827988363545
+          },
+          "FiniteWidthAdvantageMetricCount": 2,
+          "NumericalQualificationPassed": true
+        }
+      ]
+    }
+  }
+}

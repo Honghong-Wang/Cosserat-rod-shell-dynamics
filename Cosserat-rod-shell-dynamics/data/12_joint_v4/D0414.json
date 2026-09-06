@@ -1,0 +1,17 @@
+{
+  "Configuration": {
+    "Id": "production-r8-s9-w24",
+    "Kind": "production",
+    "Mesh": [
+      8,
+      9,
+      24
+    ]
+  },
+  "ConfigurationHash": "519c138bcf980a667b73e156d70fb6f3bb373f3366164904c430721f09fa5c94",
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 2400.0,
+  "HistoricalEvidenceRelabelled": false
+}

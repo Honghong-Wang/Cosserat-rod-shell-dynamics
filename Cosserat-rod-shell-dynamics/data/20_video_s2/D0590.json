@@ -1,0 +1,1681 @@
+{
+  "ResultKind": "mixed-dimensional-rod-shell-comparison-artifact",
+  "ContractVersion": "1.1",
+  "GeneratedOn": "2026-08-30T20:09:33.827526+00:00",
+  "SourceClosureHash": "66643A39B906A173B5F6A1A379354AC678DD27AF6641D7063A9F5871DBA30F22",
+  "SourceHistorySha256": "c45a1379d746ee59d983b556235e88d0d7e0716039fcb33e3aae18a663b4f2fc",
+  "Configuration": {
+    "deployment_initial_angle_rad": 0.9,
+    "deployment_time_step_s": 0.015,
+    "deployment_step_count": 18,
+    "replay_start_time_s": 3.2,
+    "replay_duration_s": 1.2,
+    "replay_time_step_s": 0.03,
+    "load_ramp_duration_s": 0.15,
+    "bilateral_to_half_wing_factor": 0.5,
+    "chordwise_pressure_bias": 0.6,
+    "legacy_camber_length_scale_m": 0.24,
+    "newton_tolerance": 2e-06,
+    "newton_max_iterations": 20,
+    "consistent_initial_acceleration": true,
+    "nonsmooth_stop_integration": true
+  },
+  "KernelContract": {
+    "rod": {
+      "reference_positions": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "reference_frames": [
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "shear_extension_stiffness": [
+        1500.0,
+        450.0,
+        450.0
+      ],
+      "torsion_bending_stiffness": [
+        4.0,
+        20.0,
+        20.0
+      ],
+      "nodal_mass": 0.04,
+      "nodal_inertia": 0.00028,
+      "edge_stiffness_scale": [
+        1.0,
+        1.0
+      ],
+      "name": "cosserat-rod"
+    },
+    "shell": {
+      "reference_positions": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.2,
+          0.0
+        ],
+        [
+          0.5,
+          0.2,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.2,
+          0.0
+        ],
+        [
+          1.0,
+          0.16,
+          0.0
+        ]
+      ],
+      "reference_frames": [
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          4,
+          5,
+          7
+        ],
+        [
+          4,
+          7,
+          6
+        ]
+      ],
+      "membrane_lame_lambda": 360.0,
+      "membrane_shear_modulus": 225.0,
+      "transverse_shear_stiffness": 105.0,
+      "director_alignment_stiffness": 28.0,
+      "bending_stiffness": [
+        0.7,
+        0.7,
+        0.24
+      ],
+      "nodal_mass": 0.018,
+      "nodal_inertia": 0.00012,
+      "name": "cosserat-shell"
+    },
+    "interface": {
+      "rod_node_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "shell_node_indices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "rod_offsets": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "shell_offsets": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "coupling_method": "lagrange-multiplier",
+      "contract_version": "1.0",
+      "name": "rod-shell-interface"
+    },
+    "hinge": {
+      "left_rod_node": 1,
+      "right_rod_node": 2,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "spring_stiffness": 2.4,
+      "spring_equilibrium": -0.035,
+      "damping": 0.065,
+      "inertia": 0.01,
+      "lower_stop": 0.0,
+      "upper_stop": 1.15,
+      "cable_stiffness": 210.0,
+      "cable_moment_arm": 0.028,
+      "cable_rest_extension": 0.8,
+      "restitution": 0.05,
+      "fb_smoothing": 1e-10,
+      "name": "deployable-hinge-cable-stop"
+    },
+    "fixed_dofs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fixed_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "damping_scale": 0.0015,
+    "qualification_level": "ResearchBaseline",
+    "contract_version": "1.0",
+    "name": "canonical-deployable-rod-shell-hinge",
+    "ResultKind": "rod-shell-interface-spec",
+    "StateMap": {
+      "Rod": [
+        0,
+        24
+      ],
+      "Shell": [
+        24,
+        72
+      ],
+      "InterfaceMultiplier": [
+        73,
+        97
+      ],
+      "HingeCoordinate": [
+        72,
+        73
+      ],
+      "HingeMultiplier": [
+        97,
+        103
+      ],
+      "LowerStopMultiplier": [
+        103,
+        104
+      ],
+      "UpperStopMultiplier": [
+        104,
+        105
+      ],
+      "CableTension": [
+        105,
+        106
+      ]
+    },
+    "QDoFCount": 73,
+    "UnknownCount": 106,
+    "NodalDoF": 6,
+    "InterfaceDiscretization": "lagrange-multiplier",
+    "ResidualOperatorContract": "ResidualOperator-V2-compatible-reference",
+    "JacobianSource": "torch-double-autodiff",
+    "SparsityDeclared": true,
+    "Maturity": "ResearchBaseline",
+    "RealKernelQualified": false,
+    "ConfigurationHash": "8fb4abfa50e938dd9a2b2e390deaac5bfcd3ed71693fc573500a0e615c7448c5"
+  },
+  "InitialAccelerationArtifact": {
+    "ResultKind": "consistent-initial-acceleration-artifact",
+    "Acceleration": [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      5.951062038548228e-14,
+      1.7380746759253935e-14,
+      2.0840870720939105e-14,
+      1.2538556142842834e-14,
+      109.99999999999795,
+      -1.5800564559619683e-14,
+      5.951062038548228e-14,
+      1.7380746759253935e-14,
+      2.0840870720939105e-14,
+      1.8790806986466442e-14,
+      -110.00000000000216,
+      -9.076994501836005e-15,
+      -8.980772636025406e-14,
+      -0.0,
+      -7.126702433828832e-14,
+      -0.0,
+      -4.130644056777899e-12,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.951062038548228e-14,
+      1.7380746759253935e-14,
+      2.0840870720939105e-14,
+      1.2538556142842834e-14,
+      109.99999999999795,
+      -1.5800564559619683e-14,
+      -2.775557561562886e-14,
+      7.37064730237257e-14,
+      0.0,
+      0.0,
+      0.0,
+      1.0793834961633468e-13,
+      -3.3115272975888297e-13,
+      -1.4788085613445814e-13,
+      0.0,
+      0.0,
+      0.0,
+      1.0793834961633468e-13,
+      5.951062038548228e-14,
+      1.7380746759253935e-14,
+      2.0840870720939105e-14,
+      1.8790806986466445e-14,
+      -110.00000000000216,
+      -9.076994501836008e-15,
+      -8.980772636025406e-14,
+      0.0,
+      -7.126702433828832e-14,
+      0.0,
+      -4.130644056777899e-12,
+      0.0,
+      -1.1698806429874822e-13,
+      -5.5511151231257833e-14,
+      1.2861986409837806e-13,
+      1.211566327682944e-13,
+      -6.974152150527515e-14,
+      -5.852532519177216e-14,
+      2.285562897534768e-14,
+      -5.649810566171198e-14,
+      -3.328950809883438e-14,
+      1.211566327682944e-13,
+      -2.3898066928078176e-13,
+      -5.852532519177216e-14,
+      -220.0000000000001
+    ],
+    "BilateralMultiplier": [
+      6.460349496741213e-15,
+      1.3351388959931838e-15,
+      -0.0,
+      -0.0,
+      -0.0,
+      1.2952601953960163e-17,
+      -1.071191166938681e-15,
+      -3.1285344166657084e-16,
+      -3.7513567297690385e-16,
+      -1.5046267371411444e-18,
+      -0.013199999999999757,
+      1.8960677471543663e-18,
+      7.186427654853116e-16,
+      1.7033131824068857e-15,
+      -2.0153375472478913e-15,
+      1.4113531717804697e-17,
+      0.013200000000000225,
+      -1.3814878949222519e-33,
+      1.5210889778817896e-15,
+      0.0,
+      1.2070619043683908e-15,
+      0.0,
+      4.75368589080287e-16,
+      0.0,
+      3.451615982357972e-15,
+      1.0080833120367282e-15,
+      1.208770501814468e-15,
+      7.022473137608752e-18,
+      0.043999999999999186,
+      -3.392241222278256e-18,
+      6.460349496741213e-15,
+      1.3351388959931838e-15,
+      0.0,
+      0.0,
+      0.0,
+      1.2952601953960163e-17
+    ],
+    "KktRank": 109,
+    "KktSize": 109,
+    "UsedLeastSquares": false,
+    "ForceBalanceError": 3.469446951953614e-17,
+    "ConstraintAccelerationError": 5.5220263365470826e-30,
+    "Passed": true
+  },
+  "Metrics": {
+    "AllStepsConverged": true,
+    "DeploymentCompletedSteps": 18,
+    "ReplayCompletedSteps": 40,
+    "InitialHingeAngleRad": 0.9,
+    "FinalHingeAngleRad": 1.1734979957286483e-18,
+    "DeploymentAngleReductionRad": 0.9,
+    "MaximumResidualNorm": 1.5563361477651697e-06,
+    "MaximumInterfaceGap": 2.4026598633911327e-16,
+    "MaximumHingeGap": 3.7400610386484345e-11,
+    "MaximumRelativeStepEnergyBalanceError": 0.029966997381079698,
+    "MaximumRelativeStepEnergyErrorBeforeImpactAccounting": 0.22668890885284135,
+    "ImpactEventCount": 5,
+    "PersistentContactStepCount": 39,
+    "NonsmoothImpactDissipation": 0.23959147932239558,
+    "MedianNewtonIterations": 3.0,
+    "P90NewtonIterations": 4.0,
+    "TotalLineSearchCount": 0,
+    "DeploymentRuntimeSeconds": 49.833217599996715,
+    "ReplayRuntimeSeconds": 146.7077414000014,
+    "TotalStructuralRuntimeSeconds": 196.5409589999981,
+    "PeakAppliedHalfWingLiftN": 10.82394300283721
+  },
+  "Comparison": {
+    "Rows": [
+      {
+        "Observable": "tip-bending-m",
+        "LegacyPeakAbsolute": 0.05482261613952993,
+        "FullDofPeakAbsolute": 0.12232737821073426,
+        "RmsDifference": 0.07501439865836619,
+        "NormalizedRmsDifference": 0.8923124352258995,
+        "TemporalCorrelation": -0.4990414624568008
+      },
+      {
+        "Observable": "span-twist-rad",
+        "LegacyPeakAbsolute": 0.13847597603491107,
+        "FullDofPeakAbsolute": 0.12686082986137506,
+        "RmsDifference": 0.05628339110844414,
+        "NormalizedRmsDifference": 0.26144591983967475,
+        "TemporalCorrelation": 0.5184319516968742
+      },
+      {
+        "Observable": "camber-proxy-m",
+        "LegacyPeakAbsolute": 0.016072716684021982,
+        "FullDofPeakAbsolute": 0.04650307048262077,
+        "RmsDifference": 0.02483332758786023,
+        "NormalizedRmsDifference": 0.9919583254613336,
+        "TemporalCorrelation": 0.37663099213349405
+      }
+    ],
+    "DefinitionBoundary": "The full-DoF states are projected to the three legacy observables. These differences measure model-form migration, not validation error."
+  },
+  "StepAudit": [
+    {
+      "Phase": "deployment",
+      "Step": 1,
+      "Converged": true,
+      "ResidualNorm": 3.597613327703517e-08,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 8.158877965563747e-20,
+      "HingeGap": 1.182177236178221e-13,
+      "RelativeEnergyBalanceError": 1.6516870193757246e-06,
+      "RelativeEnergyBeforeImpactAccounting": 1.6516870193757246e-06,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 1.7302756449844026e-12,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 2,
+      "Converged": true,
+      "ResidualNorm": 1.0800970579813248e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 9.170294037558835e-17,
+      "HingeGap": 2.712358739776974e-13,
+      "RelativeEnergyBalanceError": 2.3367897760506155e-05,
+      "RelativeEnergyBeforeImpactAccounting": 2.3367897760506155e-05,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 5.053549245737088e-11,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 3,
+      "Converged": true,
+      "ResidualNorm": 3.7516050855300745e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 4.729685395577915e-19,
+      "HingeGap": 1.3807694862168899e-12,
+      "RelativeEnergyBalanceError": 9.506676730125929e-05,
+      "RelativeEnergyBeforeImpactAccounting": 9.506676730125929e-05,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 3.8065689489386045e-11,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 4,
+      "Converged": true,
+      "ResidualNorm": 1.740883371969808e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.4026598633911327e-16,
+      "HingeGap": 1.2421443852164608e-12,
+      "RelativeEnergyBalanceError": 0.0008423884293960247,
+      "RelativeEnergyBeforeImpactAccounting": 0.0008423884293960247,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 4.074505455253785e-10,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 5,
+      "Converged": true,
+      "ResidualNorm": 3.0140860138619457e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.3382800741203305e-16,
+      "HingeGap": 3.6168821109557078e-12,
+      "RelativeEnergyBalanceError": 0.0006955764173578283,
+      "RelativeEnergyBeforeImpactAccounting": 0.0006955764173578283,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 3.6733707187153186e-09,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 6,
+      "Converged": true,
+      "ResidualNorm": 2.2043574282709622e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.3689909003416034e-20,
+      "HingeGap": 2.5172762126425305e-12,
+      "RelativeEnergyBalanceError": 0.00032545173389320753,
+      "RelativeEnergyBeforeImpactAccounting": 0.00032545173389320753,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 5.846738204695612e-09,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 7,
+      "Converged": true,
+      "ResidualNorm": 3.3518441035162177e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.2020178214150367e-20,
+      "HingeGap": 9.581910633605484e-12,
+      "RelativeEnergyBalanceError": 0.0010344313403600827,
+      "RelativeEnergyBeforeImpactAccounting": 0.0010344313403600827,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 2.424167533376931e-10,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 8,
+      "Converged": true,
+      "ResidualNorm": 8.917469528837793e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 8.280978481309466e-18,
+      "HingeGap": 6.930104032205458e-12,
+      "RelativeEnergyBalanceError": 4.5835139127922e-05,
+      "RelativeEnergyBeforeImpactAccounting": 4.5835139127922e-05,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 7.240173571787523e-09,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 9,
+      "Converged": true,
+      "ResidualNorm": 2.781136350102558e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.0842021724855044e-19,
+      "HingeGap": 2.2414336934007285e-11,
+      "RelativeEnergyBalanceError": 0.0018112559806431755,
+      "RelativeEnergyBeforeImpactAccounting": 0.0018112559806431755,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 1.9355752112204527e-08,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 10,
+      "Converged": true,
+      "ResidualNorm": 1.5563361477651697e-06,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 9.848754880151436e-17,
+      "HingeGap": 1.679243977623797e-11,
+      "RelativeEnergyBalanceError": 0.0010159558622557345,
+      "RelativeEnergyBeforeImpactAccounting": 0.0010159558622557345,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 1.516971326331884e-08,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 11,
+      "Converged": true,
+      "ResidualNorm": 1.3619240508165938e-06,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.5818525153806377e-20,
+      "HingeGap": 3.7400610386484345e-11,
+      "RelativeEnergyBalanceError": 0.0008980336423240823,
+      "RelativeEnergyBeforeImpactAccounting": 0.0008980336423240823,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 4.615952065023521e-10,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 12,
+      "Converged": true,
+      "ResidualNorm": 2.662373670235528e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.850853908231524e-20,
+      "HingeGap": 3.887055028712981e-12,
+      "RelativeEnergyBalanceError": 0.0016127429249204808,
+      "RelativeEnergyBeforeImpactAccounting": 0.0016127429249204808,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 1.4750864418822118e-08,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 13,
+      "Converged": true,
+      "ResidualNorm": 6.072980473878224e-07,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.1684027882121139e-19,
+      "HingeGap": 2.0702000393829137e-11,
+      "RelativeEnergyBalanceError": 0.0008587407129423963,
+      "RelativeEnergyBeforeImpactAccounting": 0.0008587407129423963,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 7.0610155500361316e-09,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 14,
+      "Converged": true,
+      "ResidualNorm": 1.278581408020598e-08,
+      "NewtonIterations": 10,
+      "LineSearchCount": 0,
+      "InterfaceGap": 5.108478462140932e-24,
+      "HingeGap": 1.7315905386883828e-18,
+      "RelativeEnergyBalanceError": 8.918325294196561e-05,
+      "RelativeEnergyBeforeImpactAccounting": 0.22668890885284135,
+      "NonsmoothImpactDissipation": 0.22659972535317235,
+      "BilateralProjectionDissipation": 2.4672702769734656e-10,
+      "ImpactEventCount": 2,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 15,
+      "Converged": true,
+      "ResidualNorm": 2.968104636911321e-11,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 8.675376363945208e-22,
+      "HingeGap": 1.1397141284786773e-17,
+      "RelativeEnergyBalanceError": 0.00012375247392686816,
+      "RelativeEnergyBeforeImpactAccounting": 0.00012375247392686816,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 16,
+      "Converged": true,
+      "ResidualNorm": 7.528672675060022e-11,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.318187292596059e-22,
+      "HingeGap": 2.2136539287990733e-17,
+      "RelativeEnergyBalanceError": 0.00017808082639338927,
+      "RelativeEnergyBeforeImpactAccounting": 0.00017808082639338927,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 17,
+      "Converged": true,
+      "ResidualNorm": 6.623766214135956e-13,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.5606523421904902e-23,
+      "HingeGap": 2.7634592186183808e-17,
+      "RelativeEnergyBalanceError": 0.00011400459521761027,
+      "RelativeEnergyBeforeImpactAccounting": 0.00011400459521761027,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "deployment",
+      "Step": 18,
+      "Converged": true,
+      "ResidualNorm": 4.688147686866242e-10,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.1253995078241909e-21,
+      "HingeGap": 8.454775050129388e-17,
+      "RelativeEnergyBalanceError": 2.4078701730494044e-06,
+      "RelativeEnergyBeforeImpactAccounting": 2.4078701730494044e-06,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 1,
+      "Converged": true,
+      "ResidualNorm": 4.624971643681313e-08,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.6776033180901114e-21,
+      "HingeGap": 1.0326124395129837e-20,
+      "RelativeEnergyBalanceError": 0.00031307460457630145,
+      "RelativeEnergyBeforeImpactAccounting": 0.00031307460457630145,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 2,
+      "Converged": true,
+      "ResidualNorm": 1.240168089308623e-06,
+      "NewtonIterations": 2,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.7514519490606666e-20,
+      "HingeGap": 1.0164395367051604e-20,
+      "RelativeEnergyBalanceError": 0.004031817263667567,
+      "RelativeEnergyBeforeImpactAccounting": 0.004031817263667567,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 3,
+      "Converged": true,
+      "ResidualNorm": 1.2752737274512453e-12,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.710505431213761e-20,
+      "HingeGap": 1.4626398577092768e-18,
+      "RelativeEnergyBalanceError": 0.012332334620120036,
+      "RelativeEnergyBeforeImpactAccounting": 0.012332334620120036,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 4,
+      "Converged": true,
+      "ResidualNorm": 7.03590167779809e-13,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.168404344971008e-19,
+      "HingeGap": 2.224383485773838e-20,
+      "RelativeEnergyBalanceError": 0.017239681687302336,
+      "RelativeEnergyBeforeImpactAccounting": 0.017239681687302336,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 5,
+      "Converged": true,
+      "ResidualNorm": 1.9564489702175096e-11,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.032437295724416e-22,
+      "HingeGap": 4.7503403207231374e-18,
+      "RelativeEnergyBalanceError": 0.008578360918535064,
+      "RelativeEnergyBeforeImpactAccounting": 0.008578360918535064,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 6,
+      "Converged": true,
+      "ResidualNorm": 1.1571937778491229e-10,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.2737521600531557e-21,
+      "HingeGap": 4.3386065102880436e-18,
+      "RelativeEnergyBalanceError": 0.00239790780802834,
+      "RelativeEnergyBeforeImpactAccounting": 0.00239790780802834,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 7,
+      "Converged": true,
+      "ResidualNorm": 7.196638028577613e-12,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 8.673617379884035e-19,
+      "HingeGap": 2.1691793852024192e-18,
+      "RelativeEnergyBalanceError": 0.0011182317203451743,
+      "RelativeEnergyBeforeImpactAccounting": 0.0011182317203451743,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 8,
+      "Converged": true,
+      "ResidualNorm": 3.1922417488528757e-13,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.734723475976807e-18,
+      "HingeGap": 1.734723475976807e-18,
+      "RelativeEnergyBalanceError": 0.000340620674106981,
+      "RelativeEnergyBeforeImpactAccounting": 0.000340620674106981,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 9,
+      "Converged": true,
+      "ResidualNorm": 1.7794421357348006e-12,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 4.336808689942018e-19,
+      "HingeGap": 1.0825334257104997e-18,
+      "RelativeEnergyBalanceError": 0.0006637239169347025,
+      "RelativeEnergyBeforeImpactAccounting": 0.0006637239169347025,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 10,
+      "Converged": true,
+      "ResidualNorm": 1.8573111511074795e-12,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.522623030383978e-23,
+      "HingeGap": 1.3227447834976262e-22,
+      "RelativeEnergyBalanceError": 0.0026233611166993735,
+      "RelativeEnergyBeforeImpactAccounting": 0.0026233611166993735,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 11,
+      "Converged": true,
+      "ResidualNorm": 2.327461973156414e-13,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.168404344971009e-19,
+      "HingeGap": 1.5317098614649662e-19,
+      "RelativeEnergyBalanceError": 0.0024052156878303895,
+      "RelativeEnergyBeforeImpactAccounting": 0.0024052156878303895,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 12,
+      "Converged": true,
+      "ResidualNorm": 2.710869064787358e-12,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.4473705001658272e-22,
+      "HingeGap": 2.26184075353172e-17,
+      "RelativeEnergyBalanceError": 0.0003866102104129816,
+      "RelativeEnergyBeforeImpactAccounting": 0.0003866102104129816,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 1.9938738160529823e-12,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 13,
+      "Converged": true,
+      "ResidualNorm": 5.279260646373615e-10,
+      "NewtonIterations": 8,
+      "LineSearchCount": 0,
+      "InterfaceGap": 7.002136299206726e-21,
+      "HingeGap": 2.936157868417222e-16,
+      "RelativeEnergyBalanceError": 0.003947942266962426,
+      "RelativeEnergyBeforeImpactAccounting": 0.003970781983732997,
+      "NonsmoothImpactDissipation": 2.28396711799278e-05,
+      "BilateralProjectionDissipation": 4.559064237241728e-11,
+      "ImpactEventCount": 1,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 14,
+      "Converged": true,
+      "ResidualNorm": 3.1185336106000217e-11,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 4.2201507446341865e-22,
+      "HingeGap": 1.3817389378731223e-17,
+      "RelativeEnergyBalanceError": 0.019401817819797103,
+      "RelativeEnergyBeforeImpactAccounting": 0.0194018178197953,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 1.8041124150158794e-15,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 15,
+      "Converged": true,
+      "ResidualNorm": 5.153624164597011e-11,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.3788999035192621e-17,
+      "HingeGap": 1.635597658070736e-17,
+      "RelativeEnergyBalanceError": 0.012821852315439681,
+      "RelativeEnergyBeforeImpactAccounting": 0.012821852315439681,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 16,
+      "Converged": true,
+      "ResidualNorm": 2.504558232666603e-10,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.734723475976807e-18,
+      "HingeGap": 1.3782805419669026e-17,
+      "RelativeEnergyBalanceError": 0.00027490093311026756,
+      "RelativeEnergyBeforeImpactAccounting": 0.00027490093311026756,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 17,
+      "Converged": true,
+      "ResidualNorm": 2.491938978872097e-09,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 3.8842969286260945e-21,
+      "HingeGap": 1.6065112322419477e-16,
+      "RelativeEnergyBalanceError": 0.006057052573040898,
+      "RelativeEnergyBeforeImpactAccounting": 0.006057052573040898,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 18,
+      "Converged": true,
+      "ResidualNorm": 1.7092110240468187e-09,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 3.209517075482871e-21,
+      "HingeGap": 1.3827944009347638e-17,
+      "RelativeEnergyBalanceError": 0.00022488795288200171,
+      "RelativeEnergyBeforeImpactAccounting": 0.00022488795288200171,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 19,
+      "Converged": true,
+      "ResidualNorm": 1.1192598817972554e-10,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 3.3803630108010292e-21,
+      "HingeGap": 1.3848343428794458e-17,
+      "RelativeEnergyBalanceError": 0.0071828081164475675,
+      "RelativeEnergyBeforeImpactAccounting": 0.0071828081164475675,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 20,
+      "Converged": true,
+      "ResidualNorm": 2.3703582732570795e-09,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 5.421010862427522e-20,
+      "HingeGap": 1.8997135305657618e-14,
+      "RelativeEnergyBalanceError": 0.007006941763853635,
+      "RelativeEnergyBeforeImpactAccounting": 0.007006941763853635,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 1.1076282946387295e-10,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 21,
+      "Converged": true,
+      "ResidualNorm": 1.4260128405177586e-08,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 5.257701343376707e-21,
+      "HingeGap": 2.5361396041279347e-15,
+      "RelativeEnergyBalanceError": 0.005723845604741798,
+      "RelativeEnergyBeforeImpactAccounting": 0.005723845604741798,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 3.5331414530159755e-10,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 22,
+      "Converged": true,
+      "ResidualNorm": 1.0871667386596004e-08,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.3010426069826053e-18,
+      "HingeGap": 4.939908461146489e-15,
+      "RelativeEnergyBalanceError": 0.002441367956255131,
+      "RelativeEnergyBeforeImpactAccounting": 0.002441367956255131,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 3.861353389811306e-10,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 23,
+      "Converged": true,
+      "ResidualNorm": 1.2139303340986637e-07,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.4237083482216583e-20,
+      "HingeGap": 6.7098661217504976e-15,
+      "RelativeEnergyBalanceError": 0.0002825223901319334,
+      "RelativeEnergyBeforeImpactAccounting": 0.0002825223901319334,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 3.768398787462601e-11,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 24,
+      "Converged": true,
+      "ResidualNorm": 1.6102051097483655e-07,
+      "NewtonIterations": 10,
+      "LineSearchCount": 0,
+      "InterfaceGap": 4.58499789384162e-20,
+      "HingeGap": 4.793443404466887e-13,
+      "RelativeEnergyBalanceError": 0.00030681902431584605,
+      "RelativeEnergyBeforeImpactAccounting": 0.013275733487103402,
+      "NonsmoothImpactDissipation": 0.012968914298043303,
+      "BilateralProjectionDissipation": 1.647442529617571e-10,
+      "ImpactEventCount": 2,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 25,
+      "Converged": true,
+      "ResidualNorm": 4.3083552302284996e-08,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 4.336808689942018e-19,
+      "HingeGap": 1.6999332251297284e-15,
+      "RelativeEnergyBalanceError": 0.011443344279002175,
+      "RelativeEnergyBeforeImpactAccounting": 0.011443344279026975,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 2.4799606812564434e-14,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 26,
+      "Converged": true,
+      "ResidualNorm": 9.217665545605552e-09,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 3.6819554090993315e-20,
+      "HingeGap": 1.2908563372737566e-16,
+      "RelativeEnergyBalanceError": 0.029966997381079698,
+      "RelativeEnergyBeforeImpactAccounting": 0.029966997381079698,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 27,
+      "Converged": true,
+      "ResidualNorm": 8.21163114363038e-07,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 8.673617379884035e-19,
+      "HingeGap": 1.24620795157975e-13,
+      "RelativeEnergyBalanceError": 0.0136981062272601,
+      "RelativeEnergyBeforeImpactAccounting": 0.0136981062272601,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 28,
+      "Converged": true,
+      "ResidualNorm": 1.50429765021371e-06,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.8227655197224226e-19,
+      "HingeGap": 1.7810459650755889e-13,
+      "RelativeEnergyBalanceError": 0.0057953385055060334,
+      "RelativeEnergyBeforeImpactAccounting": 0.0057953385055060334,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 29,
+      "Converged": true,
+      "ResidualNorm": 4.640608422085509e-08,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 6.938893903907228e-18,
+      "HingeGap": 5.717470060234364e-15,
+      "RelativeEnergyBalanceError": 0.002140584282492558,
+      "RelativeEnergyBeforeImpactAccounting": 0.002140584282492558,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 30,
+      "Converged": true,
+      "ResidualNorm": 6.666657819591557e-13,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "InterfaceGap": 8.673617379884035e-19,
+      "HingeGap": 1.3042292338499743e-17,
+      "RelativeEnergyBalanceError": 0.0059064274804896495,
+      "RelativeEnergyBeforeImpactAccounting": 0.0059064274804896495,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 31,
+      "Converged": true,
+      "ResidualNorm": 1.6322134009669505e-09,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "InterfaceGap": 6.922959751447113e-18,
+      "HingeGap": 1.3718828425608084e-17,
+      "RelativeEnergyBalanceError": 0.017640359171256607,
+      "RelativeEnergyBeforeImpactAccounting": 0.017640359171256607,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 32,
+      "Converged": true,
+      "ResidualNorm": 6.020461535705584e-07,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.7610145627587296e-19,
+      "HingeGap": 1.4533695759993985e-14,
+      "RelativeEnergyBalanceError": 0.001081988088207784,
+      "RelativeEnergyBeforeImpactAccounting": 0.0010819880882077771,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": -6.938893903907228e-18,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 33,
+      "Converged": true,
+      "ResidualNorm": 2.6342329080187877e-07,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.6930034384209673e-19,
+      "HingeGap": 5.160121856821545e-13,
+      "RelativeEnergyBalanceError": 0.00574476825262572,
+      "RelativeEnergyBeforeImpactAccounting": 0.00574476825262572,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 34,
+      "Converged": true,
+      "ResidualNorm": 4.502119976736857e-13,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.2504115336627424e-22,
+      "HingeGap": 6.378911736970456e-18,
+      "RelativeEnergyBalanceError": 0.008606692222159705,
+      "RelativeEnergyBeforeImpactAccounting": 0.008606692222159698,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 6.938893903907228e-18,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 35,
+      "Converged": true,
+      "ResidualNorm": 7.167419028654475e-11,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "InterfaceGap": 2.4244342044729227e-22,
+      "HingeGap": 2.187310427677607e-18,
+      "RelativeEnergyBalanceError": 0.0017708354741515172,
+      "RelativeEnergyBeforeImpactAccounting": 0.0017708354741515172,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 36,
+      "Converged": true,
+      "ResidualNorm": 8.764601476701737e-07,
+      "NewtonIterations": 3,
+      "LineSearchCount": 0,
+      "InterfaceGap": 5.928200250388584e-20,
+      "HingeGap": 1.2962320564986309e-14,
+      "RelativeEnergyBalanceError": 0.012109407954210944,
+      "RelativeEnergyBeforeImpactAccounting": 0.012109407954210944,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 37,
+      "Converged": true,
+      "ResidualNorm": 7.6262132998783e-10,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "InterfaceGap": 8.764985420825186e-22,
+      "HingeGap": 9.173535894473842e-18,
+      "RelativeEnergyBalanceError": 0.014206379013974032,
+      "RelativeEnergyBeforeImpactAccounting": 0.014206379013974032,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 38,
+      "Converged": true,
+      "ResidualNorm": 2.9316073167898073e-07,
+      "NewtonIterations": 5,
+      "LineSearchCount": 0,
+      "InterfaceGap": 3.8179982483749814e-20,
+      "HingeGap": 1.3558146960907202e-19,
+      "RelativeEnergyBalanceError": 0.012996330499134557,
+      "RelativeEnergyBeforeImpactAccounting": 0.012996330499134557,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 39,
+      "Converged": true,
+      "ResidualNorm": 7.055687331128244e-09,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "InterfaceGap": 7.424406578492387e-21,
+      "HingeGap": 1.7163211233837648e-18,
+      "RelativeEnergyBalanceError": 0.01011636419289329,
+      "RelativeEnergyBeforeImpactAccounting": 0.01011636419289329,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 0.0,
+      "ImpactEventCount": 0,
+      "PersistentContact": true,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    },
+    {
+      "Phase": "flight-load-replay",
+      "Step": 40,
+      "Converged": true,
+      "ResidualNorm": 8.252173007190918e-13,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "InterfaceGap": 1.0978716004833566e-22,
+      "HingeGap": 1.734723475976807e-18,
+      "RelativeEnergyBalanceError": 0.021174319653558888,
+      "RelativeEnergyBeforeImpactAccounting": 0.021174319653558888,
+      "NonsmoothImpactDissipation": 0.0,
+      "BilateralProjectionDissipation": 6.894510073962579e-09,
+      "ImpactEventCount": 0,
+      "PersistentContact": false,
+      "IntegrationMode": "event-resolved-impulse-Newmark-v1"
+    }
+  ],
+  "CouplingMode": "one-way-prescribed-flight-load-replay",
+  "TwoWayAeroelasticCoupling": false,
+  "QualificationLevel": "ResearchBaseline",
+  "RealKernelQualified": false,
+  "PhysicalValidation": false,
+  "Passed": true,
+  "ClaimBoundary": "The new rod-shell state is solved monolithically under a replayed legacy lift history. The aerodynamic and six-DoF body trajectories are prescribed and receive no feedback from the full-DoF structure.",
+  "Outputs": {
+    "VideoSha256": "5209010B72E32715A7CC409E36AF763B28158B5435CB1D4F9B400F11AC574DDD"
+  }
+}

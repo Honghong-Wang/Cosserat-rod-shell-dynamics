@@ -1,0 +1,7 @@
+EvidenceClass,BaselineExecuted,Dimension,Requested,Executed,Missing,DimensionComplete,PhysicalMatrixComplete
+independent-layered-q2-plus-production-baseline,True,WidthRatio,"[0.025,0.04,0.1,0.2]",[0.04],"[0.025,0.1,0.2]",False,False
+independent-layered-q2-plus-production-baseline,True,CurvatureWidthProduct,"[0.0,0.008,0.15,0.3]",[0.008],"[0.0,0.15,0.3]",False,False
+independent-layered-q2-plus-production-baseline,True,EccentricityRatio,"[0.0,0.25,0.4,0.5]",[0.4],"[0.0,0.25,0.5]",False,False
+independent-layered-q2-plus-production-baseline,True,ShellToRodMeshRatio,"[1.5,1.125,2.0,0.5]",[1.125],"[1.5,2.0,0.5]",False,False
+independent-layered-q2-plus-production-baseline,True,StiffnessRatio,"[1.0,5.0,20.0]",[5.0],"[1.0,20.0]",False,False
+independent-layered-q2-plus-production-baseline,True,Geometry,"[""flat"",""single-curvature"",""double-curvature""]","[""single-curvature""]","[""flat"",""double-curvature""]",False,False

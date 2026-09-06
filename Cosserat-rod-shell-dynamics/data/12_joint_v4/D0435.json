@@ -1,0 +1,37 @@
+{
+  "Version": "1.0",
+  "Rows": [
+    {
+      "Id": "q2-width-8",
+      "Kind": "q2",
+      "Mesh": [
+        48,
+        6,
+        8,
+        4,
+        4
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    },
+    {
+      "Id": "q2-width-12",
+      "Kind": "q2",
+      "Mesh": [
+        48,
+        6,
+        12,
+        4,
+        4
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    }
+  ],
+  "RunnerHash": "cda5c100184c7cc998a0d333cea576fe2adc6f18e133fcbd64d2812dea383057",
+  "Purpose": "width-only refinement after full averaged-profile change failed the original 10 percent gate",
+  "PrimaryProfileChangeGate": 0.1,
+  "LowOrderChangeGate": 0.05,
+  "ThresholdChanged": false,
+  "CurrentCommitEvidenceEligible": false
+}

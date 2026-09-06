@@ -1,0 +1,28 @@
+{
+  "SelectedRows": [
+    "q2-48x6x6x2x2",
+    "q2-48x6x6x4x4",
+    "legacy-support-control"
+  ],
+  "Results": [
+    {
+      "Id": "q2-48x6x6x2x2",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 128.2164668000005
+    },
+    {
+      "Id": "q2-48x6x6x4x4",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 281.8344999999972
+    },
+    {
+      "Id": "legacy-support-control",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 8.453229599999759
+    }
+  ],
+  "CurrentCommitEvidenceEligible": false
+}

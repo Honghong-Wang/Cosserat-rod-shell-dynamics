@@ -1,0 +1,942 @@
+{
+  "Version": "1.1-distinct-profile-and-macro-event-gates",
+  "Inventory": [
+    {
+      "Id": "wing-m1-h20-nm",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h20-ga",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h20-rdg",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h10-nm",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h10-ga",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h10-rdg",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h05-nm",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h05-ga",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m1-h05-rdg",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m2-h10-rdg",
+      "Kind": "wing",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "wing-m2-h05-rdg",
+      "Kind": "wing",
+      "Status": "budget-incomplete",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": 0.09000000000000001
+    },
+    {
+      "Id": "wing-m3-h10-rdg",
+      "Kind": "wing",
+      "Status": "budget-incomplete",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": 0.20000000000000004
+    },
+    {
+      "Id": "wing-m3-h05-rdg",
+      "Kind": "wing",
+      "Status": "budget-incomplete",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": 0.04
+    },
+    {
+      "Id": "q2-18x3x3x2x2",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "q2-24x3x3x2x2",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "q2-36x4x4x2x2",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "q2-48x6x6x2x2",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "q2-48x6x6x4x4",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "current-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "section-deformable",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "section-rigid-rib-sections",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "legacy-support-control",
+      "Kind": "q2",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "production-r8-s9-w6",
+      "Kind": "production",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Kind": "production",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Kind": "production",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Kind": "production",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Kind": "production",
+      "Status": "completed",
+      "SourceEpoch": "archived-reference-study",
+      "LastCheckpointTime": null
+    }
+  ],
+  "CurrentWorktreeSourceMatches": true,
+  "ObservedUtc": "2026-09-06T05:28:50.227664+00:00",
+  "ReferenceArchiveIntegrity": true,
+  "ReferenceSourceEpochRelabelled": false,
+  "SourceClosureHash": "54db4e556c2d9dbfbacdd012966344dce6d7bce5c6f2e2cee9a3720c87c44ec1",
+  "Temporal": {
+    "newmark": {
+      "ThreeLevelsComplete": true,
+      "SamePhysicalModel": true,
+      "FirstImpactTimes": [
+        0.20502772519895182,
+        0.2071161261850369,
+        0.20760233275034182
+      ],
+      "FirstImpactSelfOrder": 2.10275746550616,
+      "MacroEventSignatures": [
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ],
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ],
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ]
+      ],
+      "MacroSignatureEqual": false,
+      "MaximumMacroEventTimeChanges": [],
+      "MacroSequenceSelfConsistencyPassed": false,
+      "EventSequenceConverged": false,
+      "UnresolvedImpactTailPresent": true,
+      "NoUniformSecondOrderClaim": true,
+      "MicroscopicImpactCountsNotIdentifiedWithMacroEvents": true
+    },
+    "generalized-alpha": {
+      "ThreeLevelsComplete": true,
+      "SamePhysicalModel": true,
+      "FirstImpactTimes": [
+        0.20590909219944564,
+        0.2075894872195379,
+        0.20761754524621184
+      ],
+      "FirstImpactSelfOrder": 5.904243057718352,
+      "MacroEventSignatures": [
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ],
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ],
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ]
+      ],
+      "MacroSignatureEqual": false,
+      "MaximumMacroEventTimeChanges": [],
+      "MacroSequenceSelfConsistencyPassed": false,
+      "EventSequenceConverged": false,
+      "UnresolvedImpactTailPresent": true,
+      "NoUniformSecondOrderClaim": true,
+      "MicroscopicImpactCountsNotIdentifiedWithMacroEvents": true
+    },
+    "rattle-discrete-gradient": {
+      "ThreeLevelsComplete": true,
+      "SamePhysicalModel": true,
+      "FirstImpactTimes": [
+        0.20500417354988962,
+        0.20706742609578707,
+        0.2075905947594245
+      ],
+      "FirstImpactSelfOrder": 1.9795723854772602,
+      "MacroEventSignatures": [
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment",
+          "impact-cluster"
+        ],
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ],
+        [
+          "release",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment",
+          "impact-cluster",
+          "accumulated-tail",
+          "persistent-contact",
+          "detachment"
+        ]
+      ],
+      "MacroSignatureEqual": false,
+      "MaximumMacroEventTimeChanges": [],
+      "MacroSequenceSelfConsistencyPassed": false,
+      "EventSequenceConverged": false,
+      "UnresolvedImpactTailPresent": true,
+      "NoUniformSecondOrderClaim": true,
+      "MicroscopicImpactCountsNotIdentifiedWithMacroEvents": true
+    }
+  },
+  "Spatial": [
+    {
+      "Dt": 0.01,
+      "Coarse": [
+        1,
+        1
+      ],
+      "Fine": [
+        2,
+        2
+      ],
+      "HingeTrajectoryRelativeL2Change": 0.08044782945831963,
+      "FirstImpactTimeChange": 0.014289825944302587,
+      "SameMacroSignature": false
+    }
+  ],
+  "WingRows": [
+    {
+      "Id": "wing-m1-h20-nm",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "newmark",
+      "Dt": 0.02,
+      "FirstImpact": 0.20502772519895182,
+      "Detachments": "0.31078371",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.008737096296539883,
+      "AccountedEnergyResidual": 0.00873539701942825,
+      "AngularResidual": 0.0020849093751040926,
+      "LinearResidual": 0.00011705758118026567,
+      "StopViolationRad": 0.0,
+      "Constraint": 5.3361167681684626e-14,
+      "NewtonIterations": 220,
+      "Runtime": 865.0579610000023,
+      "LastInvocationRuntime": 161.45179690000077,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h20-ga",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "generalized-alpha",
+      "Dt": 0.02,
+      "FirstImpact": 0.20590909219944564,
+      "Detachments": "0.314234018",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.03581084837585881,
+      "AccountedEnergyResidual": 0.03578345302951388,
+      "AngularResidual": 0.005690588921559435,
+      "LinearResidual": 0.07211916835872545,
+      "StopViolationRad": 5.1831369057842025e-12,
+      "Constraint": 5.5629740503013295e-14,
+      "NewtonIterations": 188,
+      "Runtime": 777.8615920999982,
+      "LastInvocationRuntime": 149.6782899000009,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h20-rdg",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "rattle-discrete-gradient",
+      "Dt": 0.02,
+      "FirstImpact": 0.20500417354988962,
+      "Detachments": "0.310855611",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment>impact-cluster",
+      "PhysicalEnergyResidual": 0.004060376387441246,
+      "AccountedEnergyResidual": 3.378846423176801e-12,
+      "AngularResidual": 0.011067253763708755,
+      "LinearResidual": 0.08099326843389676,
+      "StopViolationRad": 3.196685971484925e-12,
+      "Constraint": 5.374702426346309e-13,
+      "NewtonIterations": 232,
+      "Runtime": 1045.6934635000016,
+      "LastInvocationRuntime": 218.13611889999993,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h10-nm",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "newmark",
+      "Dt": 0.01,
+      "FirstImpact": 0.2071161261850369,
+      "Detachments": "0.299070478;0.349549718",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.0025259105490332005,
+      "AccountedEnergyResidual": 0.0025251008156035363,
+      "AngularResidual": 0.0005396149236266399,
+      "LinearResidual": 4.1430527491137075e-05,
+      "StopViolationRad": 1.9081958235744878e-17,
+      "Constraint": 1.2068593430726244e-15,
+      "NewtonIterations": 331,
+      "Runtime": 1089.8986334999972,
+      "LastInvocationRuntime": 484.9618002999996,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h10-ga",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "generalized-alpha",
+      "Dt": 0.01,
+      "FirstImpact": 0.2075894872195379,
+      "Detachments": "0.300390023;0.350696337",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.018067036713926555,
+      "AccountedEnergyResidual": 0.01805921540071218,
+      "AngularResidual": 0.0018187145631826153,
+      "LinearResidual": 0.02271536833142072,
+      "StopViolationRad": 0.0,
+      "Constraint": 8.482219276052309e-14,
+      "NewtonIterations": 301,
+      "Runtime": 1048.8338483999996,
+      "LastInvocationRuntime": 443.34913659999984,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h10-rdg",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "rattle-discrete-gradient",
+      "Dt": 0.01,
+      "FirstImpact": 0.20706742609578707,
+      "Detachments": "0.299213924;0.349169928",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.002099169070406681,
+      "AccountedEnergyResidual": 5.256879266550878e-13,
+      "AngularResidual": 0.0029162743283474993,
+      "LinearResidual": 0.025691174003299233,
+      "StopViolationRad": 0.0,
+      "Constraint": 2.76622452903357e-15,
+      "NewtonIterations": 336,
+      "Runtime": 1319.758084399995,
+      "LastInvocationRuntime": 598.8675896999994,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h05-nm",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "newmark",
+      "Dt": 0.005,
+      "FirstImpact": 0.20760233275034182,
+      "Detachments": "0.296058035;0.343121279",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.0007841390039888589,
+      "AccountedEnergyResidual": 0.0007840393738923251,
+      "AngularResidual": 0.00011431260013943013,
+      "LinearResidual": 8.702625920329079e-06,
+      "StopViolationRad": 2.3080108570855407e-11,
+      "Constraint": 7.388728029973121e-16,
+      "NewtonIterations": 383,
+      "Runtime": 1277.2908019000024,
+      "LastInvocationRuntime": 614.1090138,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h05-ga",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "generalized-alpha",
+      "Dt": 0.005,
+      "FirstImpact": 0.20761754524621184,
+      "Detachments": "0.296560992;0.343459581",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.0036325221862538067,
+      "AccountedEnergyResidual": 0.0036310722669003212,
+      "AngularResidual": 0.00047832197256304017,
+      "LinearResidual": 0.006551312868910484,
+      "StopViolationRad": 0.0,
+      "Constraint": 1.7686004617345413e-12,
+      "NewtonIterations": 355,
+      "Runtime": 1229.0984193000022,
+      "LastInvocationRuntime": 619.6609162999994,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m1-h05-rdg",
+      "Mesh": "1x1",
+      "QDoF": 73,
+      "Method": "rattle-discrete-gradient",
+      "Dt": 0.005,
+      "FirstImpact": 0.2075905947594245,
+      "Detachments": "0.296150886;0.34308778",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.0006520735782527601,
+      "AccountedEnergyResidual": 4.817826939256276e-13,
+      "AngularResidual": 0.0007403774870188607,
+      "LinearResidual": 0.0065402970845194475,
+      "StopViolationRad": 0.0,
+      "Constraint": 9.577659486212322e-16,
+      "NewtonIterations": 396,
+      "Runtime": 1549.3238717000004,
+      "LastInvocationRuntime": 791.3301039999988,
+      "ResumeCount": 1,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    },
+    {
+      "Id": "wing-m2-h10-rdg",
+      "Mesh": "2x2",
+      "QDoF": 145,
+      "Method": "rattle-discrete-gradient",
+      "Dt": 0.01,
+      "FirstImpact": 0.19277760015148449,
+      "Detachments": "0.296155871",
+      "MacroSequence": "release>impact-cluster>accumulated-tail>persistent-contact>detachment",
+      "PhysicalEnergyResidual": 0.0023304078400694503,
+      "AccountedEnergyResidual": 1.4782248672959408e-12,
+      "AngularResidual": 0.0013620309695231102,
+      "LinearResidual": 0.013897085795114783,
+      "StopViolationRad": 1.366962099069724e-15,
+      "Constraint": 1.2218310422171881e-14,
+      "NewtonIterations": 266,
+      "Runtime": 2088.321986700006,
+      "LastInvocationRuntime": 111.2688431000006,
+      "ResumeCount": 2,
+      "RuntimeScope": "cumulative-integration-wall-time; excludes preload and repeated startup",
+      "NumericalGatesPassed": true
+    }
+  ],
+  "ReferenceRows": [
+    {
+      "Id": "q2-18x3x3x2x2",
+      "DoF": 13653,
+      "Runtime": 9.063407699999516,
+      "SupportExtent": 0.0,
+      "ForceBalance": 1.957468520434321e-09,
+      "MomentBalance": 1.939422821716767e-09,
+      "TractionCoefficientNorm": 1.2797549438840479,
+      "MomentCoefficientNorm": 0.0363342779328346
+    },
+    {
+      "Id": "q2-24x3x3x2x2",
+      "DoF": 18081,
+      "Runtime": 10.325670000001992,
+      "SupportExtent": 0.0,
+      "ForceBalance": 2.1795645059598794e-09,
+      "MomentBalance": 1.7307773034919472e-09,
+      "TractionCoefficientNorm": 1.2895016931126062,
+      "MomentCoefficientNorm": 0.03606786504182679
+    },
+    {
+      "Id": "q2-36x4x4x2x2",
+      "DoF": 35259,
+      "Runtime": 48.34251039999799,
+      "SupportExtent": 0.0,
+      "ForceBalance": 1.322869981504448e-09,
+      "MomentBalance": 1.3698400626914095e-09,
+      "TractionCoefficientNorm": 1.2866231860977408,
+      "MomentCoefficientNorm": 0.03490578378611933
+    },
+    {
+      "Id": "q2-48x6x6x2x2",
+      "DoF": 68967,
+      "Runtime": 128.2164668000005,
+      "SupportExtent": 0.0,
+      "ForceBalance": 3.4114437929126077e-09,
+      "MomentBalance": 3.035661174906083e-09,
+      "TractionCoefficientNorm": 1.2743716273218253,
+      "MomentCoefficientNorm": 0.03384956766225427
+    },
+    {
+      "Id": "q2-48x6x6x4x4",
+      "DoF": 127167,
+      "Runtime": 329.2345864000017,
+      "SupportExtent": 0.0,
+      "ForceBalance": 2.8540834807466433e-09,
+      "MomentBalance": 2.3790059480764783e-09,
+      "TractionCoefficientNorm": 1.2662825070980934,
+      "MomentCoefficientNorm": 0.03353278730123613
+    }
+  ],
+  "ReferenceChanges": [
+    {
+      "Coarse": "q2-18x3x3x2x2",
+      "Fine": "q2-24x3x3x2x2",
+      "TractionChange": 0.05336283474166637,
+      "MomentChange": 0.051745561843338374,
+      "FullAveragedProfileChange": 0.05066391887313323,
+      "Interior80PercentProfileChange": 0.06169636541655147,
+      "InteriorDiagnosticSelectedAfterResults": true,
+      "InteriorDiagnosticReplacesPrimaryGate": false,
+      "SupportUnchanged": true
+    },
+    {
+      "Coarse": "q2-24x3x3x2x2",
+      "Fine": "q2-36x4x4x2x2",
+      "TractionChange": 0.06036055789158827,
+      "MomentChange": 0.0701418863032248,
+      "FullAveragedProfileChange": 0.34494978583063357,
+      "Interior80PercentProfileChange": 0.8724178702880534,
+      "InteriorDiagnosticSelectedAfterResults": true,
+      "InteriorDiagnosticReplacesPrimaryGate": false,
+      "SupportUnchanged": true
+    },
+    {
+      "Coarse": "q2-36x4x4x2x2",
+      "Fine": "q2-48x6x6x2x2",
+      "TractionChange": 0.032701651327966846,
+      "MomentChange": 0.04449433563062564,
+      "FullAveragedProfileChange": 0.42621165006055656,
+      "Interior80PercentProfileChange": 0.9193521876164958,
+      "InteriorDiagnosticSelectedAfterResults": true,
+      "InteriorDiagnosticReplacesPrimaryGate": false,
+      "SupportUnchanged": true
+    },
+    {
+      "Coarse": "q2-48x6x6x2x2",
+      "Fine": "q2-48x6x6x4x4",
+      "TractionChange": 0.0075093080876948255,
+      "MomentChange": 0.01052129634169079,
+      "FullAveragedProfileChange": 0.05416289800100502,
+      "Interior80PercentProfileChange": 0.06471114368177651,
+      "InteriorDiagnosticSelectedAfterResults": true,
+      "InteriorDiagnosticReplacesPrimaryGate": false,
+      "SupportUnchanged": true
+    }
+  ],
+  "ReferenceLowOrderQualified": true,
+  "ReferenceProfileQualified": false,
+  "ReferenceQualificationScope": "staged low-order Cauchy gate, not a certified pointwise error bound",
+  "ReferenceSourceBridge": {
+    "Completed": true,
+    "OldSourceRelabelled": false,
+    "Metrics": {
+      "Coarse": "q2-48x6x6x4x4",
+      "Fine": "q2-48x6x6x4x4",
+      "TractionChange": 0.0,
+      "MomentChange": 0.0,
+      "FullAveragedProfileChange": 0.0,
+      "Interior80PercentProfileChange": 0.0,
+      "InteriorDiagnosticSelectedAfterResults": true,
+      "InteriorDiagnosticReplacesPrimaryGate": false,
+      "SupportUnchanged": true
+    },
+    "AveragedProfileParityPassed": true
+  },
+  "WidthFollowup": {
+    "Completed": true,
+    "Changes": [
+      {
+        "Coarse": "q2-48x6x6x4x4",
+        "Fine": "q2-width-8",
+        "TractionChange": 0.00022889539214639447,
+        "MomentChange": 0.0022139866852325663,
+        "FullAveragedProfileChange": 0.34727801531940383,
+        "Interior80PercentProfileChange": 0.7142461852049287,
+        "InteriorDiagnosticSelectedAfterResults": true,
+        "InteriorDiagnosticReplacesPrimaryGate": false,
+        "SupportUnchanged": true
+      },
+      {
+        "Coarse": "q2-width-8",
+        "Fine": "q2-width-12",
+        "TractionChange": 0.00019778360617477784,
+        "MomentChange": 0.002163358435167884,
+        "FullAveragedProfileChange": 0.4442561396453819,
+        "Interior80PercentProfileChange": 0.5625808611085235,
+        "InteriorDiagnosticSelectedAfterResults": true,
+        "InteriorDiagnosticReplacesPrimaryGate": false,
+        "SupportUnchanged": true
+      }
+    ],
+    "Dofs": [
+      127167,
+      146955,
+      186531
+    ],
+    "Profiles": [
+      {
+        "Id": "q2-48x6x6x4x4",
+        "DoF": 127167,
+        "TractionRms": 1.8078621179736156,
+        "P1TractionRms": 1.1325577680917482,
+        "NonP1NormFraction": 0.6075447735106189,
+        "InterfaceMassCondition": 29.186802788495072,
+        "RawStressTraceMismatch": 1.8067267780137726,
+        "P1ConvergenceDoesNotQualifyFullProfile": true
+      },
+      {
+        "Id": "q2-width-8",
+        "DoF": 146955,
+        "TractionRms": 1.9164021549291186,
+        "P1TractionRms": 1.1324353152335291,
+        "NonP1NormFraction": 0.6508166655444871,
+        "InterfaceMassCondition": 29.177971422710364,
+        "RawStressTraceMismatch": 1.772663572723609,
+        "P1ConvergenceDoesNotQualifyFullProfile": true
+      },
+      {
+        "Id": "q2-width-12",
+        "DoF": 186531,
+        "TractionRms": 2.10383524173151,
+        "P1TractionRms": 1.1323162986046904,
+        "NonP1NormFraction": 0.7103242996332221,
+        "InterfaceMassCondition": 29.197373342903713,
+        "RawStressTraceMismatch": 1.7378583754267551,
+        "P1ConvergenceDoesNotQualifyFullProfile": true
+      }
+    ],
+    "Qualified": false,
+    "ThresholdChanged": false,
+    "ReplacesPrimaryMatrix": false
+  },
+  "CollectorHash": "49c4ef52f96b08120a5f3505ab28ce7a42c32afa37791a33727331991520a4a5",
+  "ProfileNorm": "common-refinement-exact-Q2-longitudinal-average-width-L2; not pointwise 3D stress",
+  "TractionAblations": [
+    {
+      "Id": "production-r8-s9-w6",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 3.5577732049409985,
+      "ResolvedErrorFraction": 0.9520021516480581,
+      "TransverseErrorFraction": 0.9326455084030129,
+      "ReconstructionClippedError": 2.859139057827587,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w6",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9810168248995577,
+      "ResolvedErrorFraction": 0.36871513461935684,
+      "TransverseErrorFraction": 0.16428205561044368,
+      "ReconstructionClippedError": 0.9786801615847593,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w6",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9756093544564161,
+      "ResolvedErrorFraction": 0.3616977467751963,
+      "TransverseErrorFraction": 0.166108221519489,
+      "ReconstructionClippedError": 0.9756093544564161,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 2.092874112748497,
+      "ResolvedErrorFraction": 0.8612950127133615,
+      "TransverseErrorFraction": 0.8173662852022977,
+      "ReconstructionClippedError": 1.7548461922613694,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9920661566570067,
+      "ResolvedErrorFraction": 0.3826989432826464,
+      "TransverseErrorFraction": 0.16064298716693962,
+      "ReconstructionClippedError": 0.9855739638695082,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9757961224103872,
+      "ResolvedErrorFraction": 0.36194206624779607,
+      "TransverseErrorFraction": 0.16604464118137946,
+      "ReconstructionClippedError": 0.9757961224103872,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 1.8226942311427063,
+      "ResolvedErrorFraction": 0.8171265529795886,
+      "TransverseErrorFraction": 0.7612897285088577,
+      "ReconstructionClippedError": 1.5577646196055215,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9754597546094401,
+      "ResolvedErrorFraction": 0.3615019473251704,
+      "TransverseErrorFraction": 0.16615917527729565,
+      "ReconstructionClippedError": 0.9754827338135064,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9758769622520219,
+      "ResolvedErrorFraction": 0.3620477729462768,
+      "TransverseErrorFraction": 0.16601713265920418,
+      "ReconstructionClippedError": 0.9758769622520219,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 2.090352540047529,
+      "ResolvedErrorFraction": 0.8609601738231348,
+      "TransverseErrorFraction": 0.8165933131346209,
+      "ReconstructionClippedError": 1.7530189476232285,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9810332864167439,
+      "ResolvedErrorFraction": 0.368736320076808,
+      "TransverseErrorFraction": 0.1642765424250498,
+      "ReconstructionClippedError": 0.9789646921184093,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.9753234572614262,
+      "ResolvedErrorFraction": 0.3613234800251715,
+      "TransverseErrorFraction": 0.16620561861296063,
+      "ReconstructionClippedError": 0.9753234572614262,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Stage": "finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 2.087317085181988,
+      "ResolvedErrorFraction": 0.8605554859108808,
+      "TransverseErrorFraction": 0.8161213152074528,
+      "ReconstructionClippedError": 1.7509883578402974,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileRelativeL2Error": 0.9918463363338917,
+      "ResolvedErrorFraction": 0.3824252913071833,
+      "TransverseErrorFraction": 0.1607142008321427,
+      "ReconstructionClippedError": 0.9858350704700022,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Stage": "constant-transverse-mode",
+      "ProfileRelativeL2Error": 0.976656307399232,
+      "ResolvedErrorFraction": 0.3630655037457489,
+      "TransverseErrorFraction": 0.16575228406712764,
+      "ReconstructionClippedError": 0.976656307399232,
+      "ReferenceLowOrderQualified": true,
+      "ProfileReferenceQualified": false
+    }
+  ],
+  "SectionRestriction": {
+    "Completed": true,
+    "SameSolidMeshDof": 35259,
+    "RestrictedDof": 25489,
+    "TractionCoefficientChange": 0.15612110708449634,
+    "MomentCoefficientChange": 0.827884823498999,
+    "SectionConstraintVirtualWorkDefect": 5.755327177293587e-13,
+    "FittedCoefficient": false,
+    "RigidSectionCauseUniquelyIdentified": false,
+    "Reason": "rigid restriction changes Poisson/transverse/warping modes together; not an additive attribution percentage",
+    "ReferenceLowOrderQualified": true,
+    "ReferenceProfileQualified": false,
+    "QualificationScope": "staged low-order coefficients only; not full traction accuracy"
+  },
+  "BoundaryControl": {
+    "Completed": true,
+    "SameMeshDof": 18081,
+    "TractionCoefficientChange": 0.8320642904615713,
+    "MomentCoefficientChange": 0.8937678849180497,
+    "HistoricalRefinementChangedSupport": true
+  },
+  "PointwiseTractionQualified": false,
+  "TractionCauseCompletelyClosed": false,
+  "SpaceTimeSequenceConverged": false,
+  "MechanismNecessityEstablished": false,
+  "CurrentCommitEvidenceEligible": false,
+  "AllFourScientificIssuesClosed": false
+}

@@ -1,0 +1,1614 @@
+{
+  "ResultKind": "rod-shell-p1-continuation-qualification-artifact",
+  "ContractVersion": "1.0",
+  "GeneratedOn": "2026-08-31T01:10:26.309270+00:00",
+  "SourceClosureHash": "37be98063f1619485eafba6e95347d498c6747bc8b65330eedbbd1211087bc4c",
+  "ConfigurationHash": "3c438ff57fb19c1e5617f4fe22448afb959c4409259782db4238cbf1d6a5973b",
+  "KernelContract": {
+    "rod": {
+      "reference_positions": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.85,
+          0.0,
+          0.0
+        ]
+      ],
+      "reference_frames": [
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "shear_extension_stiffness": [
+        1200.0,
+        380.0,
+        380.0
+      ],
+      "torsion_bending_stiffness": [
+        3.5,
+        17.0,
+        17.0
+      ],
+      "nodal_mass": 0.032,
+      "nodal_inertia": 0.00022,
+      "edge_stiffness_scale": [
+        1.0,
+        1.0
+      ],
+      "name": "cosserat-rod"
+    },
+    "shell": {
+      "reference_positions": [
+        [
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.85,
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.18,
+          0.0
+        ],
+        [
+          0.85,
+          0.18,
+          0.0
+        ]
+      ],
+      "reference_frames": [
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          3,
+          2
+        ]
+      ],
+      "membrane_lame_lambda": 300.0,
+      "membrane_shear_modulus": 190.0,
+      "transverse_shear_stiffness": 92.0,
+      "director_alignment_stiffness": 25.0,
+      "bending_stiffness": [
+        0.58,
+        0.58,
+        0.2
+      ],
+      "nodal_mass": 0.015,
+      "nodal_inertia": 0.0001,
+      "name": "cosserat-shell"
+    },
+    "interface": {
+      "rod_node_indices": [
+        2,
+        3
+      ],
+      "shell_node_indices": [
+        0,
+        1
+      ],
+      "rod_offsets": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "shell_offsets": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "coupling_method": "lagrange-multiplier",
+      "contract_version": "1.0",
+      "name": "rod-shell-interface"
+    },
+    "hinge": {
+      "left_rod_node": 1,
+      "right_rod_node": 2,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "spring_stiffness": 1.0,
+      "spring_equilibrium": 0.0,
+      "damping": 0.025,
+      "inertia": 0.008,
+      "lower_stop": -1.2,
+      "upper_stop": 1.2,
+      "cable_stiffness": 160.0,
+      "cable_moment_arm": 0.025,
+      "cable_rest_extension": 2.0,
+      "restitution": 0.05,
+      "fb_smoothing": 1e-10,
+      "name": "deployable-hinge-cable-stop"
+    },
+    "fixed_dofs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fixed_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "damping_scale": 0.001,
+    "qualification_level": "ResearchBaseline",
+    "contract_version": "1.0",
+    "name": "compact-bistable-rod-shell-continuation",
+    "ResultKind": "rod-shell-interface-spec",
+    "StateMap": {
+      "Rod": [
+        0,
+        24
+      ],
+      "Shell": [
+        24,
+        48
+      ],
+      "InterfaceMultiplier": [
+        49,
+        61
+      ],
+      "HingeCoordinate": [
+        48,
+        49
+      ],
+      "HingeMultiplier": [
+        61,
+        67
+      ],
+      "LowerStopMultiplier": [
+        67,
+        68
+      ],
+      "UpperStopMultiplier": [
+        68,
+        69
+      ],
+      "CableTension": [
+        69,
+        70
+      ]
+    },
+    "QDoFCount": 49,
+    "UnknownCount": 70,
+    "NodalDoF": 6,
+    "InterfaceDiscretization": "lagrange-multiplier",
+    "ResidualOperatorContract": "ResidualOperator-V2-compatible-reference",
+    "JacobianSource": "torch-double-autodiff",
+    "SparsityDeclared": true,
+    "Maturity": "ResearchBaseline",
+    "RealKernelQualified": false,
+    "ConfigurationHash": "3c438ff57fb19c1e5617f4fe22448afb959c4409259782db4238cbf1d6a5973b"
+  },
+  "BistableHingeBlock": {
+    "half_angle_rad": 0.65,
+    "quartic_stiffness": 3.2,
+    "center_angle_rad": 0.0,
+    "contract_version": "1.0"
+  },
+  "Continuation": {
+    "ResultKind": "pseudo-arclength-full-dof-rod-shell-path",
+    "ContractVersion": "1.0",
+    "Specification": {
+      "start_angle_rad": -0.95,
+      "end_angle_rad": 0.95,
+      "initial_arc_step": 0.14,
+      "minimum_arc_step": 0.025,
+      "maximum_arc_step": 0.19,
+      "maximum_points": 60,
+      "corrector_tolerance": 2e-08,
+      "maximum_corrector_iterations": 10,
+      "contract_version": "1.0"
+    },
+    "Rows": [
+      {
+        "Point": 0,
+        "HingeAngleRad": -0.95,
+        "LoadParameter": -1.4591999999999998,
+        "ResidualNorm": 2.163822393639008e-13,
+        "CorrectorIterations": 0,
+        "ArcStep": 0.0,
+        "LoadTangent": 0.935647174696459,
+        "MinimumConstrainedEigenvalue": 287.3534676830983,
+        "SecondConstrainedEigenvalue": 572.1336215077127,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.29287020606282704
+      },
+      {
+        "Point": 1,
+        "HingeAngleRad": -0.9317231158321844,
+        "LoadParameter": -1.3285863714408392,
+        "ResidualNorm": 1.4164069817906848e-08,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.14,
+        "LoadTangent": 0.9300559366570881,
+        "MinimumConstrainedEigenvalue": 276.3207752572962,
+        "SecondConstrainedEigenvalue": 577.389547266379,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.2960705270872701
+      },
+      {
+        "Point": 2,
+        "HingeAngleRad": -0.9091569112390192,
+        "LoadParameter": -1.1755509103157828,
+        "ResidualNorm": 1.913771925628119e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.9223171771841403,
+        "MinimumConstrainedEigenvalue": 262.7903398663212,
+        "SecondConstrainedEigenvalue": 584.1377847322677,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.29991730368753544
+      },
+      {
+        "Point": 3,
+        "HingeAngleRad": -0.8853794350573466,
+        "LoadParameter": -1.0239143841733618,
+        "ResidualNorm": 4.8283494756717946e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.9130176275535294,
+        "MinimumConstrainedEigenvalue": 248.65330235003935,
+        "SecondConstrainedEigenvalue": 591.5549503480639,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3038502917914744
+      },
+      {
+        "Point": 4,
+        "HingeAngleRad": -0.8602279434462811,
+        "LoadParameter": -0.8739698844050944,
+        "ResidualNorm": 2.2823143304870156e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.9016914119169718,
+        "MinimumConstrainedEigenvalue": 233.84596072846236,
+        "SecondConstrainedEigenvalue": 599.7391747820473,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3078810972607071
+      },
+      {
+        "Point": 5,
+        "HingeAngleRad": -0.8335056515296094,
+        "LoadParameter": -0.7261012365238533,
+        "ResidualNorm": 1.0406733356843724e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.8876871997887873,
+        "MinimumConstrainedEigenvalue": 218.29488764804992,
+        "SecondConstrainedEigenvalue": 608.8097455646281,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.31202253821551834
+      },
+      {
+        "Point": 6,
+        "HingeAngleRad": -0.8049728702782163,
+        "LoadParameter": -0.5808203099873573,
+        "ResidualNorm": 1.9069078114016283e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.870077017466891,
+        "MinimumConstrainedEigenvalue": 201.9158691947921,
+        "SecondConstrainedEigenvalue": 618.9125573726966,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3162887213804938
+      },
+      {
+        "Point": 7,
+        "HingeAngleRad": -0.7743361596013288,
+        "LoadParameter": -0.4388230862336365,
+        "ResidualNorm": 4.0724942027894427e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.8475144162823252,
+        "MinimumConstrainedEigenvalue": 184.61362719754663,
+        "SecondConstrainedEigenvalue": 630.2267025631861,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.32069488152843634
+      },
+      {
+        "Point": 8,
+        "HingeAngleRad": -0.7412361645841908,
+        "LoadParameter": -0.3010748349422699,
+        "ResidualNorm": 1.2286248737231592e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.8180159035019343,
+        "MinimumConstrainedEigenvalue": 166.2836752400819,
+        "SecondConstrainedEigenvalue": 642.9716687859934,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3252566855275222
+      },
+      {
+        "Point": 9,
+        "HingeAngleRad": -0.7052370650499186,
+        "LoadParameter": -0.16893941011733538,
+        "ResidualNorm": 3.8591174098661734e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.7786388215935427,
+        "MinimumConstrainedEigenvalue": 146.81928977904187,
+        "SecondConstrainedEigenvalue": 657.4130635784703,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3299883727498606
+      },
+      {
+        "Point": 10,
+        "HingeAngleRad": -0.6658264126597967,
+        "LoadParameter": -0.04437027114219551,
+        "ResidualNorm": 1.408249928384248e-12,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.7250683276887262,
+        "MinimumConstrainedEigenvalue": 126.12989648538023,
+        "SecondConstrainedEigenvalue": 673.8608440887535,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.33489846332533485
+      },
+      {
+        "Point": 11,
+        "HingeAngleRad": -0.6224474999002397,
+        "LoadParameter": 0.06983185691666949,
+        "ResidualNorm": 4.676483717013626e-12,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.6513125374941423,
+        "MinimumConstrainedEigenvalue": 104.18306469967631,
+        "SecondConstrainedEigenvalue": 692.6450610803582,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.33998070647126827
+      },
+      {
+        "Point": 12,
+        "HingeAngleRad": -0.5746104765873674,
+        "LoadParameter": 0.16975887430928588,
+        "ResidualNorm": 1.1258824435704324e-11,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.5502746452370253,
+        "MinimumConstrainedEigenvalue": 81.08888719596948,
+        "SecondConstrainedEigenvalue": 714.037909954762,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3451970085072594
+      },
+      {
+        "Point": 13,
+        "HingeAngleRad": -0.5221455299921527,
+        "LoadParameter": 0.2504026927060374,
+        "ResidualNorm": 1.2666225014363313e-11,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.41696624733997995,
+        "MinimumConstrainedEigenvalue": 57.23710417853756,
+        "SecondConstrainedEigenvalue": 738.0785822098765,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3504516290846268
+      },
+      {
+        "Point": 14,
+        "HingeAngleRad": -0.4655795949452826,
+        "LoadParameter": 0.30651621214807073,
+        "ResidualNorm": 3.5945994272829516e-12,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.2555106272490086,
+        "MinimumConstrainedEigenvalue": 33.429734056883916,
+        "SecondConstrainedEigenvalue": 764.3088045633301,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.355570253616669
+      },
+      {
+        "Point": 15,
+        "HingeAngleRad": -0.40632443080562947,
+        "LoadParameter": 0.3346819012844848,
+        "ResidualNorm": 1.669511337347192e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": 0.0841605707991378,
+        "MinimumConstrainedEigenvalue": 10.822002232650679,
+        "SecondConstrainedEigenvalue": 791.6195582410497,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.36032115849619856
+      },
+      {
+        "Point": 16,
+        "HingeAngleRad": -0.3462321003103493,
+        "LoadParameter": 0.3352893186839128,
+        "ResidualNorm": 4.952202354611091e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.1652,
+        "LoadTangent": -0.07274785559481357,
+        "MinimumConstrainedEigenvalue": -9.453362436890687,
+        "SecondConstrainedEigenvalue": 818.5124071725946,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.364495883250651
+      },
+      {
+        "Point": 17,
+        "HingeAngleRad": -0.28678453832375284,
+        "LoadParameter": 0.312255255204941,
+        "ResidualNorm": 1.935800543261677e-08,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1652,
+        "LoadTangent": -0.19980744408376783,
+        "MinimumConstrainedEigenvalue": -26.683564495563395,
+        "SecondConstrainedEigenvalue": 843.6351572285793,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.36798266047965117
+      },
+      {
+        "Point": 18,
+        "HingeAngleRad": -0.22008554504865074,
+        "LoadParameter": 0.263442293796839,
+        "ResidualNorm": 4.233633915632712e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.3061480882844935,
+        "MinimumConstrainedEigenvalue": -42.4492176842581,
+        "SecondConstrainedEigenvalue": 869.1819621455223,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.37112597377288775
+      },
+      {
+        "Point": 19,
+        "HingeAngleRad": -0.15534758495968962,
+        "LoadParameter": 0.19803318796280886,
+        "ResidualNorm": 4.8592710308858945e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.376324569851345,
+        "MinimumConstrainedEigenvalue": -53.9548295821046,
+        "SecondConstrainedEigenvalue": 890.3102203568639,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3733924469867489
+      },
+      {
+        "Point": 20,
+        "HingeAngleRad": -0.09217281830754884,
+        "LoadParameter": 0.12211178010958106,
+        "ResidualNorm": 2.7259606298899817e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.4183627105364832,
+        "MinimumConstrainedEigenvalue": -61.434511664899034,
+        "SecondConstrainedEigenvalue": 906.1691597540279,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3748537251928627
+      },
+      {
+        "Point": 21,
+        "HingeAngleRad": -0.02996775546799098,
+        "LoadParameter": 0.04043028368614886,
+        "ResidualNorm": 1.2798997416482419e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.4378785038413787,
+        "MinimumConstrainedEigenvalue": -65.0908650496703,
+        "SecondConstrainedEigenvalue": 915.1363477954496,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.37556462914374616
+      },
+      {
+        "Point": 22,
+        "HingeAngleRad": 0.031916887645721086,
+        "LoadParameter": -0.04304758988465891,
+        "ResidualNorm": 3.1586851445965862e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.43757335534007424,
+        "MinimumConstrainedEigenvalue": -65.03270343424748,
+        "SecondConstrainedEigenvalue": 914.9835471669512,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.37555333829649223
+      },
+      {
+        "Point": 23,
+        "HingeAngleRad": 0.09414001678924079,
+        "LoadParameter": -0.12460753919082532,
+        "ResidualNorm": 2.801427632591959e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.4174061418503002,
+        "MinimumConstrainedEigenvalue": -61.258496998614625,
+        "SecondConstrainedEigenvalue": 905.7640906853704,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3748194462538814
+      },
+      {
+        "Point": 24,
+        "HingeAngleRad": 0.1573488099303876,
+        "LoadParameter": -0.20026921087810348,
+        "ResidualNorm": 8.348116061237195e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.3745904366554597,
+        "MinimumConstrainedEigenvalue": -53.656768429865934,
+        "SecondConstrainedEigenvalue": 889.7228101939802,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.37333401934811244
+      },
+      {
+        "Point": 25,
+        "HingeAngleRad": 0.2221304057086815,
+        "LoadParameter": -0.26524722028486086,
+        "ResidualNorm": 8.454595024295846e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.3034289374258712,
+        "MinimumConstrainedEigenvalue": -42.02393747895702,
+        "SecondConstrainedEigenvalue": 868.4499011290062,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3710417589452242
+      },
+      {
+        "Point": 26,
+        "HingeAngleRad": 0.2888678486118786,
+        "LoadParameter": -0.3134150212726637,
+        "ResidualNorm": 8.582874584341928e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.1958759979649408,
+        "MinimumConstrainedEigenvalue": -26.129330027429155,
+        "SecondConstrainedEigenvalue": 842.7875006470546,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.36787135003077054
+      },
+      {
+        "Point": 27,
+        "HingeAngleRad": 0.35740265452340664,
+        "LoadParameter": -0.33711744345548506,
+        "ResidualNorm": 7.927964937094452e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": -0.04553659906063334,
+        "MinimumConstrainedEigenvalue": -5.896022382819432,
+        "SecondConstrainedEigenvalue": 813.605902324249,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3637691223310743
+      },
+      {
+        "Point": 28,
+        "HingeAngleRad": 0.42650950607600874,
+        "LoadParameter": -0.32836406094926807,
+        "ResidualNorm": 3.196793557917803e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.14153222243480978,
+        "MinimumConstrainedEigenvalue": 18.242174217628616,
+        "SecondConstrainedEigenvalue": 782.371751695262,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.35877325188120807
+      },
+      {
+        "Point": 29,
+        "HingeAngleRad": 0.49371747943077077,
+        "LoadParameter": -0.28239541875475993,
+        "ResidualNorm": 1.962658254632802e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.3372462162689033,
+        "MinimumConstrainedEigenvalue": 45.01300039849113,
+        "SecondConstrainedEigenvalue": 751.2478230597803,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3530950843051156
+      },
+      {
+        "Point": 30,
+        "HingeAngleRad": 0.5563409770225055,
+        "LoadParameter": -0.2011456896120449,
+        "ResidualNorm": 2.907046407665246e-12,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.506298472516892,
+        "MinimumConstrainedEigenvalue": 72.6001937655752,
+        "SecondConstrainedEigenvalue": 722.3552954844145,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.347082113297719
+      },
+      {
+        "Point": 31,
+        "HingeAngleRad": 0.6129465661502167,
+        "LoadParameter": -0.09178802657178581,
+        "ResidualNorm": 2.321989083365389e-11,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.6329130916759987,
+        "MinimumConstrainedEigenvalue": 99.50025355707498,
+        "SecondConstrainedEigenvalue": 696.8428537679226,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.34104905020634685
+      },
+      {
+        "Point": 32,
+        "HingeAngleRad": 0.6635322388442229,
+        "LoadParameter": 0.037741781652849235,
+        "ResidualNorm": 2.293099350065456e-11,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.7215735187704003,
+        "MinimumConstrainedEigenvalue": 124.9468075356779,
+        "SecondConstrainedEigenvalue": 674.8373461514001,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3351756747854624
+      },
+      {
+        "Point": 33,
+        "HingeAngleRad": 0.7088066832546365,
+        "LoadParameter": 0.18124337549148867,
+        "ResidualNorm": 8.942352362230198e-12,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.7829237609089078,
+        "MinimumConstrainedEigenvalue": 148.72610371662833,
+        "SecondConstrainedEigenvalue": 655.9552962879482,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3295297606455407
+      },
+      {
+        "Point": 34,
+        "HingeAngleRad": 0.7496221731485209,
+        "LoadParameter": 0.33447158455446463,
+        "ResidualNorm": 2.2428487598780046e-12,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.8260486579886345,
+        "MinimumConstrainedEigenvalue": 170.88998887218347,
+        "SecondConstrainedEigenvalue": 639.6929604456037,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.3241202197964065
+      },
+      {
+        "Point": 35,
+        "HingeAngleRad": 0.7867449916459421,
+        "LoadParameter": 0.49462388716579025,
+        "ResidualNorm": 4.927818505756704e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.8571536550598886,
+        "MinimumConstrainedEigenvalue": 191.58434327864515,
+        "SecondConstrainedEigenvalue": 625.5870059581782,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.31893176331941364
+      },
+      {
+        "Point": 36,
+        "HingeAngleRad": 0.8208031952493862,
+        "LoadParameter": 0.6598414175486784,
+        "ResidualNorm": 3.995164376442239e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.8802148141832373,
+        "MinimumConstrainedEigenvalue": 210.97310079102007,
+        "SecondConstrainedEigenvalue": 613.2547673997377,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.31394141517867646
+      },
+      {
+        "Point": 37,
+        "HingeAngleRad": 0.8522962593064907,
+        "LoadParameter": 0.8288653768156864,
+        "ResidualNorm": 1.8378912101756273e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.8977616136842664,
+        "MinimumConstrainedEigenvalue": 229.20988293808335,
+        "SecondConstrainedEigenvalue": 602.3914684660815,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.30912532975648793
+      },
+      {
+        "Point": 38,
+        "HingeAngleRad": 0.8816192294950831,
+        "LoadParameter": 1.0008211058359833,
+        "ResidualNorm": 2.4327174136175855e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.9114273998366001,
+        "MinimumConstrainedEigenvalue": 246.42965627089328,
+        "SecondConstrainedEigenvalue": 592.7565034927624,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.30446125824654985
+      },
+      {
+        "Point": 39,
+        "HingeAngleRad": 0.9090861042386728,
+        "LoadParameter": 1.1750848290141356,
+        "ResidualNorm": 1.1580541638749507e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.92229131248115,
+        "MinimumConstrainedEigenvalue": 262.748053324645,
+        "SecondConstrainedEigenvalue": 584.1594066972675,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.29992919662327067
+      },
+      {
+        "Point": 40,
+        "HingeAngleRad": 0.9349487884157143,
+        "LoadParameter": 1.3512006653084054,
+        "ResidualNorm": 2.2445531380740313e-14,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.9310843599803288,
+        "MinimumConstrainedEigenvalue": 278.26328700988796,
+        "SecondConstrainedEigenvalue": 576.4482553744176,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.29551131025615857
+      },
+      {
+        "Point": 41,
+        "HingeAngleRad": 0.9594115731538032,
+        "LoadParameter": 1.5288279193066694,
+        "ResidualNorm": 2.3059589186120153e-13,
+        "CorrectorIterations": 3,
+        "ArcStep": 0.19,
+        "LoadTangent": 0.9383139997523992,
+        "MinimumConstrainedEigenvalue": 293.0586795166467,
+        "SecondConstrainedEigenvalue": 569.5007309202025,
+        "ConstraintRank": 24,
+        "ConstraintCount": 24,
+        "TangentNullity": 25,
+        "HingeModeParticipation": 0.2911915889771611
+      }
+    ],
+    "PointCount": 42,
+    "RuntimeSeconds": 32.26462119999633,
+    "AllCorrectorsConverged": true
+  },
+  "FoldAndJump": {
+    "ResultKind": "fold-jump-bifurcation-artifact",
+    "FoldCount": 2,
+    "NumericalFolds": [
+      {
+        "Point": 16,
+        "AngleRad": -0.3462321003103493,
+        "LoadParameter": 0.3352893186839128,
+        "MinimumConstrainedEigenvalue": -9.453362436890687,
+        "DetectedByLoadExtremum": true,
+        "DetectedByEigenAndTangent": true
+      },
+      {
+        "Point": 27,
+        "AngleRad": 0.35740265452340664,
+        "LoadParameter": -0.33711744345548506,
+        "MinimumConstrainedEigenvalue": -5.896022382819432,
+        "DetectedByLoadExtremum": true,
+        "DetectedByEigenAndTangent": true
+      }
+    ],
+    "AnalyticFolds": [
+      {
+        "AngleRad": -0.37527767497325676,
+        "LoadParameter": 0.33825027770922883
+      },
+      {
+        "AngleRad": 0.37527767497325676,
+        "LoadParameter": -0.33825027770922883
+      }
+    ],
+    "Comparison": [
+      {
+        "AnalyticAngleRad": -0.37527767497325676,
+        "NumericalAngleRad": -0.3462321003103493,
+        "AngleAbsoluteErrorRad": 0.02904557466290747,
+        "AnalyticLoadParameter": 0.33825027770922883,
+        "NumericalLoadParameter": 0.3352893186839128,
+        "LoadRelativeError": 0.008753751941813189
+      },
+      {
+        "AnalyticAngleRad": 0.37527767497325676,
+        "NumericalAngleRad": 0.35740265452340664,
+        "AngleAbsoluteErrorRad": 0.01787502044985012,
+        "AnalyticLoadParameter": -0.33825027770922883,
+        "NumericalLoadParameter": -0.33711744345548506,
+        "LoadRelativeError": 0.0033491007351591803
+      }
+    ],
+    "UnstablePointCount": 12,
+    "StableUnstableStableSequence": true,
+    "Passed": true,
+    "ClaimBoundary": "The artifact identifies simple static limit points and the unstable equilibrium segment. It does not claim a dynamic jump trajectory or Floquet stability boundary."
+  },
+  "StaticJumpDiagnostic": {
+    "ResultKind": "static-load-control-jump-diagnostic",
+    "TargetLoadParameter": 0.3551627915946903,
+    "FoldLoadParameter": 0.33825027770922883,
+    "NegativeBranchLoadControlConverged": false,
+    "NegativeBranchFinalResidualNorm": 0.021614499735544662,
+    "NegativeBranchHistory": [
+      {
+        "Iteration": 0,
+        "HingeAngleRad": -0.42027767497325674,
+        "ResidualNorm": 0.02449951188694166
+      },
+      {
+        "Iteration": 1,
+        "HingeAngleRad": -0.41582230984094337,
+        "ResidualNorm": 0.023048098622489466
+      },
+      {
+        "Iteration": 2,
+        "HingeAngleRad": -0.4112321332146378,
+        "ResidualNorm": 0.021787317893582018
+      },
+      {
+        "Iteration": 3,
+        "HingeAngleRad": -0.410932641466994,
+        "ResidualNorm": 0.02175150065874354
+      },
+      {
+        "Iteration": 4,
+        "HingeAngleRad": -0.4106317343953907,
+        "ResidualNorm": 0.02171629707485229
+      },
+      {
+        "Iteration": 5,
+        "HingeAngleRad": -0.4103293732570118,
+        "ResidualNorm": 0.021681719976446884
+      },
+      {
+        "Iteration": 6,
+        "HingeAngleRad": -0.41002551786637415,
+        "ResidualNorm": 0.021647782822041352
+      },
+      {
+        "Iteration": 7,
+        "HingeAngleRad": -0.4097201265190899,
+        "ResidualNorm": 0.021614499735544662
+      }
+    ],
+    "RemainingRealEquilibriumAnglesRad": [
+      0.7546946089816904
+    ],
+    "StableDestinationAngleRad": 0.7546946089816904,
+    "StableDestinationResidualNorm": 4.3559978669997234e-14,
+    "StableDestinationMinimumEigenvalue": 173.6888360252575,
+    "StaticJumpAmplitudeRad": 1.129972283954947,
+    "Passed": true,
+    "ClaimBoundary": "The diagnostic proves loss of the negative load-controlled branch and identifies the remaining stable equilibrium. The reported amplitude is a static jump requirement, not a resolved transient."
+  },
+  "AnalyticBlockTangent": {
+    "ResultKind": "analytic-block-tangent-qualification",
+    "HingeJvRelativeError": 6.091319588827571e-13,
+    "LoadDerivativeRelativeError": 1.0000889005813408e-12,
+    "Provenance": {
+      "RodShellBase": "torch-double-autodiff",
+      "BistableHingeMoment": "analytic",
+      "BistableHingeTangent": "analytic",
+      "LoadParameterDerivative": "analytic"
+    },
+    "Passed": true
+  },
+  "FieldSplitSchur": {
+    "ResultKind": "kkt-field-split-schur-qualification-artifact",
+    "ContractVersion": "1.0",
+    "MatrixSize": 70,
+    "QBlockSize": 49,
+    "MultiplierBlockSize": 21,
+    "RepeatedRightHandSides": 25,
+    "DirectVsFieldSplitRelativeError": 4.184891166612274e-14,
+    "FieldSplitRelativeLinearResidual": 1.7756437844824498e-12,
+    "Timings": {
+      "direct-qr": {
+        "FactorizationSeconds": 0.0002722000062931329,
+        "MedianSolveSeconds": 0.0001545999984955415,
+        "P90SolveSeconds": 0.00016579999937675895
+      },
+      "augmented-field-split-schur": {
+        "FactorizationSeconds": 0.00039790000300854445,
+        "MedianSolveSeconds": 0.00016029999824240804,
+        "P90SolveSeconds": 0.00017438000068068505
+      }
+    },
+    "Passed": true,
+    "ClaimBoundary": "This is an exact dense augmented field-split reference and reusable Schur contract. It is not yet a sparse Krylov scalability result."
+  },
+  "ImpactStabilityBoundary": {
+    "ResultKind": "impact-stability-boundary-artifact",
+    "ContractVersion": "1.0",
+    "CaptureVelocityThreshold": 0.05,
+    "Rows": [
+      {
+        "Restitution": 0.0,
+        "IncomingNormalSpeed": 0.1,
+        "OutgoingNormalSpeed": 0.0,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 1.3552527156068805e-20,
+        "MomentumBalanceError": 2.202285662861181e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.0,
+        "IncomingNormalSpeed": 0.25,
+        "OutgoingNormalSpeed": 0.0,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 6.776263578034403e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.0,
+        "IncomingNormalSpeed": 0.5,
+        "OutgoingNormalSpeed": 0.0,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 1.3552527156068805e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.0,
+        "IncomingNormalSpeed": 1.0,
+        "OutgoingNormalSpeed": 0.0,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 2.710505431213761e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.0,
+        "IncomingNormalSpeed": 2.0,
+        "OutgoingNormalSpeed": 0.0,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 5.421010862427522e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.0,
+        "IncomingNormalSpeed": 4.0,
+        "OutgoingNormalSpeed": 0.0,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 1.0842021724855044e-18,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.02,
+        "IncomingNormalSpeed": 0.1,
+        "OutgoingNormalSpeed": 0.0020000000000000018,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 1.734723475976807e-18,
+        "EnergyLossError": 6.776263578034403e-21,
+        "MomentumBalanceError": 1.8634724839594607e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.02,
+        "IncomingNormalSpeed": 0.25,
+        "OutgoingNormalSpeed": 0.0050000000000000044,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 4.336808689942018e-18,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 5.421010862427522e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.02,
+        "IncomingNormalSpeed": 0.5,
+        "OutgoingNormalSpeed": 0.010000000000000009,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 8.673617379884035e-18,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 1.0842021724855044e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.02,
+        "IncomingNormalSpeed": 1.0,
+        "OutgoingNormalSpeed": 0.020000000000000018,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 1.734723475976807e-17,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 2.168404344971009e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.02,
+        "IncomingNormalSpeed": 2.0,
+        "OutgoingNormalSpeed": 0.040000000000000036,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 3.469446951953614e-17,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 4.336808689942018e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.02,
+        "IncomingNormalSpeed": 4.0,
+        "OutgoingNormalSpeed": 0.08000000000000007,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 6.938893903907228e-17,
+        "EnergyLossError": 0.0,
+        "MomentumBalanceError": 8.673617379884035e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.05,
+        "IncomingNormalSpeed": 0.1,
+        "OutgoingNormalSpeed": 0.0050000000000000044,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 3.469446951953614e-18,
+        "EnergyLossError": 2.0328790734103208e-20,
+        "MomentumBalanceError": 1.0842021724855044e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.05,
+        "IncomingNormalSpeed": 0.25,
+        "OutgoingNormalSpeed": 0.012500000000000011,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 1.0408340855860843e-17,
+        "EnergyLossError": 5.421010862427522e-20,
+        "MomentumBalanceError": 1.0842021724855044e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.05,
+        "IncomingNormalSpeed": 0.5,
+        "OutgoingNormalSpeed": 0.025000000000000022,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 2.0816681711721685e-17,
+        "EnergyLossError": 2.168404344971009e-19,
+        "MomentumBalanceError": 2.168404344971009e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.05,
+        "IncomingNormalSpeed": 1.0,
+        "OutgoingNormalSpeed": 0.050000000000000044,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 4.163336342344337e-17,
+        "EnergyLossError": 8.673617379884035e-19,
+        "MomentumBalanceError": 4.336808689942018e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.05,
+        "IncomingNormalSpeed": 2.0,
+        "OutgoingNormalSpeed": 0.10000000000000009,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 8.326672684688674e-17,
+        "EnergyLossError": 3.469446951953614e-18,
+        "MomentumBalanceError": 8.673617379884035e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.05,
+        "IncomingNormalSpeed": 4.0,
+        "OutgoingNormalSpeed": 0.20000000000000018,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 1.6653345369377348e-16,
+        "EnergyLossError": 1.3877787807814457e-17,
+        "MomentumBalanceError": 1.734723475976807e-18,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.1,
+        "IncomingNormalSpeed": 0.1,
+        "OutgoingNormalSpeed": 0.010000000000000009,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 6.938893903907228e-18,
+        "EnergyLossError": 2.0328790734103208e-20,
+        "MomentumBalanceError": 1.5246593050577406e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.1,
+        "IncomingNormalSpeed": 0.25,
+        "OutgoingNormalSpeed": 0.025000000000000022,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 2.0816681711721685e-17,
+        "EnergyLossError": 5.421010862427522e-20,
+        "MomentumBalanceError": 4.743384504624082e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.1,
+        "IncomingNormalSpeed": 0.5,
+        "OutgoingNormalSpeed": 0.050000000000000044,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 4.163336342344337e-17,
+        "EnergyLossError": 2.168404344971009e-19,
+        "MomentumBalanceError": 9.486769009248164e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.1,
+        "IncomingNormalSpeed": 1.0,
+        "OutgoingNormalSpeed": 0.10000000000000009,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 8.326672684688674e-17,
+        "EnergyLossError": 8.673617379884035e-19,
+        "MomentumBalanceError": 1.8973538018496328e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.1,
+        "IncomingNormalSpeed": 2.0,
+        "OutgoingNormalSpeed": 0.20000000000000018,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 1.6653345369377348e-16,
+        "EnergyLossError": 3.469446951953614e-18,
+        "MomentumBalanceError": 3.7947076036992655e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.1,
+        "IncomingNormalSpeed": 4.0,
+        "OutgoingNormalSpeed": 0.40000000000000036,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 3.3306690738754696e-16,
+        "EnergyLossError": 1.3877787807814457e-17,
+        "MomentumBalanceError": 7.589415207398531e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.25,
+        "IncomingNormalSpeed": 0.1,
+        "OutgoingNormalSpeed": 0.024999999999999994,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 6.938893903907228e-18,
+        "EnergyLossError": 1.3552527156068805e-20,
+        "MomentumBalanceError": 3.3881317890172014e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.25,
+        "IncomingNormalSpeed": 0.25,
+        "OutgoingNormalSpeed": 0.0625,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 2.710505431213761e-20,
+        "MomentumBalanceError": 8.131516293641283e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.25,
+        "IncomingNormalSpeed": 0.5,
+        "OutgoingNormalSpeed": 0.125,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 1.0842021724855044e-19,
+        "MomentumBalanceError": 1.6263032587282567e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.25,
+        "IncomingNormalSpeed": 1.0,
+        "OutgoingNormalSpeed": 0.25,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 4.336808689942018e-19,
+        "MomentumBalanceError": 3.2526065174565133e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.25,
+        "IncomingNormalSpeed": 2.0,
+        "OutgoingNormalSpeed": 0.5,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 1.734723475976807e-18,
+        "MomentumBalanceError": 6.505213034913027e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.25,
+        "IncomingNormalSpeed": 4.0,
+        "OutgoingNormalSpeed": 1.0,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 6.938893903907228e-18,
+        "MomentumBalanceError": 1.3010426069826053e-18,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.5,
+        "IncomingNormalSpeed": 0.1,
+        "OutgoingNormalSpeed": 0.05000000000000002,
+        "Captured": true,
+        "ExpectedCapture": true,
+        "RestitutionError": 1.3877787807814457e-17,
+        "EnergyLossError": 1.3552527156068805e-20,
+        "MomentumBalanceError": 3.7269449679189215e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.5,
+        "IncomingNormalSpeed": 0.25,
+        "OutgoingNormalSpeed": 0.125,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 2.710505431213761e-20,
+        "MomentumBalanceError": 6.776263578034403e-20,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.5,
+        "IncomingNormalSpeed": 0.5,
+        "OutgoingNormalSpeed": 0.25,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 1.0842021724855044e-19,
+        "MomentumBalanceError": 1.3552527156068805e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.5,
+        "IncomingNormalSpeed": 1.0,
+        "OutgoingNormalSpeed": 0.5,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 4.336808689942018e-19,
+        "MomentumBalanceError": 2.710505431213761e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.5,
+        "IncomingNormalSpeed": 2.0,
+        "OutgoingNormalSpeed": 1.0,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 1.734723475976807e-18,
+        "MomentumBalanceError": 5.421010862427522e-19,
+        "Passed": true
+      },
+      {
+        "Restitution": 0.5,
+        "IncomingNormalSpeed": 4.0,
+        "OutgoingNormalSpeed": 2.0,
+        "Captured": false,
+        "ExpectedCapture": false,
+        "RestitutionError": 0.0,
+        "EnergyLossError": 6.938893903907228e-18,
+        "MomentumBalanceError": 1.0842021724855044e-18,
+        "Passed": true
+      }
+    ],
+    "EventTimeConvergence": [
+      {
+        "TimeStep": 0.01,
+        "EventTime": 0.0012686533617700634,
+        "RuntimeSeconds": 2.9338222999940626,
+        "EventLocalizationSolveCount": 5,
+        "EventLocalizationWarmStartCount": 5,
+        "MaximumPenetration": 0.0,
+        "Converged": true
+      },
+      {
+        "TimeStep": 0.005,
+        "EventTime": 0.0012686533499318559,
+        "RuntimeSeconds": 2.5044502000091597,
+        "EventLocalizationSolveCount": 5,
+        "EventLocalizationWarmStartCount": 5,
+        "MaximumPenetration": 0.0,
+        "Converged": true
+      },
+      {
+        "TimeStep": 0.0025,
+        "EventTime": 0.0012686534356033936,
+        "RuntimeSeconds": 2.1912668000004487,
+        "EventLocalizationSolveCount": 4,
+        "EventLocalizationWarmStartCount": 4,
+        "MaximumPenetration": 0.0,
+        "Converged": true
+      }
+    ],
+    "FinestTwoEventTimeDifference": 8.567153778928083e-11,
+    "Passed": true,
+    "ClaimBoundary": "The map qualifies isolated frictionless stop capture/separation and event-time convergence. It is not a frictional multi-contact or aeroelastic flutter boundary."
+  },
+  "Passed": true,
+  "QualificationLevel": "ResearchBaseline",
+  "ReleaseEligible": false,
+  "ClaimBoundary": "P1 qualifies static pseudo-arclength folds, constrained-tangent stability, an isolated frictionless impact boundary, an analytic hinge/load tangent, and a dense exact field-split reference. It does not qualify two-way structure-UVLM, active-set ROM, sparse large-scale Krylov performance, or physical flight validation."
+}

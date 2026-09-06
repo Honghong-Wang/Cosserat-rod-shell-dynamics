@@ -1,0 +1,17 @@
+{
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "SourceClosureHash": "790072298c0a801a0f99caa9bcf48c30abe78886b94a8ac59c2bbeb30c92095c",
+  "Configuration": {
+    "shard": "traction",
+    "method": "discrete-gradient",
+    "dt": 0.02,
+    "duration": 0.32,
+    "span": 8,
+    "width_mesh": 12
+  },
+  "ConfigurationHash": "20e1337cfefd1be2a34088d5b70b318cb45805d09573f057e32a5b166c930034",
+  "GeneratedAtUtc": "2026-09-05T10:17:40.230179+00:00",
+  "WorktreeDirty": true,
+  "CurrentCommitEvidenceEligible": false,
+  "HistoricalEvidenceRelabelled": false
+}

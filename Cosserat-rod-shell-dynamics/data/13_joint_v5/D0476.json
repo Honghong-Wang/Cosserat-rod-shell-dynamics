@@ -1,0 +1,31 @@
+{
+  "SelectedRows": [
+    "wing-m2-h10-rdg",
+    "wing-m3-h10-rdg",
+    "wing-m2-h05-rdg",
+    "wing-m3-h05-rdg"
+  ],
+  "Results": [
+    {
+      "Id": "wing-m2-h10-rdg",
+      "Completed": false,
+      "Error": "TimeoutError('grid-boundary budget exhausted; full lifecycle checkpoint retained')"
+    },
+    {
+      "Id": "wing-m2-h05-rdg",
+      "Completed": false,
+      "Error": "TimeoutError('grid-boundary budget exhausted; full lifecycle checkpoint retained')"
+    },
+    {
+      "Id": "wing-m3-h05-rdg",
+      "Completed": false,
+      "Error": "TimeoutError('grid-boundary budget exhausted; full lifecycle checkpoint retained')"
+    },
+    {
+      "Id": "wing-m3-h10-rdg",
+      "Completed": false,
+      "Error": "TimeoutError('grid-boundary budget exhausted; full lifecycle checkpoint retained')"
+    }
+  ],
+  "CurrentCommitEvidenceEligible": false
+}

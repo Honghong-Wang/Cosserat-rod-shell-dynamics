@@ -1,0 +1,16 @@
+{
+  "Rows": [
+    {
+      "Id": "q2-width-8",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 378.8969027999992
+    },
+    {
+      "Id": "q2-width-12",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 892.0815488000007
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿Coarse,Fine,TractionChange,MomentChange,FullAveragedProfileChange,Interior80PercentProfileChange,InteriorDiagnosticSelectedAfterResults,InteriorDiagnosticReplacesPrimaryGate,SupportUnchanged
+q2-48x6x6x4x4,q2-width-8,0.00022889539214639447,0.0022139866852325663,0.34727801531940383,0.7142461852049287,True,False,True
+q2-width-8,q2-width-12,0.00019778360617477784,0.002163358435167884,0.4442561396453819,0.5625808611085235,True,False,True

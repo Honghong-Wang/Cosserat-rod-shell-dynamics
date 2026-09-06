@@ -1,0 +1,20 @@
+{
+  "Rows": [
+    {
+      "Interface": "line",
+      "Completed": false,
+      "Passed": false,
+      "Error": "TimeoutError('accepted-state runtime budget exhausted; row remains incomplete')",
+      "RuntimeSeconds": 305.29330570000093
+    },
+    {
+      "Interface": "finite-width",
+      "Completed": false,
+      "Passed": false,
+      "Error": "TimeoutError('accepted-state runtime budget exhausted; row remains incomplete')",
+      "RuntimeSeconds": 313.2484957000015
+    }
+  ],
+  "OriginalThirtySixRowMatrixRequalified": false,
+  "MechanismNecessityEstablished": false
+}

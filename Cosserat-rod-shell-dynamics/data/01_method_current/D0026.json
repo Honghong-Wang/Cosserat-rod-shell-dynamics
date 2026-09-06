@@ -1,0 +1,69 @@
+{
+  "ArtifactType": "NonlinearFullWingConvergenceCaseCheckpoint",
+  "CacheKey": "e8840d1650cfc2a4151ceef9aa8bcca688cfe5e366c9958bfb4610434ee668d1",
+  "Row": {
+    "AllImpactAuditsPassed": true,
+    "CheckpointReused": false,
+    "FirstLowerImpactNormalVelocity": -6.388472897392772,
+    "FirstLowerImpactTimeS": 0.19332850255706752,
+    "HingeAngleRad": [
+      0.9,
+      0.8365133291209057,
+      0.7017380924248533,
+      0.5567735602795082,
+      0.4021614769111543,
+      0.2441449188538619,
+      0.0808694385581255,
+      -1.3750965799786807e-16,
+      2.1859865124080527e-18
+    ],
+    "HingeVelocityRadPerS": [
+      0.0,
+      -4.23244470435119,
+      -4.7525708930613115,
+      -4.911726929346299,
+      -5.395747032106925,
+      -5.138692910641965,
+      -5.746340735865067,
+      -2.2640833251280777e-14,
+      2.465190328815662e-32
+    ],
+    "ImpactAuditFailureCount": 0,
+    "ImpactEventCount": 2,
+    "InterfacePairs": 6,
+    "MaximumImpactConstraintVelocityError": 8.882868399173738e-16,
+    "MaximumImpactEnergyLossError": 7.025630077706069e-17,
+    "MaximumImpactMomentumBalanceError": 1.6940658945086007e-20,
+    "MaximumImpactRestitutionError": 4.440892098500626e-16,
+    "MaximumInterfaceGap": 1.2357382735223268e-16,
+    "MaximumLowerStopPenetration": 1.3750965799786807e-16,
+    "MaximumRelativeEnergyDefect": 0.015460182790977987,
+    "Mesh": [
+      2,
+      2
+    ],
+    "Passed": true,
+    "PrimalDof": 145,
+    "RodElements": 4,
+    "RuntimeSeconds": 160.9092085000011,
+    "SeparatingImpactCandidateCount": 0,
+    "ShellTriangles": 16,
+    "StepCount": 8,
+    "TimeStepS": 0.03,
+    "TimesS": [
+      0.0,
+      0.03,
+      0.06,
+      0.09,
+      0.12,
+      0.15,
+      0.18,
+      0.21,
+      0.24
+    ],
+    "TotalLineSearchCount": 0,
+    "TotalNewtonIterations": 30,
+    "TotalUnknowns": 190
+  },
+  "SourceClosureHash": "75fed4e2a2cb52af9bca0510ac4d0e6157c8d6e6091f77766585d88ab72c99d8"
+}

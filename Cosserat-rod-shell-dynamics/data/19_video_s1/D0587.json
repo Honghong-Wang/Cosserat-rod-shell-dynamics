@@ -1,0 +1,153 @@
+{
+  "result_kind": "passive-spring-cable-flexible-flapping-flight-artifact",
+  "contract_version": "1.2",
+  "qualification_level": "ResearchPreview",
+  "stages": [
+    "pretension-cable-hold",
+    "latch-release",
+    "torsion-spring-passive-deployment",
+    "unilateral-stop-lock",
+    "tension-only-cable-flapping",
+    "elastic-return-upstroke",
+    "six-degree-of-freedom-climbing-flight"
+  ],
+  "mechanism": {
+    "motor_driven_deployment": false,
+    "deployment_energy_source": "preloaded-torsion-springs",
+    "hold_and_release": "pretension-cable-with-latch",
+    "flapping_actuation": "tension-only-paired-tendons",
+    "upstroke_return": "torsion-spring",
+    "deployment_joint_stop": "unilateral-active-set-with-lock",
+    "flexible_modes": [
+      "rod-bending",
+      "rod-twist",
+      "shell-camber"
+    ]
+  },
+  "aerodynamic_model": {
+    "folded_stage": "projected-area-continuation",
+    "deployed_forward_flow": "steady-vortex-lattice-at-every-time-step",
+    "flapping_increment": "quasi-steady-blade-element",
+    "propulsive_force_limit": "filtered-positive-cable-mechanical-power",
+    "unsteady_wake_or_dynamic_stall": false
+  },
+  "visualization_model": {
+    "style": "eagle-inspired-biomimetic-bird",
+    "rigid_body_skin": [
+      "torso",
+      "chest",
+      "head",
+      "beak",
+      "tail-feathers"
+    ],
+    "flexible_wing_skin": [
+      "interpolated-planform",
+      "coverts",
+      "secondary-feathers",
+      "feather-shafts",
+      "fingered-primaries"
+    ],
+    "state_binding": [
+      "fold",
+      "flap",
+      "rod-bending",
+      "rod-twist",
+      "shell-camber",
+      "six-dof-pose"
+    ],
+    "mechanism_visibility": [
+      "torsion-springs",
+      "holding-cables",
+      "flapping-tendons",
+      "rod-shell-skeleton"
+    ]
+  },
+  "configuration": {
+    "duration": 14.0,
+    "dt": 0.01,
+    "latch_release_time": 0.55,
+    "cable_release_time_constant": 0.075,
+    "flight_release_time": 3.2,
+    "flapping_start_time": 3.35,
+    "initial_fold_angles": [
+      1.4311699866353502,
+      2.4085543677521746
+    ],
+    "deployment_spring_stiffness": [
+      0.3,
+      0.115
+    ],
+    "deployment_joint_damping": [
+      0.185,
+      0.07
+    ],
+    "hold_cable_moment_arms": [
+      0.024,
+      0.018
+    ],
+    "fold_upper_margin": 1.05,
+    "flap_inertia": 0.052,
+    "flap_spring_stiffness": 11.8,
+    "flap_spring_equilibrium_deg": 18.0,
+    "flap_damping": 0.06,
+    "flap_aerodynamic_damping": 0.08,
+    "flap_cable_moment_arm": 0.04,
+    "flap_frequency_hz": 2.35,
+    "flap_tension_base_n": 155.0,
+    "flap_tension_max_n": 215.0,
+    "flap_lower_stop_deg": -45.0,
+    "flap_upper_stop_deg": 40.0,
+    "rail_altitude_m": 8.0,
+    "rail_speed_mps": 12.0,
+    "commanded_climb_m": 6.0,
+    "propulsive_efficiency": 0.72,
+    "propulsive_power_filter_time_s": 0.28
+  },
+  "configuration_hash_sha256": "80aa1a401fb642dd04f6b2178025413025d54e10455ed61f5243c59d40709bd5",
+  "metrics": {
+    "initial_shoulder_fold_deg": 82.0,
+    "initial_outer_fold_deg": 138.0,
+    "initial_torsion_spring_energy_j": 0.6408023427859137,
+    "initial_hold_cable_tension_shoulder_n": 17.889624832941877,
+    "initial_hold_cable_tension_outer_n": 15.387986238416673,
+    "flight_release_shoulder_fold_deg": 0.0,
+    "flight_release_outer_fold_deg": 0.0,
+    "flight_release_max_joint_rate_deg_s": 0.0,
+    "fold_stop_event_count": 2,
+    "fold_stop_dissipation_j": 0.054679960903259495,
+    "flap_stop_event_count": 0,
+    "flap_stop_dissipation_j": 0.0,
+    "flap_peak_to_peak_deg": 73.72696252256607,
+    "peak_flap_tension_n": 209.33993528437634,
+    "flap_cable_input_energy_j": 356.24216015072005,
+    "joint_damping_dissipation_j": 29.537552958464314,
+    "maximum_flexible_offset_m": 0.13318944556165724,
+    "peak_root_load_nm": 21.630694994071746,
+    "final_altitude_m": 11.59366363845746,
+    "altitude_gain_m": 3.5936636384574605,
+    "horizontal_distance_m": 108.6037101822334,
+    "minimum_flight_airspeed_mps": 9.530282645882343,
+    "maximum_vlm_residual": 1.140724502137661e-15,
+    "maximum_vlm_virtual_work_error": 1.0391880972484054e-15,
+    "flexible_state_limit_hit_count": 0,
+    "deployment_release_gate_passed": true,
+    "finite_state_gate_passed": true
+  },
+  "gates": {
+    "deployment_release": true,
+    "tension_only": true,
+    "nonzero_flexible_deformation": true,
+    "no_flexible_state_clipping": true,
+    "positive_climb": true,
+    "vlm_residual": true,
+    "vlm_virtual_work": true
+  },
+  "claim_boundaries": {
+    "full_dof_cosserat_rod_shell_kernel": false,
+    "unsteady_uvlm_or_dynamic_stall": false,
+    "feather_resolved_structural_or_aerodynamic_kernel": false,
+    "physical_experimental_validation": false,
+    "flight_hardware": false
+  },
+  "passed": true
+}

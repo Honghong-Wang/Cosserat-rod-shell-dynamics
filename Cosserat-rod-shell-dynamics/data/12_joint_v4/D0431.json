@@ -1,0 +1,21 @@
+{
+  "Configuration": {
+    "Id": "section-rigid-rib-sections",
+    "Kind": "q2",
+    "Mesh": [
+      36,
+      4,
+      4,
+      2,
+      2
+    ],
+    "Support": "shell-root-face",
+    "Section": "rigid-rib-sections"
+  },
+  "ConfigurationHash": "b9692268f8a992690d3881790172ef06324c206ec96c4e54774a74869bb7682c",
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 2400.0,
+  "HistoricalEvidenceRelabelled": false
+}

@@ -1,0 +1,39 @@
+{
+  "Rows": [
+    {
+      "Mesh": [
+        1,
+        1
+      ],
+      "QDoF": 73,
+      "MaximumQDifference": 1.9081958235744878e-16,
+      "MaximumPDifference": 3.8163916471489756e-17,
+      "ResidualReference": 3.3190117321169055e-13,
+      "ResidualBlock": 3.2912561565012766e-13,
+      "DenseSeconds": 10.929482400002598,
+      "BlockSeconds": 10.045977400004631,
+      "SingleRunSpeedRatio": 1.0879461464842197,
+      "FormalRuntimeProtocol": false,
+      "Passed": true
+    },
+    {
+      "Mesh": [
+        2,
+        2
+      ],
+      "QDoF": 145,
+      "MaximumQDifference": 4.163336342344337e-16,
+      "MaximumPDifference": 4.85722573273506e-17,
+      "ResidualReference": 4.5419223937415154e-13,
+      "ResidualBlock": 4.554134847012392e-13,
+      "DenseSeconds": 31.58426319999853,
+      "BlockSeconds": 26.36610120000114,
+      "SingleRunSpeedRatio": 1.1979117792355727,
+      "FormalRuntimeProtocol": false,
+      "Passed": true
+    }
+  ],
+  "SourceClosureHash": "db332c96c7a25cdd1d0708345ce255a51f25daf32fbc4a932ddfd6e9fa37371b",
+  "Passed": true,
+  "RuntimePromotionEligible": false
+}

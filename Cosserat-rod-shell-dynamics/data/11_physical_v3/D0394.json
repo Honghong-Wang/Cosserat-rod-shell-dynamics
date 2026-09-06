@@ -1,0 +1,30 @@
+{
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "SourceClosureHash": "53301522f511cd6ea8fc18c23c5003aec4e2e079f43444289f20cee993f8906f",
+  "Configuration": {
+    "shard": "wing",
+    "method": "rattle-discrete-gradient",
+    "dt": 0.01,
+    "duration": 0.32,
+    "restitution": 0.05,
+    "span": 1,
+    "width_mesh": 1,
+    "DiscreteDynamicsSpec": {
+      "version": "1.2-physical-incremental-contact",
+      "newton_tolerance": 2e-10,
+      "maximum_iterations": 18,
+      "maximum_line_search": 12,
+      "constraint_tolerance": 2e-09,
+      "event_gap_tolerance": 2e-10,
+      "event_time_tolerance": 2e-10,
+      "grazing_speed": 1e-07,
+      "maximum_events_per_step": 8,
+      "rho_infinity": 0.7
+    }
+  },
+  "ConfigurationHash": "4ab71b6bfb6b16db5898695cf8022cce22a9b44f83e58ec671cf7300ce02c1eb",
+  "GeneratedAtUtc": "2026-09-05T10:53:53.541207+00:00",
+  "WorktreeDirty": true,
+  "CurrentCommitEvidenceEligible": false,
+  "HistoricalEvidenceRelabelled": false
+}

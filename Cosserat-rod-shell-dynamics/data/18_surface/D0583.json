@@ -1,0 +1,375 @@
+{
+  "ResultKind": "p2-direct-shell-surface-production-coupling-artifact",
+  "ContractVersion": "1.0",
+  "CreatedUtc": "2026-08-31T06:19:33.620505+00:00",
+  "RepositoryState": "isolated-study-no-git-repository",
+  "SourceClosureHash": "59a1be0600e7f8efdb3b7811b6f93ba888aa642f8bb7a432331f136d98687e64",
+  "DirectShellSurfaceProductionCouplingQualified": true,
+  "LongHorizonReleaseQualified": false,
+  "Qualification": {
+    "ResultKind": "direct-shell-surface-production-coupling-qualification",
+    "Specification": {
+      "contract_version": "1.0",
+      "reference_hinge_angle_rad": 0.35,
+      "final_time_s": 0.02,
+      "time_steps_s": [
+        0.01,
+        0.005
+      ],
+      "speed_m_per_s": 4.0,
+      "alpha_deg": 3.0,
+      "gust_amplitude_m_per_s": 0.1,
+      "vortex_core_m": 0.005,
+      "maximum_wake_rows": 12,
+      "maximum_coupling_iterations": 7,
+      "coupling_tolerance_m": 2.5e-05,
+      "minimum_panel_area_m2": 0.002,
+      "maximum_hinge_seam_gap_m": 0.002,
+      "maximum_energy_balance_error": 5e-06,
+      "maximum_time_step_state_change": 0.03
+    },
+    "TransferQualification": {
+      "ResultKind": "direct-shell-surface-transfer-qualification",
+      "StructuralDimension": 73,
+      "AerodynamicVertexCount": 10,
+      "BoundPanelCount": 2,
+      "PositionMapRank": 24,
+      "ObservedColumnCount": 24,
+      "ObservedColumnsAreExactlyShellTranslations": true,
+      "MaximumRelativePowerError": 2.220446049250313e-16,
+      "Rows": [
+        {
+          "Sample": 0,
+          "StructuralPower": -2.4883723856448685,
+          "AerodynamicPower": -2.4883723856448685,
+          "RelativePowerError": 0.0,
+          "Passed": true
+        },
+        {
+          "Sample": 1,
+          "StructuralPower": -1.2793815241912436,
+          "AerodynamicPower": -1.2793815241912434,
+          "RelativePowerError": 1.7355620721926245e-16,
+          "Passed": true
+        },
+        {
+          "Sample": 2,
+          "StructuralPower": -0.11166444808390824,
+          "AerodynamicPower": -0.11166444808390828,
+          "RelativePowerError": 4.163336342344337e-17,
+          "Passed": true
+        },
+        {
+          "Sample": 3,
+          "StructuralPower": -0.22371448167187352,
+          "AerodynamicPower": -0.2237144816718733,
+          "RelativePowerError": 2.220446049250313e-16,
+          "Passed": true
+        },
+        {
+          "Sample": 4,
+          "StructuralPower": -1.2850038317020591,
+          "AerodynamicPower": -1.2850038317020591,
+          "RelativePowerError": 0.0,
+          "Passed": true
+        },
+        {
+          "Sample": 5,
+          "StructuralPower": -0.5943490632209881,
+          "AerodynamicPower": -0.5943490632209882,
+          "RelativePowerError": 1.1102230246251565e-16,
+          "Passed": true
+        },
+        {
+          "Sample": 6,
+          "StructuralPower": 1.2032112778265898,
+          "AerodynamicPower": 1.2032112778265895,
+          "RelativePowerError": 1.845433208755487e-16,
+          "Passed": true
+        },
+        {
+          "Sample": 7,
+          "StructuralPower": -2.3462314897908287,
+          "AerodynamicPower": -2.3462314897908283,
+          "RelativePowerError": 1.8927766155318887e-16,
+          "Passed": true
+        },
+        {
+          "Sample": 8,
+          "StructuralPower": -1.028612460733514,
+          "AerodynamicPower": -1.028612460733514,
+          "RelativePowerError": 0.0,
+          "Passed": true
+        },
+        {
+          "Sample": 9,
+          "StructuralPower": 0.3105524988112438,
+          "AerodynamicPower": 0.3105524988112439,
+          "RelativePowerError": 1.1102230246251565e-16,
+          "Passed": true
+        },
+        {
+          "Sample": 10,
+          "StructuralPower": 1.313959226397212,
+          "AerodynamicPower": 1.313959226397212,
+          "RelativePowerError": 0.0,
+          "Passed": true
+        },
+        {
+          "Sample": 11,
+          "StructuralPower": -3.0908594375108205,
+          "AerodynamicPower": -3.0908594375108205,
+          "RelativePowerError": 0.0,
+          "Passed": true
+        }
+      ],
+      "Passed": true
+    },
+    "Levels": [
+      {
+        "ResultKind": "direct-shell-surface-full-dof-level",
+        "TimeStepS": 0.01,
+        "StepCount": 2,
+        "StructuralDofCount": 73,
+        "MonolithicUnknownCount": 106,
+        "Rows": [
+          {
+            "Step": 1,
+            "TimeS": 0.01,
+            "GustZ": 0.1,
+            "CouplingIterations": 3,
+            "CouplingSurfaceIncrementM": 2.4734952404760577e-05,
+            "NewtonIterations": 2,
+            "NewtonResidual": 2.444849878102673e-13,
+            "EnergyBalanceError": 4.586175189613684e-17,
+            "WorkTransferError": 0.0,
+            "UvlmResidual": 2.7755575615628914e-17,
+            "MinimumPanelAreaM2": 0.08999949464574417,
+            "MaximumHingeSeamGapM": 0.00014476625635539522,
+            "HingeAngleRad": 0.3460108945944688,
+            "LiftN": 0.39047847866909347,
+            "Passed": true
+          },
+          {
+            "Step": 2,
+            "TimeS": 0.02,
+            "GustZ": 1.4997597826618576e-33,
+            "CouplingIterations": 3,
+            "CouplingSurfaceIncrementM": 9.225760984801616e-06,
+            "NewtonIterations": 1,
+            "NewtonResidual": 1.7983123288666664e-07,
+            "EnergyBalanceError": 2.4217593208586408e-11,
+            "WorkTransferError": 0.0,
+            "UvlmResidual": 2.7755575615628914e-17,
+            "MinimumPanelAreaM2": 0.08999701862854115,
+            "MaximumHingeSeamGapM": 0.0004424582116925809,
+            "HingeAngleRad": 0.335483580992804,
+            "LiftN": 0.012721203361821434,
+            "Passed": true
+          }
+        ],
+        "FinalSurfaceVertices": [
+          [
+            -5.72702912437618e-22,
+            5.025620277509229e-20,
+            1.5938762268792997e-18
+          ],
+          [
+            -1.7980542360548478e-05,
+            0.4999222551984404,
+            -0.0006108681853857794
+          ],
+          [
+            0.2000001906037044,
+            -2.8015233500383803e-06,
+            0.0011854328914852519
+          ],
+          [
+            0.19999450963168308,
+            0.49997633208747105,
+            0.0009980242757678345
+          ],
+          [
+            -1.798054236054846e-05,
+            0.4999222551984404,
+            -0.0006108681853857795
+          ],
+          [
+            1.650664827451655e-05,
+            0.9701291765518543,
+            -0.1704982129359808
+          ],
+          [
+            0.1999833966935886,
+            0.5002977231155739,
+            0.0006941269596294239
+          ],
+          [
+            0.1600221158916166,
+            0.9701283588886891,
+            -0.17034285554553905
+          ],
+          [
+            -1.7980542360548468e-05,
+            0.4999222551984404,
+            -0.0006108681853857795
+          ],
+          [
+            0.19998895316263585,
+            0.5001370276015225,
+            0.0008460756176986292
+          ]
+        ],
+        "RuntimeSeconds": 5.194968000010704,
+        "MaximumNewtonResidual": 1.7983123288666664e-07,
+        "MaximumEnergyBalanceError": 2.4217593208586408e-11,
+        "MaximumWorkTransferError": 0.0,
+        "MaximumUvlmResidual": 2.7755575615628914e-17,
+        "MaximumHingeSeamGapM": 0.0004424582116925809,
+        "MinimumPanelAreaM2": 0.08999701862854115,
+        "Passed": true
+      },
+      {
+        "ResultKind": "direct-shell-surface-full-dof-level",
+        "TimeStepS": 0.005,
+        "StepCount": 4,
+        "StructuralDofCount": 73,
+        "MonolithicUnknownCount": 106,
+        "Rows": [
+          {
+            "Step": 1,
+            "TimeS": 0.005,
+            "GustZ": 0.05000000000000002,
+            "CouplingIterations": 3,
+            "CouplingSurfaceIncrementM": 9.457690868381588e-06,
+            "NewtonIterations": 1,
+            "NewtonResidual": 5.152673503880549e-08,
+            "EnergyBalanceError": 4.915298311598815e-16,
+            "WorkTransferError": 2.710505431213761e-20,
+            "UvlmResidual": 2.7755575615628914e-17,
+            "MinimumPanelAreaM2": 0.09000008747415172,
+            "MaximumHingeSeamGapM": 5.8632121548358845e-05,
+            "HingeAngleRad": 0.3489175764706751,
+            "LiftN": 0.2060039141314991,
+            "Passed": true
+          },
+          {
+            "Step": 2,
+            "TimeS": 0.01,
+            "GustZ": 0.1,
+            "CouplingIterations": 2,
+            "CouplingSurfaceIncrementM": 2.2500930662095408e-05,
+            "NewtonIterations": 1,
+            "NewtonResidual": 2.6942210026662525e-07,
+            "EnergyBalanceError": 9.781198501970442e-12,
+            "WorkTransferError": 0.0,
+            "UvlmResidual": 5.551115123125783e-17,
+            "MinimumPanelAreaM2": 0.0899998069990279,
+            "MaximumHingeSeamGapM": 0.00019725039556893785,
+            "HingeAngleRad": 0.3458205359262344,
+            "LiftN": 0.809304875488148,
+            "Passed": true
+          },
+          {
+            "Step": 3,
+            "TimeS": 0.015,
+            "GustZ": 0.05000000000000002,
+            "CouplingIterations": 2,
+            "CouplingSurfaceIncrementM": 8.10210280083822e-06,
+            "NewtonIterations": 1,
+            "NewtonResidual": 4.8155330300593546e-08,
+            "EnergyBalanceError": 2.9254704127928965e-12,
+            "WorkTransferError": 2.710505431213761e-20,
+            "UvlmResidual": 2.7755575615628914e-17,
+            "MinimumPanelAreaM2": 0.08999843194898662,
+            "MaximumHingeSeamGapM": 0.00035369632625372865,
+            "HingeAngleRad": 0.341079651173669,
+            "LiftN": 0.062100834043422315,
+            "Passed": true
+          },
+          {
+            "Step": 4,
+            "TimeS": 0.02,
+            "GustZ": 1.4997597826618576e-33,
+            "CouplingIterations": 2,
+            "CouplingSurfaceIncrementM": 1.2176606301189403e-05,
+            "NewtonIterations": 1,
+            "NewtonResidual": 8.498995650172347e-08,
+            "EnergyBalanceError": 2.64843312211549e-12,
+            "WorkTransferError": 0.0,
+            "UvlmResidual": 0.0,
+            "MinimumPanelAreaM2": 0.0899963863360552,
+            "MaximumHingeSeamGapM": 0.0004992524083317063,
+            "HingeAngleRad": 0.3351437180576611,
+            "LiftN": -0.04151600436056155,
+            "Passed": true
+          }
+        ],
+        "FinalSurfaceVertices": [
+          [
+            1.5344901199321974e-21,
+            -6.806109337366635e-22,
+            1.0603310847516631e-19
+          ],
+          [
+            -1.641358944456858e-05,
+            0.49991852544653465,
+            -0.0005399625348651626
+          ],
+          [
+            0.19999751121457435,
+            -4.861694903398275e-07,
+            0.001360125444839181
+          ],
+          [
+            0.19999457799981482,
+            0.4999852282729644,
+            0.0012616022576772343
+          ],
+          [
+            -1.6413589444568574e-05,
+            0.49991852544653465,
+            -0.0005399625348651627
+          ],
+          [
+            1.2310353752884473e-05,
+            0.9700924641534778,
+            -0.17049249358749108
+          ],
+          [
+            0.199986937987769,
+            0.5003586548605701,
+            0.0009303211367087828
+          ],
+          [
+            0.16001606145996125,
+            0.9701242323518938,
+            -0.1702744572327909
+          ],
+          [
+            -1.6413589444568578e-05,
+            0.49991852544653465,
+            -0.0005399625348651627
+          ],
+          [
+            0.1999907579937919,
+            0.5001719415667673,
+            0.0010959616971930085
+          ]
+        ],
+        "RuntimeSeconds": 6.4681119000015315,
+        "MaximumNewtonResidual": 2.6942210026662525e-07,
+        "MaximumEnergyBalanceError": 9.781198501970442e-12,
+        "MaximumWorkTransferError": 2.710505431213761e-20,
+        "MaximumUvlmResidual": 5.551115123125783e-17,
+        "MaximumHingeSeamGapM": 0.0004992524083317063,
+        "MinimumPanelAreaM2": 0.0899963863360552,
+        "Passed": true
+      }
+    ],
+    "FinestTwoSurfaceRelativeChange": 0.0002596788888609772,
+    "Passed": true,
+    "ClaimBoundary": "All eight shell-node translations directly define the bound UVLM surface and receive transpose-consistent loads. This closes the direct-surface coupling contract on the 73-DoF RealKernel. Long-horizon wake robustness and dynamic hyper-reduction remain separate release gates."
+  },
+  "Passed": true
+}

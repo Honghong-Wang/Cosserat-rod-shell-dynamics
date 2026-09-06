@@ -1,0 +1,82 @@
+{
+  "SelectedRows": [
+    "wing-m1-h20-nm",
+    "wing-m1-h20-ga",
+    "wing-m1-h20-rdg",
+    "wing-m1-h10-nm",
+    "wing-m1-h10-ga",
+    "wing-m1-h10-rdg",
+    "wing-m1-h05-nm",
+    "wing-m1-h05-ga",
+    "wing-m1-h05-rdg",
+    "wing-m2-h10-rdg",
+    "wing-m3-h10-rdg"
+  ],
+  "Results": [
+    {
+      "Id": "wing-m1-h20-ga",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 149.6782899000009
+    },
+    {
+      "Id": "wing-m1-h20-nm",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 161.45179690000077
+    },
+    {
+      "Id": "wing-m1-h20-rdg",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 218.13611889999993
+    },
+    {
+      "Id": "wing-m1-h10-ga",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 443.34913659999984
+    },
+    {
+      "Id": "wing-m1-h10-nm",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 484.9618002999996
+    },
+    {
+      "Id": "wing-m1-h10-rdg",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 598.8675896999994
+    },
+    {
+      "Id": "wing-m1-h05-nm",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 614.1090138
+    },
+    {
+      "Id": "wing-m1-h05-ga",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 619.6609162999994
+    },
+    {
+      "Id": "wing-m1-h05-rdg",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 791.3301039999988
+    },
+    {
+      "Id": "wing-m2-h10-rdg",
+      "Completed": false,
+      "Error": "TimeoutError('grid-boundary budget exhausted; full lifecycle checkpoint retained')"
+    },
+    {
+      "Id": "wing-m3-h10-rdg",
+      "Completed": false,
+      "Error": "TimeoutError('grid-boundary budget exhausted; full lifecycle checkpoint retained')"
+    }
+  ],
+  "CurrentCommitEvidenceEligible": false
+}

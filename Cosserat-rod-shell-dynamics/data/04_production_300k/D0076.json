@@ -1,0 +1,106 @@
+{
+  "ResultKind": "cmame-consistent-tangent-newton-qualification",
+  "NonlinearCase": "finite-width-eccentric-r2-s3-loaded",
+  "ConsistentRows": [
+    {
+      "Iteration": 0,
+      "ResidualNorm": 0.01,
+      "SolutionErrorLinf": 3.4914276555137596,
+      "TangentCondition": 313812766667.50055
+    },
+    {
+      "Iteration": 1,
+      "ResidualNorm": 0.0005325222006561082,
+      "SolutionErrorLinf": 0.004068081393083345,
+      "TangentCondition": 313802412863.97284
+    },
+    {
+      "Iteration": 2,
+      "ResidualNorm": 5.968922344237737e-10,
+      "SolutionErrorLinf": 4.158428223988153e-08,
+      "TangentCondition": 313802041601.18054
+    },
+    {
+      "Iteration": 3,
+      "ResidualNorm": 1.864951335722731e-13,
+      "SolutionErrorLinf": 5.054623386513413e-12,
+      "TangentCondition": 313802041581.88513
+    }
+  ],
+  "FrozenTangentRows": [
+    {
+      "Iteration": 0,
+      "ResidualNorm": 0.01
+    },
+    {
+      "Iteration": 1,
+      "ResidualNorm": 0.0005325222006561082
+    },
+    {
+      "Iteration": 2,
+      "ResidualNorm": 3.5723912122131497e-07
+    },
+    {
+      "Iteration": 3,
+      "ResidualNorm": 6.720090063821842e-08
+    },
+    {
+      "Iteration": 4,
+      "ResidualNorm": 5.6926855319505004e-11
+    },
+    {
+      "Iteration": 5,
+      "ResidualNorm": 8.797474901345304e-12
+    },
+    {
+      "Iteration": 6,
+      "ResidualNorm": 1.3323760497674364e-13
+    }
+  ],
+  "LocalPerturbationRows": [
+    {
+      "InitialErrorLinf": 4.000000000000002e-06,
+      "OneStepErrorLinf": 4.584737281598805e-06,
+      "InitialResidualLinf": 0.0041671988891193185
+    },
+    {
+      "InitialErrorLinf": 1.9999999999999944e-06,
+      "OneStepErrorLinf": 1.1461760487385675e-06,
+      "InitialResidualLinf": 0.002083598944470971
+    },
+    {
+      "InitialErrorLinf": 9.999999999999972e-07,
+      "OneStepErrorLinf": 2.865554864506237e-07,
+      "InitialResidualLinf": 0.0010417993471513644
+    },
+    {
+      "InitialErrorLinf": 4.999999999999986e-07,
+      "OneStepErrorLinf": 7.163610216132099e-08,
+      "InitialResidualLinf": 0.0005208996423273302
+    },
+    {
+      "InitialErrorLinf": 2.500000000000061e-07,
+      "OneStepErrorLinf": 1.791831127917476e-08,
+      "InitialResidualLinf": 0.0002604498133961467
+    }
+  ],
+  "ContractingPerturbationCount": 4,
+  "EmpiricalContractionRadiusLinf": 1.9999999999999944e-06,
+  "ObservedLocalOrder": 1.9997806276600403,
+  "QuadraticConstants": [
+    0.00033372100157387784,
+    0.0025127538242549433,
+    2923.010549679121
+  ],
+  "DirectionalTangentAudit": {
+    "RelativeError": 2.1581375571911968e-10,
+    "Step": 1e-06,
+    "DirectionSeed": 27021986,
+    "Passed": true
+  },
+  "FullStepsOnly": true,
+  "ReferenceNewtonIterations": 4,
+  "ReferenceResidualNorm": 1.3324280914717157e-13,
+  "ReferenceResidualTolerance": 1.5e-13,
+  "Passed": true
+}

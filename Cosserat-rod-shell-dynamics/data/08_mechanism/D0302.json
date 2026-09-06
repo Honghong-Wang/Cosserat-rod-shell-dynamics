@@ -1,0 +1,14 @@
+{
+  "Case": [
+    0.005,
+    [
+      3,
+      4
+    ],
+    "finite-width",
+    "discrete-gradient",
+    0.04
+  ],
+  "Reason": "event budget exceeded; persistent contact or Zeno accumulation requires a different branch",
+  "SourceHash": "1a0502067a2082d3f9f4a735bb32d16700636d076d123082ad46beff99e37aea"
+}

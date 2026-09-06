@@ -1,0 +1,3 @@
+Method,MultiplierDof,KktUnknowns,JacobianNnz,TotalAssemblySeconds,LinearSolveMedianSeconds,LinearSolveP90Seconds,PeakNumericStorageBytes,NewtonIterations,KrylovIterations
+finite-width-dual-mortar,96,414,10962,4.785295399997267,0.004651499999454245,0.0048487200008821675,2431008,1,0
+published-bts-full-cons-equation-reproduction,48,366,9684,4.55750860000262,0.0028668999948422424,0.0030206599985831417,2008608,1,0

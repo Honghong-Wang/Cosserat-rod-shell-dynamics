@@ -1,0 +1,164 @@
+{
+  "ResultKind": "finite-width-constant-transverse-mode-ablation",
+  "ContractVersion": "1.0",
+  "Specification": {
+    "strip_width": 0.2,
+    "normal_offset": 0.035,
+    "rigid_rotation_angle": 0.63,
+    "penalty_parameters": [
+      100.0,
+      10000.0,
+      1000000.0
+    ],
+    "affine_limit_tolerance": 2e-12,
+    "objectivity_tolerance": 2e-12,
+    "exact_constraint_tolerance": 2e-12,
+    "shared_benchmark_segments": 8,
+    "shared_tip_load_width_gradient": 0.35,
+    "maximum_shared_equilibrium_residual": 2e-09,
+    "contract_version": "1.0"
+  },
+  "PublishedMethod": {
+    "Authors": "Steinbrecher, Hagmeyer, Meier and Popp",
+    "Year": 2025,
+    "DOI": "10.1007/s00466-025-02647-9",
+    "LiteratureBoundaryClass": "BTS-FULL-CONS centerline-to-surface constant-normal-distance and rotational coupling with weighted penalty regularization",
+    "Implementation": "not implemented; cited as a literature boundary",
+    "OriginalSourceCodeExecuted": false
+  },
+  "AffineAndFiniteWidthComparison": {
+    "GaussWidthCoordinates": [
+      -0.05773502691896259,
+      0.05773502691896259
+    ],
+    "FiniteWidthMoments": {
+      "constant": [
+        0.2,
+        0.0
+      ],
+      "linear": [
+        0.0,
+        0.0666666666666667
+      ],
+      "quadratic": [
+        0.0666666666666667,
+        0.0
+      ]
+    },
+    "CenterlineMoments": {
+      "constant": 0.2,
+      "linear": 0.0,
+      "quadratic": 0.0
+    },
+    "AffineMomentError": 2.7755575615628914e-17,
+    "QuadraticMeanSeenByFiniteWidth": 0.0666666666666667,
+    "QuadraticMeanSeenByCenterline": 0.0,
+    "AdditionalTransverseMomentRank": 1
+  },
+  "CurvedOffsetObjectivity": {
+    "BtsFullConsGapNorm": 6.074009836769117e-17,
+    "FiniteWidthTransportedGapNorm": 6.074009836769117e-17,
+    "BtsFullDispGapNorm": 0.015703880440549725,
+    "NormalOffset": 0.035
+  },
+  "PenaltyVersusExactMultiplier": {
+    "ExactMultiplierConstraintViolation": 5.551115123125783e-17,
+    "ExactMultiplierKktConditionNumber": 4.472614713516129,
+    "WeightedPenaltyRows": [
+      {
+        "Penalty": 100.0,
+        "ConstraintViolation": 0.006786885826170106,
+        "StateRelativeErrorAgainstExactMultiplier": 0.006076715411186921,
+        "ConditionNumber": 350.65773064575535
+      },
+      {
+        "Penalty": 10000.0,
+        "ConstraintViolation": 6.826000572315676e-05,
+        "StateRelativeErrorAgainstExactMultiplier": 6.111831468980073e-05,
+        "ConditionNumber": 34785.43858109795
+      },
+      {
+        "Penalty": 1000000.0,
+        "ConstraintViolation": 6.826394517350858e-07,
+        "StateRelativeErrorAgainstExactMultiplier": 6.112147165207744e-07,
+        "ConditionNumber": 3478263.699666902
+      }
+    ],
+    "ViolationStrictlyDecreases": true,
+    "ConditionStrictlyIncreases": true
+  },
+  "SharedCurvedEquilibrium": {
+    "Benchmark": "same curved production rod-shell tangent, root constraints and tip load with a zero-resultant transverse load gradient",
+    "PrimalDof": 354,
+    "FreePrimalDof": 318,
+    "FiniteWidthConstraintRows": 96,
+    "CenterlineConstraintRows": 48,
+    "FiniteWidthExactMultiplier": {
+      "ConstraintViolation": 1.2582430560264275e-16,
+      "LinearResidualInfinityNorm": 6.498707821878114e-16,
+      "ConditionNumber": 64287562660.258896,
+      "LinearSolveSeconds": 0.07128109999757726,
+      "NewtonIterations": 1,
+      "SolveClass": "one-consistent-tangent-linearized-equilibrium",
+      "TipMeanDisplacement": -1.696165601194822e-05,
+      "TipWidthWarp": 3.0020600426368334e-08,
+      "UnresolvedTransverseMoment": 6.042660573551188e-17
+    },
+    "BtsFullConsCenterlineExactMultiplier": {
+      "ConstraintViolation": 1.9222256811180187e-16,
+      "LinearResidualInfinityNorm": 6.417392658941701e-16,
+      "ConditionNumber": 55806770888.30551,
+      "LinearSolveSeconds": 0.07696069999656174,
+      "NewtonIterations": 1,
+      "SolveClass": "one-consistent-tangent-linearized-equilibrium",
+      "TipMeanDisplacement": -2.0608886558882154e-05,
+      "TipWidthWarp": 3.809785008412322e-08,
+      "UnresolvedTransverseMoment": 2.0481511814386827e-05
+    },
+    "BtsFullConsWeightedPenaltyRows": [
+      {
+        "Penalty": 100.0,
+        "TipMeanDisplacement": -2.0624722436948383e-05,
+        "TipWidthWarp": 3.816354693323085e-08,
+        "CenterlineConstraintViolation": 5.346758365698715e-09,
+        "UnresolvedTransverseMoment": 2.0484788197567912e-05,
+        "LinearResidualInfinityNorm": 1.4599432787847535e-14,
+        "ConditionNumber": 111094477.6005962,
+        "LinearSolveSeconds": 0.051719800001592375,
+        "NewtonIterations": 1,
+        "SolveClass": "one-consistent-tangent-linearized-equilibrium"
+      },
+      {
+        "Penalty": 10000.0,
+        "TipMeanDisplacement": -2.060910379839731e-05,
+        "TipWidthWarp": 3.809901438725047e-08,
+        "CenterlineConstraintViolation": 7.234395917915946e-11,
+        "UnresolvedTransverseMoment": 2.0481544250476686e-05,
+        "LinearResidualInfinityNorm": 1.6613377340541148e-12,
+        "ConditionNumber": 10643473761.379635,
+        "LinearSolveSeconds": 0.07171899999957532,
+        "NewtonIterations": 1,
+        "SolveClass": "one-consistent-tangent-linearized-equilibrium"
+      },
+      {
+        "Penalty": 1000000.0,
+        "TipMeanDisplacement": -2.0608869570754344e-05,
+        "TipWidthWarp": 3.809786247360638e-08,
+        "CenterlineConstraintViolation": 7.264049826306762e-13,
+        "UnresolvedTransverseMoment": 2.0481396397118206e-05,
+        "LinearResidualInfinityNorm": 1.1143034368485405e-10,
+        "ConditionNumber": 1063973663183.5421,
+        "LinearSolveSeconds": 0.09905259999504779,
+        "NewtonIterations": 1,
+        "SolveClass": "one-consistent-tangent-linearized-equilibrium"
+      }
+    ],
+    "CommonStructuralTangent": true,
+    "CommonLoadAndBoundaryConditions": true,
+    "OriginalSteinbrecherCodeExecuted": false,
+    "Passed": true
+  },
+  "SourceClosureHash": "01853792b871140f65770c55d614b1dedb0c39bc8cabf4d5247cbbe188b55e36",
+  "Passed": true,
+  "ClaimBoundary": "The comparison uses one curved structural tangent, load and boundary set to contrast the finite-width operator with its own constant-through-width restriction and weighted penalties. It does not implement BTS-POS-CONS, BTS-ROT, or the Steinbrecher software, and it cannot establish superiority over that method."
+}

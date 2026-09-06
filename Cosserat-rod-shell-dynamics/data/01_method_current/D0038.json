@@ -1,0 +1,176 @@
+{
+  "ResultKind": "cmame-time-event-convergence-and-integrator-comparison",
+  "SmoothRows": [
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.08,
+      "FinalStateError": 0.07758086413461984,
+      "RelativeEnergyDrift": 9.082905679913624e-16
+    },
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.04,
+      "FinalStateError": 0.019613050459701808,
+      "RelativeEnergyDrift": 9.082905679913624e-16
+    },
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.02,
+      "FinalStateError": 0.004917031632369918,
+      "RelativeEnergyDrift": 2.9843832948287623e-15
+    },
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.01,
+      "FinalStateError": 0.0012301209049860678,
+      "RelativeEnergyDrift": 6.877057157648887e-15
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.08,
+      "FinalStateError": 0.0775808641346199,
+      "RelativeEnergyDrift": 7.785347725640249e-16
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.04,
+      "FinalStateError": 0.01961305045970058,
+      "RelativeEnergyDrift": 6.487789771366875e-16
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.02,
+      "FinalStateError": 0.004917031632368981,
+      "RelativeEnergyDrift": 3.8926738628201246e-16
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.01,
+      "FinalStateError": 0.0012301209049872055,
+      "RelativeEnergyDrift": 9.082905679913624e-16
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.08,
+      "FinalStateError": 0.0874901438448552,
+      "RelativeEnergyDrift": 0.0004289177015611271
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.04,
+      "FinalStateError": 0.022226070358307887,
+      "RelativeEnergyDrift": 5.847380354462135e-05
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.02,
+      "FinalStateError": 0.005582896883153141,
+      "RelativeEnergyDrift": 8.103544384922124e-06
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.01,
+      "FinalStateError": 0.0013978832949689006,
+      "RelativeEnergyDrift": 1.1918975421111764e-06
+    }
+  ],
+  "SmoothObservedOrders": {
+    "implicit-midpoint-hermite-event": 1.9932440855440379,
+    "average-acceleration-newmark": 1.993244085543656,
+    "generalized-alpha": 1.9896581109332254
+  },
+  "EventRows": [
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.09,
+      "EventTime": 0.4285128866410054,
+      "EventTimeError": 0.003973338858600961,
+      "PenetrationAtDetection": 0.07898641967773509
+    },
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.045,
+      "EventTime": 0.4255162336066133,
+      "EventTimeError": 0.000976685824208845,
+      "PenetrationAtDetection": 0.09025015993642901
+    },
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.0225,
+      "EventTime": 0.42478567176503684,
+      "EventTimeError": 0.00024612398263240687,
+      "PenetrationAtDetection": 0.010040918229664866
+    },
+    {
+      "Method": "implicit-midpoint-hermite-event",
+      "TimeStep": 0.01125,
+      "EventTime": 0.42460098915227534,
+      "EventTimeError": 6.144136987090709e-05,
+      "PenetrationAtDetection": 0.010725143223206036
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.09,
+      "EventTime": 0.44999999999999996,
+      "EventTimeError": 0.02546045221759552,
+      "PenetrationAtDetection": 0.07898641967773545
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.045,
+      "EventTime": 0.4499999999999999,
+      "EventTimeError": 0.025460452217595464,
+      "PenetrationAtDetection": 0.09025015993642946
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.0225,
+      "EventTime": 0.4275000000000001,
+      "EventTimeError": 0.002960452217595666,
+      "PenetrationAtDetection": 0.010040918229665206
+    },
+    {
+      "Method": "average-acceleration-newmark",
+      "TimeStep": 0.01125,
+      "EventTime": 0.4274999999999998,
+      "EventTimeError": 0.0029604522175953885,
+      "PenetrationAtDetection": 0.01072514322320499
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.09,
+      "EventTime": 0.44999999999999996,
+      "EventTimeError": 0.02546045221759552,
+      "PenetrationAtDetection": 0.07700027272579195
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.045,
+      "EventTime": 0.4499999999999999,
+      "EventTimeError": 0.025460452217595464,
+      "PenetrationAtDetection": 0.08972894955395701
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.0225,
+      "EventTime": 0.4275000000000001,
+      "EventTimeError": 0.002960452217595666,
+      "PenetrationAtDetection": 0.009914753838532958
+    },
+    {
+      "Method": "generalized-alpha",
+      "TimeStep": 0.01125,
+      "EventTime": 0.4274999999999998,
+      "EventTimeError": 0.0029604522175953885,
+      "PenetrationAtDetection": 0.01069335278662633
+    }
+  ],
+  "EventResolvedObservedOrder": 2.003350224603979,
+  "MaximumSmoothEnergyDriftByMethod": {
+    "implicit-midpoint-hermite-event": 6.877057157648887e-15,
+    "average-acceleration-newmark": 9.082905679913624e-16,
+    "generalized-alpha": 0.0004289177015611271
+  },
+  "Passed": true,
+  "ClaimBoundary": "The rate audit uses a smooth oscillator and a unilateral zero-crossing canonical. Full wing deployment rates are a separate application matrix."
+}

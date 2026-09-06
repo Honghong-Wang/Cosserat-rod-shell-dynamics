@@ -1,0 +1,212 @@
+{
+  "ResultKind": "third-party-curved-discrepancy-decomposition",
+  "ContractVersion": "1.0",
+  "Specification": {
+    "longitudinal_order_floor": 0.5,
+    "maximum_cross_section_finest_change": 0.03,
+    "maximum_algebraic_closure_error": 2e-12,
+    "aligned_width_levels": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        2
+      ]
+    ],
+    "longitudinal_segments": [
+      16,
+      32
+    ],
+    "contract_version": "1.0"
+  },
+  "ObservedFinestRelativeDifference": 0.21373509597136922,
+  "ObservedSignedResponseGap": 5.982724913835222e-06,
+  "ProductionRichardsonLimit": 2.2959679410682497e-05,
+  "ProductionObservedOrder": 1.3285531147530851,
+  "LegacySolidRichardsonLimit": 2.80282690627758e-05,
+  "LegacySolidObservedOrder": 1.7988428324697672,
+  "CrossSectionRows": [
+    {
+      "Segments": 32,
+      "OuterWidthElements": 1,
+      "RibWidthElements": 1,
+      "ThicknessElements": 1,
+      "Hexahedra": 96,
+      "Dof": 4095,
+      "TipDisplacementWidth": -2.9314936731417596e-05,
+      "AbsoluteTipResponse": 2.9314936731417596e-05,
+      "ConstitutiveMode": "three-dimensional",
+      "MaximumPolarRotationRad": 9.603202906227923e-05,
+      "MinimumDeformationJacobian": 0.999992056371414,
+      "FreeResidualInfinityNorm": 4.704570066849101e-15,
+      "WallSeconds": 1.1297401000047103,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Finite": true
+    },
+    {
+      "Segments": 32,
+      "OuterWidthElements": 2,
+      "RibWidthElements": 2,
+      "ThicknessElements": 2,
+      "Hexahedra": 384,
+      "Dof": 12675,
+      "TipDisplacementWidth": -2.9513769695781076e-05,
+      "AbsoluteTipResponse": 2.9513769695781076e-05,
+      "ConstitutiveMode": "three-dimensional",
+      "MaximumPolarRotationRad": 9.93744955778532e-05,
+      "MinimumDeformationJacobian": 0.999990952197882,
+      "FreeResidualInfinityNorm": 7.123861242168747e-15,
+      "WallSeconds": 5.133863499999279,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Finite": true
+    },
+    {
+      "Segments": 32,
+      "OuterWidthElements": 3,
+      "RibWidthElements": 3,
+      "ThicknessElements": 2,
+      "Hexahedra": 576,
+      "Dof": 18525,
+      "TipDisplacementWidth": -2.955249919172702e-05,
+      "AbsoluteTipResponse": 2.955249919172702e-05,
+      "ConstitutiveMode": "three-dimensional",
+      "MaximumPolarRotationRad": 0.00010007722811684944,
+      "MinimumDeformationJacobian": 0.999990744835236,
+      "FreeResidualInfinityNorm": 7.105440567021679e-15,
+      "WallSeconds": 17.974656200000027,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Finite": true
+    }
+  ],
+  "AlignedThreeDimensionalRows": [
+    {
+      "Segments": 16,
+      "OuterWidthElements": 3,
+      "RibWidthElements": 3,
+      "ThicknessElements": 2,
+      "Hexahedra": 288,
+      "Dof": 9405,
+      "TipDisplacementWidth": -2.9440186093561197e-05,
+      "AbsoluteTipResponse": 2.9440186093561197e-05,
+      "ConstitutiveMode": "three-dimensional",
+      "MaximumPolarRotationRad": 9.935276567800756e-05,
+      "MinimumDeformationJacobian": 0.9999918952327956,
+      "FreeResidualInfinityNorm": 8.902280978116845e-15,
+      "WallSeconds": 4.21942339999805,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Finite": true
+    },
+    {
+      "Segments": 32,
+      "OuterWidthElements": 3,
+      "RibWidthElements": 3,
+      "ThicknessElements": 2,
+      "Hexahedra": 576,
+      "Dof": 18525,
+      "TipDisplacementWidth": -2.955249919172702e-05,
+      "AbsoluteTipResponse": 2.955249919172702e-05,
+      "ConstitutiveMode": "three-dimensional",
+      "MaximumPolarRotationRad": 0.00010007722811684944,
+      "MinimumDeformationJacobian": 0.999990744835236,
+      "FreeResidualInfinityNorm": 7.105440567021679e-15,
+      "WallSeconds": 18.26693289999821,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Finite": true
+    }
+  ],
+  "AlignedPlaneStressRows": [
+    {
+      "Segments": 16,
+      "OuterWidthElements": 3,
+      "RibWidthElements": 3,
+      "ThicknessElements": 2,
+      "Hexahedra": 288,
+      "Dof": 9405,
+      "TipDisplacementWidth": -3.092464228301582e-05,
+      "AbsoluteTipResponse": 3.092464228301582e-05,
+      "ConstitutiveMode": "plane-stress-mapped",
+      "MaximumPolarRotationRad": 0.0001006366709726181,
+      "MinimumDeformationJacobian": 0.9999905559697044,
+      "FreeResidualInfinityNorm": 1.4210784932630803e-14,
+      "WallSeconds": 3.314907799998764,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Finite": true
+    },
+    {
+      "Segments": 32,
+      "OuterWidthElements": 3,
+      "RibWidthElements": 3,
+      "ThicknessElements": 2,
+      "Hexahedra": 576,
+      "Dof": 18525,
+      "TipDisplacementWidth": -3.100933113460648e-05,
+      "AbsoluteTipResponse": 3.100933113460648e-05,
+      "ConstitutiveMode": "plane-stress-mapped",
+      "MaximumPolarRotationRad": 0.0001013546358349957,
+      "MinimumDeformationJacobian": 0.9999891700012836,
+      "FreeResidualInfinityNorm": 7.179698244294271e-15,
+      "WallSeconds": 16.607138200000918,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Finite": true
+    }
+  ],
+  "AlignedThreeDimensionalLimit": 2.958993689111563e-05,
+  "AlignedPlaneStressLimit": 3.1037560751803364e-05,
+  "CrossSectionFinestChange": 0.0013105320025450615,
+  "Components": [
+    {
+      "Component": "production-longitudinal-discretization",
+      "SignedResponse": 9.510962679473778e-07,
+      "SignedFractionOfSolidResponse": 0.033978271612931245,
+      "AbsoluteFractionOfObservedGap": 0.1589737588883521
+    },
+    {
+      "Component": "mixed-dimensional-kinematics-and-section-model",
+      "SignedResponse": 8.077881341120867e-06,
+      "SignedFractionOfSolidResponse": 0.28858534673676184,
+      "AbsoluteFractionOfObservedGap": 1.350201030042437
+    },
+    {
+      "Component": "three-dimensional-versus-plane-stress-constraint",
+      "SignedResponse": -1.447623860687734e-06,
+      "SignedFractionOfSolidResponse": -0.05171690646832549,
+      "AbsoluteFractionOfObservedGap": 0.24196731113945463
+    },
+    {
+      "Component": "cross-section-integration-and-alignment",
+      "SignedResponse": -1.56166782833983e-06,
+      "SignedFractionOfSolidResponse": -0.055791170072642,
+      "AbsoluteFractionOfObservedGap": 0.26102952263916207
+    },
+    {
+      "Component": "legacy-solid-longitudinal-discretization",
+      "SignedResponse": -3.6961006205458037e-08,
+      "SignedFractionOfSolidResponse": -0.0013204458373563667,
+      "AbsoluteFractionOfObservedGap": 0.006177955152172324
+    }
+  ],
+  "ComponentSum": 5.982724913835222e-06,
+  "AlgebraicClosureRelativeError": 0.0,
+  "DominantMechanism": "mixed-dimensional-kinematics-and-section-model",
+  "ResponseFitted": false,
+  "DecompositionOrderDeclared": true,
+  "Passed": true,
+  "SourceClosureHash": "3e0bf712823944d4e92d6dd31eddda4f42ecaa83233009e0f40c6107b9e6e549",
+  "ClaimBoundary": "The signed decomposition follows the declared sequence from the production finest response through longitudinal extrapolation, plane-stress-mapped and three-dimensional aligned solids, and the legacy solid discretization. It is an auditable model-form error budget, not a unique causal or experimentally calibrated split."
+}

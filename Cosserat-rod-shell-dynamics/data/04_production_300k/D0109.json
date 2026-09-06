@@ -1,0 +1,156 @@
+{
+  "ResultKind": "third-party-curved-rod-shell-reference",
+  "ContractVersion": "1.0",
+  "Specification": {
+    "length": 1.0,
+    "radius": 5.0,
+    "shell_width": 0.2,
+    "shell_thickness": 0.02,
+    "rib_width": 0.04,
+    "shell_young_modulus": 1000000.0,
+    "rib_young_modulus": 5000000.0,
+    "poisson_ratio": 0.3,
+    "total_tip_force_width": -0.001,
+    "production_levels": [
+      8,
+      16,
+      32
+    ],
+    "third_party_levels": [
+      8,
+      16,
+      32
+    ],
+    "maximum_tip_relative_error": 0.3,
+    "maximum_energy_relative_error": 0.35,
+    "maximum_finest_change": 0.08,
+    "maximum_nonlinear_residual_to_applied_load": 0.01,
+    "contract_version": "1.0"
+  },
+  "SectionParameterDerivation": {
+    "RodShearExtension": [
+      3200.0,
+      1025.6410256410259,
+      1025.6410256410259
+    ],
+    "RodTorsionBending": [
+      0.16410256410256413,
+      0.10666666666666669,
+      0.42666666666666675
+    ],
+    "ShellLambda": 6593.406593406593,
+    "ShellMu": 7692.307692307692,
+    "ShellShear": 6410.25641025641,
+    "ShellBending": [
+      0.7326007326007328,
+      0.7326007326007328,
+      0.25641025641025644
+    ],
+    "Derivation": "plane-stress shell resultants plus the stiffness increment of the central solid band represented as a rectangular rod section"
+  },
+  "Dependency": {
+    "Package": "scikit-fem",
+    "RequiredVersion": "12.0.2",
+    "License": "BSD-3-Clause",
+    "Available": true,
+    "DetectedVersion": "12.0.2",
+    "VersionMatched": true
+  },
+  "ProductionRows": [
+    {
+      "Segments": 8,
+      "PrimalDof": 354,
+      "KktUnknowns": 450,
+      "TipDisplacementWidth": -1.6960481984392807e-05,
+      "PotentialEnergy": 8.480224009701423e-09,
+      "LinearResidualInfinityNorm": 7.284281319985359e-16,
+      "NonlinearResidualAtLinearSolution": 1.1291646768118213e-06,
+      "NonlinearResidualToAppliedLoad": 0.005645823384059106,
+      "LinearizationPointResidualInfinityNorm": 0.00020000000001376737,
+      "TangentSource": "production-torch-autodiff-at-reference",
+      "WallSeconds": 7.581694800006517,
+      "LinearizedEquilibriumConverged": true,
+      "NonlinearEquilibriumSolved": false
+    },
+    {
+      "Segments": 16,
+      "PrimalDof": 642,
+      "KktUnknowns": 834,
+      "TipDisplacementWidth": -2.057099477623959e-05,
+      "PotentialEnergy": 1.0285484900796565e-08,
+      "LinearResidualInfinityNorm": 5.445391344320842e-16,
+      "NonlinearResidualAtLinearSolution": 1.5139225015745096e-06,
+      "NonlinearResidualToAppliedLoad": 0.007569612507872548,
+      "LinearizationPointResidualInfinityNorm": 0.00020000000012455763,
+      "TangentSource": "production-torch-autodiff-at-reference",
+      "WallSeconds": 15.996246400005475,
+      "LinearizedEquilibriumConverged": true,
+      "NonlinearEquilibriumSolved": false
+    },
+    {
+      "Segments": 32,
+      "PrimalDof": 1218,
+      "KktUnknowns": 1602,
+      "TipDisplacementWidth": -2.200858314273512e-05,
+      "PotentialEnergy": 1.1004289602483559e-08,
+      "LinearResidualInfinityNorm": 7.526546757138395e-16,
+      "NonlinearResidualAtLinearSolution": 1.7378895066200812e-06,
+      "NonlinearResidualToAppliedLoad": 0.008689447533100405,
+      "LinearizationPointResidualInfinityNorm": 0.00020000000003837938,
+      "TangentSource": "production-torch-autodiff-at-reference",
+      "WallSeconds": 45.72619290000148,
+      "LinearizedEquilibriumConverged": true,
+      "NonlinearEquilibriumSolved": false
+    }
+  ],
+  "ThirdPartyRows": [
+    {
+      "Segments": 8,
+      "Hexahedra": 16,
+      "Dof": 765,
+      "TipDisplacementWidth": -2.758080816896221e-05,
+      "StrainEnergy": 1.3789630761845137e-08,
+      "FreeResidualInfinityNorm": 7.549516567451064e-15,
+      "WallSeconds": 0.8548401000007289,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Element": "quadratic-hexahedral-vector-elasticity",
+      "Finite": true
+    },
+    {
+      "Segments": 16,
+      "Hexahedra": 32,
+      "Dof": 1485,
+      "TipDisplacementWidth": -2.789966655551819e-05,
+      "StrainEnergy": 1.3948912575855322e-08,
+      "FreeResidualInfinityNorm": 6.439293542825908e-15,
+      "WallSeconds": 1.127184999997553,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Element": "quadratic-hexahedral-vector-elasticity",
+      "Finite": true
+    },
+    {
+      "Segments": 32,
+      "Hexahedra": 64,
+      "Dof": 2925,
+      "TipDisplacementWidth": -2.799130805657034e-05,
+      "StrainEnergy": 1.3994769228203163e-08,
+      "FreeResidualInfinityNorm": 6.217040507959163e-15,
+      "WallSeconds": 1.4448233000002801,
+      "Package": "scikit-fem",
+      "PackageVersion": "12.0.2",
+      "Element": "quadratic-hexahedral-vector-elasticity",
+      "Finite": true
+    }
+  ],
+  "FinestTipRelativeError": 0.21373509597136922,
+  "FinestEnergyRelativeError": 0.21368552613879452,
+  "ProductionFinestTipChange": 0.06531944183649399,
+  "ThirdPartyFinestTipChange": 0.003273927065749997,
+  "ResponseFitted": false,
+  "IndependentAssemblyAndLinearSolver": true,
+  "SourceClosureHash": "7caf12058cc7bfe0a79afb292793fd50327193e8f8e20867f3d6af6b3e5a1b57",
+  "Passed": true,
+  "ClaimBoundary": "This is an independent linearized small-strain in-plane equilibrium of a curved composite strip, compared using a third-party 3D solid finite-element library. The production response is one tangent solve at its stress-free curved reference, with the reported nonlinear residual-to-load audit. It is not a third-party finite-rotation shell, impact, full-wing or experimental validation."
+}

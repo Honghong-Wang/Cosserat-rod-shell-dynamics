@@ -1,0 +1,50 @@
+{
+  "ResultKind": "public-simo-vu-quoc-45-degree-bend-benchmark",
+  "Source": {
+    "Benchmark": "Simo-Vu Quoc 45-degree curved cantilever",
+    "OriginalMethod": "Simo and Vu-Quoc geometrically exact beam",
+    "Geometry": "radius 100 m, arc 45 deg, unit square section",
+    "Material": "E=1e7 Pa, nu=0, G=E/2"
+  },
+  "ReferenceSnapshotHash": "373b9636093a80470a98451e963bf705513b05ca6ec157327162db76931486bf",
+  "IndependentRoute": "scipy-DOP853-Cosserat-shooting",
+  "Rows": [
+    {
+      "LoadN": 300.0,
+      "TipPosition": [
+        58.779122489682806,
+        22.244780945367705,
+        40.191891670150504
+      ],
+      "ReferenceTipPosition": [
+        58.84,
+        22.33,
+        40.08
+      ],
+      "RelativeError": 0.0020540278008869596,
+      "RootConverged": true,
+      "TipMomentResidual": 7.887024366937112e-12,
+      "IntegrationSteps": 163
+    },
+    {
+      "LoadN": 600.0,
+      "TipPosition": [
+        47.15043857362902,
+        15.684800534038754,
+        53.47485879182513
+      ],
+      "ReferenceTipPosition": [
+        47.23,
+        15.79,
+        53.37
+      ],
+      "RelativeError": 0.002308361736726091,
+      "RootConverged": true,
+      "TipMomentResidual": 6.366462912410498e-12,
+      "IntegrationSteps": 163
+    }
+  ],
+  "MaximumRelativeError": 0.002308361736726091,
+  "Passed": true,
+  "ClaimBoundary": "This qualifies the rod constitutive/kinematic route against a public large-rotation benchmark. It does not independently validate the shell, Mortar interface, UVLM, or complete deployable wing."
+}

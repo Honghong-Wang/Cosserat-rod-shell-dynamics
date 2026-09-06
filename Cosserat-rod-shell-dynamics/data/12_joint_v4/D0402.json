@@ -1,0 +1,42 @@
+{
+  "SelectedRows": [
+    "production-r8-s9-w6",
+    "production-r8-s9-w12",
+    "production-r8-s9-w24",
+    "production-r8-s17-w12",
+    "production-r16-s17-w12"
+  ],
+  "Results": [
+    {
+      "Id": "production-r8-s9-w6",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 15.044573000002856
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 35.4990930999993
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 97.61459140000079
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 84.84328710000045
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 108.08700999999928
+    }
+  ],
+  "CurrentCommitEvidenceEligible": false
+}

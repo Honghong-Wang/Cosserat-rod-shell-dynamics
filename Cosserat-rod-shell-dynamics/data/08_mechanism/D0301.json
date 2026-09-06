@@ -1,0 +1,382 @@
+[
+  {
+    "Time": 0.0,
+    "Gap": 0.0035211640968626015,
+    "NormalVelocity": 0.0,
+    "FreeNormalAcceleration": 1.4561509238108254e-11,
+    "Attached": true,
+    "ElapsedSeconds": 18.52166439999928,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0034711640968625853,
+      "InterfaceMoment": [
+        1.3073367709683095e-13,
+        -6.197889708185885e-14,
+        1.8426130609105883e-13
+      ],
+      "InterfaceMomentNorm": 2.342752802434029e-13,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.004,
+    "Gap": 0.003521164096862768,
+    "NormalVelocity": 6.119724138304639e-14,
+    "FreeNormalAcceleration": 1.5913455575533236e-11,
+    "Attached": true,
+    "ElapsedSeconds": 23.842931899998803,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0034711640968626946,
+      "InterfaceMoment": [
+        1.5086575184778867e-13,
+        -1.716107186787638e-14,
+        1.1398768084777947e-13
+      ],
+      "InterfaceMomentNorm": 1.8986355325156065e-13,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.004,
+    "Gap": 0.003521164096862768,
+    "NormalVelocity": 6.119724138304639e-14,
+    "FreeNormalAcceleration": -0.08063813287375493,
+    "Attached": false,
+    "ElapsedSeconds": 24.884464300001127,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0034711640968626946,
+      "InterfaceMoment": [
+        -0.0003689261603814738,
+        -3.693256941619585e-05,
+        -0.0001506266015590594
+      ],
+      "InterfaceMomentNorm": 0.0004001985752032741,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.04000000000000001,
+    "Gap": 0.0034806440260727947,
+    "NormalVelocity": -0.0022511128654793926,
+    "FreeNormalAcceleration": -0.04442342942637094,
+    "Attached": false,
+    "ElapsedSeconds": 31.26446059999944,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.003430644026072776,
+      "InterfaceMoment": [
+        -0.00045400711746068927,
+        -3.954413548458372e-05,
+        -0.00018711433605557673
+      ],
+      "InterfaceMomentNorm": 0.0004926438633675512,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.08,
+    "Gap": 0.0033614390295316834,
+    "NormalVelocity": -0.0037091283675601406,
+    "FreeNormalAcceleration": -0.028477481469260768,
+    "Attached": false,
+    "ElapsedSeconds": 41.00944890000028,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0033114390295316425,
+      "InterfaceMoment": [
+        -0.0005437209878027727,
+        -3.649283173908932e-05,
+        -0.00021820132187948835
+      ],
+      "InterfaceMomentNorm": 0.000587006010374269,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.12,
+    "Gap": 0.0031898438482025407,
+    "NormalVelocity": -0.004870635365433318,
+    "FreeNormalAcceleration": -0.02959814889656077,
+    "Attached": false,
+    "ElapsedSeconds": 50.294533299998875,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.003139843848202551,
+      "InterfaceMoment": [
+        -0.000551609188538949,
+        -3.117216612427183e-05,
+        -0.00020357490428622895
+      ],
+      "InterfaceMomentNorm": 0.0005888014457154672,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.16,
+    "Gap": 0.0029809433876402183,
+    "NormalVelocity": -0.005574386230809511,
+    "FreeNormalAcceleration": -0.005588810990004513,
+    "Attached": false,
+    "ElapsedSeconds": 60.68542289999823,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.002930943387640216,
+      "InterfaceMoment": [
+        -0.0005824860762244681,
+        -3.272074004547992e-05,
+        -0.00021114052957227027
+      ],
+      "InterfaceMomentNorm": 0.0006204361361595241,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.2,
+    "Gap": 0.0027493471132362737,
+    "NormalVelocity": -0.006005429303429706,
+    "FreeNormalAcceleration": -0.015964011280624184,
+    "Attached": false,
+    "ElapsedSeconds": 69.60807790000035,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0026993471132361942,
+      "InterfaceMoment": [
+        -0.0005642811475813574,
+        -3.6454471783543425e-05,
+        -0.00021178501769079908
+      ],
+      "InterfaceMomentNorm": 0.0006038170548659941,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.24000000000000002,
+    "Gap": 0.002498847425643387,
+    "NormalVelocity": -0.006519560277611622,
+    "FreeNormalAcceleration": -0.009742493220629204,
+    "Attached": false,
+    "ElapsedSeconds": 77.90463799999998,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0024488474256433987,
+      "InterfaceMoment": [
+        -0.000436544019238432,
+        -3.4220906092062784e-05,
+        -0.0001730640154867822
+      ],
+      "InterfaceMomentNorm": 0.000470842759956034,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.28,
+    "Gap": 0.0022211525501529897,
+    "NormalVelocity": -0.00736517910879644,
+    "FreeNormalAcceleration": -0.03253835890475961,
+    "Attached": false,
+    "ElapsedSeconds": 86.89954470000157,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.00217115255015297,
+      "InterfaceMoment": [
+        -0.00024315825854433331,
+        -2.230812079652354e-05,
+        -0.00011243800331292078
+      ],
+      "InterfaceMomentNorm": 0.0002688231677902437,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.32,
+    "Gap": 0.0018925008851762917,
+    "NormalVelocity": -0.009067399770323895,
+    "FreeNormalAcceleration": -0.05257340535496921,
+    "Attached": false,
+    "ElapsedSeconds": 96.26453050000055,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0018425008851762053,
+      "InterfaceMoment": [
+        -0.00017204452239987756,
+        -2.7057819837661448e-05,
+        -8.011697131256123e-05
+      ],
+      "InterfaceMomentNorm": 0.0001917033447659875,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.36,
+    "Gap": 0.001502514326348521,
+    "NormalVelocity": -0.010431915739662316,
+    "FreeNormalAcceleration": -0.015651726825681028,
+    "Attached": false,
+    "ElapsedSeconds": 103.52073450000171,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.00145251432634851,
+      "InterfaceMoment": [
+        -0.00017922542882372035,
+        -2.73069815326499e-05,
+        -8.609239714504251e-05
+      ],
+      "InterfaceMomentNorm": 0.0002006971011839749,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.39999999999999997,
+    "Gap": 0.0010703265077268778,
+    "NormalVelocity": -0.011177461765716497,
+    "FreeNormalAcceleration": -0.021626640911244784,
+    "Attached": false,
+    "ElapsedSeconds": 109.42203099999824,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0010203265077268209,
+      "InterfaceMoment": [
+        -8.900557156334099e-05,
+        -7.742544268979911e-06,
+        -5.79072104420085e-05
+      ],
+      "InterfaceMomentNorm": 0.00010646682010020393,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.43999999999999995,
+    "Gap": 0.000612580399585734,
+    "NormalVelocity": -0.011709851427549283,
+    "FreeNormalAcceleration": -0.00499280312434904,
+    "Attached": false,
+    "ElapsedSeconds": 114.93364110000039,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.0005625803995857018,
+      "InterfaceMoment": [
+        -9.729759046621513e-05,
+        -1.0835719652424785e-05,
+        -3.261075618585395e-05
+      ],
+      "InterfaceMomentNorm": 0.00010318767053253249,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.4799999999999999,
+    "Gap": 0.00015186047052296453,
+    "NormalVelocity": -0.011326140867483682,
+    "FreeNormalAcceleration": 0.02417902765259312,
+    "Attached": false,
+    "ElapsedSeconds": 121.76626079999915,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": -0.00010186047052292483,
+      "InterfaceMoment": [
+        -0.0001627899472821743,
+        -3.186902380157688e-06,
+        -4.6097950654946097e-05
+      ],
+      "InterfaceMomentNorm": 0.00016922099260286704,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.4935652637768334,
+    "Gap": -6.591949208711867e-16,
+    "NormalVelocity": -0.011063468226785047,
+    "FreeNormalAcceleration": 0.014547977556176222,
+    "Attached": false,
+    "ElapsedSeconds": 179.2187507000017,
+    "ImpactCount": 0,
+    "Measurement": {
+      "TipDisplacement": 5.000000000069398e-05,
+      "InterfaceMoment": [
+        -0.00013843226304448202,
+        9.729951795605685e-06,
+        -4.038988058862129e-05
+      ],
+      "InterfaceMomentNorm": 0.00014453202367477097,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.4935652637768334,
+    "Gap": -6.591949208711867e-16,
+    "NormalVelocity": 0.007191254347410281,
+    "FreeNormalAcceleration": 0.014182883729948673,
+    "Attached": false,
+    "ElapsedSeconds": 180.06357299999945,
+    "ImpactCount": 1,
+    "Measurement": {
+      "TipDisplacement": 5.000000000069398e-05,
+      "InterfaceMoment": [
+        -0.00013843227417627434,
+        9.729950684817767e-06,
+        -4.0389885140299613e-05
+      ],
+      "InterfaceMomentNorm": 0.00014453203553396312,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.5199999999999999,
+    "Gap": 0.00011026029014361144,
+    "NormalVelocity": 0.00115093965092648,
+    "FreeNormalAcceleration": -0.47115284445724503,
+    "Attached": false,
+    "ElapsedSeconds": 186.27564730000086,
+    "ImpactCount": 1,
+    "Measurement": {
+      "TipDisplacement": -6.026029014365195e-05,
+      "InterfaceMoment": [
+        0.0010008308278762906,
+        6.539752291918221e-05,
+        0.00046304268592704687
+      ],
+      "InterfaceMomentNorm": 0.0011046934918890578,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.5599999999999999,
+    "Gap": 7.07487711196289e-05,
+    "NormalVelocity": -0.0031267197205336276,
+    "FreeNormalAcceleration": 0.25722066094564977,
+    "Attached": false,
+    "ElapsedSeconds": 193.30675210000118,
+    "ImpactCount": 1,
+    "Measurement": {
+      "TipDisplacement": -2.074877111956621e-05,
+      "InterfaceMoment": [
+        0.00020895653999720314,
+        -2.4697589189771595e-05,
+        3.9117685725770876e-05
+      ],
+      "InterfaceMomentNorm": 0.0002140163541786694,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  },
+  {
+    "Time": 0.5900027731845809,
+    "Gap": 2.1122686932883994e-13,
+    "NormalVelocity": -0.0015892287690578274,
+    "FreeNormalAcceleration": -0.15475052978949697,
+    "Attached": false,
+    "ElapsedSeconds": 251.77403100000083,
+    "ImpactCount": 1,
+    "Measurement": {
+      "TipDisplacement": 4.999999978879956e-05,
+      "InterfaceMoment": [
+        0.0002519775408927001,
+        1.886319219937855e-05,
+        -3.5713771340785665e-05
+      ],
+      "InterfaceMomentNorm": 0.0002551939940470092,
+      "MomentDefinition": "continuous interface resultant about fixed rod-root pole; excludes delta-function impact peak"
+    }
+  }
+]

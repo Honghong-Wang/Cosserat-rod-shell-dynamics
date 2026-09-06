@@ -1,0 +1,16 @@
+{
+  "Completed": 26,
+  "Required": 36,
+  "Failures": [],
+  "LastCase": [
+    0.005,
+    [
+      2,
+      3
+    ],
+    "finite-width",
+    "discrete-gradient",
+    0.04
+  ],
+  "ElapsedSeconds": 2642.1488052000004
+}

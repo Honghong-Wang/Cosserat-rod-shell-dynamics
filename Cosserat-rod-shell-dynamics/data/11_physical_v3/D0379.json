@@ -1,0 +1,18 @@
+{
+  "IntegrityPassed": true,
+  "FocusedRegressionPassed": true,
+  "TestsRun": 97,
+  "PdfAutomatedQaPassed": true,
+  "ScientificAllFourIssuesClosed": false,
+  "CurrentCommitEvidenceEligible": false,
+  "HeavyEvidenceReexecutedOnFinalSource": false,
+  "HistoricalEvidenceRelabelled": false,
+  "ArchiveSha256": "a0e9439ece13657ce39661f103c3b495b6bf1996c4f845e3e9c588476f1beffa",
+  "Manifest": {
+    "outputs/physical_closure_20260905_v3/FourIssueClosureArtifact.json": "a23c9b32dbfecaa061fdd421e0a4904ccbd7260938f4dddd4d15e9075abc2230",
+    "outputs/physical_closure_20260905_v3/ExecutedSourceSnapshot.json": "19e5d8aaaffa82920dee1a7e575f55110008a3651456294f17b0851a1cd60d96",
+    "outputs/physical_closure_20260905_v3/regression/FocusedRegressionArtifact.json": "e50c85d4bef138660c215fe22d3aa183eb5de780893be4d452376592227edf90",
+    "outputs/physical_closure_20260905_v3/pdf_qa/PdfQa.json": "615f6c3f69f4b2ff93ecf08a11df81ca1f9ca261f1e06403926bf078aa285ef4"
+  },
+  "Boundary": "Delivery integrity and regression do not close traction, general momentum or deployment applicability"
+}

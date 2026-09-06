@@ -1,0 +1,13 @@
+{
+  "TestsRun": 108,
+  "Failures": 0,
+  "Errors": 0,
+  "Skipped": 0,
+  "Passed": true,
+  "SourceUnchanged": true,
+  "CollectorHash": "49c4ef52f96b08120a5f3505ab28ce7a42c32afa37791a33727331991520a4a5",
+  "RuntimeSeconds": 20.691228300000148,
+  "FullReleaseRun": false,
+  "CurrentCommitEvidenceEligible": false,
+  "ScientificIssuesAllClosed": false
+}

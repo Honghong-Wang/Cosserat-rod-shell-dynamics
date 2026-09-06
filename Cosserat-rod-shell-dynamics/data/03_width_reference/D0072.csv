@@ -1,0 +1,3 @@
+Case,GeometryClass,ConnectionWidthToLength,CurvatureWidthProduct,EccentricityToWidth,ReferenceDof,FiniteWidthAdvantageMetricCount,NumericalQualificationPassed,Improvement_InterfaceTraction,Improvement_TipWarping,Improvement_TipCurvature,Improvement_ShellStressResultant
+high-curvature-low-eccentricity,single-curvature,0.04,0.04,0.25,18081,2,True,-1.4191919702328466,0.41299684982600604,0.3529114100859997,-0.2182751976547237
+double-curvature-high-eccentricity,double-curvature,0.04,0.04,0.4,18081,2,True,-1.5330248945253553,0.5742574367639791,0.40169633640002567,0.04219827988363545

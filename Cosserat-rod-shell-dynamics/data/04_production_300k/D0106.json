@@ -1,0 +1,116 @@
+{
+  "ResultKind": "cosserat-shell-canonical-qualification",
+  "ContractVersion": "1.0",
+  "Specification": {
+    "young_modulus": 1000000.0,
+    "poisson_ratio": 0.3,
+    "strip_length": 1.0,
+    "strip_width": 0.2,
+    "length_segments": 4,
+    "width_segments": 2,
+    "thickness_ratios": [
+      0.1,
+      0.05,
+      0.02
+    ],
+    "membrane_patch_tolerance": 2e-10,
+    "objectivity_tolerance": 2e-09,
+    "curved_reference_tolerance": 2e-09,
+    "tangent_relative_tolerance": 2e-06,
+    "maximum_dsg_compliance_spread": 0.35,
+    "minimum_locking_improvement": 1.25,
+    "contract_version": "1.0"
+  },
+  "MembranePatch": {
+    "MeasuredEnergy": 0.7592784923077017,
+    "AnalyticalEnergy": 0.7592784923076888,
+    "RelativeError": 1.696161186722107e-14,
+    "Passed": true
+  },
+  "ObjectivityPatch": {
+    "RigidMotionEnergy": 4.619744819560037e-28,
+    "Passed": true
+  },
+  "CurvedShell": {
+    "ReferenceEnergy": 1.6072871813664057e-28,
+    "ReferenceResidualInfinityNorm": 1.4220630625303434e-12,
+    "RigidMotionEnergy": 1.9958873201701923e-27,
+    "DirectionalTangentRelativeError": 9.712688332087718e-11,
+    "Passed": true
+  },
+  "Locking": {
+    "Rows": [
+      {
+        "ThicknessRatio": 0.1,
+        "Formulation": "centroid",
+        "TipCompliance": 0.016403934111300353,
+        "EulerBernoulliCompliance": 0.019999999999999993,
+        "NormalizedCompliance": 0.8201967055650179,
+        "FreeTangentRank": 72,
+        "FreeTangentSize": 72,
+        "MinimumRetainedSingularValue": 1.1709434208868266,
+        "Finite": true
+      },
+      {
+        "ThicknessRatio": 0.05,
+        "Formulation": "centroid",
+        "TipCompliance": 0.059294126002718876,
+        "EulerBernoulliCompliance": 0.15999999999999995,
+        "NormalizedCompliance": 0.3705882875169931,
+        "FreeTangentRank": 72,
+        "FreeTangentSize": 72,
+        "MinimumRetainedSingularValue": 0.1472564482384849,
+        "Finite": true
+      },
+      {
+        "ThicknessRatio": 0.02,
+        "Formulation": "centroid",
+        "TipCompliance": 0.22228593515255413,
+        "EulerBernoulliCompliance": 2.4999999999999996,
+        "NormalizedCompliance": 0.08891437406102166,
+        "FreeTangentRank": 72,
+        "FreeTangentSize": 72,
+        "MinimumRetainedSingularValue": 0.009440470199845724,
+        "Finite": true
+      },
+      {
+        "ThicknessRatio": 0.1,
+        "Formulation": "discrete-shear-gap",
+        "TipCompliance": 0.029466032702553907,
+        "EulerBernoulliCompliance": 0.019999999999999993,
+        "NormalizedCompliance": 1.4733016351276957,
+        "FreeTangentRank": 72,
+        "FreeTangentSize": 72,
+        "MinimumRetainedSingularValue": 1.1709434208864615,
+        "Finite": true
+      },
+      {
+        "ThicknessRatio": 0.05,
+        "Formulation": "discrete-shear-gap",
+        "TipCompliance": 0.23351138999679635,
+        "EulerBernoulliCompliance": 0.15999999999999995,
+        "NormalizedCompliance": 1.4594461874799778,
+        "FreeTangentRank": 72,
+        "FreeTangentSize": 72,
+        "MinimumRetainedSingularValue": 0.14725644823793088,
+        "Finite": true
+      },
+      {
+        "ThicknessRatio": 0.02,
+        "Formulation": "discrete-shear-gap",
+        "TipCompliance": 3.627937605880327,
+        "EulerBernoulliCompliance": 2.4999999999999996,
+        "NormalizedCompliance": 1.451175042352131,
+        "FreeTangentRank": 72,
+        "FreeTangentSize": 72,
+        "MinimumRetainedSingularValue": 0.009440470199369859,
+        "Finite": true
+      }
+    ],
+    "DsgNormalizedComplianceSpread": 0.015141639205666727,
+    "ThinLimitComplianceImprovement": 16.32103985072418,
+    "Passed": true
+  },
+  "SourceClosureHash": "73ce490f5d68a601ca26fe3243a28463db836ff347e1743ed9437c691f43117c",
+  "Passed": true
+}

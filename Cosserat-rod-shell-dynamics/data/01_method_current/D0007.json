@@ -1,0 +1,184 @@
+{
+  "ResultKind": "finite-width-strip-fortin-qualification",
+  "ContractVersion": "1.0",
+  "InterfaceDomain": "Gamma = (0,L) x (-w/2,w/2)",
+  "PrimalTrace": "shape-regular triangular P1 strip trace",
+  "MultiplierSpace": "macro-P0-in-length times P1-in-width times R6",
+  "LocalLiftingRows": [
+    {
+      "InteriorLocation": 0.35,
+      "Diagonal": "forward",
+      "NormalizedMomentMatrix": [
+        [
+          0.275,
+          0.22499999999999998
+        ],
+        [
+          -0.08333333333333333,
+          0.08333333333333333
+        ]
+      ],
+      "MomentMatrixDeterminant": 0.04166666666666668,
+      "MinimumMomentSingularValue": 0.1171946630107548,
+      "MomentConditionNumber": 3.0337031964164276,
+      "MomentPreservationDefect": 2.220446049250313e-16,
+      "ScaledLiftingNorm": 19.180157857317823
+    },
+    {
+      "InteriorLocation": 0.35,
+      "Diagonal": "backward",
+      "NormalizedMomentMatrix": [
+        [
+          0.22499999999999998,
+          0.275
+        ],
+        [
+          -0.08333333333333333,
+          0.08333333333333333
+        ]
+      ],
+      "MomentMatrixDeterminant": 0.041666666666666664,
+      "MinimumMomentSingularValue": 0.11719466301075483,
+      "MomentConditionNumber": 3.0337031964164267,
+      "MomentPreservationDefect": 2.220446049250313e-16,
+      "ScaledLiftingNorm": 19.180157857317823
+    },
+    {
+      "InteriorLocation": 0.5,
+      "Diagonal": "forward",
+      "NormalizedMomentMatrix": [
+        [
+          0.25,
+          0.25
+        ],
+        [
+          -0.08333333333333333,
+          0.08333333333333333
+        ]
+      ],
+      "MomentMatrixDeterminant": 0.04166666666666668,
+      "MinimumMomentSingularValue": 0.1178511301977579,
+      "MomentConditionNumber": 3.0000000000000004,
+      "MomentPreservationDefect": 0.0,
+      "ScaledLiftingNorm": 18.33030277982336
+    },
+    {
+      "InteriorLocation": 0.5,
+      "Diagonal": "backward",
+      "NormalizedMomentMatrix": [
+        [
+          0.25,
+          0.25
+        ],
+        [
+          -0.08333333333333333,
+          0.08333333333333333
+        ]
+      ],
+      "MomentMatrixDeterminant": 0.04166666666666668,
+      "MinimumMomentSingularValue": 0.1178511301977579,
+      "MomentConditionNumber": 3.0000000000000004,
+      "MomentPreservationDefect": 0.0,
+      "ScaledLiftingNorm": 18.33030277982336
+    },
+    {
+      "InteriorLocation": 0.65,
+      "Diagonal": "forward",
+      "NormalizedMomentMatrix": [
+        [
+          0.22499999999999998,
+          0.275
+        ],
+        [
+          -0.08333333333333333,
+          0.08333333333333333
+        ]
+      ],
+      "MomentMatrixDeterminant": 0.041666666666666664,
+      "MinimumMomentSingularValue": 0.11719466301075483,
+      "MomentConditionNumber": 3.0337031964164267,
+      "MomentPreservationDefect": 2.220446049250313e-16,
+      "ScaledLiftingNorm": 19.180157857317823
+    },
+    {
+      "InteriorLocation": 0.65,
+      "Diagonal": "backward",
+      "NormalizedMomentMatrix": [
+        [
+          0.275,
+          0.22499999999999998
+        ],
+        [
+          -0.08333333333333333,
+          0.08333333333333333
+        ]
+      ],
+      "MomentMatrixDeterminant": 0.04166666666666668,
+      "MinimumMomentSingularValue": 0.1171946630107548,
+      "MomentConditionNumber": 3.0337031964164276,
+      "MomentPreservationDefect": 2.220446049250313e-16,
+      "ScaledLiftingNorm": 19.180157857317823
+    }
+  ],
+  "ProductionRankRows": [
+    {
+      "RodSegments": 2,
+      "ShellSegments": 3,
+      "ShellToRodRatio": 1.5,
+      "MultiplierBasis": "p0-macro-trace-times-p1-width",
+      "ConstraintRows": 24,
+      "FreePrimalColumns": 60,
+      "ConstraintRank": 24,
+      "RankDeficiency": 0,
+      "MinimumRowNormalizedSingularValue": 0.7255748409954343,
+      "RowNormalizedConditionNumber": 1.7403369830555142,
+      "FullRowRank": true
+    },
+    {
+      "RodSegments": 4,
+      "ShellSegments": 8,
+      "ShellToRodRatio": 2.0,
+      "MultiplierBasis": "p0-macro-trace-times-p1-width",
+      "ConstraintRows": 48,
+      "FreePrimalColumns": 132,
+      "ConstraintRank": 48,
+      "RankDeficiency": 0,
+      "MinimumRowNormalizedSingularValue": 0.6077731393011756,
+      "RowNormalizedConditionNumber": 2.305963062981826,
+      "FullRowRank": true
+    },
+    {
+      "RodSegments": 8,
+      "ShellSegments": 4,
+      "ShellToRodRatio": 0.5,
+      "MultiplierBasis": "p0-macro-trace-times-p1-width",
+      "ConstraintRows": 48,
+      "FreePrimalColumns": 108,
+      "ConstraintRank": 48,
+      "RankDeficiency": 0,
+      "MinimumRowNormalizedSingularValue": 0.3961245104532217,
+      "RowNormalizedConditionNumber": 3.4825621075931052,
+      "FullRowRank": true
+    }
+  ],
+  "ExpectedOverRichFailure": {
+    "RodSegments": 8,
+    "ShellSegments": 4,
+    "ShellToRodRatio": 0.5,
+    "MultiplierBasis": "p0-rod-trace-times-p1-width",
+    "ConstraintRows": 96,
+    "FreePrimalColumns": 108,
+    "ConstraintRank": 84,
+    "RankDeficiency": 12,
+    "MinimumRowNormalizedSingularValue": 9.190351137295958e-17,
+    "RowNormalizedConditionNumber": 1.7264733450514618e+16,
+    "FullRowRank": false
+  },
+  "MinimumMomentSingularValue": 0.1171946630107548,
+  "MaximumMomentPreservationDefect": 2.220446049250313e-16,
+  "MinimumProductionRowNormalizedSingularValue": 0.3961245104532217,
+  "FortinConstructionTwoDimensional": true,
+  "CurvedMovingStripInfSupProved": false,
+  "SourceClosureHash": "44a494ddf2104c09cb23f3a4669588fcbf53722eb03fe5ae6ad4ad3ca27b7879",
+  "Passed": true
+}

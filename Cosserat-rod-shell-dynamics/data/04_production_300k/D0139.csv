@@ -1,0 +1,6 @@
+Component,SignedResponse,SignedFractionOfSolidResponse,AbsoluteFractionOfObservedGap
+production-longitudinal-discretization,9.510962679473778e-07,0.033978271612931245,0.1589737588883521
+mixed-dimensional-kinematics-and-section-model,8.077881341120867e-06,0.28858534673676184,1.350201030042437
+three-dimensional-versus-plane-stress-constraint,-1.447623860687734e-06,-0.05171690646832549,0.24196731113945463
+cross-section-integration-and-alignment,-1.56166782833983e-06,-0.055791170072642,0.26102952263916207
+legacy-solid-longitudinal-discretization,-3.6961006205458037e-08,-0.0013204458373563667,0.006177955152172324

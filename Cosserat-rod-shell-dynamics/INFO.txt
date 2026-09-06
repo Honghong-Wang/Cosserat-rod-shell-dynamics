@@ -1,0 +1,11 @@
+NUMERICAL DATA AND SIMULATION RECORDINGS
+
+DATA_INDEX.csv lists the record identifiers, groups, formats and hashes.
+VIDEO_INDEX.csv links each recording to its numerical records.
+Numerical values and saved failure flags are retained. Descriptive metadata
+has been removed from some records; their new hashes identify this export.
+Binary numerical arrays and recordings are unchanged. No simulations were rerun.
+The latest dynamic series contains 10 completed histories from 13 planned runs.
+Incomplete convergence and accuracy assessments remain incomplete.
+Recordings depict historical reduced and one-way structural models, not physical experiments.
+CHECKSUMS.txt covers every other file in this directory.

@@ -1,0 +1,58 @@
+[
+  {
+    "Time": 0.5900027731845809,
+    "Gap": 2.1122686932883994e-13,
+    "NormalVelocity": 0.0010329986998875865,
+    "FreeNormalAcceleration": -0.15480297500493123,
+    "ImpactCount": 2,
+    "ElapsedSeconds": 0.08980560000054538
+  },
+  {
+    "Time": 0.5975231927409989,
+    "Gap": 1.3412188026862282e-13,
+    "NormalVelocity": -0.0010330450711811,
+    "FreeNormalAcceleration": -0.3946444940913004,
+    "ImpactCount": 2,
+    "ElapsedSeconds": 93.31260400000247
+  },
+  {
+    "Time": 0.5975231927409989,
+    "Gap": 1.3412188026862282e-13,
+    "NormalVelocity": 0.0006714792962677147,
+    "FreeNormalAcceleration": -0.3946785846365573,
+    "ImpactCount": 3,
+    "ElapsedSeconds": 94.68838140000298
+  },
+  {
+    "Time": 0.6,
+    "Gap": 4.129841113045818e-07,
+    "NormalVelocity": -0.00033799982742548264,
+    "FreeNormalAcceleration": -0.42046550983330155,
+    "ImpactCount": 3,
+    "ElapsedSeconds": 104.76516220000121
+  },
+  {
+    "Time": 0.6,
+    "Gap": 4.129841113045818e-07,
+    "NormalVelocity": -0.00033799982742548264,
+    "FreeNormalAcceleration": -0.42046550983330155,
+    "ImpactCount": 3,
+    "ElapsedSeconds": 105.83488280000165
+  },
+  {
+    "Time": 0.6008121290693372,
+    "Gap": 7.683437219796474e-14,
+    "NormalVelocity": -0.0006790403920819945,
+    "FreeNormalAcceleration": -0.41940223066627613,
+    "ImpactCount": 3,
+    "ElapsedSeconds": 160.8610031999997
+  },
+  {
+    "Time": 0.6008121290693372,
+    "Gap": 7.683437219796474e-14,
+    "NormalVelocity": 0.0004413762548532965,
+    "FreeNormalAcceleration": -0.4194246389813536,
+    "ImpactCount": 4,
+    "ElapsedSeconds": 162.02159759999995
+  }
+]

@@ -1,0 +1,490 @@
+{
+  "AppliedForce": [
+    -0.00019866933079506124,
+    0.0,
+    0.0009800665778412418
+  ],
+  "AppliedMomentAboutOrigin": [
+    2.2868220149628955e-06,
+    -0.0009933466539753062,
+    4.6356177185514246e-07
+  ],
+  "CurvatureWidthProduct": 0.008,
+  "DiagonalEquilibrationApplied": true,
+  "Dof": 13653,
+  "EccentricityRatio": 0.4,
+  "Element": "quadratic-hexahedral-vector-elasticity",
+  "FreeResidualInfinityNorm": 5.329070432052014e-13,
+  "Hexahedra": 432,
+  "InterfaceField": {
+    "Extraction": "equilibrated subdomain nodal forces projected through the Q2 interface mass matrix; raw one-sided stress traces are retained as a discretization diagnostic",
+    "FacetCount": 54,
+    "IntegratedActionReactionDefect": 7.834487284460413e-12,
+    "IntegratedMomentActionReactionDefect": 1.4557633958123303e-11,
+    "InterfaceMassConditionNumber": 29.94793354222651,
+    "LocalFrameConvention": "tangent-width-outward-normal",
+    "LowOrderLocalMomentCoefficients": [
+      [
+        6.142456909151557e-05,
+        -0.006779333688326707,
+        -0.0008275416343947393
+      ],
+      [
+        0.01608986943415475,
+        -0.0007348610345801822,
+        -0.03754794398057434
+      ]
+    ],
+    "LowOrderLocalTractionCoefficients": [
+      [
+        -1.1206046588478424,
+        0.00020425130720484283,
+        -0.5407474206242427
+      ],
+      [
+        -0.12143273983275046,
+        0.7957472353268873,
+        -0.00919909821833733
+      ]
+    ],
+    "QuadraturePointCount": 486,
+    "RawPointwiseStressTraceMismatch": 2.1286297101451033,
+    "TotalForceFromRibWithCommonNormal": [
+      -0.040220441606755156,
+      -1.331575313508101e-05,
+      0.013746303330106091
+    ],
+    "TotalForceOnShell": [
+      -0.04022044160688952,
+      -1.3315753286238606e-05,
+      0.01374630332984154
+    ],
+    "TotalMomentFromRibWithCommonNormal": [
+      -9.095856474145611e-07,
+      -0.00024212393480286024,
+      2.8732075853841412e-05
+    ],
+    "TotalMomentOnShellAboutRibCenterline": [
+      -9.095856506083534e-07,
+      -0.0002421239348040598,
+      2.8732075854821077e-05
+    ],
+    "TransverseProfile": [
+      {
+        "IntegratedAreaWeight": 0.0037110920210628407,
+        "MeanLocalTraction": [
+          -2.814431757187207,
+          -1.331375984179566,
+          -1.8112231727067762
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          -0.025445503495027298,
+          -0.017025180715381037,
+          0.05205941986199386
+        ],
+        "WidthCoordinate": -0.018497311128
+      },
+      {
+        "IntegratedAreaWeight": 0.0059377472337005435,
+        "MeanLocalTraction": [
+          -0.35157308599194453,
+          0.11254189694924317,
+          0.03843540530512033
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          -0.00016876679319756407,
+          -0.0021269344464845135,
+          0.004687641146559262
+        ],
+        "WidthCoordinate": -0.013333333333
+      },
+      {
+        "IntegratedAreaWeight": 0.00371109202106284,
+        "MeanLocalTraction": [
+          -0.5752544206811195,
+          0.00920520685402992,
+          -0.18084530394481146
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          -0.0015332950267492233,
+          -0.003480412817594625,
+          0.004699457887574696
+        ],
+        "WidthCoordinate": -0.008169355538
+      },
+      {
+        "IntegratedAreaWeight": 0.003711092021062841,
+        "MeanLocalTraction": [
+          -0.8527477341370491,
+          -0.24257047391074427,
+          -0.4164084689797576
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          -0.0006824868911523088,
+          -0.005159180141829774,
+          0.004403570363771864
+        ],
+        "WidthCoordinate": -0.005163977795
+      },
+      {
+        "IntegratedAreaWeight": 0.005937747233700544,
+        "MeanLocalTraction": [
+          -0.4312881477249946,
+          -0.0031059258526785114,
+          -0.09250427410313296
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          1.8750771782465788e-05,
+          -0.002609704360876269,
+          -8.409576866145346e-19
+        ],
+        "WidthCoordinate": 0.0
+      },
+      {
+        "IntegratedAreaWeight": 0.0037110920210628403,
+        "MeanLocalTraction": [
+          -0.912655687744447,
+          0.2403932751628977,
+          -0.42136853530560814
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          0.0007211909549531808,
+          -0.0055217172936996625,
+          -0.004712933705940959
+        ],
+        "WidthCoordinate": 0.005163977795
+      },
+      {
+        "IntegratedAreaWeight": 0.0037110920210628403,
+        "MeanLocalTraction": [
+          -0.5963217114072729,
+          -0.013774648550624059,
+          -0.1812157930312703
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          0.0015638922399969874,
+          -0.003607900029226233,
+          -0.004871564075747276
+        ],
+        "WidthCoordinate": 0.008169355538
+      },
+      {
+        "IntegratedAreaWeight": 0.0059377472337005435,
+        "MeanLocalTraction": [
+          -0.38218963552104207,
+          -0.11847990018809088,
+          0.03895521688923716
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          0.00019771265745008204,
+          -0.0023122092967969017,
+          -0.00509586180694723
+        ],
+        "WidthCoordinate": 0.013333333333
+      },
+      {
+        "IntegratedAreaWeight": 0.00371109202106284,
+        "MeanLocalTraction": [
+          -3.168979749235501,
+          1.3490048154803769,
+          -1.8405518597411838
+        ],
+        "MeanLocalWrenchMomentDensity": [
+          0.025881326703767336,
+          -0.019170764093051303,
+          -0.05861760438081688
+        ],
+        "WidthCoordinate": 0.018497311128
+      }
+    ]
+  },
+  "LinearResidualRefinementCount": 4,
+  "LocalInterfaceTractionExtracted": true,
+  "MaximumThreeDimensionalVonMisesStress": 190.5368022256202,
+  "MeanThreeDimensionalVonMisesStress": 16.66488296846553,
+  "NewtonIterations": 1,
+  "NormalizedForceBalanceDefect": 1.957468520434321e-09,
+  "NormalizedMomentBalanceDefect": 1.939422821716767e-09,
+  "P95ShellMembraneStressResultant": 0.41267665051490227,
+  "P95ThreeDimensionalVonMisesStress": 75.22559770032245,
+  "Package": "scikit-fem",
+  "PackageVersion": "12.0.2",
+  "Passed": true,
+  "ReactionForce": [
+    0.00019866933090147886,
+    -9.111908818616732e-14,
+    -0.0009800665758887932
+  ],
+  "ReactionMomentAboutOrigin": [
+    -2.2868219908229e-06,
+    0.000993346652049693,
+    -4.635618259666145e-07
+  ],
+  "ReducedDof": 13368,
+  "ReferenceGeometry": "shell-layer-plus-finite-width-rib-layer",
+  "ResponseDirection": [
+    0.19866933079506122,
+    -0.0,
+    -0.9800665778412416
+  ],
+  "ResultKind": "independent-q2-three-dimensional-local-field-anchor",
+  "SectionConstraintVirtualWorkDefect": 0.0,
+  "SectionRestriction": {
+    "FittedCoefficient": false,
+    "Mode": "deformable"
+  },
+  "SolveClass": "independent-linearized-q2-equilibrium",
+  "Support": {
+    "SupportLongitudinalExtent": 0.0,
+    "SupportMode": "shell-root-face"
+  },
+  "SurfaceGeometryClass": "single-curvature",
+  "TipProfile": {
+    "CurvatureL2": 6.528488747452857e-05,
+    "CurvatureMaximum": 9.781056043665317e-05,
+    "Mean": -0.0006413726008391997,
+    "NonAffineWarpingL2": 1.3818801623860455e-07,
+    "TransverseVariationL2": 4.0453773602295135e-07,
+    "Values": [
+      -0.0006405807399089084,
+      -0.0006408576394356945,
+      -0.0006411272912981028,
+      -0.0006413630090690646,
+      -0.0006415323831205163,
+      -0.0006416734957152411,
+      -0.0006417286147804267,
+      -0.0006417430570224685,
+      -0.0006417471772023742
+    ],
+    "WidthCoordinates": [
+      -0.0999999,
+      -0.074999925,
+      -0.04999995,
+      -0.024999975000000008,
+      0.0,
+      0.024999975000000008,
+      0.04999994999999999,
+      0.074999925,
+      0.0999999
+    ]
+  },
+  "WallSeconds": 6.384828199999902,
+  "ProcessIsolation": {
+    "Enabled": true,
+    "Reason": "Torch/SciPy OpenMP runtime separation",
+    "WorkerModule": "cmame_hardening.q2_layered_worker",
+    "WorkerSourceHash": "73be9095ec6e7775a407e3b18e49e37b73ea5a31baffed465cc0dea78c56f876",
+    "ReturnCode": 0
+  },
+  "Specification": {
+    "length": 1.0,
+    "connection_width": 0.04,
+    "shell_width": 0.2,
+    "shell_thickness": 0.02,
+    "rib_thickness": 0.012,
+    "shell_young_modulus": 1000000.0,
+    "rib_young_modulus": 5000000.0,
+    "poisson_ratio": 0.3,
+    "curvature_radius": 5.0,
+    "total_rib_tip_force": -0.001,
+    "eccentricity_ratio": 0.4,
+    "load_width_gradient": 0.35,
+    "production_rotation_coupling": "full",
+    "production_segments": 8,
+    "production_shell_segments": null,
+    "production_width_segments": 6,
+    "surface_geometry_class": "single-curvature",
+    "transverse_curvature_ratio": 0.5,
+    "q2_segments": 18,
+    "q2_outer_width_elements": 3,
+    "q2_rib_width_elements": 3,
+    "q2_shell_thickness_elements": 2,
+    "q2_rib_thickness_elements": 2,
+    "q2_support_mode": "shell-root-face",
+    "q2_section_mode": "deformable",
+    "q2_refinement_levels": [
+      [
+        12,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        18,
+        3,
+        3,
+        2,
+        2
+      ],
+      [
+        24,
+        3,
+        3,
+        2,
+        2
+      ]
+    ],
+    "independent_q2_anchor_cases": [
+      [
+        "high-curvature-low-eccentricity",
+        "single-curvature",
+        0.04,
+        0.04,
+        0.25,
+        0.012,
+        0.008,
+        0.5
+      ],
+      [
+        "double-curvature-high-eccentricity",
+        "double-curvature",
+        0.04,
+        0.04,
+        0.4,
+        0.02,
+        0.012,
+        0.5
+      ]
+    ],
+    "width_ratios": [
+      0.025,
+      0.04,
+      0.1,
+      0.2
+    ],
+    "curvature_width_products": [
+      0.0,
+      0.008,
+      0.15,
+      0.3
+    ],
+    "eccentricity_ratios": [
+      0.0,
+      0.25,
+      0.4,
+      0.5
+    ],
+    "mesh_ratio_pairs": [
+      [
+        2,
+        3
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        4
+      ]
+    ],
+    "refinement_pairs": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        16
+      ]
+    ],
+    "stiffness_ratios": [
+      1.0,
+      5.0,
+      20.0
+    ],
+    "physical_width_ratios": [
+      0.025,
+      0.04,
+      0.08
+    ],
+    "physical_curvature_width_products": [
+      0.0,
+      0.008,
+      0.04
+    ],
+    "physical_eccentricity_ratios": [
+      0.0,
+      0.25,
+      0.4
+    ],
+    "physical_mesh_ratio_pairs": [
+      [
+        4,
+        6
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        6
+      ]
+    ],
+    "physical_stiffness_ratios": [
+      1.0,
+      5.0,
+      20.0
+    ],
+    "physical_geometry_classes": [
+      "flat",
+      "single-curvature",
+      "double-curvature"
+    ],
+    "minimum_physical_discriminating_cases": 3,
+    "zero_width_ratios": [
+      0.2,
+      0.1,
+      0.05,
+      0.025,
+      0.0125
+    ],
+    "minimum_curved_pullback_bound": 0.045,
+    "maximum_refinement_beta_loss": 0.25,
+    "minimum_zero_width_order": 1.8,
+    "maximum_resultant_defect": 2e-12,
+    "maximum_power_defect": 2e-12,
+    "minimum_local_information_distance": 0.1,
+    "maximum_q2_equilibrium_defect": 1e-08,
+    "maximum_q2_interface_action_reaction_defect": 0.05,
+    "maximum_q2_finest_global_change": 0.08,
+    "maximum_q2_finest_low_order_traction_change": 0.2,
+    "minimum_q2_stress_trace_improvement": 0.02,
+    "minimum_local_response_improvement": 0.1,
+    "contract_version": "1.5"
+  },
+  "NumericalGatesPassed": true,
+  "Configuration": {
+    "Id": "q2-18x3x3x2x2",
+    "Kind": "q2",
+    "Mesh": [
+      18,
+      3,
+      3,
+      2,
+      2
+    ],
+    "Support": "shell-root-face",
+    "Section": "deformable"
+  },
+  "ConfigurationHash": "e1f20262f32c7a141efecab00def96537055e3ba9316595d9e5f5cd2a8306e29",
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 2400.0,
+  "HistoricalEvidenceRelabelled": false,
+  "Completed": true,
+  "SourceUnchangedDuringRun": true,
+  "WallSecondsTotal": 9.063407699999516,
+  "ConvergenceEstablishedBySingleRow": false
+}

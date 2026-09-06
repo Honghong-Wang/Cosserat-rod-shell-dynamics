@@ -1,0 +1,165 @@
+{
+  "ResultKind": "DeploymentKktDefectDirectionAudit",
+  "InputArtifactSha256": "ea377c4de02de9934af2fab4e3f3ac1311de65d8b0bc1db58bae7d0cf3b6601f",
+  "ScriptSha256": "9465bcc3b41ab67286a44acc141dbf10e47e411a6b2a945767ad1ca47d06ceb5",
+  "NumericalClosureHash": "1a0502067a2082d3f9f4a735bb32d16700636d076d123082ad46beff99e37aea",
+  "Rows": [
+    {
+      "Shortening": 0.005,
+      "Mesh": [
+        1,
+        2
+      ],
+      "QDoF": 48,
+      "FullOperatorDefectNorm": 1.2787372244977266e-12,
+      "FixedScaleKktInverseNorm": 17379.373774883985,
+      "WeakestModeDefectFraction": 1.0656848998121645e-05,
+      "FirstOrderStateCorrectionNorm": 1.682190555849496e-13,
+      "ObservedStateDifferenceNorm": 3.7117313252511746e-14,
+      "FirstOrderAbsoluteStateRemainder": 1.4092242344689833e-13,
+      "FirstOrderRelativeStateRemainder": null,
+      "StateResolutionProxy": 2.8238139999136114e-05,
+      "RelativeStateAuditResolved": false,
+      "ResolutionProxyIsCertifiedBound": false,
+      "PredictedTipDifference": -9.262047166842662e-16,
+      "ObservedTipDifference": 0.0,
+      "ReferenceFullKktResidual": 5.190354564363093e-13,
+      "ConditionalNonlinearBoundCertified": false,
+      "Lift": "line mean resultants to full constant modes, zero affine modes; supports unchanged",
+      "CriticalFoldQualified": false,
+      "EventTimeAudit": {
+        "Applicable": true,
+        "EarlierInterface": "line",
+        "LaterInterface": "finite-width",
+        "CommonPreEventTime": 0.5804120351389455,
+        "ReintegratedInterval": 0.020412035138945517,
+        "GapAtCommonTime": 9.673353896129389e-06,
+        "PhysicalNormalVelocity": -0.008486078061988032,
+        "InverseCrossingSpeed": 117.84006612893803,
+        "PredictedTimeSeparation": 0.0011399086628085075,
+        "ObservedTimeSeparation": 0.001140842572516676,
+        "RelativePredictionDiscrepancy": 0.0008186140057065494,
+        "ForceEquivalentResidualNorm": 1.2092218177294572e-11,
+        "EventTimesUsedForBranchSelection": true,
+        "NoFitToObservedTimeDifference": true,
+        "Boundary": "local physical-flow root estimate from a fresh pre-event substep, not a global event-error bound"
+      }
+    },
+    {
+      "Shortening": 0.005,
+      "Mesh": [
+        2,
+        3
+      ],
+      "QDoF": 66,
+      "FullOperatorDefectNorm": 9.964691500557688e-05,
+      "FixedScaleKktInverseNorm": 10590.12353900185,
+      "WeakestModeDefectFraction": 8.344164969606793e-07,
+      "FirstOrderStateCorrectionNorm": 0.0009178888255021561,
+      "ObservedStateDifferenceNorm": 0.0009178622300108728,
+      "FirstOrderAbsoluteStateRemainder": 2.8173752974559293e-07,
+      "FirstOrderRelativeStateRemainder": 0.00030694969302991746,
+      "StateResolutionProxy": 2.0752319186873378e-05,
+      "RelativeStateAuditResolved": true,
+      "ResolutionProxyIsCertifiedBound": false,
+      "PredictedTipDifference": 1.4979999933591101e-05,
+      "ObservedTipDifference": 1.4978481144655142e-05,
+      "ReferenceFullKktResidual": 2.844693136106781e-12,
+      "ConditionalNonlinearBoundCertified": false,
+      "Lift": "line mean resultants to full constant modes, zero affine modes; supports unchanged",
+      "CriticalFoldQualified": false,
+      "EventTimeAudit": {
+        "Applicable": true,
+        "EarlierInterface": "finite-width",
+        "LaterInterface": "line",
+        "CommonPreEventTime": 0.5046496441274648,
+        "ReintegratedInterval": 0.024649644127464898,
+        "GapAtCommonTime": 5.648021558158495e-05,
+        "PhysicalNormalVelocity": -0.010252110826415388,
+        "InverseCrossingSpeed": 97.54088859666047,
+        "PredictedTimeSeparation": 0.005509130415958744,
+        "ObservedTimeSeparation": 0.005505392051558977,
+        "RelativePredictionDiscrepancy": 0.0006790369086808923,
+        "ForceEquivalentResidualNorm": 2.0246662419537514e-15,
+        "EventTimesUsedForBranchSelection": true,
+        "NoFitToObservedTimeDifference": true,
+        "Boundary": "local physical-flow root estimate from a fresh pre-event substep, not a global event-error bound"
+      }
+    },
+    {
+      "Shortening": 0.015,
+      "Mesh": [
+        1,
+        2
+      ],
+      "QDoF": 48,
+      "FullOperatorDefectNorm": 1.035337888275185e-10,
+      "FixedScaleKktInverseNorm": 17379.373774824096,
+      "WeakestModeDefectFraction": 5.2110439935610596e-08,
+      "FirstOrderStateCorrectionNorm": 1.5840934718390784e-11,
+      "ObservedStateDifferenceNorm": 3.995873522742372e-12,
+      "FirstOrderAbsoluteStateRemainder": 1.272120211573751e-11,
+      "FirstOrderRelativeStateRemainder": null,
+      "StateResolutionProxy": 2.82381399990388e-05,
+      "RelativeStateAuditResolved": false,
+      "ResolutionProxyIsCertifiedBound": false,
+      "PredictedTipDifference": -3.808666821215187e-13,
+      "ObservedTipDifference": 1.502116250296812e-17,
+      "ReferenceFullKktResidual": 4.209091964756473e-11,
+      "ConditionalNonlinearBoundCertified": false,
+      "Lift": "line mean resultants to full constant modes, zero affine modes; supports unchanged",
+      "CriticalFoldQualified": false,
+      "EventTimeAudit": {
+        "Applicable": true,
+        "EarlierInterface": "line",
+        "LaterInterface": "finite-width",
+        "CommonPreEventTime": 0.576274895173392,
+        "ReintegratedInterval": 0.01627489517339209,
+        "GapAtCommonTime": 3.390224424438398e-05,
+        "PhysicalNormalVelocity": -0.02544115406905033,
+        "InverseCrossingSpeed": 39.30639299168114,
+        "PredictedTimeSeparation": 0.001332574935569717,
+        "ObservedTimeSeparation": 0.001333213745600914,
+        "RelativePredictionDiscrepancy": 0.000479150498789081,
+        "ForceEquivalentResidualNorm": 7.381131173887636e-11,
+        "EventTimesUsedForBranchSelection": true,
+        "NoFitToObservedTimeDifference": true,
+        "Boundary": "local physical-flow root estimate from a fresh pre-event substep, not a global event-error bound"
+      }
+    }
+  ],
+  "MissingPairs": [
+    {
+      "Shortening": 0.005,
+      "Mesh": [
+        3,
+        4
+      ],
+      "Reason": "paired successful histories unavailable; no replacement values"
+    },
+    {
+      "Shortening": 0.015,
+      "Mesh": [
+        2,
+        3
+      ],
+      "Reason": "paired successful histories unavailable; no replacement values"
+    },
+    {
+      "Shortening": 0.015,
+      "Mesh": [
+        3,
+        4
+      ],
+      "Reason": "paired successful histories unavailable; no replacement values"
+    }
+  ],
+  "AvailablePairAuditsPassed": true,
+  "CompletePairCoverage": false,
+  "MatrixAttemptCoverageComplete": false,
+  "InventoryCoverageComplete": true,
+  "Passed": false,
+  "ProvesCriticalAmplification": false,
+  "CurrentCommitEvidenceEligible": false,
+  "Interpretation": "first-order defect-direction and common-time pre-event estimates on computed regular branches, not a fold experiment"
+}

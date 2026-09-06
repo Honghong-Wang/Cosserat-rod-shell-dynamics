@@ -1,0 +1,21 @@
+{
+  "Configuration": {
+    "Id": "wing-m2-h10-rdg",
+    "Kind": "wing",
+    "Mesh": [
+      2,
+      2
+    ],
+    "TimeStep": 0.01,
+    "Method": "rattle-discrete-gradient",
+    "Duration": 0.36,
+    "Restitution": 0.05,
+    "EventPolicy": "localized"
+  },
+  "ConfigurationHash": "c30f84e23c4b559672f857cba40dd6941c4e9fe1f280222f31a7ee2d57ef3a61",
+  "SourceClosureHash": "54db4e556c2d9dbfbacdd012966344dce6d7bce5c6f2e2cee9a3720c87c44ec1",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 900.0,
+  "HistoricalEvidenceRelabelled": false
+}

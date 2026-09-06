@@ -1,0 +1,407 @@
+{
+  "ResultKind": "four-issue-physical-closure-review",
+  "SchemaVersion": "1.1",
+  "TractionRows": [
+    {
+      "RodSegments": 16,
+      "ShellWidthSegments": 6,
+      "Stage": "finite-width-dual-mortar",
+      "ProfileError": 11.266057572800607,
+      "ResolvedCoefficientFraction": 0.9941526455154914,
+      "TransverseErrorFraction": 0.9911864437558005,
+      "KktCondition": 3612594.0033235513,
+      "QDoF": 858
+    },
+    {
+      "RodSegments": 16,
+      "ShellWidthSegments": 6,
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileError": 1.052433371024631,
+      "ResolvedCoefficientFraction": 0.32993931870898585,
+      "TransverseErrorFraction": 0.41400259499308983,
+      "KktCondition": 3612414.4426271725,
+      "QDoF": 858
+    },
+    {
+      "RodSegments": 16,
+      "ShellWidthSegments": 6,
+      "Stage": "constant-transverse-mode",
+      "ProfileError": 0.9729662675827273,
+      "ResolvedCoefficientFraction": 0.21601493740035066,
+      "TransverseErrorFraction": 0.48439172662201,
+      "KktCondition": 3665385.6078535896,
+      "QDoF": 858
+    },
+    {
+      "RodSegments": 4,
+      "ShellWidthSegments": 6,
+      "Stage": "finite-width-dual-mortar",
+      "ProfileError": 11.208471429290132,
+      "ResolvedCoefficientFraction": 0.994092406864316,
+      "TransverseErrorFraction": 0.9870266752917757,
+      "KktCondition": 3894186.699855324,
+      "QDoF": 282
+    },
+    {
+      "RodSegments": 4,
+      "ShellWidthSegments": 6,
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileError": 1.0472017496043282,
+      "ResolvedCoefficientFraction": 0.32322760297565295,
+      "TransverseErrorFraction": 0.4181494846823967,
+      "KktCondition": 3884252.2484864644,
+      "QDoF": 282
+    },
+    {
+      "RodSegments": 4,
+      "ShellWidthSegments": 6,
+      "Stage": "constant-transverse-mode",
+      "ProfileError": 0.9737413518540021,
+      "ResolvedCoefficientFraction": 0.21726252259864054,
+      "TransverseErrorFraction": 0.4836208956749205,
+      "KktCondition": 3905674.8516350845,
+      "QDoF": 282
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 12,
+      "Stage": "finite-width-dual-mortar",
+      "ProfileError": 5.990209609811295,
+      "ResolvedCoefficientFraction": 0.9793167245169935,
+      "TransverseErrorFraction": 0.9845062317223493,
+      "KktCondition": 10903589.376073344,
+      "QDoF": 834
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 12,
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileError": 1.1423098554661892,
+      "ResolvedCoefficientFraction": 0.4312315366805693,
+      "TransverseErrorFraction": 0.35141835111230535,
+      "KktCondition": 10947784.885912245,
+      "QDoF": 834
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 12,
+      "Stage": "constant-transverse-mode",
+      "ProfileError": 0.9728613102908091,
+      "ResolvedCoefficientFraction": 0.21584576757754761,
+      "TransverseErrorFraction": 0.4844962496116294,
+      "KktCondition": 10965772.211285071,
+      "QDoF": 834
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 24,
+      "Stage": "finite-width-dual-mortar",
+      "ProfileError": 4.9706998997819225,
+      "ResolvedCoefficientFraction": 0.9699621898799872,
+      "TransverseErrorFraction": 0.9807334940140886,
+      "KktCondition": 38132881.859932475,
+      "QDoF": 1554
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 24,
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileError": 0.9684776553283768,
+      "ResolvedCoefficientFraction": 0.20873101149446124,
+      "TransverseErrorFraction": 0.4888921611512612,
+      "KktCondition": 38285722.100770466,
+      "QDoF": 1554
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 24,
+      "Stage": "constant-transverse-mode",
+      "ProfileError": 0.9728437908431455,
+      "ResolvedCoefficientFraction": 0.21581752445596059,
+      "TransverseErrorFraction": 0.4845136998604714,
+      "KktCondition": 38303100.49124889,
+      "QDoF": 1554
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 6,
+      "Stage": "finite-width-dual-mortar",
+      "ProfileError": 11.178675344338432,
+      "ResolvedCoefficientFraction": 0.9940608722269745,
+      "TransverseErrorFraction": 0.9908146324972862,
+      "KktCondition": 3335586.5376538807,
+      "QDoF": 474
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 6,
+      "Stage": "selective-finite-width-dual-mortar",
+      "ProfileError": 1.0330124353748655,
+      "ResolvedCoefficientFraction": 0.30450781187552894,
+      "TransverseErrorFraction": 0.42971566414878154,
+      "KktCondition": 3328807.548676404,
+      "QDoF": 474
+    },
+    {
+      "RodSegments": 8,
+      "ShellWidthSegments": 6,
+      "Stage": "constant-transverse-mode",
+      "ProfileError": 0.972904463849732,
+      "ResolvedCoefficientFraction": 0.21591532897161778,
+      "TransverseErrorFraction": 0.4844532705226297,
+      "KktCondition": 3355898.306157895,
+      "QDoF": 474
+    }
+  ],
+  "WingRows": [
+    {
+      "TimeStep": 0.02,
+      "FirstImpactTime": 0.20704480570799494,
+      "LedgerResidual": 3.043318743001213e-12,
+      "PhysicalEnergyResidual": 0.0019777593772007246,
+      "PhysicalAngularResidual": 0.00842905953106936,
+      "MaximumConstraintResidual": 6.009151509722699e-13,
+      "MaximumStopViolationRadians": 0.0,
+      "MicroFlightCount": 2,
+      "AccumulationLimitCount": 1,
+      "FiniteImpactCount": 6,
+      "DetachmentTimes": [
+        0.31421232907740115
+      ],
+      "RuntimeSeconds": 729.3061321999994,
+      "AllImpactsIndividuallyResolved": false,
+      "SourceUnchangedDuringRun": true
+    },
+    {
+      "TimeStep": 0.01,
+      "FirstImpactTime": 0.20882333388425364,
+      "LedgerResidual": 5.77279842491294e-14,
+      "PhysicalEnergyResidual": 0.0008763227130334762,
+      "PhysicalAngularResidual": 0.002290467971689473,
+      "MaximumConstraintResidual": 3.3306690738754696e-16,
+      "MaximumStopViolationRadians": 3.186376682583702e-15,
+      "MicroFlightCount": 3,
+      "AccumulationLimitCount": 2,
+      "FiniteImpactCount": 12,
+      "DetachmentTimes": [
+        0.3039969451598009
+      ],
+      "RuntimeSeconds": 1353.7635311999984,
+      "AllImpactsIndividuallyResolved": false,
+      "SourceUnchangedDuringRun": true
+    },
+    {
+      "TimeStep": 0.005,
+      "FirstImpactTime": 0.20932882456574106,
+      "LedgerResidual": 6.736580015933789e-12,
+      "PhysicalEnergyResidual": 0.00018611847702711798,
+      "PhysicalAngularResidual": 0.0005736214329369474,
+      "MaximumConstraintResidual": 5.978083188885646e-13,
+      "MaximumStopViolationRadians": 6.363180468649254e-11,
+      "MicroFlightCount": 1,
+      "AccumulationLimitCount": 1,
+      "FiniteImpactCount": 6,
+      "DetachmentTimes": [],
+      "RuntimeSeconds": 928.6892153999979,
+      "AllImpactsIndividuallyResolved": false,
+      "SourceUnchangedDuringRun": true
+    }
+  ],
+  "ComponentAngularOrders": [
+    1.988415644066624,
+    1.9970711887258223
+  ],
+  "WingAngularOrders": [
+    1.879729282673843,
+    1.9974715539697012
+  ],
+  "WingPhysicalEnergyOrders": [
+    1.1743327551454517,
+    2.235240965017465
+  ],
+  "FirstImpactSelfConvergenceOrder": 1.814927428420023,
+  "EventTopologyQualified": false,
+  "ExpectedWingTimeSteps": [
+    0.02,
+    0.01,
+    0.005
+  ],
+  "CompleteWingTimeStudy": true,
+  "CompleteWingTimeStudyMeaning": "Three declared time levels executed, not uniform temporal convergence qualification",
+  "SameExecutedSourceAcrossWingTimeLevels": true,
+  "IndependentFrozenNumericalChecksPassed": true,
+  "ExecutedSourceArchiveVerified": true,
+  "ExecutedSourceArchiveSha256": "a0e9439ece13657ce39661f103c3b495b6bf1996c4f845e3e9c588476f1beffa",
+  "InputArtifactHashes": {
+    "outputs/physical_closure_20260905_v2/traction_r16_w6/PhysicalClosureArtifact.json": "8985313348040dded5cc045bf271a8eaa463cf457bb27d776ed37f1f92445c0a",
+    "outputs/physical_closure_20260905_v2/traction_r4_w6/PhysicalClosureArtifact.json": "d6eb702832e4d89bb3b1018489cd6b0e48ac571f009165e63045dabf216171bc",
+    "outputs/physical_closure_20260905_v2/traction_r8_w12/PhysicalClosureArtifact.json": "0d1ed93dcd1f1bcd61bc9facf74e8c1e1a47d9e56805c0788328b9a380886c0b",
+    "outputs/physical_closure_20260905_v2/traction_r8_w24/PhysicalClosureArtifact.json": "86d122a62d61db727e6bb2b9a9f5451841ca037cccd126987b8fc916ccb8bc63",
+    "outputs/physical_closure_20260905_v2/traction_r8_w6/PhysicalClosureArtifact.json": "33eda2e7aac135c6632ffa2b5a026d2a856419a4158d52a03c78f487306611f0",
+    "outputs/physical_closure_20260905_v2/component_rdg_h001/PhysicalClosureArtifact.json": "5b529d693e4d300b4810752bf514e4878754049b13556e07f657d9bbe9c91681",
+    "outputs/physical_closure_20260905_v2/component_rdg_h002/PhysicalClosureArtifact.json": "879f0684e60844c9c7178196464cc9fd2273473c2796eaba00b7f988b300cddc",
+    "outputs/physical_closure_20260905_v2/component_rdg_h004/PhysicalClosureArtifact.json": "15677344ce8ce28538ddae30845a67c871232479cf89623a6c9c3f81f15efb27",
+    "outputs/physical_closure_20260905_v3/wing_rdg_h005/PhysicalClosureArtifact.json": "d8bf1c614226b16ca98085e1929bbf01338f56e8fa1b78b7c7610ac6a8092f1e",
+    "outputs/physical_closure_20260905_v3/wing_rdg_h010/PhysicalClosureArtifact.json": "3375538ed1d526de53975e03bd32fc5bc4f66581c210298f33150e43adda2c8e",
+    "outputs/physical_closure_20260905_v3/wing_rdg_h020/PhysicalClosureArtifact.json": "6063bdb202509e3d30bc079b4e337ae6ee722c9a5703f97ad7f8a82b0e92512e",
+    "outputs/physical_closure_20260905_v3/passive_branch/PassiveBranchArtifact.json": "33badccf69e1892d1a873cbac404ab0619f9e15697324027662a101430398ddc",
+    "outputs/physical_closure_20260905_v3/s8_repair/DeploymentRepairSummary.json": "f7932488ff57a9c67d0bcf3bd21aee9289986378860ec4c8c5f32bae21a37bb5"
+  },
+  "CollectorSha256": "d267534d5db14c1683cb11600f962593a4c2cac4bdddb3932617af2540f543c3",
+  "PassiveBranch": {
+    "ResultKind": "new-passive-full-wing-equilibrium-path",
+    "Rows": [
+      {
+        "Angle": 0.1,
+        "CableRestLength": 0.0717898340126609,
+        "CableTension": 7.946710617740495,
+        "MinimumOmegaSquared": 240.5419972826223,
+        "ResidualNorm": 6.992300130605447e-15,
+        "StableBranch": true,
+        "PhysicalModelHash": "e8fac379e5f339ab0eae06a4ee36ab4057860a2d532c4194e641595e344a1c4f"
+      },
+      {
+        "Angle": 0.2,
+        "CableRestLength": 0.0667371224945515,
+        "CableTension": 13.343811681359625,
+        "MinimumOmegaSquared": 248.53215612019542,
+        "ResidualNorm": 6.460349496741213e-15,
+        "StableBranch": true,
+        "PhysicalModelHash": "ca52bf81e1a69d56fcdc41ddb5a3cd10fd43b90d39f9f8e83134c00a92bd712d"
+      },
+      {
+        "Angle": 0.30000000000000004,
+        "CableRestLength": 0.06159290865137009,
+        "CableTension": 18.44059070923963,
+        "MinimumOmegaSquared": 256.31662182471564,
+        "ResidualNorm": 6.460349496741213e-15,
+        "StableBranch": true,
+        "PhysicalModelHash": "47b1c2c61cb177ce4ec004e93c3ecc7983675a8a7f0fd185ae4009f0d740ef3e"
+      },
+      {
+        "Angle": 0.4,
+        "CableRestLength": 0.0563588436884722,
+        "CableTension": 23.331051978638094,
+        "MinimumOmegaSquared": 263.83441780775723,
+        "ResidualNorm": 1.1442225976579442e-14,
+        "StableBranch": true,
+        "PhysicalModelHash": "db93f1b067566d0a828ed0725bf9a797ccd31692ab1995bf43eb18ed2943b786"
+      },
+      {
+        "Angle": 0.5,
+        "CableRestLength": 0.05103925133925838,
+        "CableTension": 28.108862011141458,
+        "MinimumOmegaSquared": 271.00066340529054,
+        "ResidualNorm": 1.1442225976579442e-14,
+        "StableBranch": true,
+        "PhysicalModelHash": "ab4ce9e04f22212b4b32219dcb94e9500ad8e0123f291733b19475bd180f0964"
+      },
+      {
+        "Angle": 0.6,
+        "CableRestLength": 0.04564035436176329,
+        "CableTension": 32.87818439044146,
+        "MinimumOmegaSquared": 277.6871688183844,
+        "ResidualNorm": 1.5259066670140536e-13,
+        "StableBranch": true,
+        "PhysicalModelHash": "dbc23beb067fa7adda4902d4c158e093188d18742afacf786d4f89bd3e916b17"
+      },
+      {
+        "Angle": 0.7000000000000001,
+        "CableRestLength": 0.04016908013913962,
+        "CableTension": 37.770882310696436,
+        "MinimumOmegaSquared": 283.702504854762,
+        "ResidualNorm": 2.273181642920008e-14,
+        "StableBranch": true,
+        "PhysicalModelHash": "b327c519931732dc7029763ea74187c7501fa85dff615ba042d54a4ab972985b"
+      },
+      {
+        "Angle": 0.8,
+        "CableRestLength": 0.03463054367815217,
+        "CableTension": 42.97832113201987,
+        "MinimumOmegaSquared": 288.7817400263864,
+        "ResidualNorm": 1.4160373676367345e-13,
+        "StableBranch": true,
+        "PhysicalModelHash": "bce70f9e6483b0d61afb08f29bb6efded323bb8a4e9f11326b7317136ee908eb"
+      },
+      {
+        "Angle": 0.9,
+        "CableRestLength": 0.029021763371480977,
+        "CableTension": 48.81762692396846,
+        "MinimumOmegaSquared": 292.62918281909185,
+        "ResidualNorm": 6.460349496741213e-15,
+        "StableBranch": true,
+        "PhysicalModelHash": "79f993c65d15beaf46d0b3452e168d166062b0a8beef55e67882dd0aad79f372"
+      },
+      {
+        "Angle": 1.0,
+        "CableRestLength": 0.023314256367319958,
+        "CableTension": 55.88605835767749,
+        "MinimumOmegaSquared": 295.1715293862102,
+        "ResidualNorm": 2.248201624865942e-14,
+        "StableBranch": true,
+        "PhysicalModelHash": "e80d84719c56d973e63b55dd491d38541aad90ce0329ff95925d46ccaa7c19bf"
+      },
+      {
+        "Angle": 1.1,
+        "CableRestLength": 0.01740062227536887,
+        "CableTension": 65.46949998443601,
+        "MinimumOmegaSquared": 297.53874830277687,
+        "ResidualNorm": 2.248201624865942e-14,
+        "StableBranch": true,
+        "PhysicalModelHash": "21163d36da1c0dc8b69fc0320a9a017818b40ea1370160849a3996ec6c3e7b70"
+      }
+    ],
+    "AngleRange": [
+      0.1,
+      1.1
+    ],
+    "SameMaterialRouteInertia": true,
+    "Parameter": "cable rest length computed from the passive equilibrium law",
+    "SourceUnchangedDuringRun": true,
+    "RuntimeSeconds": 33.16534870000032,
+    "HistoricalFoldReused": false,
+    "SampledFoldDetected": false,
+    "CurrentCommitEvidenceEligible": false,
+    "Passed": true
+  },
+  "S8Repair": {
+    "Rows": [
+      {
+        "Interface": "line",
+        "Completed": false,
+        "Passed": false,
+        "Error": "TimeoutError('accepted-state runtime budget exhausted; row remains incomplete')",
+        "RuntimeSeconds": 305.29330570000093
+      },
+      {
+        "Interface": "finite-width",
+        "Completed": false,
+        "Passed": false,
+        "Error": "TimeoutError('accepted-state runtime budget exhausted; row remains incomplete')",
+        "RuntimeSeconds": 313.2484957000015
+      }
+    ],
+    "OriginalThirtySixRowMatrixRequalified": false,
+    "MechanismNecessityEstablished": false
+  },
+  "ClosureStatus": {
+    "PassivePhysicsImplementedInFullWing": true,
+    "TractionAccuracyClosed": false,
+    "GeneralEnergyMomentumClosure": false,
+    "DeploymentMechanismEstablished": false,
+    "Original36RowMatrixRequalified": false
+  },
+  "AllFourIssuesClosed": false,
+  "CurrentCommitEvidenceEligible": false,
+  "HistoricalEvidenceRelabelled": false,
+  "EvidenceRevisions": {
+    "traction-and-component": "v2",
+    "wing-and-repair": "v3"
+  },
+  "RemainingBoundaries": [
+    "independent sectional traction cause and converged 3D local fields",
+    null,
+    "general interacting impacts and rigorous nonconstant-force Zeno bounds",
+    "same-source 36-row deployment matrix and resolved applicability cells"
+  ]
+}

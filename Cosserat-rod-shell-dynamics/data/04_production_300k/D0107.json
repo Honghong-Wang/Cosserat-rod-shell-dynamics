@@ -1,0 +1,39 @@
+{
+  "ResultKind": "cmame-mortar-spatial-convergence",
+  "Rows": [
+    {
+      "RodSegments": 4,
+      "ShellSegments": 6,
+      "MeshSize": 0.25,
+      "ProjectedTraceL2Error": 0.0040327714885319355
+    },
+    {
+      "RodSegments": 8,
+      "ShellSegments": 12,
+      "MeshSize": 0.125,
+      "ProjectedTraceL2Error": 0.0009587823012274268
+    },
+    {
+      "RodSegments": 16,
+      "ShellSegments": 24,
+      "MeshSize": 0.0625,
+      "ProjectedTraceL2Error": 0.000235358261426488
+    },
+    {
+      "RodSegments": 32,
+      "ShellSegments": 48,
+      "MeshSize": 0.03125,
+      "ProjectedTraceL2Error": 5.853623572247072e-05
+    },
+    {
+      "RodSegments": 64,
+      "ShellSegments": 96,
+      "MeshSize": 0.015625,
+      "ProjectedTraceL2Error": 1.4614101502401349e-05
+    }
+  ],
+  "ObservedL2Order": 2.0250334832360966,
+  "MinimumAcceptedOrder": 1.8,
+  "Passed": true,
+  "ClaimBoundary": "This is the manufactured nonmatching trace-projection rate. Full three-dimensional rod-shell solution convergence is reported separately."
+}

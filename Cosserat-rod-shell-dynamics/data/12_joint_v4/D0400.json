@@ -1,0 +1,35 @@
+{
+  "SelectedRows": [
+    "q2-18x3x3x2x2",
+    "q2-24x3x3x2x2",
+    "q2-36x4x4x2x2",
+    "section-rigid-rib-sections"
+  ],
+  "Results": [
+    {
+      "Id": "q2-18x3x3x2x2",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 9.063407699999516
+    },
+    {
+      "Id": "q2-24x3x3x2x2",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 10.325670000001992
+    },
+    {
+      "Id": "q2-36x4x4x2x2",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 48.34251039999799
+    },
+    {
+      "Id": "section-rigid-rib-sections",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 31.788865099999384
+    }
+  ],
+  "CurrentCommitEvidenceEligible": false
+}

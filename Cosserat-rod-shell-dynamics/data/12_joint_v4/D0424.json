@@ -1,0 +1,21 @@
+{
+  "Configuration": {
+    "Id": "q2-48x6x6x2x2",
+    "Kind": "q2",
+    "Mesh": [
+      48,
+      6,
+      6,
+      2,
+      2
+    ],
+    "Support": "shell-root-face",
+    "Section": "deformable"
+  },
+  "ConfigurationHash": "db6a5ba0227d2a434f236686953985643aca22db0c9a1ee778fea713ac2e8a82",
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 2400.0,
+  "HistoricalEvidenceRelabelled": false
+}

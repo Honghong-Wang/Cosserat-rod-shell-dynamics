@@ -1,0 +1,331 @@
+{
+  "Version": "1.0",
+  "Rows": [
+    {
+      "Id": "wing-m1-h20-nm",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.02,
+      "Method": "newmark",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h20-ga",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.02,
+      "Method": "generalized-alpha",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h20-rdg",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.02,
+      "Method": "rattle-discrete-gradient",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h10-nm",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.01,
+      "Method": "newmark",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h10-ga",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.01,
+      "Method": "generalized-alpha",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h10-rdg",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.01,
+      "Method": "rattle-discrete-gradient",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h05-nm",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.005,
+      "Method": "newmark",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h05-ga",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.005,
+      "Method": "generalized-alpha",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m1-h05-rdg",
+      "Kind": "wing",
+      "Mesh": [
+        1,
+        1
+      ],
+      "TimeStep": 0.005,
+      "Method": "rattle-discrete-gradient",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m2-h10-rdg",
+      "Kind": "wing",
+      "Mesh": [
+        2,
+        2
+      ],
+      "TimeStep": 0.01,
+      "Method": "rattle-discrete-gradient",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m2-h05-rdg",
+      "Kind": "wing",
+      "Mesh": [
+        2,
+        2
+      ],
+      "TimeStep": 0.005,
+      "Method": "rattle-discrete-gradient",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m3-h10-rdg",
+      "Kind": "wing",
+      "Mesh": [
+        3,
+        3
+      ],
+      "TimeStep": 0.01,
+      "Method": "rattle-discrete-gradient",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "wing-m3-h05-rdg",
+      "Kind": "wing",
+      "Mesh": [
+        3,
+        3
+      ],
+      "TimeStep": 0.005,
+      "Method": "rattle-discrete-gradient",
+      "Duration": 0.36,
+      "Restitution": 0.05,
+      "EventPolicy": "localized"
+    },
+    {
+      "Id": "q2-18x3x3x2x2",
+      "Kind": "q2",
+      "Mesh": [
+        18,
+        3,
+        3,
+        2,
+        2
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    },
+    {
+      "Id": "q2-24x3x3x2x2",
+      "Kind": "q2",
+      "Mesh": [
+        24,
+        3,
+        3,
+        2,
+        2
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    },
+    {
+      "Id": "q2-36x4x4x2x2",
+      "Kind": "q2",
+      "Mesh": [
+        36,
+        4,
+        4,
+        2,
+        2
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    },
+    {
+      "Id": "q2-48x6x6x2x2",
+      "Kind": "q2",
+      "Mesh": [
+        48,
+        6,
+        6,
+        2,
+        2
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    },
+    {
+      "Id": "q2-48x6x6x4x4",
+      "Kind": "q2",
+      "Mesh": [
+        48,
+        6,
+        6,
+        4,
+        4
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    },
+    {
+      "Id": "section-deformable",
+      "Kind": "q2",
+      "Mesh": [
+        36,
+        4,
+        4,
+        2,
+        2
+      ],
+      "Support": "shell-root-face",
+      "Section": "deformable"
+    },
+    {
+      "Id": "section-rigid-rib-sections",
+      "Kind": "q2",
+      "Mesh": [
+        36,
+        4,
+        4,
+        2,
+        2
+      ],
+      "Support": "shell-root-face",
+      "Section": "rigid-rib-sections"
+    },
+    {
+      "Id": "legacy-support-control",
+      "Kind": "q2",
+      "Mesh": [
+        24,
+        3,
+        3,
+        2,
+        2
+      ],
+      "Support": "legacy-bottom-one-element",
+      "Section": "deformable"
+    },
+    {
+      "Id": "production-r8-s9-w6",
+      "Kind": "production",
+      "Mesh": [
+        8,
+        9,
+        6
+      ]
+    },
+    {
+      "Id": "production-r8-s9-w12",
+      "Kind": "production",
+      "Mesh": [
+        8,
+        9,
+        12
+      ]
+    },
+    {
+      "Id": "production-r8-s9-w24",
+      "Kind": "production",
+      "Mesh": [
+        8,
+        9,
+        24
+      ]
+    },
+    {
+      "Id": "production-r8-s17-w12",
+      "Kind": "production",
+      "Mesh": [
+        8,
+        17,
+        12
+      ]
+    },
+    {
+      "Id": "production-r16-s17-w12",
+      "Kind": "production",
+      "Mesh": [
+        16,
+        17,
+        12
+      ]
+    }
+  ],
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "EventTopologyConvergenceRequired": true,
+  "SameBoundaryRequired": true,
+  "ReferenceLowOrderChangeGate": 0.05,
+  "ReferenceProfileChangeGate": 0.1,
+  "FittedCoefficientAllowed": false,
+  "MechanismClaimEnabled": false,
+  "TotalMatrixCompletionInferredFromSubset": false
+}

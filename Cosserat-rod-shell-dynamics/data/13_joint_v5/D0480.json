@@ -1,0 +1,22 @@
+{
+  "Gates": {
+    "NumericalSourceUnchanged": true,
+    "ExecutedSourceArchived": true,
+    "BoundedRegression": true,
+    "CollectorRegressionMatches": true,
+    "PdfQaPassed": true,
+    "ThreeMethodTemporalHistoriesComplete": true,
+    "UnqualifiedClaimsRemainFalse": true,
+    "FixedSupportWidthFailureRetained": true,
+    "SectionReferenceScopeExplicit": true,
+    "AllAnalysisInputsMatch": true
+  },
+  "TechnicalDeliveryVerified": true,
+  "ScientificIssuesAllClosed": false,
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "WorktreeClean": false,
+  "CompletedWingHistories": 10,
+  "PlannedWingHistories": 13,
+  "AnalysisArtifactHash": "d7694ff01a20921ccbd092aed885733a1dbecdab7b8563448526f0949c5ac547"
+}

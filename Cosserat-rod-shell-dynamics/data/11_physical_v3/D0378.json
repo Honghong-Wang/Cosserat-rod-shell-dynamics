@@ -1,0 +1,116 @@
+{
+  "ResultKind": "new-passive-full-wing-equilibrium-path",
+  "Rows": [
+    {
+      "Angle": 0.1,
+      "CableRestLength": 0.0717898340126609,
+      "CableTension": 7.946710617740495,
+      "MinimumOmegaSquared": 240.5419972826223,
+      "ResidualNorm": 6.992300130605447e-15,
+      "StableBranch": true,
+      "PhysicalModelHash": "e8fac379e5f339ab0eae06a4ee36ab4057860a2d532c4194e641595e344a1c4f"
+    },
+    {
+      "Angle": 0.2,
+      "CableRestLength": 0.0667371224945515,
+      "CableTension": 13.343811681359625,
+      "MinimumOmegaSquared": 248.53215612019542,
+      "ResidualNorm": 6.460349496741213e-15,
+      "StableBranch": true,
+      "PhysicalModelHash": "ca52bf81e1a69d56fcdc41ddb5a3cd10fd43b90d39f9f8e83134c00a92bd712d"
+    },
+    {
+      "Angle": 0.30000000000000004,
+      "CableRestLength": 0.06159290865137009,
+      "CableTension": 18.44059070923963,
+      "MinimumOmegaSquared": 256.31662182471564,
+      "ResidualNorm": 6.460349496741213e-15,
+      "StableBranch": true,
+      "PhysicalModelHash": "47b1c2c61cb177ce4ec004e93c3ecc7983675a8a7f0fd185ae4009f0d740ef3e"
+    },
+    {
+      "Angle": 0.4,
+      "CableRestLength": 0.0563588436884722,
+      "CableTension": 23.331051978638094,
+      "MinimumOmegaSquared": 263.83441780775723,
+      "ResidualNorm": 1.1442225976579442e-14,
+      "StableBranch": true,
+      "PhysicalModelHash": "db93f1b067566d0a828ed0725bf9a797ccd31692ab1995bf43eb18ed2943b786"
+    },
+    {
+      "Angle": 0.5,
+      "CableRestLength": 0.05103925133925838,
+      "CableTension": 28.108862011141458,
+      "MinimumOmegaSquared": 271.00066340529054,
+      "ResidualNorm": 1.1442225976579442e-14,
+      "StableBranch": true,
+      "PhysicalModelHash": "ab4ce9e04f22212b4b32219dcb94e9500ad8e0123f291733b19475bd180f0964"
+    },
+    {
+      "Angle": 0.6,
+      "CableRestLength": 0.04564035436176329,
+      "CableTension": 32.87818439044146,
+      "MinimumOmegaSquared": 277.6871688183844,
+      "ResidualNorm": 1.5259066670140536e-13,
+      "StableBranch": true,
+      "PhysicalModelHash": "dbc23beb067fa7adda4902d4c158e093188d18742afacf786d4f89bd3e916b17"
+    },
+    {
+      "Angle": 0.7000000000000001,
+      "CableRestLength": 0.04016908013913962,
+      "CableTension": 37.770882310696436,
+      "MinimumOmegaSquared": 283.702504854762,
+      "ResidualNorm": 2.273181642920008e-14,
+      "StableBranch": true,
+      "PhysicalModelHash": "b327c519931732dc7029763ea74187c7501fa85dff615ba042d54a4ab972985b"
+    },
+    {
+      "Angle": 0.8,
+      "CableRestLength": 0.03463054367815217,
+      "CableTension": 42.97832113201987,
+      "MinimumOmegaSquared": 288.7817400263864,
+      "ResidualNorm": 1.4160373676367345e-13,
+      "StableBranch": true,
+      "PhysicalModelHash": "bce70f9e6483b0d61afb08f29bb6efded323bb8a4e9f11326b7317136ee908eb"
+    },
+    {
+      "Angle": 0.9,
+      "CableRestLength": 0.029021763371480977,
+      "CableTension": 48.81762692396846,
+      "MinimumOmegaSquared": 292.62918281909185,
+      "ResidualNorm": 6.460349496741213e-15,
+      "StableBranch": true,
+      "PhysicalModelHash": "79f993c65d15beaf46d0b3452e168d166062b0a8beef55e67882dd0aad79f372"
+    },
+    {
+      "Angle": 1.0,
+      "CableRestLength": 0.023314256367319958,
+      "CableTension": 55.88605835767749,
+      "MinimumOmegaSquared": 295.1715293862102,
+      "ResidualNorm": 2.248201624865942e-14,
+      "StableBranch": true,
+      "PhysicalModelHash": "e80d84719c56d973e63b55dd491d38541aad90ce0329ff95925d46ccaa7c19bf"
+    },
+    {
+      "Angle": 1.1,
+      "CableRestLength": 0.01740062227536887,
+      "CableTension": 65.46949998443601,
+      "MinimumOmegaSquared": 297.53874830277687,
+      "ResidualNorm": 2.248201624865942e-14,
+      "StableBranch": true,
+      "PhysicalModelHash": "21163d36da1c0dc8b69fc0320a9a017818b40ea1370160849a3996ec6c3e7b70"
+    }
+  ],
+  "AngleRange": [
+    0.1,
+    1.1
+  ],
+  "SameMaterialRouteInertia": true,
+  "Parameter": "cable rest length computed from the passive equilibrium law",
+  "SourceUnchangedDuringRun": true,
+  "RuntimeSeconds": 33.16534870000032,
+  "HistoricalFoldReused": false,
+  "SampledFoldDetected": false,
+  "CurrentCommitEvidenceEligible": false,
+  "Passed": true
+}

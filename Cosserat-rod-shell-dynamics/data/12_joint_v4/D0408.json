@@ -1,0 +1,17 @@
+{
+  "Configuration": {
+    "Id": "production-r16-s17-w12",
+    "Kind": "production",
+    "Mesh": [
+      16,
+      17,
+      12
+    ]
+  },
+  "ConfigurationHash": "02038b6f4defe7e778d18888a3c7938576bd590351af194a3cbab7ab37ddac0d",
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 2400.0,
+  "HistoricalEvidenceRelabelled": false
+}

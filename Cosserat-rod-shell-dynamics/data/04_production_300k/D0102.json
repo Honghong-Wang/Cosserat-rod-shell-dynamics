@@ -1,0 +1,21 @@
+{
+  "CoreStages": [
+    "P0",
+    "P1"
+  ],
+  "FlagshipApplicationOnly": [
+    "P2-direct-shell-surface-aeroelastic-case"
+  ],
+  "ExcludedFromCoreClaims": [
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "P10"
+  ],
+  "CoreScientificClaim": "Power-conjugate nonmatching finite-width Cosserat rod-shell coupling with event-resolved constrained Newmark deployment dynamics.",
+  "Passed": true
+}

@@ -1,0 +1,2177 @@
+{
+  "CacheKey": "aa98f11dd6c423f85a750e23e5dbf6e2019a5327fe1304e2050232a5cc097236",
+  "Configuration": {
+    "Case": "single-event",
+    "Method": "newmark",
+    "Dt": 0.08,
+    "Duration": 2.0,
+    "Double": false,
+    "NumericalClosureHash": "50f98ad25c1ee4d7d0291ce1f21d515c765569a390c2a522b7257936d70de038",
+    "SolverSpec": {
+      "version": "1.0",
+      "newton_tolerance": 2e-10,
+      "maximum_iterations": 18,
+      "maximum_line_search": 12,
+      "constraint_tolerance": 2e-09,
+      "event_gap_tolerance": 2e-10,
+      "event_time_tolerance": 2e-10,
+      "grazing_speed": 1e-07,
+      "maximum_events_per_step": 8,
+      "rho_infinity": 0.7
+    },
+    "MechanismSpec": {
+      "release_time": 0.05,
+      "initial_angle": -0.5,
+      "spring_target": 0.7,
+      "spring_stiffness": 1.4,
+      "cable_stiffness": 8.4,
+      "cable_rest": -0.7,
+      "secondary_rotation": 0.45,
+      "damping": 0.015,
+      "stop_angle": 0.2,
+      "restitution": 0.65
+    },
+    "Environment": {
+      "Python": "3.12.4",
+      "Numpy": "1.26.4",
+      "Scipy": "1.13.1",
+      "Torch": "2.4.1+cu118",
+      "Machine": "HHW",
+      "Threads": 1,
+      "MklThreadingLayer": "SEQUENTIAL"
+    }
+  },
+  "ExecutedAtUtc": "2026-09-05T06:38:13.618830+00:00",
+  "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "ExecutedInDirtyWorktree": true,
+  "Result": {
+    "Model": "physical-finite-rotation-constrained-mechanism-canonical",
+    "Method": "newmark",
+    "TimeStep": 0.08,
+    "Duration": 2.0,
+    "History": [
+      {
+        "Time": 0.0,
+        "Q": [
+          -0.5
+        ],
+        "P": [
+          0.0
+        ],
+        "Attached": true,
+        "Energy": 1.176,
+        "ExternalWork": 0.0,
+        "ReleaseWork": 0.0,
+        "DampingDissipation": 0.0,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.0,
+        "RelativeEnergyBalanceResidual": 0.0,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.7
+      },
+      {
+        "Time": 0.05,
+        "Q": [
+          -0.5
+        ],
+        "P": [
+          5.551115123125783e-18
+        ],
+        "Attached": true,
+        "Energy": 1.176,
+        "ExternalWork": 0.0,
+        "ReleaseWork": 0.0,
+        "DampingDissipation": 1.6478382882661066e-39,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 1.6478382882661066e-39,
+        "RelativeEnergyBalanceResidual": 1.4012230342398867e-39,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.7
+      },
+      {
+        "Time": 0.05,
+        "Q": [
+          -0.5
+        ],
+        "P": [
+          5.551115123125783e-18
+        ],
+        "Attached": false,
+        "Energy": 1.008,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 1.6478382882661066e-39,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 1.6478382882661066e-39,
+        "RelativeEnergyBalanceResidual": 1.4012230342398867e-39,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.7
+      },
+      {
+        "Time": 0.08,
+        "Q": [
+          -0.4995964015575002
+        ],
+        "P": [
+          0.05038547126096423
+        ],
+        "Attached": false,
+        "Energy": 1.007999918564977,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 8.144585139414475e-08,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 1.0828446926476405e-11,
+        "RelativeEnergyBalanceResidual": 9.207863032718033e-12,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6995964015575002
+      },
+      {
+        "Time": 0.16,
+        "Q": [
+          -0.4945836504813856
+        ],
+        "P": [
+          0.18441117432254223
+        ],
+        "Attached": false,
+        "Energy": 1.0079952245803263,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 4.79288460472322e-06,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 1.7464931026119312e-08,
+        "RelativeEnergyBalanceResidual": 1.4851131824931388e-08,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6945836504813856
+      },
+      {
+        "Time": 0.24,
+        "Q": [
+          -0.4838769527850401
+        ],
+        "P": [
+          0.31761086279276807
+        ],
+        "Attached": false,
+        "Energy": 1.0079738970873975,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 2.6286642522397343e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 1.8372991987594328e-07,
+        "RelativeEnergyBalanceResidual": 1.5623292506457762e-07,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6838769527850401
+      },
+      {
+        "Time": 0.32,
+        "Q": [
+          -0.4675466677597467
+        ],
+        "P": [
+          0.4494427071425398
+        ],
+        "Attached": false,
+        "Energy": 1.0079244848436608,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 7.62888067112703e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 7.736503720804782e-07,
+        "RelativeEnergyBalanceResidual": 6.578659626534679e-07,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6675466677597467
+      },
+      {
+        "Time": 0.4,
+        "Q": [
+          -0.44569694183808467
+        ],
+        "P": [
+          0.5793580997403827
+        ],
+        "Attached": false,
+        "Energy": 1.0078363913736965,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.00016580327974597328,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 2.1946534424824554e-06,
+        "RelativeEnergyBalanceResidual": 1.8662019068728363e-06,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6456969418380847
+      },
+      {
+        "Time": 0.48000000000000004,
+        "Q": [
+          -0.4184635469658497
+        ],
+        "P": [
+          0.7067979591403232
+        ],
+        "Attached": false,
+        "Energy": 1.0077000985796662,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0003048641165460495,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 4.962696212290412e-06,
+        "RelativeEnergyBalanceResidual": 4.219979772355793e-06,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.6184635469658497
+      },
+      {
+        "Time": 0.56,
+        "Q": [
+          -0.3860110686976815
+        ],
+        "P": [
+          0.8311888386079083
+        ],
+        "Attached": false,
+        "Energy": 1.0075073264554741,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0005023322438734116,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 9.658699347543697e-06,
+        "RelativeEnergyBalanceResidual": 8.213179717299062e-06,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.5860110686976815
+      },
+      {
+        "Time": 0.64,
+        "Q": [
+          -0.34852953170262424
+        ],
+        "P": [
+          0.9519392358568247
+        ],
+        "Attached": false,
+        "Energy": 1.0072511172914522,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0007657445467818825,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 1.6861838234100254e-05,
+        "RelativeEnergyBalanceResidual": 1.4338297818112462e-05,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.5485295317026242
+      },
+      {
+        "Time": 0.72,
+        "Q": [
+          -0.3062305886936948
+        ],
+        "P": [
+          1.068436731812491
+        ],
+        "Attached": false,
+        "Energy": 1.0069258415482938,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0011012196554705067,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 2.706120376428701e-05,
+        "RelativeEnergyBalanceResidual": 2.301122769072025e-05,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.5062305886936949
+      },
+      {
+        "Time": 0.7999999999999999,
+        "Q": [
+          -0.2593434394101317
+        ],
+        "P": [
+          1.1800467518106539
+        ],
+        "Attached": false,
+        "Energy": 1.0065271329099272,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0015134205494590936,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 4.05534593863222e-05,
+        "RelativeEnergyBalanceResidual": 3.448423417204269e-05,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.4593434394101317
+      },
+      {
+        "Time": 0.8799999999999999,
+        "Q": [
+          -0.20811068341115097
+        ],
+        "P": [
+          1.286113801136567
+        ],
+        "Attached": false,
+        "Energy": 1.0060517697097848,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0020055696658186745,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 5.7339375603494055e-05,
+        "RelativeEnergyBalanceResidual": 4.875797245195073e-05,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.408110683411151
+      },
+      {
+        "Time": 0.9599999999999999,
+        "Q": [
+          -0.15278433794590388
+        ],
+        "P": [
+          1.3859659528515287
+        ],
+        "Attached": false,
+        "Energy": 1.005497526886958,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0025795080100449,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 7.703489700281937e-05,
+        "RelativeEnergyBalanceResidual": 6.55058647983158e-05,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.3527843379459039
+      },
+      {
+        "Time": 1.0399999999999998,
+        "Q": [
+          -0.09362226493441239
+        ],
+        "P": [
+          1.4789231558102651
+        ],
+        "Attached": false,
+        "Energy": 1.00486302560815,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.0032357863006105972,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 9.881190876069677e-05,
+        "RelativeEnergyBalanceResidual": 8.402373193936801e-05,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.2936222649344124
+      },
+      {
+        "Time": 1.1199999999999999,
+        "Q": [
+          -0.030885246116054504
+        ],
+        "P": [
+          1.5643096029399608
+        ],
+        "Attached": false,
+        "Energy": 1.004147606653639,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.003973773837525908,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.00012138049116490295,
+        "RelativeEnergyBalanceResidual": 0.00010321470337151612,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.23088524611605452
+      },
+      {
+        "Time": 1.2,
+        "Q": [
+          0.03516507781727298
+        ],
+        "P": [
+          1.641469989424432
+        ],
+        "Attached": false,
+        "Energy": 1.0033512497029988,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.004791769829719187,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.0001430195327180063,
+        "RelativeEnergyBalanceResidual": 0.00012161524890986931,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.16483492218272702
+      },
+      {
+        "Time": 1.28,
+        "Q": [
+          0.10426722819518316
+        ],
+        "P": [
+          1.709789041081119
+        ],
+        "Attached": false,
+        "Energy": 1.002474555409491,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.005687102427253807,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.00016165783674473074,
+        "RelativeEnergyBalanceResidual": 0.00013746414689177786,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.09573277180481685
+      },
+      {
+        "Time": 1.36,
+        "Q": [
+          0.1761597474652058
+        ],
+        "P": [
+          1.7687132483704
+        ],
+        "Attached": false,
+        "Energy": 1.0015188019984713,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.006656202613564539,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.000175004612035852,
+        "RelativeEnergyBalanceResidual": 0.00014881344560871768,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.023840252534794215
+      },
+      {
+        "Time": 1.4400000000000002,
+        "Q": [
+          0.2505798399547453
+        ],
+        "P": [
+          1.8177733385802701
+        ],
+        "Attached": false,
+        "Energy": 1.0004860834643228,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.007694643269717967,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "EnergyBalanceResidual": 0.0001807267340407327,
+        "RelativeEnergyBalanceResidual": 0.00015367919561286793,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": -0.0505798399547453
+      },
+      {
+        "Time": 1.4400000000000002,
+        "Q": [
+          0.2505798399547453
+        ],
+        "P": [
+          -1.1815526700771752
+        ],
+        "Attached": false,
+        "Energy": 0.5043551709068013,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.007694643269717967,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.00018072673404029294,
+        "RelativeEnergyBalanceResidual": 0.000153679195612494,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": -0.0505798399547453
+      },
+      {
+        "Time": 1.5200000000000002,
+        "Q": [
+          0.20258389001394764
+        ],
+        "P": [
+          -1.1297121358230824
+        ],
+        "Attached": false,
+        "Energy": 0.5039210964476804,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.008126570371727882,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.0001785793769292776,
+        "RelativeEnergyBalanceResidual": 0.0001518532116745558,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": -0.002583890013947626
+      },
+      {
+        "Time": 1.6000000000000003,
+        "Q": [
+          0.15699293049416052
+        ],
+        "P": [
+          -1.0721429963410418
+        ],
+        "Attached": false,
+        "Energy": 0.5035283410081073,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.00851629579484067,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.00017554936046898506,
+        "RelativeEnergyBalanceResidual": 0.0001492766670654635,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.04300706950583949
+      },
+      {
+        "Time": 1.6800000000000004,
+        "Q": [
+          0.113990393571694
+        ],
+        "P": [
+          -1.009203818336018
+        ],
+        "Attached": false,
+        "Energy": 0.5031781379288788,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.008863024203922189,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.0001720746903220438,
+        "RelativeEnergyBalanceResidual": 0.00014632201557996923,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.08600960642830602
+      },
+      {
+        "Time": 1.7600000000000005,
+        "Q": [
+          0.07375187314586912
+        ],
+        "P": [
+          -0.9412792074769397
+        ],
+        "Attached": false,
+        "Energy": 0.5028710026154919,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.009166612677558349,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.00016852785057130948,
+        "RelativeEnergyBalanceResidual": 0.00014330599538376658,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.1262481268541309
+      },
+      {
+        "Time": 1.8400000000000005,
+        "Q": [
+          0.036444638122362503
+        ],
+        "P": [
+          -0.8687734365520707
+        ],
+        "Attached": false,
+        "Energy": 0.5026067053515593,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.00942758076226444,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.0001651986713447906,
+        "RelativeEnergyBalanceResidual": 0.00014047506066733895,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.1635553618776375
+      },
+      {
+        "Time": 1.9200000000000006,
+        "Q": [
+          0.00222686121434235
+        ],
+        "P": [
+          -0.792104699680753
+        ],
+        "Attached": false,
+        "Energy": 0.5023842583510703,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.00964711631036326,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.00016228721895455989,
+        "RelativeEnergyBalanceResidual": 0.0001379993358457142,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.19777313878565767
+      },
+      {
+        "Time": 2.0,
+        "Q": [
+          -0.028753389023115375
+        ],
+        "P": [
+          -0.7117001799692715
+        ],
+        "Attached": false,
+        "Energy": 0.5022019188652997,
+        "ExternalWork": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "DampingDissipation": 0.009827074292508668,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.49613091255752106,
+        "EnergyBalanceResidual": 0.00015990571532947806,
+        "RelativeEnergyBalanceResidual": 0.000135974247729148,
+        "MomentumBalanceResidual": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MinimumGap": 0.22875338902311537
+      }
+    ],
+    "Steps": [
+      {
+        "NewtonIterations": 0,
+        "ResidualNorm": 2.2200013689217713e-16,
+        "ResidualHistory": [
+          2.2200013689217713e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.0025181000000884524,
+        "Method": "newmark",
+        "StartTime": 0.0,
+        "EndTime": 0.05,
+        "EnergyBefore": 1.176,
+        "EnergyAfter": 1.176,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 1.6478382882661066e-39,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.6478382882661066e-39,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 3.1786834449321066e-13,
+        "ResidualHistory": [
+          1.6794927549125473,
+          6.817272734261953e-05,
+          3.1786834449321066e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.024695600000086415,
+        "Method": "newmark",
+        "StartTime": 0.05,
+        "EndTime": 0.08,
+        "EnergyBefore": 1.008,
+        "EnergyAfter": 1.007999918564977,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 8.144585139414475e-08,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.0828446926476405e-11,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 3.825396444924467e-11,
+        "ResidualHistory": [
+          1.6729787075747933,
+          0.0004754243340945061,
+          3.825396444924467e-11
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.026742400000330235,
+        "Method": "newmark",
+        "StartTime": 0.08,
+        "EndTime": 0.16,
+        "EnergyBefore": 1.007999918564977,
+        "EnergyAfter": 1.0079952245803263,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 4.7114387533290755e-06,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.745410257919265e-08,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 3.4530524273268526e-11,
+        "ResidualHistory": [
+          1.6551708784180157,
+          0.00045616421480479397,
+          3.4530524273268526e-11
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.0246171000007962,
+        "Method": "newmark",
+        "StartTime": 0.16,
+        "EndTime": 0.24,
+        "EnergyBefore": 1.0079952245803263,
+        "EnergyAfter": 1.0079738970873975,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 2.1493757917674123e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.6626498884982397e-07,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.956221292066408e-11,
+        "ResidualHistory": [
+          1.6283888318867563,
+          0.0004283518023167404,
+          2.956221292066408e-11
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.023942300000271644,
+        "Method": "newmark",
+        "StartTime": 0.24,
+        "EndTime": 0.32,
+        "EnergyBefore": 1.0079738970873975,
+        "EnergyAfter": 1.0079244848436608,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 5.0002164188872954e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 5.899204522045383e-07,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.3839336754649665e-11,
+        "ResidualHistory": [
+          1.593017362071738,
+          0.00039297114834261834,
+          2.3839336754649665e-11
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.02772389999972802,
+        "Method": "newmark",
+        "StartTime": 0.32,
+        "EndTime": 0.4,
+        "EnergyBefore": 1.0079244848436608,
+        "EnergyAfter": 1.0078363913736965,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 8.951447303470298e-05,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.4210030704019772e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.799621823089792e-11,
+        "ResidualHistory": [
+          1.5495799039501985,
+          0.00035133822877080317,
+          1.799621823089792e-11
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.026688900000408466,
+        "Method": "newmark",
+        "StartTime": 0.4,
+        "EndTime": 0.48000000000000004,
+        "EnergyBefore": 1.0078363913736965,
+        "EnergyAfter": 1.0077000985796662,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00013906083680007624,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 2.768042769807957e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.2613811037343048e-11,
+        "ResidualHistory": [
+          1.4987321705288936,
+          0.0003050638146780329,
+          1.2613811037343048e-11
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.025706800000079966,
+        "Method": "newmark",
+        "StartTime": 0.48000000000000004,
+        "EndTime": 0.56,
+        "EnergyBefore": 1.0077000985796662,
+        "EnergyAfter": 1.0075073264554741,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00019746812732736205,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 4.6960031352532845e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 8.030119104385225e-12,
+        "ResidualHistory": [
+          1.4412478790746024,
+          0.0002559815905156396,
+          8.030119104385225e-12
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.02442499999961001,
+        "Method": "newmark",
+        "StartTime": 0.56,
+        "EndTime": 0.64,
+        "EnergyBefore": 1.0075073264554741,
+        "EnergyAfter": 1.0072511172914522,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00026341230290847096,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 7.203138886556558e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 4.581954607396632e-12,
+        "ResidualHistory": [
+          1.3779941675769944,
+          0.00020604237012256284,
+          4.581954607396632e-12
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.021551499999986845,
+        "Method": "newmark",
+        "StartTime": 0.64,
+        "EndTime": 0.72,
+        "EnergyBefore": 1.0072511172914522,
+        "EnergyAfter": 1.0069258415482938,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00033547510868862425,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.0199365530186809e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.2267829941080564e-12,
+        "ResidualHistory": [
+          1.3098954796940254,
+          0.00015718487584065813,
+          2.2267829941080564e-12
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.021000299999286653,
+        "Method": "newmark",
+        "StartTime": 0.72,
+        "EndTime": 0.7999999999999999,
+        "EnergyBefore": 1.0069258415482938,
+        "EnergyAfter": 1.0065271329099272,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0004122008939885868,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.3492255622035135e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 8.947200619280338e-13,
+        "ResidualHistory": [
+          1.2378863622909275,
+          0.0001112013898190798,
+          8.947200619280338e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.022138499999527994,
+        "Method": "newmark",
+        "StartTime": 0.7999999999999999,
+        "EndTime": 0.8799999999999999,
+        "EnergyBefore": 1.0065271329099272,
+        "EnergyAfter": 1.0060517697097848,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.000492149116359581,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.6785916217171965e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.3922877567805756e-13,
+        "ResidualHistory": [
+          1.162855506872587,
+          6.961973753092862e-05,
+          2.3922877567805756e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.022672899999633955,
+        "Method": "newmark",
+        "StartTime": 0.8799999999999999,
+        "EndTime": 0.9599999999999999,
+        "EnergyBefore": 1.0060517697097848,
+        "EnergyAfter": 1.005497526886958,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0005739383442262254,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.9695521399325103e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 3.0602256839706854e-14,
+        "ResidualHistory": [
+          1.0855851516147716,
+          3.36200589471352e-05,
+          3.0602256839706854e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.025262300000576943,
+        "Method": "newmark",
+        "StartTime": 0.9599999999999999,
+        "EndTime": 1.0399999999999998,
+        "EnergyBefore": 1.005497526886958,
+        "EnergyAfter": 1.00486302560815,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.000656278290565697,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 2.1777011757877283e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.0495077029659683e-15,
+        "ResidualHistory": [
+          1.0066913424828527,
+          3.996302360233239e-06,
+          1.0495077029659683e-15
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.03046489999996993,
+        "Method": "newmark",
+        "StartTime": 1.0399999999999998,
+        "EndTime": 1.1199999999999999,
+        "EnergyBefore": 1.00486302560815,
+        "EnergyAfter": 1.004147606653639,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0007379875369153103,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 2.2568582404205854e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 8.770761894538737e-15,
+        "ResidualHistory": [
+          0.9265713212376521,
+          1.8839117214902376e-05,
+          8.770761894538737e-15
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.030391500000405358,
+        "Method": "newmark",
+        "StartTime": 1.1199999999999999,
+        "EndTime": 1.2,
+        "EnergyBefore": 1.004147606653639,
+        "EnergyAfter": 1.0033512497029988,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0008179959921932791,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 2.1639041553103353e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 6.095644822234902e-14,
+        "ResidualHistory": [
+          0.8453643885016145,
+          3.482005684907023e-05,
+          6.095644822234902e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.02526339999985794,
+        "Method": "newmark",
+        "StartTime": 1.2,
+        "EndTime": 1.28,
+        "EnergyBefore": 1.0033512497029988,
+        "EnergyAfter": 1.002474555409491,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00089533259753462,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.8638304026724118e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.608782551620891e-13,
+        "ResidualHistory": [
+          0.7629320296158835,
+          4.418068348836443e-05,
+          1.608782551620891e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.028880599999865808,
+        "Method": "newmark",
+        "StartTime": 1.28,
+        "EndTime": 1.36,
+        "EnergyBefore": 1.002474555409491,
+        "EnergyAfter": 1.0015188019984713,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.000969100186310732,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 1.3346775291121142e-05,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.4848179069891785e-13,
+        "ResidualHistory": [
+          0.678862011447848,
+          4.742031619272592e-05,
+          2.4848179069891785e-13
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.030507200000101875,
+        "Method": "newmark",
+        "StartTime": 1.36,
+        "EndTime": 1.4400000000000002,
+        "EnergyBefore": 1.0015188019984713,
+        "EnergyAfter": 1.0004860834643228,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0010384406561534272,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": 5.722122004880479e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 8.784292737651356e-14,
+        "ResidualHistory": [
+          0.7277009586324897,
+          3.745561386480495e-05,
+          8.784292737651356e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.025550299999849813,
+        "Method": "newmark",
+        "StartTime": 1.4400000000000002,
+        "EndTime": 1.5200000000000002,
+        "EnergyBefore": 0.5043551709068013,
+        "EnergyAfter": 0.5039210964476804,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00043192710200991644,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -2.1473571109980314e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 4.343053694455534e-14,
+        "ResidualHistory": [
+          0.7848507000609625,
+          3.331553594046466e-05,
+          4.343053694455534e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.02554269999927783,
+        "Method": "newmark",
+        "StartTime": 1.5200000000000002,
+        "EndTime": 1.6000000000000003,
+        "EnergyBefore": 0.5039210964476804,
+        "EnergyAfter": 0.5035283410081073,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0003897254231127877,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -3.0300164602793233e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 2.935065385178959e-14,
+        "ResidualHistory": [
+          0.8393227243949228,
+          2.6878469267020352e-05,
+          2.935065385178959e-14
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.022858199999973294,
+        "Method": "newmark",
+        "StartTime": 1.6000000000000003,
+        "EndTime": 1.6800000000000004,
+        "EnergyBefore": 0.5035283410081073,
+        "EnergyAfter": 0.5031781379288788,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.0003467284090815179,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -3.4746701469881417e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.3877787807814457e-16,
+        "ResidualHistory": [
+          0.8909274279310141,
+          1.835598757389187e-05,
+          1.3877787807814457e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.0222700000003897,
+        "Method": "newmark",
+        "StartTime": 1.6800000000000004,
+        "EndTime": 1.7600000000000005,
+        "EnergyBefore": 0.5031781379288788,
+        "EnergyAfter": 0.5028710026154919,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00030358847363616076,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -3.5468397507251704e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 4.935288289154016e-16,
+        "ResidualHistory": [
+          0.9394213986127171,
+          8.075184772639646e-06,
+          4.935288289154016e-16
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.019578200000069046,
+        "Method": "newmark",
+        "StartTime": 1.7600000000000005,
+        "EndTime": 1.8400000000000005,
+        "EnergyBefore": 0.5028710026154919,
+        "EnergyAfter": 0.5026067053515593,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.000260968084706092,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -3.3291792265304214e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 7.806255641895632e-18,
+        "ResidualHistory": [
+          0.9845182027978019,
+          3.5363356226340154e-06,
+          7.806255641895632e-18
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.022665499999675376,
+        "Method": "newmark",
+        "StartTime": 1.8400000000000005,
+        "EndTime": 1.9200000000000006,
+        "EnergyBefore": 0.5026067053515593,
+        "EnergyAfter": 0.5023842583510703,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00021953554809881924,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -2.9114523901929874e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      },
+      {
+        "NewtonIterations": 2,
+        "ResidualNorm": 1.9758500391375833e-15,
+        "ResidualHistory": [
+          1.0259017321583677,
+          1.597038344893116e-05,
+          1.9758500391375833e-15
+        ],
+        "LineSearchCount": 0,
+        "RuntimeSeconds": 0.025671000000329514,
+        "Method": "newmark",
+        "StartTime": 1.9200000000000006,
+        "EndTime": 2.0,
+        "EnergyBefore": 0.5023842583510703,
+        "EnergyAfter": 0.5022019188652997,
+        "ExternalWork": 0.0,
+        "DampingDissipation": 0.00017995798214540744,
+        "ProjectionLoss": 0.0,
+        "ImpactLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -2.381503625103294e-06,
+        "ConstraintWork": 0.0,
+        "ConstraintChainRuleDefect": 0.0,
+        "NewtonResidualWork": null,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ConstraintNorm": 0.0,
+        "VelocityConstraintNorm": 0.0,
+        "MultiplierImpulseNorm": 0.0,
+        "PhysicalMomentumAudited": false,
+        "ExactAngularMomentumPreservationClaimed": false
+      }
+    ],
+    "Events": [
+      {
+        "Kind": "passive-cable-removal",
+        "Time": 0.05,
+        "StoredCableEnergyBefore": 0.16799999999999993,
+        "StoredCableEnergyAfter": 0.0,
+        "ReleaseWork": -0.16799999999999993,
+        "ImpactLoss": 0.0,
+        "ProjectionLoss": 0.0,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "EnergyBalanceResidual": 0.0,
+        "Convention": "removed cable energy leaves the modeled domain; no velocity kick"
+      },
+      {
+        "Kind": "frictionless-impact",
+        "Time": 1.4400000000000002,
+        "NormalImpulse": [
+          2.999326008657446
+        ],
+        "IncomingNormalVelocity": [
+          -0.945223619526439
+        ],
+        "OutgoingNormalVelocity": [
+          0.6143953526921853
+        ],
+        "ImpactLoss": 0.49613091255752106,
+        "ProjectionLoss": 0.0,
+        "ReleaseWork": 0.0,
+        "EnergyBalanceResidual": -2.7755575615628914e-16,
+        "ExternalImpulse": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "MomentumBalanceResidual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "RestitutionDefect": 1.1102230246251565e-16,
+        "SelectionRule": "independent active normals, common restitution; negative impulses rejected",
+        "ActiveStops": [
+          0
+        ],
+        "EventLocalized": false,
+        "GapAtImpact": [
+          -0.0505798399547453
+        ],
+        "Transversality": [
+          {
+            "Classification": "transversal",
+            "SecondOrderEligible": true,
+            "Qualified": true,
+            "Reason": "nonzero normal speed; order still requires a refinement study"
+          }
+        ]
+      }
+    ],
+    "InitialEnergy": 1.176,
+    "InitialCableStoredEnergy": 0.16799999999999993,
+    "InitialElasticStoredEnergy": 1.008,
+    "MaxRelativeEnergyBalanceResidual": 0.00015367919561286793,
+    "MaxPhysicalMomentumBalanceResidual": null,
+    "MaxConstraintNorm": 0.0,
+    "MaxConstraintChainRuleDefect": 0.0,
+    "MaxConstraintWork": 0.0,
+    "MaxPenetration": 0.0505798399547453,
+    "ImpactCount": 1,
+    "ReleaseCount": 1,
+    "ImpactTimes": [
+      1.4400000000000002
+    ],
+    "ActualAcceptedStepCount": 26,
+    "NewtonIterations": 50,
+    "LineSearchCount": 0,
+    "SmoothSolveCount": 26,
+    "EventLocalizationSolves": 0,
+    "RuntimeSeconds": 0.7856341999995493,
+    "Ledger": {
+      "ExternalWork": 0.0,
+      "ReleaseWork": -0.16799999999999993,
+      "DampingDissipation": 0.009827074292508668,
+      "ProjectionLoss": 0.0,
+      "ImpactLoss": 0.49613091255752106
+    },
+    "PhysicalMomentumAudited": false,
+    "GrazingQualified": false,
+    "FullIntervalAudited": true,
+    "GeneralSimultaneousImpactQualified": false,
+    "Provenance": {
+      "EvidenceClass": "nonlinear-kinematic-canonical",
+      "FullDofRodShell": false,
+      "RotationMap": "Rz(q) Rx(0.45 sin(q))",
+      "BodyInertia": [
+        0.7,
+        1.0,
+        1.8
+      ],
+      "PhysicalAngularMomentumQualified": false
+    }
+  },
+  "ResultHash": "5c5992627722c3d4acbdbfda60a297cf5b711f9c01b1ecf1c310912b9264c48f"
+}

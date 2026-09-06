@@ -1,0 +1,1232 @@
+{
+  "ResultKind": "full-wing-p1-cable-kkt-dynamic-jump-qualification",
+  "ContractVersion": "1.0",
+  "CreatedUtc": "2026-08-31T02:41:49.999973+00:00",
+  "RepositoryState": "isolated-study-no-git-repository",
+  "Configuration": {
+    "KernelConfigurationHash": "8fb4abfa50e938dd9a2b2e390deaac5bfcd3ed71693fc573500a0e615c7448c5",
+    "Cable": {
+      "left_radius_m": 0.055,
+      "right_radius_m": 0.055,
+      "lateral_offset_m": 0.018,
+      "routing_phase_rad": 0.35,
+      "cable_stiffness_n_per_m": 1500.0,
+      "fb_smoothing": 1e-10,
+      "contract_version": "1.0"
+    },
+    "Continuation": {
+      "start_angle_rad": 0.98,
+      "end_angle_rad": 0.56,
+      "initial_arc_step": 0.075,
+      "minimum_arc_step": 0.0125,
+      "maximum_arc_step": 0.1,
+      "maximum_points": 32,
+      "corrector_tolerance": 3e-08,
+      "maximum_corrector_iterations": 10,
+      "contract_version": "1.0"
+    },
+    "DynamicJump": {
+      "initial_fold_angle_rad": 0.9,
+      "released_cable_rest_extension": 2.0,
+      "maximum_time_s": 0.28,
+      "time_steps_s": [
+        0.02,
+        0.01,
+        0.005,
+        0.0025
+      ],
+      "event_time_relative_tolerance": 0.01,
+      "preimpact_velocity_relative_tolerance": 0.02,
+      "maximum_penetration_m": 1e-08,
+      "contract_version": "1.0"
+    }
+  },
+  "ConfigurationHash": "3c4a5a30a3c3898836f4d6a40851834db65a838e5b13bfdd6fd2b19fd7cc368a",
+  "SourceClosure": {
+    "Files": [
+      {
+        "Sha256": "281d9300bcfb4c5aba1747bdcae5fe825d23b654ec3e2e407d66e712873a1d6f",
+        "Bytes": 44976
+      },
+      {
+        "Sha256": "925fee7b6c0bb08d5f0fbe07321c5ec0fac9d95d0be9ce2aa258ed895167eaac",
+        "Bytes": 100664
+      },
+      {
+        "Sha256": "dc72ed8e2acbb2f72900054903d337b588f7145035310665837f818c93612a87",
+        "Bytes": 18378
+      },
+      {
+        "Sha256": "91287ddd8dc2a1410c555e0e7aee77395f85e103b07a39f40520a2d29ceb05bd",
+        "Bytes": 23098
+      }
+    ],
+    "ExecutableClosureHash": "79d939d93518c36fd6dcae906ebb67af262a95da02eb4dd9acd103a9b9289082"
+  },
+  "System": {
+    "StructuralDofCount": 73,
+    "UnknownCount": 106,
+    "RodNodeCount": 4,
+    "ShellNodeCount": 8,
+    "ShellTriangleCount": 4,
+    "InterfaceConstraintCount": 24,
+    "Mechanism": "geometric cable + torsion spring + bilateral hinge + two stops"
+  },
+  "GeometricCableTangent": {
+    "ResultKind": "full-wing-geometric-cable-tangent-qualification",
+    "EquilibriumResidualNorm": 3.197442310920451e-14,
+    "DirectionalJvRelativeErrors": [
+      1.7430623480791726e-10,
+      3.497701221092069e-11,
+      7.239136004627974e-11
+    ],
+    "MaximumDirectionalJvRelativeError": 1.7430623480791726e-10,
+    "RestLengthDerivativeRelativeError": 1.1686097286515483e-08,
+    "AnalyticMechanismEntries": {
+      "HingeAngle": 3.0239406013959327,
+      "HingeTension": -0.043474102479722464
+    },
+    "ExpectedAnalyticMechanismEntries": {
+      "HingeAngle": 3.0239406013959327,
+      "HingeTension": -0.043474102479722464
+    },
+    "MaximumMechanismEntryAbsoluteError": 0.0,
+    "Provenance": {
+      "RodShellInterfaceBlocks": "torch-double-autodiff-exact-tangent",
+      "CableLengthAndDerivatives": "closed-form-analytic",
+      "CableFischerBurmeisterRow": "closed-form-semismooth-analytic",
+      "RestLengthParameterDerivative": "closed-form-analytic"
+    },
+    "Passed": true
+  },
+  "FullWingContinuation": {
+    "ResultKind": "full-wing-geometric-cable-pseudo-arclength-path",
+    "ContractVersion": "1.0",
+    "Specification": {
+      "start_angle_rad": 0.98,
+      "end_angle_rad": 0.56,
+      "initial_arc_step": 0.075,
+      "minimum_arc_step": 0.0125,
+      "maximum_arc_step": 0.1,
+      "maximum_points": 32,
+      "corrector_tolerance": 3e-08,
+      "maximum_corrector_iterations": 10,
+      "contract_version": "1.0"
+    },
+    "Rows": [
+      {
+        "Point": 0,
+        "HingeAngleRad": 0.98,
+        "CableRestLengthM": 0.031402939162750505,
+        "CableLengthM": 0.07022264504222249,
+        "CableTensionN": 58.22955881920798,
+        "CableExtensionM": 0.038819705879471984,
+        "ReducedHingeTangent": 0.6278573589504917,
+        "KktMinimumSingularValue": 0.00012848506270902717,
+        "ResidualNorm": 6.460349496741213e-15,
+        "CorrectorIterations": 0,
+        "ArcStep": 0.0,
+        "RestLengthPathTangent": 0.104020987315891,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 1,
+        "HingeAngleRad": 0.9565259346909504,
+        "CableRestLengthM": 0.03162000278477725,
+        "CableLengthM": 0.06923661885647975,
+        "CableTensionN": 56.42492410757342,
+        "CableExtensionM": 0.0376166160717025,
+        "ReducedHingeTangent": 0.5376197510098191,
+        "KktMinimumSingularValue": 0.00011163988494977174,
+        "ResidualNorm": 2.119196860953951e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.075,
+        "RestLengthPathTangent": 0.08895580589490705,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 2,
+        "HingeAngleRad": 0.9293407174731269,
+        "CableRestLengthM": 0.031828133796155754,
+        "CableLengthM": 0.06808488936706504,
+        "CableTensionN": 54.38513335639921,
+        "CableExtensionM": 0.03625675557090929,
+        "ReducedHingeTangent": 0.4357622591404611,
+        "KktMinimumSingularValue": 9.201101175754833e-05,
+        "ResidualNorm": 5.23627819283662e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.08625,
+        "RestLengthPathTangent": 0.07196982545658175,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 3,
+        "HingeAngleRad": 0.8978468117881817,
+        "CableRestLengthM": 0.03201384996033104,
+        "CableLengthM": 0.06673785969912076,
+        "CableTensionN": 52.08601460826895,
+        "CableExtensionM": 0.03472400973878972,
+        "ReducedHingeTangent": 0.32133238922037366,
+        "KktMinimumSingularValue": 6.915023634570554e-05,
+        "ResidualNorm": 1.2364372039079586e-08,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.09918749999999998,
+        "RestLengthPathTangent": 0.05293702024137157,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 4,
+        "HingeAngleRad": 0.8658690959014211,
+        "CableRestLengthM": 0.03214463238609971,
+        "CableLengthM": 0.06535664539784161,
+        "CableTensionN": 49.818019517677214,
+        "CableExtensionM": 0.033212013011741905,
+        "ReducedHingeTangent": 0.20910468755503953,
+        "KktMinimumSingularValue": 4.58587909135982e-05,
+        "ResidualNorm": 9.745392336649825e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": 0.03434804038257962,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 5,
+        "HingeAngleRad": 0.8336881915756765,
+        "CableRestLengthM": 0.032220612535253504,
+        "CableLengthM": 0.06395351195245841,
+        "CableTensionN": 47.59934912584487,
+        "CableExtensionM": 0.031732899417204904,
+        "ReducedHingeTangent": 0.1002481210234909,
+        "KktMinimumSingularValue": 2.2400219955241662e-05,
+        "ResidualNorm": 7.0561928647767105e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": 0.016414147645601004,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 6,
+        "HingeAngleRad": 0.8013263110607642,
+        "CableRestLengthM": 0.03224382768947828,
+        "CableLengthM": 0.0625298115948225,
+        "CableTensionN": 45.42897585804255,
+        "CableExtensionM": 0.03028598390534422,
+        "ReducedHingeTangent": -0.005014318264251472,
+        "KktMinimumSingularValue": 1.1412952536154656e-06,
+        "ResidualNorm": 5.024673805845102e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.0008182055499889119,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 7,
+        "HingeAngleRad": 0.7688041863575561,
+        "CableRestLengthM": 0.03221644536967203,
+        "CableLengthM": 0.061086914754654595,
+        "CableTensionN": 43.30570407749045,
+        "CableExtensionM": 0.028870469384982562,
+        "ReducedHingeTangent": -0.10645360220477951,
+        "KktMinimumSingularValue": 2.4674421418848888e-05,
+        "ResidualNorm": 3.525657317249478e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.01730850998483183,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 8,
+        "HingeAngleRad": 0.7361409886195096,
+        "CableRestLengthM": 0.03214074672374409,
+        "CableLengthM": 0.059626204982421147,
+        "CableTensionN": 41.228187388022356,
+        "CableExtensionM": 0.027485458258677056,
+        "ReducedHingeTangent": -0.20383181873201517,
+        "KktMinimumSingularValue": 4.810008471262779e-05,
+        "ResidualNorm": 2.5874881404662814e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.03302134282923963,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 9,
+        "HingeAngleRad": 0.7033542812772254,
+        "CableRestLengthM": 0.03201911278279064,
+        "CableLengthM": 0.058149075916903825,
+        "CableTensionN": 39.19494470117378,
+        "CableExtensionM": 0.026129963134113185,
+        "ReducedHingeTangent": -0.2968986471334061,
+        "KktMinimumSingularValue": 7.131064268882152e-05,
+        "ResidualNorm": 1.875969648632199e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.047925319027601054,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 10,
+        "HingeAngleRad": 0.6704600021832292,
+        "CableRestLengthM": 0.03185401413006478,
+        "CableLengthM": 0.056656930359211634,
+        "CableTensionN": 37.20437434372477,
+        "CableExtensionM": 0.024802916229146856,
+        "ReducedHingeTangent": -0.38538705438890286,
+        "KktMinimumSingularValue": 9.41887519071518e-05,
+        "ResidualNorm": 1.3450736311263644e-09,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.06199186963833954,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 11,
+        "HingeAngleRad": 0.6374724698790124,
+        "CableRestLengthM": 0.0316480044887738,
+        "CableLengthM": 0.05515118150488326,
+        "CableTensionN": 35.2547655241643,
+        "CableExtensionM": 0.02350317701610946,
+        "ReducedHingeTangent": -0.46900807321870097,
+        "KktMinimumSingularValue": 0.00011660585043246234,
+        "ResidualNorm": 9.572389518203912e-10,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.07519385303628799,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 12,
+        "HingeAngleRad": 0.6044044092181909,
+        "CableRestLengthM": 0.03140371874077645,
+        "CableLengthM": 0.05363325639777964,
+        "CableTensionN": 33.34430648550208,
+        "CableExtensionM": 0.02222953765700319,
+        "ReducedHingeTangent": -0.5474444741965638,
+        "KktMinimumSingularValue": 0.00013842015284985402,
+        "ResidualNorm": 6.784019786717285e-10,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.08750398831465407,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 13,
+        "HingeAngleRad": 0.5712669919851636,
+        "CableRestLengthM": 0.031123875949929485,
+        "CableLengthM": 0.05210460170464441,
+        "CableTensionN": 31.471088632073755,
+        "CableExtensionM": 0.020980725754714928,
+        "ReducedHingeTangent": -0.6203430817251943,
+        "KktMinimumSingularValue": 0.0001594740272042286,
+        "ResidualNorm": 4.804360552763961e-10,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.098893079640559,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      },
+      {
+        "Point": 14,
+        "HingeAngleRad": 0.538069888793894,
+        "CableRestLengthM": 0.03081128809458062,
+        "CableLengthM": 0.05056669196921712,
+        "CableTensionN": 29.63310581195627,
+        "CableExtensionM": 0.0197554038746365,
+        "ReducedHingeTangent": -0.6873054027054994,
+        "KktMinimumSingularValue": 0.00017959058681104833,
+        "ResidualNorm": 3.4183638256466163e-10,
+        "CorrectorIterations": 2,
+        "ArcStep": 0.1,
+        "RestLengthPathTangent": -0.10932797467066925,
+        "CableActive": true,
+        "LowerStopActive": false,
+        "UpperStopActive": false
+      }
+    ],
+    "PointCount": 15,
+    "RuntimeSeconds": 13.70333550000214,
+    "AllCorrectorsConverged": true
+  },
+  "CableReleaseFold": {
+    "ResultKind": "full-wing-cable-release-fold-artifact",
+    "ReferenceFold": {
+      "AngleRad": 0.802898289051978,
+      "CableRestLengthM": 0.03224388718430768,
+      "CableTensionN": 45.53304703349918,
+      "RestLengthDerivative": 2.7755575615628914e-17
+    },
+    "PseudoArclengthFold": {
+      "Point": 6,
+      "HingeAngleRad": 0.8013263110607642,
+      "CableRestLengthM": 0.03224382768947828,
+      "CableLengthM": 0.0625298115948225,
+      "CableTensionN": 45.42897585804255,
+      "CableExtensionM": 0.03028598390534422,
+      "ReducedHingeTangent": -0.005014318264251472,
+      "KktMinimumSingularValue": 1.1412952536154656e-06,
+      "ResidualNorm": 5.024673805845102e-09,
+      "CorrectorIterations": 2,
+      "ArcStep": 0.1,
+      "RestLengthPathTangent": -0.0008182055499889119,
+      "CableActive": true,
+      "LowerStopActive": false,
+      "UpperStopActive": false
+    },
+    "PathMaximumRestLengthPoint": {
+      "Point": 6,
+      "HingeAngleRad": 0.8013263110607642,
+      "CableRestLengthM": 0.03224382768947828,
+      "CableLengthM": 0.0625298115948225,
+      "CableTensionN": 45.42897585804255,
+      "CableExtensionM": 0.03028598390534422,
+      "ReducedHingeTangent": -0.005014318264251472,
+      "KktMinimumSingularValue": 1.1412952536154656e-06,
+      "ResidualNorm": 5.024673805845102e-09,
+      "CorrectorIterations": 2,
+      "ArcStep": 0.1,
+      "RestLengthPathTangent": -0.0008182055499889119,
+      "CableActive": true,
+      "LowerStopActive": false,
+      "UpperStopActive": false
+    },
+    "AngleAbsoluteErrorRad": 0.00157197799121378,
+    "RestLengthAbsoluteErrorM": 5.949482939637818e-08,
+    "StableAndUnstableSegmentsPresent": true,
+    "Passed": true,
+    "ClaimBoundary": "The fold is the loss of the cable-held quasi-static equilibrium under cable payout. Dynamic stop impact is qualified separately."
+  },
+  "SparseHybridKkt": {
+    "ResultKind": "full-wing-sparse-hybrid-exact-kkt-qualification",
+    "ContractVersion": "1.0",
+    "MatrixSize": 106,
+    "StructuralDofCount": 73,
+    "MultiplierCount": 33,
+    "Nnz": 808,
+    "Density": 0.07191171235315058,
+    "DenseBytes": 89888,
+    "CsrBytes": 13784,
+    "StorageReductionRatio": 6.521183981427742,
+    "CsrReconstructionRelativeError": 1.4510840659997617e-17,
+    "CsrMatvecRelativeErrors": [
+      1.2509053111958503e-16,
+      1.118149605034501e-16,
+      1.2490878110060297e-16,
+      1.126741942524647e-16,
+      1.1720260945764354e-16
+    ],
+    "MaximumCsrMatvecRelativeError": 1.2509053111958503e-16,
+    "DeclaredPatternNnz": 808,
+    "ProbeActualNnz": 808,
+    "PatternContainmentMissingCount": 0,
+    "DirectVsFieldSplitRelativeError": 2.2422116595786597e-13,
+    "FieldSplitRelativeLinearResidual": 1.8043576937054958e-11,
+    "Timings": {
+      "direct-qr": {
+        "FactorizationSeconds": 0.002631199997267686,
+        "FourRightHandSidesSolveSeconds": 0.00034149999555666
+      },
+      "augmented-field-split-schur": {
+        "FactorizationSeconds": 0.0005638000002363697,
+        "FourRightHandSidesSolveSeconds": 0.00031990000570658594
+      }
+    },
+    "BlockTangentProvenance": {
+      "RodElasticity": "torch-double-autodiff-exact",
+      "ShellMembraneBending": "torch-double-autodiff-exact",
+      "RodShellInterfaceAndHingeConstraints": "torch-double-autodiff-exact",
+      "TorsionSpring": "closed-form-analytic",
+      "GeometricCableMoment": "closed-form-analytic",
+      "CableComplementarity": "closed-form-semismooth-analytic",
+      "RestLengthParameterColumn": "closed-form-analytic"
+    },
+    "FullyHandCodedContinuumAnalyticTangent": false,
+    "Passed": true,
+    "ClaimBoundary": "This is a true CSR KKT assembly and an exact analytic mechanism/complementarity block. Continuum material tangents are exact AD, and the qualified field-split solve remains a dense reference; native sparse Krylov scalability is not claimed."
+  },
+  "DynamicJumpConvergence": {
+    "ResultKind": "full-wing-cable-release-dynamic-jump-convergence",
+    "ContractVersion": "1.0",
+    "Specification": {
+      "initial_fold_angle_rad": 0.9,
+      "released_cable_rest_extension": 2.0,
+      "maximum_time_s": 0.28,
+      "time_steps_s": [
+        0.02,
+        0.01,
+        0.005,
+        0.0025
+      ],
+      "event_time_relative_tolerance": 0.01,
+      "preimpact_velocity_relative_tolerance": 0.02,
+      "maximum_penetration_m": 1e-08,
+      "contract_version": "1.0"
+    },
+    "ConsistentInitialAcceleration": {
+      "ResultKind": "consistent-initial-acceleration-artifact",
+      "KktRank": 109,
+      "KktSize": 109,
+      "UsedLeastSquares": false,
+      "ForceBalanceError": 3.469446951953614e-17,
+      "ConstraintAccelerationError": 5.5220263365470826e-30,
+      "Passed": true
+    },
+    "Rows": [
+      {
+        "TimeStepS": 0.02,
+        "CompletedSteps": 10,
+        "RuntimeSeconds": 10.909360799996648,
+        "EventDetected": true,
+        "EventTimeS": 0.1992631539179861,
+        "PreimpactNormalVelocity": -7.073438188150706,
+        "NormalImpulse": 0.07575655932225628,
+        "RestitutionError": 8.881784197001252e-16,
+        "EnergyLossError": 1.1102230246251565e-16,
+        "GeneralizedMomentumBalanceError": 2.5478751053409354e-18,
+        "ImpactAuditPassed": true,
+        "MaximumPenetration": 0.0,
+        "MaximumNewtonResidual": 6.62466495715499e-08,
+        "NewtonIterations": 30,
+        "JacobianAssemblyCount": 20,
+        "JacobianReuseCount": 19,
+        "EventLocalizationSolveCount": 3,
+        "EventLocalizationWarmStartCount": 3,
+        "Converged": true
+      },
+      {
+        "TimeStepS": 0.01,
+        "CompletedSteps": 20,
+        "RuntimeSeconds": 21.70514559998992,
+        "EventDetected": true,
+        "EventTimeS": 0.19811517516538277,
+        "PreimpactNormalVelocity": -6.5177407097461115,
+        "NormalImpulse": 0.06980502292573272,
+        "RestitutionError": 6.661338147750939e-16,
+        "EnergyLossError": 1.3877787807814457e-16,
+        "GeneralizedMomentumBalanceError": 1.3010426069826053e-18,
+        "ImpactAuditPassed": true,
+        "MaximumPenetration": 0.0,
+        "MaximumNewtonResidual": 1.2802912245845712e-09,
+        "NewtonIterations": 60,
+        "JacobianAssemblyCount": 40,
+        "JacobianReuseCount": 39,
+        "EventLocalizationSolveCount": 3,
+        "EventLocalizationWarmStartCount": 3,
+        "Converged": true
+      },
+      {
+        "TimeStepS": 0.005,
+        "CompletedSteps": 40,
+        "RuntimeSeconds": 35.73620679999294,
+        "EventDetected": true,
+        "EventTimeS": 0.198089032067458,
+        "PreimpactNormalVelocity": -6.713264432494018,
+        "NormalImpulse": 0.07189909571427419,
+        "RestitutionError": 1.6653345369377348e-16,
+        "EnergyLossError": 2.7755575615628914e-17,
+        "GeneralizedMomentumBalanceError": 3.2526065174565133e-18,
+        "ImpactAuditPassed": true,
+        "MaximumPenetration": 0.0,
+        "MaximumNewtonResidual": 1.0780563533029844e-07,
+        "NewtonIterations": 81,
+        "JacobianAssemblyCount": 80,
+        "JacobianReuseCount": 40,
+        "EventLocalizationSolveCount": 4,
+        "EventLocalizationWarmStartCount": 4,
+        "Converged": true
+      },
+      {
+        "TimeStepS": 0.0025,
+        "CompletedSteps": 80,
+        "RuntimeSeconds": 68.77330689999508,
+        "EventDetected": true,
+        "EventTimeS": 0.1980666181740609,
+        "PreimpactNormalVelocity": -6.775337556077872,
+        "NormalImpulse": 0.07256390136261183,
+        "RestitutionError": 1.3877787807814457e-15,
+        "EnergyLossError": 5.551115123125783e-17,
+        "GeneralizedMomentumBalanceError": 9.698527246061739e-19,
+        "ImpactAuditPassed": true,
+        "MaximumPenetration": 0.0,
+        "MaximumNewtonResidual": 1.726884738516316e-09,
+        "NewtonIterations": 161,
+        "JacobianAssemblyCount": 160,
+        "JacobianReuseCount": 80,
+        "EventLocalizationSolveCount": 3,
+        "EventLocalizationWarmStartCount": 3,
+        "Converged": true
+      }
+    ],
+    "Trajectories": [
+      {
+        "TimeStepS": 0.02,
+        "Rows": [
+          {
+            "TimeS": 0.0,
+            "HingeAngleRad": 0.9
+          },
+          {
+            "TimeS": 0.02,
+            "HingeAngleRad": 0.8680706832889806
+          },
+          {
+            "TimeS": 0.04,
+            "HingeAngleRad": 0.7961014900436354
+          },
+          {
+            "TimeS": 0.06,
+            "HingeAngleRad": 0.7158454528062671
+          },
+          {
+            "TimeS": 0.08,
+            "HingeAngleRad": 0.6284961942093322
+          },
+          {
+            "TimeS": 0.1,
+            "HingeAngleRad": 0.5304930203794879
+          },
+          {
+            "TimeS": 0.12000000000000001,
+            "HingeAngleRad": 0.43402965802674226
+          },
+          {
+            "TimeS": 0.14,
+            "HingeAngleRad": 0.34527249521497516
+          },
+          {
+            "TimeS": 0.16,
+            "HingeAngleRad": 0.2497572590470415
+          },
+          {
+            "TimeS": 0.18,
+            "HingeAngleRad": 0.13155406177084603
+          },
+          {
+            "TimeS": 0.19999999999999998,
+            "HingeAngleRad": 0.00025334250330989256
+          }
+        ]
+      },
+      {
+        "TimeStepS": 0.01,
+        "Rows": [
+          {
+            "TimeS": 0.0,
+            "HingeAngleRad": 0.9
+          },
+          {
+            "TimeS": 0.01,
+            "HingeAngleRad": 0.8903175682078104
+          },
+          {
+            "TimeS": 0.02,
+            "HingeAngleRad": 0.8648892589202611
+          },
+          {
+            "TimeS": 0.03,
+            "HingeAngleRad": 0.8312445347987747
+          },
+          {
+            "TimeS": 0.04,
+            "HingeAngleRad": 0.795114473765839
+          },
+          {
+            "TimeS": 0.05,
+            "HingeAngleRad": 0.7579063897933641
+          },
+          {
+            "TimeS": 0.060000000000000005,
+            "HingeAngleRad": 0.718056405422193
+          },
+          {
+            "TimeS": 0.07,
+            "HingeAngleRad": 0.6738963939820958
+          },
+          {
+            "TimeS": 0.08,
+            "HingeAngleRad": 0.6254584187194351
+          },
+          {
+            "TimeS": 0.09,
+            "HingeAngleRad": 0.5747519833306164
+          },
+          {
+            "TimeS": 0.09999999999999999,
+            "HingeAngleRad": 0.525044036181939
+          },
+          {
+            "TimeS": 0.10999999999999999,
+            "HingeAngleRad": 0.479274532214452
+          },
+          {
+            "TimeS": 0.11999999999999998,
+            "HingeAngleRad": 0.4380214568000962
+          },
+          {
+            "TimeS": 0.12999999999999998,
+            "HingeAngleRad": 0.3984246815524019
+          },
+          {
+            "TimeS": 0.13999999999999999,
+            "HingeAngleRad": 0.3554479465817997
+          },
+          {
+            "TimeS": 0.15,
+            "HingeAngleRad": 0.3049894298183448
+          },
+          {
+            "TimeS": 0.16,
+            "HingeAngleRad": 0.24644394663610789
+          },
+          {
+            "TimeS": 0.17,
+            "HingeAngleRad": 0.18265775921340646
+          },
+          {
+            "TimeS": 0.18000000000000002,
+            "HingeAngleRad": 0.11740680376950531
+          },
+          {
+            "TimeS": 0.19000000000000003,
+            "HingeAngleRad": 0.05260484240016474
+          },
+          {
+            "TimeS": 0.2,
+            "HingeAngleRad": 0.0004849908960931166
+          }
+        ]
+      },
+      {
+        "TimeStepS": 0.005,
+        "Rows": [
+          {
+            "TimeS": 0.0,
+            "HingeAngleRad": 0.9
+          },
+          {
+            "TimeS": 0.005,
+            "HingeAngleRad": 0.8973693439571854
+          },
+          {
+            "TimeS": 0.01,
+            "HingeAngleRad": 0.8898384798898402
+          },
+          {
+            "TimeS": 0.015,
+            "HingeAngleRad": 0.878309577463392
+          },
+          {
+            "TimeS": 0.02,
+            "HingeAngleRad": 0.8639108097376195
+          },
+          {
+            "TimeS": 0.025,
+            "HingeAngleRad": 0.8477374405225586
+          },
+          {
+            "TimeS": 0.030000000000000002,
+            "HingeAngleRad": 0.8306423206688885
+          },
+          {
+            "TimeS": 0.035,
+            "HingeAngleRad": 0.8131285974848859
+          },
+          {
+            "TimeS": 0.04,
+            "HingeAngleRad": 0.7953598246952274
+          },
+          {
+            "TimeS": 0.045,
+            "HingeAngleRad": 0.7772493787111295
+          },
+          {
+            "TimeS": 0.049999999999999996,
+            "HingeAngleRad": 0.7585713066619161
+          },
+          {
+            "TimeS": 0.05499999999999999,
+            "HingeAngleRad": 0.7390578262601354
+          },
+          {
+            "TimeS": 0.05999999999999999,
+            "HingeAngleRad": 0.7184701955361196
+          },
+          {
+            "TimeS": 0.06499999999999999,
+            "HingeAngleRad": 0.6966425432179816
+          },
+          {
+            "TimeS": 0.06999999999999999,
+            "HingeAngleRad": 0.6735159970175377
+          },
+          {
+            "TimeS": 0.075,
+            "HingeAngleRad": 0.6491783966954836
+          },
+          {
+            "TimeS": 0.08,
+            "HingeAngleRad": 0.6238967600933396
+          },
+          {
+            "TimeS": 0.085,
+            "HingeAngleRad": 0.5981160621537703
+          },
+          {
+            "TimeS": 0.09000000000000001,
+            "HingeAngleRad": 0.572410731918857
+          },
+          {
+            "TimeS": 0.09500000000000001,
+            "HingeAngleRad": 0.5473900154215353
+          },
+          {
+            "TimeS": 0.10000000000000002,
+            "HingeAngleRad": 0.5235720524346654
+          },
+          {
+            "TimeS": 0.10500000000000002,
+            "HingeAngleRad": 0.5012588309235262
+          },
+          {
+            "TimeS": 0.11000000000000003,
+            "HingeAngleRad": 0.4804496959220462
+          },
+          {
+            "TimeS": 0.11500000000000003,
+            "HingeAngleRad": 0.46081912888932963
+          },
+          {
+            "TimeS": 0.12000000000000004,
+            "HingeAngleRad": 0.44176659819485325
+          },
+          {
+            "TimeS": 0.12500000000000003,
+            "HingeAngleRad": 0.4225273858773437
+          },
+          {
+            "TimeS": 0.13000000000000003,
+            "HingeAngleRad": 0.4023175196665792
+          },
+          {
+            "TimeS": 0.13500000000000004,
+            "HingeAngleRad": 0.3804800728457803
+          },
+          {
+            "TimeS": 0.14000000000000004,
+            "HingeAngleRad": 0.3566005032621816
+          },
+          {
+            "TimeS": 0.14500000000000005,
+            "HingeAngleRad": 0.33056461828118755
+          },
+          {
+            "TimeS": 0.15000000000000005,
+            "HingeAngleRad": 0.30255002384514396
+          },
+          {
+            "TimeS": 0.15500000000000005,
+            "HingeAngleRad": 0.27295907900927363
+          },
+          {
+            "TimeS": 0.16000000000000006,
+            "HingeAngleRad": 0.2423082317994694
+          },
+          {
+            "TimeS": 0.16500000000000006,
+            "HingeAngleRad": 0.21109909421307868
+          },
+          {
+            "TimeS": 0.17000000000000007,
+            "HingeAngleRad": 0.17970798811719155
+          },
+          {
+            "TimeS": 0.17500000000000007,
+            "HingeAngleRad": 0.1483204029913464
+          },
+          {
+            "TimeS": 0.18000000000000008,
+            "HingeAngleRad": 0.11691818908961787
+          },
+          {
+            "TimeS": 0.18500000000000008,
+            "HingeAngleRad": 0.08532254878931908
+          },
+          {
+            "TimeS": 0.19000000000000009,
+            "HingeAngleRad": 0.053283903062523987
+          },
+          {
+            "TimeS": 0.1950000000000001,
+            "HingeAngleRad": 0.02058509098519053
+          },
+          {
+            "TimeS": 0.2000000000000001,
+            "HingeAngleRad": 0.0004849290006847675
+          }
+        ]
+      },
+      {
+        "TimeStepS": 0.0025,
+        "Rows": [
+          {
+            "TimeS": 0.0,
+            "HingeAngleRad": 0.9
+          },
+          {
+            "TimeS": 0.0025,
+            "HingeAngleRad": 0.8993231028187985
+          },
+          {
+            "TimeS": 0.005,
+            "HingeAngleRad": 0.8973231765796793
+          },
+          {
+            "TimeS": 0.0075,
+            "HingeAngleRad": 0.8940791711902054
+          },
+          {
+            "TimeS": 0.01,
+            "HingeAngleRad": 0.8897010559339351
+          },
+          {
+            "TimeS": 0.0125,
+            "HingeAngleRad": 0.8843216454621894
+          },
+          {
+            "TimeS": 0.015000000000000001,
+            "HingeAngleRad": 0.8780877239491144
+          },
+          {
+            "TimeS": 0.0175,
+            "HingeAngleRad": 0.8711509189315905
+          },
+          {
+            "TimeS": 0.02,
+            "HingeAngleRad": 0.8636586144904478
+          },
+          {
+            "TimeS": 0.0225,
+            "HingeAngleRad": 0.8557456468005026
+          },
+          {
+            "TimeS": 0.024999999999999998,
+            "HingeAngleRad": 0.8475279033625962
+          },
+          {
+            "TimeS": 0.027499999999999997,
+            "HingeAngleRad": 0.8390986056476651
+          },
+          {
+            "TimeS": 0.029999999999999995,
+            "HingeAngleRad": 0.8305271711688785
+          },
+          {
+            "TimeS": 0.032499999999999994,
+            "HingeAngleRad": 0.8218599023657955
+          },
+          {
+            "TimeS": 0.034999999999999996,
+            "HingeAngleRad": 0.8131218110327755
+          },
+          {
+            "TimeS": 0.0375,
+            "HingeAngleRad": 0.804319340733412
+          },
+          {
+            "TimeS": 0.04,
+            "HingeAngleRad": 0.7954439336956753
+          },
+          {
+            "TimeS": 0.0425,
+            "HingeAngleRad": 0.7864760879395635
+          },
+          {
+            "TimeS": 0.045000000000000005,
+            "HingeAngleRad": 0.7773891956022543
+          },
+          {
+            "TimeS": 0.04750000000000001,
+            "HingeAngleRad": 0.7681525517910098
+          },
+          {
+            "TimeS": 0.05000000000000001,
+            "HingeAngleRad": 0.7587334470783264
+          },
+          {
+            "TimeS": 0.05250000000000001,
+            "HingeAngleRad": 0.7490987105217951
+          },
+          {
+            "TimeS": 0.055000000000000014,
+            "HingeAngleRad": 0.7392160984739892
+          },
+          {
+            "TimeS": 0.057500000000000016,
+            "HingeAngleRad": 0.7290556828804731
+          },
+          {
+            "TimeS": 0.06000000000000002,
+            "HingeAngleRad": 0.7185912626334257
+          },
+          {
+            "TimeS": 0.06250000000000001,
+            "HingeAngleRad": 0.7078019018864674
+          },
+          {
+            "TimeS": 0.06500000000000002,
+            "HingeAngleRad": 0.6966737383930318
+          },
+          {
+            "TimeS": 0.06750000000000002,
+            "HingeAngleRad": 0.6852020097833762
+          },
+          {
+            "TimeS": 0.07000000000000002,
+            "HingeAngleRad": 0.6733929812666879
+          },
+          {
+            "TimeS": 0.07250000000000002,
+            "HingeAngleRad": 0.6612654247527905
+          },
+          {
+            "TimeS": 0.07500000000000002,
+            "HingeAngleRad": 0.6488515022557868
+          },
+          {
+            "TimeS": 0.07750000000000003,
+            "HingeAngleRad": 0.6361970328141198
+          },
+          {
+            "TimeS": 0.08000000000000003,
+            "HingeAngleRad": 0.6233609803068597
+          },
+          {
+            "TimeS": 0.08250000000000003,
+            "HingeAngleRad": 0.6104138205193305
+          },
+          {
+            "TimeS": 0.08500000000000003,
+            "HingeAngleRad": 0.5974346007314786
+          },
+          {
+            "TimeS": 0.08750000000000004,
+            "HingeAngleRad": 0.5845069773155098
+          },
+          {
+            "TimeS": 0.09000000000000004,
+            "HingeAngleRad": 0.5717148435237606
+          },
+          {
+            "TimeS": 0.09250000000000004,
+            "HingeAngleRad": 0.5591379837268361
+          },
+          {
+            "TimeS": 0.09500000000000004,
+            "HingeAngleRad": 0.5468477478978175
+          },
+          {
+            "TimeS": 0.09750000000000004,
+            "HingeAngleRad": 0.5349026227734772
+          },
+          {
+            "TimeS": 0.10000000000000005,
+            "HingeAngleRad": 0.523343998945188
+          },
+          {
+            "TimeS": 0.10250000000000005,
+            "HingeAngleRad": 0.512192911939195
+          },
+          {
+            "TimeS": 0.10500000000000005,
+            "HingeAngleRad": 0.5014484305415701
+          },
+          {
+            "TimeS": 0.10750000000000005,
+            "HingeAngleRad": 0.491087674399065
+          },
+          {
+            "TimeS": 0.11000000000000006,
+            "HingeAngleRad": 0.48106686343148086
+          },
+          {
+            "TimeS": 0.11250000000000006,
+            "HingeAngleRad": 0.4713229408110301
+          },
+          {
+            "TimeS": 0.11500000000000006,
+            "HingeAngleRad": 0.46177595371578234
+          },
+          {
+            "TimeS": 0.11750000000000006,
+            "HingeAngleRad": 0.45233270309473694
+          },
+          {
+            "TimeS": 0.12000000000000006,
+            "HingeAngleRad": 0.44289171669941946
+          },
+          {
+            "TimeS": 0.12250000000000007,
+            "HingeAngleRad": 0.43334881465472413
+          },
+          {
+            "TimeS": 0.12500000000000006,
+            "HingeAngleRad": 0.4236022956319293
+          },
+          {
+            "TimeS": 0.12750000000000006,
+            "HingeAngleRad": 0.41355734212477085
+          },
+          {
+            "TimeS": 0.13000000000000006,
+            "HingeAngleRad": 0.40312996290819936
+          },
+          {
+            "TimeS": 0.13250000000000006,
+            "HingeAngleRad": 0.3922508353148418
+          },
+          {
+            "TimeS": 0.13500000000000006,
+            "HingeAngleRad": 0.3808687587493172
+          },
+          {
+            "TimeS": 0.13750000000000007,
+            "HingeAngleRad": 0.36895288773562074
+          },
+          {
+            "TimeS": 0.14000000000000007,
+            "HingeAngleRad": 0.35649316067577974
+          },
+          {
+            "TimeS": 0.14250000000000007,
+            "HingeAngleRad": 0.34349914846515456
+          },
+          {
+            "TimeS": 0.14500000000000007,
+            "HingeAngleRad": 0.32999805627246825
+          },
+          {
+            "TimeS": 0.14750000000000008,
+            "HingeAngleRad": 0.31603234155619425
+          },
+          {
+            "TimeS": 0.15000000000000008,
+            "HingeAngleRad": 0.3016567899258037
+          },
+          {
+            "TimeS": 0.15250000000000008,
+            "HingeAngleRad": 0.28693470834052753
+          },
+          {
+            "TimeS": 0.15500000000000008,
+            "HingeAngleRad": 0.2719333696526136
+          },
+          {
+            "TimeS": 0.15750000000000008,
+            "HingeAngleRad": 0.2567194057541992
+          },
+          {
+            "TimeS": 0.1600000000000001,
+            "HingeAngleRad": 0.2413548587791946
+          },
+          {
+            "TimeS": 0.1625000000000001,
+            "HingeAngleRad": 0.22589409030005042
+          },
+          {
+            "TimeS": 0.1650000000000001,
+            "HingeAngleRad": 0.21038131935873944
+          },
+          {
+            "TimeS": 0.1675000000000001,
+            "HingeAngleRad": 0.19484863868577385
+          },
+          {
+            "TimeS": 0.1700000000000001,
+            "HingeAngleRad": 0.17931473171961076
+          },
+          {
+            "TimeS": 0.1725000000000001,
+            "HingeAngleRad": 0.16378465751130253
+          },
+          {
+            "TimeS": 0.1750000000000001,
+            "HingeAngleRad": 0.14825080034025281
+          },
+          {
+            "TimeS": 0.1775000000000001,
+            "HingeAngleRad": 0.13269471682263256
+          },
+          {
+            "TimeS": 0.1800000000000001,
+            "HingeAngleRad": 0.11708953482629382
+          },
+          {
+            "TimeS": 0.1825000000000001,
+            "HingeAngleRad": 0.10140274588311447
+          },
+          {
+            "TimeS": 0.1850000000000001,
+            "HingeAngleRad": 0.08559935210153538
+          },
+          {
+            "TimeS": 0.1875000000000001,
+            "HingeAngleRad": 0.06964520038031452
+          },
+          {
+            "TimeS": 0.1900000000000001,
+            "HingeAngleRad": 0.0535101636470612
+          },
+          {
+            "TimeS": 0.19250000000000012,
+            "HingeAngleRad": 0.0371708928667842
+          },
+          {
+            "TimeS": 0.19500000000000012,
+            "HingeAngleRad": 0.020613112321771196
+          },
+          {
+            "TimeS": 0.19750000000000012,
+            "HingeAngleRad": 0.00383353120352408
+          },
+          {
+            "TimeS": 0.20000000000000012,
+            "HingeAngleRad": 0.0004898070806399004
+          }
+        ]
+      }
+    ],
+    "FinestTwoEventTimeRelativeChange": 0.00011316340736129434,
+    "FinestTwoPreimpactVelocityRelativeChange": 0.009161628194918624,
+    "Passed": true,
+    "ClaimBoundary": "This qualifies torsion-driven deployment after cable release and the first lower-stop impact. It does not include aerodynamic load, repeated flapping, frictional stop contact, or fatigue."
+  },
+  "Passed": true,
+  "EvidenceClass": "ResearchQualification",
+  "ClaimBoundary": "The current evidence closes the full-wing geometric cable/torsion path, hybrid exact CSR KKT, and first-impact time-step convergence. It does not close a fully hand-coded rod/shell tangent, native sparse scaling, aerodynamic coupling, or repeated-contact flight dynamics."
+}

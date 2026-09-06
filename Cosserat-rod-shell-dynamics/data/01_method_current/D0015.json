@@ -1,0 +1,119 @@
+{
+  "ResultKind": "cmame-mortar-stability-qualification",
+  "ContractVersion": "4.5",
+  "Rows": [
+    {
+      "RodSegments": 4,
+      "ShellSegments": 4,
+      "ShellToRodMeshRatio": 1.0,
+      "ConstantPatchError": 0.0,
+      "LinearPatchError": 1.1102230246251565e-16,
+      "DiscreteInfSup": 0.07293616737962087,
+      "SchurSpectralCondition": 375.9621450253125,
+      "ForceDefect": 0.0,
+      "FirstMomentDefect": 0.0,
+      "Passed": true
+    },
+    {
+      "RodSegments": 4,
+      "ShellSegments": 8,
+      "ShellToRodMeshRatio": 2.0,
+      "ConstantPatchError": 3.3306690738754696e-16,
+      "LinearPatchError": 5.551115123125783e-17,
+      "DiscreteInfSup": 0.09583887505433972,
+      "SchurSpectralCondition": 217.7441926171917,
+      "ForceDefect": 1.1102230246251565e-16,
+      "FirstMomentDefect": 0.0,
+      "Passed": true
+    },
+    {
+      "RodSegments": 4,
+      "ShellSegments": 16,
+      "ShellToRodMeshRatio": 4.0,
+      "ConstantPatchError": 4.440892098500626e-16,
+      "LinearPatchError": 1.6653345369377348e-16,
+      "DiscreteInfSup": 0.1007358531896342,
+      "SchurSpectralCondition": 197.0887601830275,
+      "ForceDefect": 0.0,
+      "FirstMomentDefect": 0.0,
+      "Passed": true
+    },
+    {
+      "RodSegments": 4,
+      "ShellSegments": 32,
+      "ShellToRodMeshRatio": 8.0,
+      "ConstantPatchError": 4.440892098500626e-16,
+      "LinearPatchError": 2.7755575615628914e-16,
+      "DiscreteInfSup": 0.10192220781131076,
+      "SchurSpectralCondition": 192.52731330242125,
+      "ForceDefect": 2.220446049250313e-16,
+      "FirstMomentDefect": 0.0,
+      "Passed": true
+    },
+    {
+      "RodSegments": 8,
+      "ShellSegments": 4,
+      "ShellToRodMeshRatio": 0.5,
+      "ConstantPatchError": 3.3306690738754696e-16,
+      "LinearPatchError": 8.326672684688674e-17,
+      "DiscreteInfSup": 0.09583887505433988,
+      "SchurSpectralCondition": 217.74419261719098,
+      "ForceDefect": 1.1102230246251565e-16,
+      "FirstMomentDefect": 0.0,
+      "Passed": true
+    },
+    {
+      "RodSegments": 16,
+      "ShellSegments": 4,
+      "ShellToRodMeshRatio": 0.25,
+      "ConstantPatchError": 3.3306690738754696e-16,
+      "LinearPatchError": 1.1102230246251565e-16,
+      "DiscreteInfSup": 0.10073585318963373,
+      "SchurSpectralCondition": 197.0887601830293,
+      "ForceDefect": 0.0,
+      "FirstMomentDefect": 0.0,
+      "Passed": true
+    },
+    {
+      "RodSegments": 32,
+      "ShellSegments": 4,
+      "ShellToRodMeshRatio": 0.125,
+      "ConstantPatchError": 3.3306690738754696e-16,
+      "LinearPatchError": 1.1102230246251565e-16,
+      "DiscreteInfSup": 0.10192220781131192,
+      "SchurSpectralCondition": 192.52731330241681,
+      "ForceDefect": 2.220446049250313e-16,
+      "FirstMomentDefect": 0.0,
+      "Passed": true
+    }
+  ],
+  "NonlinearRigidMotionObjectivityError": 1.091719270861649e-16,
+  "InterfaceMethodComparison": [
+    {
+      "Method": "dual-mortar",
+      "TraceL2Gap": 0.0014858349477561343,
+      "RodNodalErrorLinf": 0.0030269131605279997,
+      "AlgebraicCondition": 3.9116122311760546,
+      "Finite": true
+    },
+    {
+      "Method": "nearest-node-tie",
+      "TraceL2Gap": 0.004356395536282615,
+      "RodNodalErrorLinf": 0.012058438000072946,
+      "AlgebraicCondition": 1.0,
+      "Finite": true
+    },
+    {
+      "Method": "finite-penalty",
+      "TraceL2Gap": 0.0014858391636965237,
+      "RodNodalErrorLinf": 0.0030252810093913673,
+      "AlgebraicCondition": 3.9102064554203952,
+      "Finite": true
+    }
+  ],
+  "MinimumDiscreteInfSup": 0.07293616737962087,
+  "MaximumPatchError": 4.440892098500626e-16,
+  "AllGridRatiosPassed": true,
+  "OneDimensionalMacroP0DiagnosticComplete": true,
+  "Passed": true
+}

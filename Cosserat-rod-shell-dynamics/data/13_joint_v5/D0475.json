@@ -1,0 +1,14 @@
+{
+  "SelectedRows": [
+    "q2-48x6x6x4x4"
+  ],
+  "Results": [
+    {
+      "Id": "q2-48x6x6x4x4",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 329.2345864000017
+    }
+  ],
+  "CurrentCommitEvidenceEligible": false
+}

@@ -1,0 +1,340 @@
+{
+  "ResultKind": "production-cosserat-sparse-newton-scaling",
+  "ContractVersion": "1.0",
+  "Specification": {
+    "levels": [
+      [
+        16,
+        4,
+        10
+      ],
+      [
+        40,
+        10,
+        24
+      ],
+      [
+        80,
+        20,
+        48
+      ]
+    ],
+    "shell_length": 1.0,
+    "shell_width": 0.3,
+    "maximum_newton_iterations": 9,
+    "residual_tolerance": 2e-10,
+    "solution_tolerance": 2e-07,
+    "parity_tolerance": 3e-09,
+    "chunk_size": 192,
+    "contract_version": "1.0"
+  },
+  "DenseProductionParity": {
+    "QDoF": 114,
+    "ResidualRelativeError": 1.822631879848085e-17,
+    "TangentRelativeError": 3.895851649635792e-17,
+    "EnergyRelativeError": 0.0,
+    "Passed": true
+  },
+  "Rows": [
+    {
+      "ShellGrid": [
+        16,
+        4
+      ],
+      "RodNodeCount": 11,
+      "RodElementCount": 10,
+      "ShellNodeCount": 85,
+      "ShellTriangleCount": 128,
+      "ShellBendingEdgeCount": 212,
+      "PrimalDof": 576,
+      "MortarMultiplierDof": 144,
+      "TotalDof": 720,
+      "FinalNnz": 20752,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "ResidualJacobianAssemblySeconds": 0.9003632000021753,
+      "LinearSolveSeconds": 0.019781600007263478,
+      "FinalResidualInfinityNorm": 2.1767809776918057e-11,
+      "RelativeSolutionError": 5.648734941533168e-09,
+      "TargetPhysicalEnergy": 0.7171237127618023,
+      "CsrStorageMB": 0.24023818969726562,
+      "History": [
+        {
+          "Iteration": 0,
+          "ResidualInfinityNorm": 39.99776362958592,
+          "NormalizedResidual": 1.0,
+          "Energy": 1.699883546814506e-30,
+          "AssemblySeconds": 0.08644270000513643,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 1,
+          "ResidualInfinityNorm": 0.27102714470038913,
+          "NormalizedResidual": 0.006776057461870525,
+          "Energy": 0.7457235234481144,
+          "AssemblySeconds": 0.0857045000011567,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 2,
+          "ResidualInfinityNorm": 0.07497901585590439,
+          "NormalizedResidual": 0.0018745802027902183,
+          "Energy": 0.7186339186442214,
+          "AssemblySeconds": 0.184728800006269,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 3,
+          "ResidualInfinityNorm": 7.015046519343038e-06,
+          "NormalizedResidual": 1.7538596868336116e-07,
+          "Energy": 0.7171240023033825,
+          "AssemblySeconds": 0.19342359999427572,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 4,
+          "ResidualInfinityNorm": 2.1767809776918057e-11,
+          "NormalizedResidual": 5.442256716777195e-13,
+          "Energy": 0.7171237127621388,
+          "AssemblySeconds": 0.19008729999768548,
+          "AcceptedStep": 0.0,
+          "LineSearchSteps": 0
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "ShellGrid": [
+        40,
+        10
+      ],
+      "RodNodeCount": 25,
+      "RodElementCount": 24,
+      "ShellNodeCount": 451,
+      "ShellTriangleCount": 800,
+      "ShellBendingEdgeCount": 1250,
+      "PrimalDof": 2856,
+      "MortarMultiplierDof": 336,
+      "TotalDof": 3192,
+      "FinalNnz": 112073,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "ResidualJacobianAssemblySeconds": 4.811621000000741,
+      "LinearSolveSeconds": 0.17263249999814434,
+      "FinalResidualInfinityNorm": 4.304734346760597e-11,
+      "RelativeSolutionError": 1.1864432826343537e-08,
+      "TargetPhysicalEnergy": 0.7171237127618024,
+      "CsrStorageMB": 1.2947540283203125,
+      "History": [
+        {
+          "Iteration": 0,
+          "ResidualInfinityNorm": 39.99914884753546,
+          "NormalizedResidual": 1.0,
+          "Energy": 5.2191902231967204e-30,
+          "AssemblySeconds": 0.8171828999984427,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 1,
+          "ResidualInfinityNorm": 0.35095048316798305,
+          "NormalizedResidual": 0.008773948778402738,
+          "Energy": 0.7482810386266436,
+          "AssemblySeconds": 0.826959000005445,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 2,
+          "ResidualInfinityNorm": 0.11664510117078586,
+          "NormalizedResidual": 0.002916189582318398,
+          "Energy": 0.7194393732603573,
+          "AssemblySeconds": 0.7500011999945855,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 3,
+          "ResidualInfinityNorm": 9.827063889231266e-06,
+          "NormalizedResidual": 2.4568182504805373e-07,
+          "Energy": 0.7171242878266585,
+          "AssemblySeconds": 0.7769121999954223,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 4,
+          "ResidualInfinityNorm": 4.304734346760597e-11,
+          "NormalizedResidual": 1.0762064870852452e-12,
+          "Energy": 0.7171237127632003,
+          "AssemblySeconds": 0.766952100006165,
+          "AcceptedStep": 0.0,
+          "LineSearchSteps": 0
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "ShellGrid": [
+        80,
+        20
+      ],
+      "RodNodeCount": 49,
+      "RodElementCount": 48,
+      "ShellNodeCount": 1701,
+      "ShellTriangleCount": 3200,
+      "ShellBendingEdgeCount": 4900,
+      "PrimalDof": 10500,
+      "MortarMultiplierDof": 672,
+      "TotalDof": 11172,
+      "FinalNnz": 425759,
+      "NewtonIterations": 4,
+      "LineSearchCount": 0,
+      "ResidualJacobianAssemblySeconds": 16.558060099974682,
+      "LinearSolveSeconds": 0.8189471000005142,
+      "FinalResidualInfinityNorm": 2.932476483863411e-11,
+      "RelativeSolutionError": 1.3505656829617458e-07,
+      "TargetPhysicalEnergy": 0.7171237127618016,
+      "CsrStorageMB": 4.915046691894531,
+      "History": [
+        {
+          "Iteration": 0,
+          "ResidualInfinityNorm": 39.999590439985795,
+          "NormalizedResidual": 1.0,
+          "Energy": 2.826281585937866e-30,
+          "AssemblySeconds": 2.7543150999990758,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 1,
+          "ResidualInfinityNorm": 0.36070568470941644,
+          "NormalizedResidual": 0.009017734450321651,
+          "Energy": 0.748596203532183,
+          "AssemblySeconds": 2.7630801999985124,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 2,
+          "ResidualInfinityNorm": 0.12141308806107855,
+          "NormalizedResidual": 0.003035358280561476,
+          "Energy": 0.7195437525930611,
+          "AssemblySeconds": 2.742753399994399,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 3,
+          "ResidualInfinityNorm": 1.0675496319790796e-05,
+          "NormalizedResidual": 2.6689014068301514e-07,
+          "Energy": 0.7171243391571669,
+          "AssemblySeconds": 2.7302026999968803,
+          "AcceptedStep": 1.0,
+          "LineSearchSteps": 0
+        },
+        {
+          "Iteration": 4,
+          "ResidualInfinityNorm": 2.932476483863411e-11,
+          "NormalizedResidual": 7.331266274496516e-13,
+          "Energy": 0.7171237127634988,
+          "AssemblySeconds": 2.769921599996451,
+          "AcceptedStep": 0.0,
+          "LineSearchSteps": 0
+        }
+      ],
+      "Passed": true
+    }
+  ],
+  "LargestCase": {
+    "ShellGrid": [
+      80,
+      20
+    ],
+    "RodNodeCount": 49,
+    "RodElementCount": 48,
+    "ShellNodeCount": 1701,
+    "ShellTriangleCount": 3200,
+    "ShellBendingEdgeCount": 4900,
+    "PrimalDof": 10500,
+    "MortarMultiplierDof": 672,
+    "TotalDof": 11172,
+    "FinalNnz": 425759,
+    "NewtonIterations": 4,
+    "LineSearchCount": 0,
+    "ResidualJacobianAssemblySeconds": 16.558060099974682,
+    "LinearSolveSeconds": 0.8189471000005142,
+    "FinalResidualInfinityNorm": 2.932476483863411e-11,
+    "RelativeSolutionError": 1.3505656829617458e-07,
+    "TargetPhysicalEnergy": 0.7171237127618016,
+    "CsrStorageMB": 4.915046691894531,
+    "History": [
+      {
+        "Iteration": 0,
+        "ResidualInfinityNorm": 39.999590439985795,
+        "NormalizedResidual": 1.0,
+        "Energy": 2.826281585937866e-30,
+        "AssemblySeconds": 2.7543150999990758,
+        "AcceptedStep": 1.0,
+        "LineSearchSteps": 0
+      },
+      {
+        "Iteration": 1,
+        "ResidualInfinityNorm": 0.36070568470941644,
+        "NormalizedResidual": 0.009017734450321651,
+        "Energy": 0.748596203532183,
+        "AssemblySeconds": 2.7630801999985124,
+        "AcceptedStep": 1.0,
+        "LineSearchSteps": 0
+      },
+      {
+        "Iteration": 2,
+        "ResidualInfinityNorm": 0.12141308806107855,
+        "NormalizedResidual": 0.003035358280561476,
+        "Energy": 0.7195437525930611,
+        "AssemblySeconds": 2.742753399994399,
+        "AcceptedStep": 1.0,
+        "LineSearchSteps": 0
+      },
+      {
+        "Iteration": 3,
+        "ResidualInfinityNorm": 1.0675496319790796e-05,
+        "NormalizedResidual": 2.6689014068301514e-07,
+        "Energy": 0.7171243391571669,
+        "AssemblySeconds": 2.7302026999968803,
+        "AcceptedStep": 1.0,
+        "LineSearchSteps": 0
+      },
+      {
+        "Iteration": 4,
+        "ResidualInfinityNorm": 2.932476483863411e-11,
+        "NormalizedResidual": 7.331266274496516e-13,
+        "Energy": 0.7171237127634988,
+        "AssemblySeconds": 2.769921599996451,
+        "AcceptedStep": 0.0,
+        "LineSearchSteps": 0
+      }
+    ],
+    "Passed": true
+  },
+  "ProductionResidualBlocks": [
+    "simo-reissner-rod-shear-extension",
+    "rod-log-curvature",
+    "shell-green-membrane",
+    "shell-director-shear-alignment-drilling",
+    "shell-log-bending",
+    "nonmatching-six-field-mortar"
+  ],
+  "ResidualReassembledEveryNewton": true,
+  "JacobianReassembledEveryNewton": true,
+  "ElementTangentSource": "torch-double-element-local-ad",
+  "SparseAssembly": "coo-scatter-to-csr",
+  "OpenMPRuntimePreload": "torch-single-thread-plus-mkl-sequential",
+  "SourceClosureHash": "1bae6e4b22a5a879f12a3e71a97cee4e1c9ad8c85690d1d59378d2de0d926202",
+  "Passed": true,
+  "ClaimBoundary": "This qualifies the complete production reference rod and shell energies with element-local exact AD tangents above 10^4 KKT unknowns. It does not yet claim a 10^5-DoF full-production Newton solve or hand-coded analytic shell tangent."
+}

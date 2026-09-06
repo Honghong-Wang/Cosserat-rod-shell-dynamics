@@ -1,0 +1,21 @@
+{
+  "Configuration": {
+    "Id": "legacy-support-control",
+    "Kind": "q2",
+    "Mesh": [
+      24,
+      3,
+      3,
+      2,
+      2
+    ],
+    "Support": "legacy-bottom-one-element",
+    "Section": "deformable"
+  },
+  "ConfigurationHash": "f55c6abc90f45cbe4a446cec0d2abd2aee108564d679c5fba18815c4757845e1",
+  "SourceClosureHash": "7b92e29c20ad04a9cbc4e4da76ca5f01b09af227d8d97c94106462c62815fb7c",
+  "CurrentCommitEvidenceEligible": false,
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "BudgetSeconds": 2400.0,
+  "HistoricalEvidenceRelabelled": false
+}

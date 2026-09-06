@@ -1,0 +1,14 @@
+{
+  "SelectedRows": [
+    "section-deformable"
+  ],
+  "Results": [
+    {
+      "Id": "section-deformable",
+      "Completed": true,
+      "NumericalGatesPassed": true,
+      "WallSecondsTotal": 58.42855839999902
+    }
+  ],
+  "CurrentCommitEvidenceEligible": false
+}

@@ -1,0 +1,1642 @@
+{
+  "ResultKind": "DeploymentMechanismCheckpointArtifact",
+  "Protocol": {
+    "SchemaVersion": "1.0",
+    "Profile": "research",
+    "PhysicalSpec": {
+      "width": 0.12,
+      "eccentricity": 0.025,
+      "shell_width": 0.4,
+      "stiffness_scale": 0.025,
+      "rod_total_mass": 0.07,
+      "shell_total_mass": 0.054,
+      "rod_total_body_inertia": 0.0005,
+      "shell_total_body_inertia": 0.00036,
+      "cable_stiffness": 0.8,
+      "cable_reference_length": 0.25,
+      "shortening": 0.01,
+      "release_time": 0.004,
+      "duration": 0.8,
+      "stop_displacement": 5e-05,
+      "restitution": 0.65,
+      "damping_rate": 0.02,
+      "initial_rotation": [
+        0.55,
+        -0.35,
+        0.2
+      ]
+    },
+    "SolverSpec": {
+      "version": "1.0",
+      "newton_tolerance": 2e-10,
+      "maximum_iterations": 18,
+      "maximum_line_search": 12,
+      "constraint_tolerance": 2e-09,
+      "event_gap_tolerance": 2e-10,
+      "event_time_tolerance": 2e-10,
+      "grazing_speed": 1e-07,
+      "maximum_events_per_step": 8,
+      "rho_infinity": 0.7
+    },
+    "Cases": [
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.08
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.02
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.08
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.08
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.02
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.08
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.08
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.02
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.08
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.08
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.02
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.08
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      [
+        0.005,
+        [
+          2,
+          3
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          2,
+          3
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          2,
+          3
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          2,
+          3
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ]
+    ],
+    "TimeBudgetFraction": 0.01,
+    "MomentAndDisplacementBudgetFraction": 0.05,
+    "EmpiricalEnvelopeSafetyFactor": 2.0,
+    "RefinementContractionMaximum": 0.9,
+    "NoOutcomeDependentSelection": true,
+    "CurrentCommitEvidenceEligible": false,
+    "CriticalHypothesis": "unverified",
+    "NumericalSourceHash": "1a0502067a2082d3f9f4a735bb32d16700636d076d123082ad46beff99e37aea",
+    "MassAndPassiveCableHeldFixed": true
+  },
+  "GeneratedAtUtc": "2026-09-05T09:14:52.774902+00:00",
+  "GitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd",
+  "NumericalClosureHash": "1a0502067a2082d3f9f4a735bb32d16700636d076d123082ad46beff99e37aea",
+  "CheckpointWriterSha256": "bfadbd3b5c459b02bbd77894c60cd859a55873c92d628fb822be77c7be4b978e",
+  "SourceUnchanged": true,
+  "RawRecords": [
+    {
+      "Path": "runs/0a53eef4e53b0d0cfee5.json",
+      "Sha256": "558378b380dd76cdff2cc4ef21962bb5c2b1eff173cd9415f9bca384a605cc93",
+      "ExecutedAtUtc": "2026-09-05T07:54:05.399086+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/0b9842d2e727dfbd9b43.json",
+      "Sha256": "7207388f63dd134b19c562ec3acac3e2147e49c2b1c9cb4dfb847453c3bb8791",
+      "ExecutedAtUtc": "2026-09-05T07:51:52.014342+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/1961474fac50d1c92d57.json",
+      "Sha256": "ba1dd2166b32ab7a445c80b2b1aba731bf0de97fd473096f59376fd5b2fd80af",
+      "ExecutedAtUtc": "2026-09-05T08:16:30.911437+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/1aeb5449d6852a248117.json",
+      "Sha256": "e0ecef74e8cbe6f13aa8ff3404df9b9a8af98b1c1e4a146ce039709c21044166",
+      "ExecutedAtUtc": "2026-09-05T08:32:32.672536+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/2ab9a772def8a709e365.json",
+      "Sha256": "b6708bfb7b6301427f4ff6b90588e66e346d11bc1baaa314047cd52ab8b45815",
+      "ExecutedAtUtc": "2026-09-05T08:14:37.751132+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/32ca5858b7e1e1262408.json",
+      "Sha256": "3dbcc6175dd4b2172031c316fd301f5476cd6d04912c57c65fdea5949fe31402",
+      "ExecutedAtUtc": "2026-09-05T08:07:33.052204+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/33f03d3b7756cb33f264.json",
+      "Sha256": "567b2de80273573194b08b085538bf9d6609e06658061439b5d4ca345e7fa5d7",
+      "ExecutedAtUtc": "2026-09-05T07:59:25.766267+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/362f4443011b4e13862e.json",
+      "Sha256": "d7d577f2715c5d7173f17a3bc1f00333215135357eea02cb74a27a6c51162d0f",
+      "ExecutedAtUtc": "2026-09-05T08:27:52.459847+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/40985d16c7b0ad4f19ec.json",
+      "Sha256": "8f9828a19faa85a6b3551dd3226e3d394cadf7d3af18e71a3756100403c04da9",
+      "ExecutedAtUtc": "2026-09-05T08:13:29.323087+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/494c7e378072c7ce8994.json",
+      "Sha256": "0be20ab0fad876ce3a1bce179b486eacb874c298689a9a995b9265420e9d9579",
+      "ExecutedAtUtc": "2026-09-05T08:00:41.295796+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/4c3db419cc31205b28b5.json",
+      "Sha256": "036cd0b9ec2da19448daba211d88abb21d7dc1c809acd30289b75a716d9902b1",
+      "ExecutedAtUtc": "2026-09-05T08:04:38.771832+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/5cdf7eaa0a1fd78959da.json",
+      "Sha256": "3d0f78352f82eac970b19d75fbd59db5fa4bd7aca0da5b21753e050ebd04c57d",
+      "ExecutedAtUtc": "2026-09-05T08:23:59.697259+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/79f2584ff734ab7074ab.json",
+      "Sha256": "2527d58d5229f9bb9b21f27174807feb58c724f6727bdc38feb9a22162bb31a8",
+      "ExecutedAtUtc": "2026-09-05T08:02:24.819211+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/8148bb0436dca8dfe138.json",
+      "Sha256": "fa36e988ec4af041e167f0cf0d91963cb19f833e9a9b69a77fbc999de2f8c5f2",
+      "ExecutedAtUtc": "2026-09-05T07:50:15.179254+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/9e0fbae487af9138a282.json",
+      "Sha256": "7313f732fae0a1d25e98fb522eb04a555d2c92fd2ccd315b1ee102dd06d6e432",
+      "ExecutedAtUtc": "2026-09-05T07:57:48.314285+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/aa56a72e5303e1471af2.json",
+      "Sha256": "2b277418db00f2b6f53a62618ed64672996855c4849dc8a26882f92c1b89ed55",
+      "ExecutedAtUtc": "2026-09-05T08:18:01.394615+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/c00d37a081001d42e877.json",
+      "Sha256": "db79dc6891b6bcaf9bbfd060863543c5fd3d846bb389d989b675d7a098f5f197",
+      "ExecutedAtUtc": "2026-09-05T08:05:30.594074+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/c08a6f5c8972d94f2afe.json",
+      "Sha256": "785c9d3a33734436f2a71294c738de4c80a8cdfa7a0d661ba9cf98751095149a",
+      "ExecutedAtUtc": "2026-09-05T08:20:07.566650+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/c1196a959c582c27f8fb.json",
+      "Sha256": "9b1c2d0f8f1be1fabe18ac50f0404323d758578bff463269628758c2a124bda4",
+      "ExecutedAtUtc": "2026-09-05T08:09:58.887631+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/d204c9d4ade91bba6d7b.json",
+      "Sha256": "7757bd9d5025aefa1737d442b7004600ad9d3f6b5626a4b2c8fbf38259df5574",
+      "ExecutedAtUtc": "2026-09-05T07:56:50.356286+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/e120a9981ad2fff96603.json",
+      "Sha256": "a8c2b55fc71ff20ba499a70843d6b1b89f54c64355fe956c413d9a43a3f4a9c4",
+      "ExecutedAtUtc": "2026-09-05T08:04:13.875296+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/f14f64a9ebbc3fcb89fb.json",
+      "Sha256": "96ab4900204f824897918c7fff3d58a7090fdc7f6a64b5abb255746971df96b8",
+      "ExecutedAtUtc": "2026-09-05T08:08:35.135200+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/f2e11c01c0d4e82a62bc.json",
+      "Sha256": "af24664a631a3626b72713190c3afb6186a62dc960646f9cc8ffacde19453d18",
+      "ExecutedAtUtc": "2026-09-05T07:49:04.769228+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/f4bd305fbd881a225b01.json",
+      "Sha256": "46e0bfb9076b2f11bbcb14ebfdc205de9861c75a87a3f39bf04fa620ac12025d",
+      "ExecutedAtUtc": "2026-09-05T07:52:58.706643+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/fa8d44a8e5a7bd49f7d4.json",
+      "Sha256": "0041aea15eedda629049ec1bf51dcc4fead485c75ea4394e7fdcc763432a2ce6",
+      "ExecutedAtUtc": "2026-09-05T08:12:44.404118+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    },
+    {
+      "Path": "runs/fc7d7d97e8696dc3d105.json",
+      "Sha256": "4f35b22c80b1ef8718ce481bfc61091f98606348930d567f8424953d59b05210",
+      "ExecutedAtUtc": "2026-09-05T07:56:10.082088+00:00",
+      "ExecutedGitCommit": "2d10a946802d2b2669b00ef176f4fbdf3d9949bd"
+    }
+  ],
+  "FailureTable": [
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Reason": "event budget exceeded; persistent contact or Zeno accumulation requires a different branch",
+      "SourceHash": "1a0502067a2082d3f9f4a735bb32d16700636d076d123082ad46beff99e37aea"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Reason": "event budget exceeded; persistent contact or Zeno accumulation requires a different branch",
+      "SourceHash": "1a0502067a2082d3f9f4a735bb32d16700636d076d123082ad46beff99e37aea"
+    }
+  ],
+  "InterruptedCases": [
+    {
+      "Case": [
+        0.015,
+        [
+          2,
+          3
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "interrupted",
+      "Reason": "owned research runner stopped after prolonged finest-grid failures; no completed result",
+      "ProcessId": 29552,
+      "WrapperProcessId": 20204
+    }
+  ],
+  "PendingCases": [
+    {
+      "Case": [
+        0.015,
+        [
+          2,
+          3
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "not-run",
+      "Reason": "deferred pending event-branch diagnosis"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "not-run",
+      "Reason": "deferred pending event-branch diagnosis"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "not-run",
+      "Reason": "deferred pending event-branch diagnosis"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run",
+      "Reason": "deferred pending event-branch diagnosis"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run",
+      "Reason": "deferred pending event-branch diagnosis"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run",
+      "Reason": "deferred pending event-branch diagnosis"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run",
+      "Reason": "deferred pending event-branch diagnosis"
+    }
+  ],
+  "CaseStatusCatalogue": [
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "newmark",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "newmark",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.08
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          1,
+          2
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          2,
+          3
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          2,
+          3
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "completed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "failed"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "failed"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          2,
+          3
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "interrupted"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          2,
+          3
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "not-run"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "not-run"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.04
+      ],
+      "Status": "not-run"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run"
+    },
+    {
+      "Case": [
+        0.005,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "line",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run"
+    },
+    {
+      "Case": [
+        0.015,
+        [
+          3,
+          4
+        ],
+        "finite-width",
+        "discrete-gradient",
+        0.02
+      ],
+      "Status": "not-run"
+    }
+  ],
+  "ApplicabilityMap": [
+    {
+      "Shortening": 0.005,
+      "Metric": "FirstImpactTime",
+      "SpaceRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        }
+      },
+      "TimeRefinement": {
+        "line": {
+          "Resolved": true,
+          "Uncertainty": 0.0004480537221507319,
+          "Changes": [
+            0.0008586938683521339,
+            0.00022402686107536596
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        },
+        "finite-width": {
+          "Resolved": true,
+          "Uncertainty": 0.0006550462139247593,
+          "Changes": [
+            0.001034507676785812,
+            0.00032752310696237963
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        }
+      },
+      "FineMeshTimeUncertainty": {
+        "line": null,
+        "finite-width": null
+      },
+      "ObservedMixedRefinementContrast": {
+        "line": null,
+        "finite-width": null
+      },
+      "SameEventTopology": false,
+      "ReferenceClass": "same-kernel refined line and finite-width discretizations, not 3D truth",
+      "Class": "unresolved",
+      "Difference": null,
+      "Uncertainty": null,
+      "Reason": "missing converged paired space-time evidence"
+    },
+    {
+      "Shortening": 0.005,
+      "Metric": "PeakPostReleaseInterfaceMoment",
+      "SpaceRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        }
+      },
+      "TimeRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": 4.539469551995655e-05,
+          "Changes": [
+            1.0317993289648696e-05,
+            2.2697347759978274e-05
+          ],
+          "Reason": "noncontracting-refinement",
+          "CertifiedContinuumBound": false
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": 7.21914812829114e-05,
+          "Changes": [
+            2.7171322413546044e-05,
+            3.60957406414557e-05
+          ],
+          "Reason": "noncontracting-refinement",
+          "CertifiedContinuumBound": false
+        }
+      },
+      "FineMeshTimeUncertainty": {
+        "line": null,
+        "finite-width": null
+      },
+      "ObservedMixedRefinementContrast": {
+        "line": null,
+        "finite-width": null
+      },
+      "SameEventTopology": false,
+      "ReferenceClass": "same-kernel refined line and finite-width discretizations, not 3D truth",
+      "Class": "unresolved",
+      "Difference": null,
+      "Uncertainty": null,
+      "Reason": "missing converged paired space-time evidence"
+    },
+    {
+      "Shortening": 0.005,
+      "Metric": "InitialTipDisplacement",
+      "SpaceRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        }
+      },
+      "TimeRefinement": {
+        "line": {
+          "Resolved": true,
+          "Uncertainty": 2e-12,
+          "Changes": [
+            0.0,
+            0.0
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        },
+        "finite-width": {
+          "Resolved": true,
+          "Uncertainty": 2e-12,
+          "Changes": [
+            0.0,
+            0.0
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        }
+      },
+      "FineMeshTimeUncertainty": {
+        "line": null,
+        "finite-width": null
+      },
+      "ObservedMixedRefinementContrast": {
+        "line": null,
+        "finite-width": null
+      },
+      "SameEventTopology": false,
+      "ReferenceClass": "same-kernel refined line and finite-width discretizations, not 3D truth",
+      "Class": "unresolved",
+      "Difference": null,
+      "Uncertainty": null,
+      "Reason": "missing converged paired space-time evidence"
+    },
+    {
+      "Shortening": 0.005,
+      "Metric": "CriticalShortening",
+      "Class": "unresolved",
+      "Reason": "no fold bracket and no multi-rebound boundary qualified in this bounded native component"
+    },
+    {
+      "Shortening": 0.005,
+      "Metric": "FoldLocation",
+      "Class": "unresolved",
+      "Reason": "no fold bracket and no multi-rebound boundary qualified in this bounded native component"
+    },
+    {
+      "Shortening": 0.005,
+      "Metric": "ReboundSequenceBoundary",
+      "Class": "unresolved",
+      "Reason": "no fold bracket and no multi-rebound boundary qualified in this bounded native component"
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "FirstImpactTime",
+      "SpaceRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        }
+      },
+      "TimeRefinement": {
+        "line": {
+          "Resolved": true,
+          "Uncertainty": 0.0004549427453113264,
+          "Changes": [
+            0.0008534495150601673,
+            0.0002274713726556632
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        },
+        "finite-width": {
+          "Resolved": true,
+          "Uncertainty": 0.0006371382980057128,
+          "Changes": [
+            0.0010194999252561843,
+            0.0003185691490028564
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        }
+      },
+      "FineMeshTimeUncertainty": {
+        "line": null,
+        "finite-width": null
+      },
+      "ObservedMixedRefinementContrast": {
+        "line": null,
+        "finite-width": null
+      },
+      "SameEventTopology": true,
+      "ReferenceClass": "same-kernel refined line and finite-width discretizations, not 3D truth",
+      "Class": "unresolved",
+      "Difference": null,
+      "Uncertainty": null,
+      "Reason": "missing converged paired space-time evidence"
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "PeakPostReleaseInterfaceMoment",
+      "SpaceRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        }
+      },
+      "TimeRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": 0.00015198750263442987,
+          "Changes": [
+            8.231890699926482e-05,
+            7.599375131721493e-05
+          ],
+          "Reason": "noncontracting-refinement",
+          "CertifiedContinuumBound": false
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": 0.0003647980541230996,
+          "Changes": [
+            2.768029078290858e-05,
+            0.0001823990270615498
+          ],
+          "Reason": "noncontracting-refinement",
+          "CertifiedContinuumBound": false
+        }
+      },
+      "FineMeshTimeUncertainty": {
+        "line": null,
+        "finite-width": null
+      },
+      "ObservedMixedRefinementContrast": {
+        "line": null,
+        "finite-width": null
+      },
+      "SameEventTopology": true,
+      "ReferenceClass": "same-kernel refined line and finite-width discretizations, not 3D truth",
+      "Class": "unresolved",
+      "Difference": null,
+      "Uncertainty": null,
+      "Reason": "missing converged paired space-time evidence"
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "InitialTipDisplacement",
+      "SpaceRefinement": {
+        "line": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        },
+        "finite-width": {
+          "Resolved": false,
+          "Uncertainty": null,
+          "Reason": "three finite refinement levels required"
+        }
+      },
+      "TimeRefinement": {
+        "line": {
+          "Resolved": true,
+          "Uncertainty": 2e-12,
+          "Changes": [
+            0.0,
+            0.0
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        },
+        "finite-width": {
+          "Resolved": true,
+          "Uncertainty": 2e-12,
+          "Changes": [
+            0.0,
+            0.0
+          ],
+          "Reason": "empirical-contraction-envelope",
+          "CertifiedContinuumBound": false
+        }
+      },
+      "FineMeshTimeUncertainty": {
+        "line": null,
+        "finite-width": null
+      },
+      "ObservedMixedRefinementContrast": {
+        "line": null,
+        "finite-width": null
+      },
+      "SameEventTopology": true,
+      "ReferenceClass": "same-kernel refined line and finite-width discretizations, not 3D truth",
+      "Class": "unresolved",
+      "Difference": null,
+      "Uncertainty": null,
+      "Reason": "missing converged paired space-time evidence"
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "CriticalShortening",
+      "Class": "unresolved",
+      "Reason": "no fold bracket and no multi-rebound boundary qualified in this bounded native component"
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "FoldLocation",
+      "Class": "unresolved",
+      "Reason": "no fold bracket and no multi-rebound boundary qualified in this bounded native component"
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "ReboundSequenceBoundary",
+      "Class": "unresolved",
+      "Reason": "no fold bracket and no multi-rebound boundary qualified in this bounded native component"
+    }
+  ],
+  "FactorialContrasts": [
+    {
+      "Shortening": 0.005,
+      "Metric": "FirstImpactTime",
+      "InterfaceContrastConventional": 0.0,
+      "InterfaceContrastEnergyEvent": 0.0010373463266296623,
+      "IntegratorContrastLine": -0.019811991722130107,
+      "IntegratorContrastFiniteWidth": -0.018774645395500444,
+      "InteractionContrast": 0.0010373463266296623
+    },
+    {
+      "Shortening": 0.005,
+      "Metric": "PeakPostReleaseInterfaceMoment",
+      "InterfaceContrastConventional": 3.450242342560269e-05,
+      "InterfaceContrastEnergyEvent": 3.49597083660352e-05,
+      "IntegratorContrastLine": -1.8006543013820205e-05,
+      "IntegratorContrastFiniteWidth": -1.7549258073387697e-05,
+      "InteractionContrast": 4.572849404325084e-07
+    },
+    {
+      "Shortening": 0.005,
+      "Metric": "InitialTipDisplacement",
+      "InterfaceContrastConventional": 0.0,
+      "InterfaceContrastEnergyEvent": 0.0,
+      "IntegratorContrastLine": 0.0,
+      "IntegratorContrastFiniteWidth": 0.0,
+      "InteractionContrast": 0.0
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "FirstImpactTime",
+      "InterfaceContrastConventional": 0.0,
+      "InterfaceContrastEnergyEvent": 0.001242115969253721,
+      "IntegratorContrastLine": -0.003952576199263813,
+      "IntegratorContrastFiniteWidth": -0.002710460230010092,
+      "InteractionContrast": 0.001242115969253721
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "PeakPostReleaseInterfaceMoment",
+      "InterfaceContrastConventional": 8.263309816654123e-05,
+      "InterfaceContrastEnergyEvent": 4.6976952929204084e-05,
+      "IntegratorContrastLine": -3.118792131831484e-05,
+      "IntegratorContrastFiniteWidth": -6.684406655565198e-05,
+      "InteractionContrast": -3.565614523733714e-05
+    },
+    {
+      "Shortening": 0.015,
+      "Metric": "InitialTipDisplacement",
+      "InterfaceContrastConventional": 1.5612511283791264e-17,
+      "InterfaceContrastEnergyEvent": 1.5612511283791264e-17,
+      "IntegratorContrastLine": 0.0,
+      "IntegratorContrastFiniteWidth": 0.0,
+      "InteractionContrast": 0.0
+    }
+  ],
+  "Gates": [
+    {
+      "Name": "complete-frozen-case-matrix",
+      "Passed": false
+    },
+    {
+      "Name": "source-closure-unchanged",
+      "Passed": true
+    },
+    {
+      "Name": "raw-record-integrity",
+      "Passed": true
+    },
+    {
+      "Name": "force-equivalent-newton",
+      "Passed": true
+    },
+    {
+      "Name": "dg-full-interval-energy-accounting",
+      "Passed": true
+    },
+    {
+      "Name": "physical-mass-fixed",
+      "Passed": true
+    },
+    {
+      "Name": "one-passive-release",
+      "Passed": true
+    }
+  ],
+  "CompletedCaseCount": 26,
+  "FailedCaseCount": 2,
+  "InterruptedCaseCount": 1,
+  "PendingCaseCount": 7,
+  "InventoryCoverageComplete": true,
+  "MatrixAttemptCoverageComplete": false,
+  "MatrixExecutionComplete": false,
+  "Passed": false,
+  "CriticalAmplificationHypothesisVerified": false,
+  "CurrentCommitEvidenceEligible": false,
+  "ReleaseEligible": false,
+  "ClaimBoundary": "explicit partial checkpoint; not a completed 36-run study or a critical-region map"
+}
